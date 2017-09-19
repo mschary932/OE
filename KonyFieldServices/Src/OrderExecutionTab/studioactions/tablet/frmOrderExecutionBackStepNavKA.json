@@ -1,0 +1,18 @@
+{
+    "AS_Button_0e2ad108db6d47cf9dbb881ea075f402": {
+        "id": "AS_Button_0e2ad108db6d47cf9dbb881ea075f402",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionBackStepNavKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3c14726dfb0847128747ca1f550a3831",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backToMap\");",
+            "callbackType": null
+        }]
+    }
+}

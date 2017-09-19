@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_6aec4c13280142c78177813cd16e474b": {
+        "id": "AS_FlexContainer_6aec4c13280142c78177813cd16e474b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionFlexAddMeasurementPopUpOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c7ac6ece5b684a8fb1900d2cc62c6370",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelMeasurementPopUp\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

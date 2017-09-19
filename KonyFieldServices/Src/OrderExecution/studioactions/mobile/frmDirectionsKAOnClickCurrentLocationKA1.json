@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580157_btnCurrenLocation_onClick_seq0": {
+        "id": "p2kwiet1234563580157_btnCurrenLocation_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmDirectionsKAOnClickCurrentLocationKA1",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_2745212345635802014",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"getCurrentLocation\");"
+        }]
+    }
+}

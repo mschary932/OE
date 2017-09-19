@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580139_frmDateFilterKA_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet1234563580139_frmDateFilterKA_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmDateFilterOnDeviceBackKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDeviceBack_925271234563580943",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showPreviousForm\");"
+        }]
+    }
+}

@@ -1,0 +1,119 @@
+{
+  "android": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "background_color": "fcfaf9ff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "fontSizeInPx": false,
+  "font_color": "456484ff",
+  "font_name": "Helvetica",
+  "font_size": 89,
+  "ipad": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "iphone": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_name": "ClanPro-Book",
+    "font_size": 89,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "kuid": "s329f36a0f814c268c7b35c606427c0b",
+  "spaan": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "spabb": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "spaip": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "spaipad": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "background_color": "ff5d6eff",
+    "bg_type": "one",
+    "font_color": "edf2f7ff",
+    "font_size": 89,
+    "isForked": true
+  },
+  "wType": "Grid Calendar Cell Skin",
+  "watchos": {
+    "font_size": 89,
+    "isForked": false
+  },
+  "windows8": {
+    "font_size": 89,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_size": 89,
+    "isForked": false
+  }
+}

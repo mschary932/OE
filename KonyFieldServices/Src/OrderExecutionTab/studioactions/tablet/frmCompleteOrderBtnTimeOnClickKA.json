@@ -1,0 +1,18 @@
+{
+    "AS_Button_4f2db0dc2ed143108cebb4431170e33b": {
+        "id": "AS_Button_4f2db0dc2ed143108cebb4431170e33b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnTimeOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fa55139ff63d471891d59c7dabc92098",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeSegment\"); ",
+            "callbackType": null
+        }]
+    }
+}

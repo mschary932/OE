@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sddb2b8e06ed4e2bb2f90afe9debcea5",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdd71a984848480f8fa513174c81fef5",
+    "id": "btnDoneCalenderr",
+    "ide_onClick": "AS_Button_a09cd9119cc84b8db88d8e12b82c3d23",
+    "info": null,
+    "isvisible": true,
+    "kuid": "3187b3f874514c9c9f945bbf4445366b",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxCancelOrdoneCalenderr",
+    "pf": "frmAddEditExpenseItemKA",
+    "wType": "Button",
+    "zindex": 1
+}

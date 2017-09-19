@@ -1,0 +1,28 @@
+{
+    "AS_Map_8e84220871064dc5866a8e53ad049bd0": {
+        "id": "AS_Map_8e84220871064dc5866a8e53ad049bd0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAvailableOrdermapAvailableOrdersOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "location"
+        }],
+        "contextObj": {
+            "name": "frmAvailableOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "19da301ac729497db3a77ce9f92f980c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a86b4cd04372473da09685073d94818f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideOrderBallonOnPinTap\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_471bc1c4712b41c9aed020bcd75e97a1": {
+        "id": "AS_Button_471bc1c4712b41c9aed020bcd75e97a1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSetttingsBtnSyncResetOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettingsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "00f9908defb843b687555694136887a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7746b60646d94f3ea2aee6465749fb60",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var utilitiesObj = utilities.getUtilityObj();\nif (!kony.sdk.mvvm.isNetworkAvailabile()) {\n    alert(utilitiesObj.geti18nValueKA(\"i18n.common.sync.nonetworkKA\"));\n    return;\n} else if (kony.servicesapp.BACKGROUNDSYNCINPROGRESS) {\n    alert(utilitiesObj.geti18nValueKA(\"i18n.common.sync.alreadyInprocessKA\"));\n    return;\n}else\n\tkony.sdk.mvvm.Util.callAlert(utilitiesObj.geti18nValueKA(\"i18n.common.resetDatabaseKA\"), \"confirmation\", resetPreviousUserDB, \"\", utilitiesObj.geti18nValueKA(\"i18n.frmNewReleaseFilterKA.yes\"), utilitiesObj.geti18nValueKA(\"i18n.frmNewReleaseFilterKA.No\"));\n\nfunction resetPreviousUserDB(response) {\n    if (!response) {\n     \treturn;\n    } else {\n\t\tvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n        var controllerExtension = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.servicesapp.FRMORDEREXECUTIONKA).getControllerExtensionObject();\n\t\tvar watchposID = controllerExtension.getFormModelInfo(\"watchposID\");\n\t\tkony.location.clearWatch(watchposID);\n\t\tcontrollerExtension.setFormModelInfo(\"watchposID\", \"\");\n\t    INSTANCE.getSyncManager().reset(succCallback, errorCallback);\n\t    var utilitiesObj = utilities.getUtilityObj();\n\t    kony.application.showLoadingScreen(null, utilitiesObj.geti18nValueKA(\"i18n.common.msg.loadingDataKA\"), constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, true, null);\n\n\t    function succCallback(response) {\n\t        kony.sdk.mvvm.log.info(\"success in resetting sync\");\n\t        var text = utilitiesObj.geti18nValueKA(\"i18n.common.msg.loadingDataKA\");\n\t        kony.sdk.mvvm.isSyncInProgress = true\n\t        var syncConfig = {\n\t            \"sessiontasks\": {\n\t                OESyncConfig: {\n\t                    doupload: false,\n\t                    dodownload: true,\n\t                    uploaderrorpolicy: \"continueonerror\"\n\t                },\n\t                AvailableOrderSyncScope: {\n\t                    doupload: true,\n\t                    dodownload: true,\n\t                    uploaderrorpolicy: \"continueonerror\"\n\t                },\n                    GPSTrackingSyncScope: {\n                        doupload: true,\n                        dodownload: false,\n                        uploaderrorpolicy: \"continueonerror\"\n                    }\n\t            },\n\t            \"batchsize\": kony.servicesapp.LOGIN_BATCH_SIZE\n\t        };\n\t        INSTANCE.getSyncManager().syncData(syncSuccess, syncError, syncConfig);\n\n\t        function syncSuccess(res) {\n              \tkony.sdk.mvvm.isSyncInProgress = false\n\t            kony.application.dismissLoadingScreen();\n\t            kony.sdk.mvvm.log.info(\"sync Success\");\n\t          \tif (hamburgerMenu.IS_MENU_SHOWN) {\n\t                new hamburgerMenu().execute();\n\t            }\n\t            kony.servicesapp.showFormOrderList();\n\t            function menuEndCallBack() {\n\t                kony.sdk.mvvm.log.info(\"hamburger animation ended\");\n\t            }\n\t        }\n\n\t        function syncError(exception) {\n\t            kony.application.dismissLoadingScreen();\n              \tkony.sdk.mvvm.isSyncInProgress = false\n\t            kony.sdk.mvvm.log.error(\"error occured while doing sync\" + exception.toString());\n\t        }\n\t    }\n\t    function errorCallback(err) {\n\t        kony.application.dismissLoadingScreen();\n\t        kony.sdk.mvvm.log.error(\"Error while doing reset Sync\" + err.toString());\n\t    }\n  \t}\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

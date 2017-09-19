@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_a80f05ee336b4642bbc83d41fc274636": {
+        "id": "AS_FlexContainer_a80f05ee336b4642bbc83d41fc274636",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAddEditTimeItemKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a1943ad5bafd4db1bed058eecf1716e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_244170609c524e3795d0b05c7b4c6e8a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.log.info(\"In Pop Up Container\");",
+            "callbackType": null
+        }]
+    }
+}

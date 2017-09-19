@@ -1,0 +1,25 @@
+{
+    "AS_RadioButtonGroup_9635a9b8081d4ac29729cc55299dfdbf": {
+        "id": "AS_RadioButtonGroup_9635a9b8081d4ac29729cc55299dfdbf",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateRadioOnSelectionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__86be638d2e3a4ca79fb925f70d8f9619",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ques = parseInt((this.id).substring(3)).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"saveInputValue\",[ques,\"Radio\"]);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

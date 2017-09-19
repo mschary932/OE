@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_2c961bcb3cc3424a815d771f2aef649e": {
+        "id": "AS_FlexContainer_2c961bcb3cc3424a815d771f2aef649e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmREflxImagesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2881a622d7f4481ab88d196c43c1ce52",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"selectImagesTab\");",
+            "callbackType": null
+        }]
+    }
+}

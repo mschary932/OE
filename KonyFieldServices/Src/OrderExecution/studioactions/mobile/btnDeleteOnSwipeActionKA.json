@@ -1,0 +1,28 @@
+{
+    "AS_Button_9de8ba184541419eab593f5d5002d7c8": {
+        "id": "AS_Button_9de8ba184541419eab593f5d5002d7c8",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnDeleteOnSwipeActionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpResourcesSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet1234563580769"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__51c0dd5e9de64905964cc3c79bbfdf10",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar controllerExxtensionObject=controller.getControllerExtensionObject()\nvar formModel = controller.getFormModel();\nvar selRecord = formModel.getViewAttributeByProperty(\"segSwipeKA\", \"selectedItems\")[0];\t\t\t\n//formModel.setViewAttributeByProperty(\"tbxQuantityKA\",\"text\",selRecord.RequestedQuantity);\n var utilitiesObj = utilities.getUtilityObj();\ncontrollerExxtensionObject.setFormModelInfo(\"isDelete\", true);\nutilitiesObj.deleteQuantity(selRecord);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

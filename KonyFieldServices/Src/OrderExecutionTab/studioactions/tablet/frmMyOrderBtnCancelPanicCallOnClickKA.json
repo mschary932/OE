@@ -1,0 +1,25 @@
+{
+    "AS_Button_d8d21d15ff154a629c87bdb1dfda7721": {
+        "id": "AS_Button_d8d21d15ff154a629c87bdb1dfda7721",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderBtnCancelPanicCallOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e5ddcd2c122c4c8891c97a8f322c4cea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backFromPanicScreen\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

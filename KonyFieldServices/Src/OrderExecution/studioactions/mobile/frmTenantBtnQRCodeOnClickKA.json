@@ -1,0 +1,29 @@
+{
+    "AS_Button_80df13ed506446b69baf59a876823a20": {
+        "id": "AS_Button_80df13ed506446b69baf59a876823a20",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTenantBtnQRCodeOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTenantKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1239151363421"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___55cbfd805f0343aeae05e20227eaa967",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmFSLoginKA",
+            "formKUID": "p2kwiet1234563580185",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_8d0d9f4a32d94ed9ac1c2640873ade18": {
+        "id": "AS_Button_8d0d9f4a32d94ed9ac1c2640873ade18",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyBtnNoOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3c8d98297ae44241bf4757a8f3dad1c3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxCancelBg\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

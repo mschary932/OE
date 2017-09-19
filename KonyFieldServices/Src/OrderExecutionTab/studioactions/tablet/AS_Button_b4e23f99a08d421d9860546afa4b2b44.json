@@ -1,0 +1,23 @@
+{
+    "AS_Button_b4e23f99a08d421d9860546afa4b2b44": {
+        "id": "AS_Button_b4e23f99a08d421d9860546afa4b2b44",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3f44836ebd534d29b05851aa88651372",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"BackToOrderDetails\");",
+            "callbackType": null
+        }]
+    }
+}

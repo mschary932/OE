@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+       <servlet-name>DefaultServlet</servlet-name>
+            <servlet-class>org.mortbay.jetty.servlet.DefaultServlet</servlet-class>
+       </servlet>
+       <servlet-mapping>
+               <servlet-name>DefaultServlet</servlet-name>
+               <url-pattern>/</url-pattern>
+    </servlet-mapping> 
+  <servlet>
+        <servlet-name>KonyWebController</servlet-name>
+        <servlet-class>com.kony.web.controller.KonyWebWAPController</servlet-class>
+        <init-param>
+            <param-name>appid</param-name> 
+            <param-value>preview</param-value>
+        </init-param>
+        <init-param>
+            <param-name>servletname</param-name>
+            <param-value>p</param-value>
+        </init-param>
+        <init-param>
+            <param-name>httpport</param-name>
+            <param-value>8888</param-value>
+        </init-param>
+        <init-param>
+	            <param-name>previewbuild</param-name>
+	            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>httpsport</param-name>
+            <param-value>8443</param-value>
+        </init-param>
+         <init-param>
+            <param-name>session_type</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>device_db_lookup</param-name>
+            <param-value>false</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jsp_base</param-name>
+            <param-value>/WEB-INF/</param-value>
+        </init-param>
+        <!--<init-param>
+	    <param-name>applocales</param-name>
+            <param-value>{locales}</param-value>
+        </init-param> -->
+        <init-param>
+            <param-name>spa</param-name>
+            <param-value>{spa.categories}</param-value>
+        </init-param>  
+        </servlet>
+    <servlet-mapping>
+        <servlet-name>KonyWebController</servlet-name>
+        <url-pattern>/p</url-pattern>
+    </servlet-mapping> 
+    <servlet-mapping>
+        <servlet-name>KonyWebController</servlet-name>
+        <url-pattern>/p/*</url-pattern>
+    </servlet-mapping> 
+        <!-- Sumanth: Added for desktop web module   -->
+        <servlet>
+         	<servlet-name>KonyDesktopWeb</servlet-name>
+            <jsp-file>/desktopweb/index.jsp</jsp-file>
+        </servlet>    
+        <servlet-mapping>
+                <servlet-name>KonyDesktopWeb</servlet-name>
+                <url-pattern>/kdw</url-pattern>
+    </servlet-mapping> 
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    
+    <env-entry>
+        <env-entry-name>servletname</env-entry-name>
+        <env-entry-type>java.lang.String</env-entry-type>
+        <env-entry-value>p</env-entry-value>
+    </env-entry>
+  
+        <listener>
+   		<listener-class>com.konylabs.middleware.common.AppContextListener</listener-class>
+	</listener>
+	<listener>
+        <listener-class>com.kony.web.util.TCValidationListener</listener-class>
+    </listener>
+	<filter>
+		<filter-name>MiddlewareDCFilter</filter-name>
+		<filter-class>com.konylabs.middleware.common.DCFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>MiddlewareDCFilter</filter-name>
+		<servlet-name>KonyWebController</servlet-name>
+	</filter-mapping>
+	     <filter-mapping>
+        <filter-name>MiddlewareDCFilter</filter-name>
+        <servlet-name>KonyDesktopWeb</servlet-name>
+    </filter-mapping>
+    
+	<!-- Image Filter -->
+	<filter>
+        <filter-name>KonyImageFilter</filter-name>
+        <filter-class>com.kony.web.filter.KonyImageFilter</filter-class>
+    </filter>
+     <filter-mapping>
+        <filter-name>KonyImageFilter</filter-name>
+        <url-pattern>/android/images/checkdpi/*</url-pattern>
+    </filter-mapping>
+    
+    <context-param>
+            <description>App Name for logging</description>
+            <param-name>appID</param-name>
+            <param-value>preview</param-value>		
+    </context-param>
+    <context-param>
+            <description>Interface to middleware</description>
+            <param-name>middleware_interface</param-name>
+            <param-value>remote</param-value>		
+    </context-param>
+    <!-- Remote UA Database End -->
+</web-app>

@@ -1,0 +1,25 @@
+{
+    "AS_Button_c55d4d130a8f4e83a53179e834f553d3": {
+        "id": "AS_Button_c55d4d130a8f4e83a53179e834f553d3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderbtnTimeAndExpenseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__6f0c81a42b884f0f91e3e1d72f60d987",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar controllerExtension = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.servicesapp.FRMTIMEANDEXPENSEKA).getControllerExtensionObject();\ncontrollerExtension.setFormModelInfo(\"previousForm\", \"frmCompleteOrderKA\");\ncontroller.performAction(\"navigateToTimeAndExpense\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

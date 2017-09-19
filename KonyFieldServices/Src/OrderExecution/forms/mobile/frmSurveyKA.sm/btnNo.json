@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        5,
+        0,
+        0
+    ],
+    "_skin_": "sc13b84fbe7f42389a0d914f264c95db",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "55%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s629df9e7204460380b13bdaeef70a2f",
+    "id": "btnNo",
+    "ide_onClick": "AS_Button_8d0d9f4a32d94ed9ac1c2640873ade18",
+    "info": null,
+    "isvisible": true,
+    "kuid": "83e6911678874ed1b1c8369929dd98b3",
+    "name": "kony.ui.Button",
+    "parent": "flxCancelCrossKA",
+    "pf": "frmSurveyKA",
+    "wType": "Button",
+    "zindex": 2
+}

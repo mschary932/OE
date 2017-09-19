@@ -1,0 +1,25 @@
+{
+    "AS_Form_004ef400859742b1a1ac41f6fe9e1d54": {
+        "id": "AS_Form_004ef400859742b1a1ac41f6fe9e1d54",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTAE_DetailsOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e1f862f8c77a441f90045b8fd05899fa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__10439d62e8884110aa7d4efee39168c9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \n controller.performAction(\"navigateBack\");\n ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

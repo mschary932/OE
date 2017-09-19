@@ -1,0 +1,25 @@
+{
+    "AS_Form_1f58e99cd9064ec09107732aef7e67d7": {
+        "id": "AS_Form_1f58e99cd9064ec09107732aef7e67d7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSettingsOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettingsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "00f9908defb843b687555694136887a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__49a9ea863b8344ee959a041ec2c0a308",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (hamburgerMenu.IS_MENU_SHOWN) {\n   \tnew hamburgerMenu().execute();\n}else{\n\tvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n    var controller = INSTANCE.getFormController(\"frmOrderExecutionKA\");\n    controller.performAction(\"showPreviousForm\", [true]);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Form_ddbe880ac7054397a936270a7bef8b6b": {
+        "id": "AS_Form_ddbe880ac7054397a936270a7bef8b6b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTAE_AttachmentDeviceBackOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseAttachmentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "871a4592795c44198ae2c0fddd478528"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__64d14e4c2aee4e9ab4464ed4f35f9ea1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"clearData\"); \ncontroller.performAction(\"navigateBack\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

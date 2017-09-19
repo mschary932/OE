@@ -1,0 +1,25 @@
+{
+    "AS_Button_53df6dd85b4746279ddcb2819adaa8c2": {
+        "id": "AS_Button_53df6dd85b4746279ddcb2819adaa8c2",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderbtnBackToCompleteOrder2OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__777a1e91b41949f197188b35cbeb2f10",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showCancelPopUpFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

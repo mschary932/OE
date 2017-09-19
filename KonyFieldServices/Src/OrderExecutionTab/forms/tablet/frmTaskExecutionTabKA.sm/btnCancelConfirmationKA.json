@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "12.70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd130a5fb47e4369a7c0d2c06f49d2d1",
+    "_text_": "OK",
+    "_top_": {
+        "type": "string",
+        "value": "79.70%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20.40%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s53e8613fee14b858e69cde2bed9e0ad",
+    "id": "btnCancelConfirmationKA",
+    "ide_onClick": "AS_Button_f504b1ee3d6c4282befc13e6f203205c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "23b1ba0ff7924ba5ac6ca467f9b14fc1",
+    "name": "kony.ui.Button",
+    "parent": "flexDeleteOptionPopupKA",
+    "pf": "frmTaskExecutionTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

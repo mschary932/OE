@@ -1,0 +1,28 @@
+{
+    "AS_TextField_41a76720917d4e298dc6555e58d171c3": {
+        "id": "AS_TextField_41a76720917d4e298dc6555e58d171c3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabTextBoxOnDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e46acd6d60fd4efe991c0fc8cd807522",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOnlineCallsFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

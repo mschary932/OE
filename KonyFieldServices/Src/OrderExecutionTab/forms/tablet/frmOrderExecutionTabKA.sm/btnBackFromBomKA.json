@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdfc9a4b0a6f4cddaac94f25fa9f6f99",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdfc9a4b0a6f4cddaac94f25fa9f6f99",
+    "id": "btnBackFromBomKA",
+    "ide_onClick": "AS_Button_f7232137c25840d58e58450faf1d5f97",
+    "info": null,
+    "isvisible": true,
+    "kuid": "8185a7201e4b4e8481c2237e4a139aa4",
+    "name": "kony.ui.Button",
+    "parent": "flexBomHeaderKA",
+    "pf": "frmOrderExecutionTabKA",
+    "wType": "Button",
+    "zindex": 5
+}

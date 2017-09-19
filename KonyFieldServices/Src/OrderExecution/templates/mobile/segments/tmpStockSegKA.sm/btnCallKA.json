@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7d795f958d244e7b7ad203743f36a8f",
+    "_text_": "Call",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s440eca7d93942d6b7ece8e11f647dc2",
+    "id": "btnCallKA",
+    "ide_onClick": "AS_Button_a46d508c624d4c61b1f9057e8b92f5f6",
+    "info": null,
+    "isvisible": true,
+    "kuid": "609c6d956298476ba001b7f2ed67efa7",
+    "name": "kony.ui.Button",
+    "parent": "flxCallRequest",
+    "pf": "tmpStockSegKA",
+    "wType": "Button",
+    "zindex": 1
+}

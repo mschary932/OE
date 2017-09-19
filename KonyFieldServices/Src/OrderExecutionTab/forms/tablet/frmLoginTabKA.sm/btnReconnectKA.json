@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s113726546494a03809a5b33dedb645a",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "android": {
+        "displayText": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s05b8b2dbe85430c8dec86280ce5f76f",
+    "id": "btnReconnectKA",
+    "info": null,
+    "ipad": {
+        "displayText": true
+    },
+    "isvisible": true,
+    "kuid": "727a5417ba5f4e76a3b6f29ffc6e3b6b",
+    "name": "kony.ui.Button",
+    "parent": "flxReconnectKA",
+    "pf": "frmLoginTabKA",
+    "spa": {
+        "displayText": true
+    },
+    "wType": "Button",
+    "windows8": {
+        "displayText": true
+    },
+    "zindex": 1
+}

@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd02ddb4f35640c7b9ff797c3731b905",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "19%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s478475ce9f2496b803fe590e7b8b9c7",
+    "id": "btnEmailCancelKA",
+    "ide_onClick": "AS_Button_0fae6b7caeba4d3d8893a329add4eb72",
+    "info": null,
+    "isvisible": true,
+    "kuid": "6fba7bfa997c4a2791d95de317c021ca",
+    "name": "kony.ui.Button",
+    "parent": "flxEmailHeaderKA",
+    "pf": "frmInvoicePdfBrowserKA",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_2205d664f747492e95f913703e17ee0e": {
+        "id": "AS_FlexContainer_2205d664f747492e95f913703e17ee0e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddTimeExpense_OnRowClick_EditTime",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddTimeExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "1985377ee7e246a4a8f608667b92e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__33c2c795b38e4010a524eed9c95498c7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToAddScreen\",[\"Time\"]); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

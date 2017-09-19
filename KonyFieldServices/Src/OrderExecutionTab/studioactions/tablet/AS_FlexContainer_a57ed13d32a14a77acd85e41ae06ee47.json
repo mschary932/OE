@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_a57ed13d32a14a77acd85e41ae06ee47": {
+        "id": "AS_FlexContainer_a57ed13d32a14a77acd85e41ae06ee47",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "tmpResourceListTabKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "9cc9bc353c57486b8c8afcfe99faa279"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Button_fa6d3a0a55cd44e8bf57751364c5b455": {
+        "id": "AS_Button_fa6d3a0a55cd44e8bf57751364c5b455",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderKA_PaymentConfirmation",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ab96c2c4deeb4df0ad90ba80a7e1d697",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var formmodel = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\").getFormModel();\nformmodel.setViewAttributeByProperty(\"flxPaymentConfirmation\",\"isVisible\",false);",
+            "callbackType": null
+        }]
+    }
+}

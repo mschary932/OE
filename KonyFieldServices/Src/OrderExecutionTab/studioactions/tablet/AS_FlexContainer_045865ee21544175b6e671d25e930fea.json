@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_045865ee21544175b6e671d25e930fea": {
+        "id": "AS_FlexContainer_045865ee21544175b6e671d25e930fea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsTabKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e8f7e65edb06416bacaaa687fb843c0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_0fec9cfd96f7422b99099673172aa19f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeExpense\"); ",
+            "callbackType": null
+        }]
+    }
+}

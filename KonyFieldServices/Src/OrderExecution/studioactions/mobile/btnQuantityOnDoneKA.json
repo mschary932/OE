@@ -1,0 +1,21 @@
+{
+    "AS_TextField_c2036478679546d19f307d7e9f0a21c7": {
+        "id": "AS_TextField_c2036478679546d19f307d7e9f0a21c7",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnQuantityOnDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDone_cd71723f4c3044c39197c24bbdcbc1ab",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nvar utilitiesObj = utilities.getUtilityObj();\nvar secIndex=kony.servicesapp.currIndices[\"secIndex\"];\nvar rowIndex=kony.servicesapp.currIndices[\"rowIndex\"];\n//alert(\"inSave\"+JSON.stringify(kony.servicesapp.currIndices));\n//alert(\"inSave\"+JSON.stringify(kony.servicesapp.swipedIndices));\nvar selRecord =formModel.getViewAttributeByProperty(\"segSwipeKA\", \"data\")[secIndex][1][rowIndex];\nvar resourcesUtilityObj = ResourcesUtility.getUtilityObj();\nresourcesUtilityObj.updateQuantity(true, formModel.getViewAttributeByProperty(\"tbxQuantityKA\", \"text\"), selRecord.InventoryQuantity, selRecord.womID, selRecord.ReqId, selRecord.baseunitId, selRecord.Material_id);\n",
+            "callbackType": null
+        }]
+    }
+}

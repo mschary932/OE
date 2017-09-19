@@ -1,0 +1,25 @@
+{
+    "AS_Button_04d5c3f4017f4bad91d2274a288f7b7d": {
+        "id": "AS_Button_04d5c3f4017f4bad91d2274a288f7b7d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmresourceExecutionbtnEditOnClickKa",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResourceExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0c904960ef094a1c94459aa31be27c31"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9be77e8804ae4eb887c65e84a8993867",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onEditCall\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

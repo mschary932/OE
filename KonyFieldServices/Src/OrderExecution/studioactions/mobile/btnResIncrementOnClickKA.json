@@ -1,0 +1,18 @@
+{
+    "AS_Button_a288150eee4d48bd8a9eceea46265ccc": {
+        "id": "AS_Button_a288150eee4d48bd8a9eceea46265ccc",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnResIncrementOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f86caefa170d407c858a316a7e6a8a01",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n    var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n    var formModel = controller.getFormModel();\n    var utilitiesObj = utilities.getUtilityObj();\n    formModel.setViewAttributeByProperty(\"tbxQuantityKA\", \"text\", String(utilitiesObj.roundNumber(formModel.getViewAttributeByProperty(\"tbxQuantityKA\", \"text\"), 2) + 1));",
+            "callbackType": null
+        }]
+    }
+}

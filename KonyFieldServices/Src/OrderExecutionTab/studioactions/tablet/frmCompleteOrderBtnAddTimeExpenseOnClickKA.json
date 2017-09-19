@@ -1,0 +1,18 @@
+{
+    "AS_Button_5e2fc4d181b64e398d538d420db6feaf": {
+        "id": "AS_Button_5e2fc4d181b64e398d538d420db6feaf",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnAddTimeExpenseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_142a63f1a949422eb593915d1ab2fbac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showAddTimeExpense\"); ",
+            "callbackType": null
+        }]
+    }
+}

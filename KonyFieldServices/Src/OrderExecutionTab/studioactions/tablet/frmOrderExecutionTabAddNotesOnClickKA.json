@@ -1,0 +1,25 @@
+{
+    "AS_Button_c31f15f2968d45b19c673b0bae6fc926": {
+        "id": "AS_Button_c31f15f2968d45b19c673b0bae6fc926",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabAddNotesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aa3790f707c74ea98bf1ec803b54c297",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"AddNotePopUp\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

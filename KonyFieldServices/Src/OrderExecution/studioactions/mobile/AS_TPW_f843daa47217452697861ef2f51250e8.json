@@ -1,0 +1,24 @@
+{
+    "AS_TPW_f843daa47217452697861ef2f51250e8": {
+        "id": "AS_TPW_f843daa47217452697861ef2f51250e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkConfirmationKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8682ab78201f4a379c4b888f41b44808",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmWorkConfirmationKA\");\ncontroller.performAction(\"switchSlideCallback\",[\"9\"]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

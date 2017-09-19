@@ -1,0 +1,25 @@
+{
+    "AS_Button_5b958abee75a482eafeb84e344b851fe": {
+        "id": "AS_Button_5b958abee75a482eafeb84e344b851fe",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmdirectionStepsBtnBackOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDirectionStepsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet13197555111"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c478acc2fd79457a9f52649fc667bd2c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showPreviousForm\",[true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

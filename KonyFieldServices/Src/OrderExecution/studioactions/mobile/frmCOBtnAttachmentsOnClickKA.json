@@ -1,0 +1,24 @@
+{
+    "AS_Button_e2edad76a7804c218996dab087c20a7a": {
+        "id": "AS_Button_e2edad76a7804c218996dab087c20a7a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOBtnAttachmentsOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e9cc71cfcb394e70a8540345d2991cb5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showAttachmentsFormForWorkOrder\");",
+            "callbackType": null
+        }]
+    }
+}

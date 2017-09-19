@@ -1,0 +1,327 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizPickerView",
+    "DNDConfig": null,
+    "__inst": null,
+    "__parentReadjusting__": false,
+    "__wheels": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc502c62d57740a5baa9f380be6c12ea",
+    "_width_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "render": false
+    },
+    "id": "pickerDateKA",
+    "info": null,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "96a44f8bd3cb47ea8a012245e383a90c",
+    "masterdata": [
+        [
+            [
+                "d1",
+                "1"
+            ],
+            [
+                "d2",
+                "2"
+            ],
+            [
+                "d3",
+                "3"
+            ],
+            [
+                "d4",
+                "4"
+            ],
+            [
+                "d5",
+                "5"
+            ],
+            [
+                "d6",
+                "6"
+            ],
+            [
+                "d7",
+                "7"
+            ],
+            [
+                "d8",
+                "8"
+            ],
+            [
+                "d9",
+                "9"
+            ],
+            [
+                "d10",
+                "10"
+            ],
+            [
+                "d11",
+                "11"
+            ],
+            [
+                "d12",
+                "12"
+            ],
+            [
+                "d13",
+                "13"
+            ],
+            [
+                "d14",
+                "14"
+            ],
+            [
+                "d15",
+                "15"
+            ],
+            [
+                "d16",
+                "16"
+            ],
+            [
+                "d17",
+                "17"
+            ],
+            [
+                "d18",
+                "18"
+            ],
+            [
+                "d19",
+                "19"
+            ],
+            [
+                "d20",
+                "20"
+            ],
+            [
+                "d21",
+                "21"
+            ],
+            [
+                "d22",
+                "22"
+            ],
+            [
+                "d23",
+                "23"
+            ],
+            [
+                "d24",
+                "24"
+            ],
+            [
+                "d25",
+                "25"
+            ],
+            [
+                "d26",
+                "26"
+            ],
+            [
+                "d27",
+                "27"
+            ],
+            [
+                "d28",
+                "28"
+            ],
+            [
+                "d29",
+                "29"
+            ],
+            [
+                "d30",
+                "30"
+            ],
+            [
+                "d31",
+                "31"
+            ],
+            30,
+            "datecomp"
+        ],
+        [
+            [
+                "m1",
+                "Jan"
+            ],
+            [
+                "m2",
+                "Feb"
+            ],
+            [
+                "m3",
+                "Mar"
+            ],
+            [
+                "m4",
+                "Apr"
+            ],
+            [
+                "m5",
+                "May"
+            ],
+            [
+                "m6",
+                "Jun"
+            ],
+            [
+                "m7",
+                "Jul"
+            ],
+            [
+                "m8",
+                "Aug"
+            ],
+            [
+                "m9",
+                "Sept"
+            ],
+            [
+                "m10",
+                "Oct"
+            ],
+            [
+                "m11",
+                "Nov"
+            ],
+            [
+                "m12",
+                "Dec"
+            ],
+            30,
+            "monthcomp"
+        ],
+        [
+            [
+                "y1",
+                "2016"
+            ],
+            [
+                "y2",
+                "2017"
+            ],
+            [
+                "y3",
+                "2018"
+            ],
+            [
+                "y4",
+                "2019"
+            ],
+            [
+                "y5",
+                "2020"
+            ],
+            [
+                "y6",
+                "2021"
+            ],
+            [
+                "y7",
+                "2022"
+            ],
+            [
+                "y8",
+                "2023"
+            ],
+            [
+                "y9",
+                "2024"
+            ],
+            [
+                "y10",
+                "2025"
+            ],
+            40,
+            "yearcomp"
+        ]
+    ],
+    "masterdatamap": null,
+    "name": "kony.ui.PickerView",
+    "parent": "flexCalendarKA",
+    "pf": "frmExpenseDetailsTabKA",
+    "selectedkey": null,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        "1",
+        "Jan",
+        "2016"
+    ],
+    "size": 18,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "viewtype": 0,
+    "wType": "PickerView",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "zindex": 3
+}

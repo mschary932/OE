@@ -1,0 +1,17 @@
+{
+    "AS_Button_82ad65dbecad47a69e2f9f7d090b4d18": {
+        "id": "AS_Button_82ad65dbecad47a69e2f9f7d090b4d18",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b6249f4d12b54dde86299b6c4e0bd5ac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showAddTimeExpense\"); ",
+            "callbackType": null
+        }]
+    }
+}

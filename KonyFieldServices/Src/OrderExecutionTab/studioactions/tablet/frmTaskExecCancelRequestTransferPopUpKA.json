@@ -1,0 +1,18 @@
+{
+    "AS_Button_1eefa33ce8dd4ad89e07b1a4fba5b69f": {
+        "id": "AS_Button_1eefa33ce8dd4ad89e07b1a4fba5b69f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecCancelRequestTransferPopUpKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cbd5b0abbb4f4210ba736be27a271621",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onCancelRequestPopUp\");",
+            "callbackType": null
+        }]
+    }
+}

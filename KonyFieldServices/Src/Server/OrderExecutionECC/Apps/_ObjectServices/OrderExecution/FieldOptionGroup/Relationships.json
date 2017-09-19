@@ -1,0 +1,1 @@
+[{"sourceObject":"FieldOptionGroup","targetObject":"FieldOptionItem","relationshipKeys":[{"sourceField":"id","targetField":"FieldOptionGroup_id"}],"name":"EAM_FIL_OGRP_EAM_FIL_OITEM","type":"OneToMany","custom":false,"cascadeDelete":false}]

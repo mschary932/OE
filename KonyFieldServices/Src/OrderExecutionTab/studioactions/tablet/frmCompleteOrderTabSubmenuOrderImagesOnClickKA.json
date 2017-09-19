@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_804253ad7c0d4608b6611f2e4e0aa3bd": {
+        "id": "AS_FlexContainer_804253ad7c0d4608b6611f2e4e0aa3bd",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderTabSubmenuOrderImagesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d9ac428410674c84a39a07dfc6747380",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderImages\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

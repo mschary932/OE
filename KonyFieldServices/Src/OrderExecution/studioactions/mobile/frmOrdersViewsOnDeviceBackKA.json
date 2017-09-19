@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580441_frmOrdersViewsKA_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet1234563580441_frmOrdersViewsKA_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrdersViewsOnDeviceBackKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDeviceBack_55451234563580674",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"navigateBackWithoutReload\");"
+        }]
+    }
+}

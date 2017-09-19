@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_b28f80b1a54f469988ac04d9d5b04c22": {
+        "id": "AS_FlexContainer_b28f80b1a54f469988ac04d9d5b04c22",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCO_OnPaymentClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4a00bcdb7f7442a2b985e55c7c747b37",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"navigateToSummaryScreen\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

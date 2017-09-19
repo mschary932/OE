@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5a885e8b19b478fa024eef9663aeb38",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s2652d265cb647c7b0bfefde51090504"
+    },
+    "displaytext": true,
+    "id": "btnSettingKA",
+    "ide_onClick": "AS_Button_f0fd80011c5b43d99d72c44114ab4141",
+    "info": null,
+    "isvisible": true,
+    "kuid": "729e5249284b406da8a11050b7be78f0",
+    "name": "kony.ui.Button",
+    "parent": "flxMainMenuKA",
+    "pf": "frmMyOrderListTabKA",
+    "wType": "Button",
+    "zindex": 10
+}

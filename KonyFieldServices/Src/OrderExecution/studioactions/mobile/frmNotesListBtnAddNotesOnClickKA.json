@@ -1,0 +1,25 @@
+{
+    "AS_Button_06ef9eab629f4326a158f9a09cb34164": {
+        "id": "AS_Button_06ef9eab629f4326a158f9a09cb34164",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmNotesListBtnAddNotesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNotesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19962346794075"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2662ff4a8d5d4887a22ed3e3cc83528a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var instance = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar listController = instance.getFormController(\"frmNotesListKA\");\nlistController.performAction(\"navigateToAdd\");\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

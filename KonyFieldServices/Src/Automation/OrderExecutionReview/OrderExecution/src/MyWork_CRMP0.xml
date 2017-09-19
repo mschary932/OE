@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+    <test name="MyWork-CRMApp_P0Test">
+        <classes>
+            <class name="test.orderexecution.tests.TestFormFSLoginKA">
+                <methods>
+                    <include name="test_app_login" />
+                </methods>
+            </class>
+            <!-- My Orders Landing Page -->
+            <class name="test.orderexecution.tests.TestFormSettingsKA">
+                <methods>
+                    <include name="testBack" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormDateFilterKA">
+                <methods>
+                    <include name="test_cancel_filter" />
+                    <include name="test_click_select_date" />
+                    <include name="test_clear_filter" />
+                    <include name="test_click_today_filter" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestMyOrdersForm">
+                <methods>
+                    <include name="testhamburgermenu" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormSurveyKA">
+                <methods>
+                    <include name="test_ansfewquestions" />
+                    <include name="test_ansquestions" />
+                </methods>
+            </class>
+         <!--    Order Execution Landing Page Section -->
+            <class name="test.orderexecution.tests.TestFormOrderResourcesList">
+                <methods>
+                    <include name="test_navigate_to_order_execution" />
+                    <include name="test_navigate_to_resources_execution" />
+                    <include name="test_navigate_to_views" />
+                    <include name="test_basic_info_in_resource_row" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormOrderExecution">
+                <methods>
+                    <include name="testNavigationToDirections" />
+                    <include name="navigateToOrderDetails" />
+                    <include name="navigatetoorderAttachment" />
+                    <include name="navigateToOrderAsset" />
+                    <include name="navigateToOrderHistory" />
+                    <include name="navigateToOrderResource" />
+                    <include name="navigateToOrderImages" />
+                    <include name="navigateToOrderExtendedAttributes" />
+                    <include name="navigateTotaskExecution" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormTaskResourcesListKA">
+                <methods>
+                    <include name="test_navigate_to_task_execution" />
+                    <include name="test_navigate_to_views" />
+                    <include name="test_tick_button_functionality" />
+                    <include name="test_navigate_to_resource_execution" />
+                    <include name="test_edit_functionality" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormOrderDetails">
+                <methods>
+                    <include name="navigateToContactDetails" />
+                    <include name="navigateToOrderAssetFromOrderDetails" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormNotesListKA">
+                <methods>
+                    <include name="testBack" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormOrderResourceDetailsKA">
+                <methods>
+                    <include name="testbackNavigation" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormResourceExecutionKA">
+                <methods>
+                    <include name="testNavigateToResourceImagesFromOE" />
+                    <include name="testNavigateToResourceImagesFromTE" />
+                    <include name="navigateToResourceAttachmentFromOrderExecution" />
+                    <include name="resourceAttachmentFromTaskExecutionForm" />
+                    <include name="test_navigate_to_resources_execution_from_orderResources" />
+                    <include name="test_navigate_to_resources_execution_from_tasks" />
+                    <include name="test_navigate_to_resources_execution_from_taskResources" />
+                    <include name="test_navigate_to_resources_details" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormTaskExecutionKA">
+                <methods>
+                    <include name="clickDetails" />
+                    <include name="clickResourcesList" />
+                    <include name="clickBack" />
+                    <include name="clickResource" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormTaskDetailsKA">
+                <methods>
+                    <include name="test_back_task_details" />
+                    <include name="test_description_exceeds" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormDescriptionDetailsKA">
+                <methods>
+                    <include name="test_description_back" />
+                </methods>
+            </class> 
+            <class name="test.orderexecution.tests.TestFormCompleteOrderFS">
+                <methods>
+                    <include name="test_completeOrderSummary" />
+                    <include name="test_SurveyHalfFilled" />
+                    <include name="test_SurveyFullyFilled" />
+                    <include name="test_SurveyWriteableTest" />
+                    <include name="test_navigateToAttachments" />
+                    <include name="test_navigateToOrderHistory" />
+                    <include name="test_navigateToOrderResources" />
+                    <include name="test_navigateToOrderImages" />
+                    <include name="test_refillWorkConfirmation" />
+                    <include name="test_CustomerSignOff" />
+                    <include name="test_refillCustomerSignOff" />
+                    <include name="test_OrderDone" />
+                </methods>
+            </class>
+            
+        </classes>
+    </test>
+    <!-- Test -->
+</suite>
+<!-- Suite -->

@@ -1,0 +1,25 @@
+{
+    "AS_Switch_3b6783d7d4cf4b4b87f4a6111adf8487": {
+        "id": "AS_Switch_3b6783d7d4cf4b4b87f4a6111adf8487",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSettingsSwitchTouchEnableOnSlideKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettingsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "00f9908defb843b687555694136887a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__99e9ff127fae40b9be38a6d29d397402",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (frmSettingsKA.SwitchTouchIDKA.selectedIndex === 0) {\n  \tfrmTouchIDSetupKA.show();\n} else {\n \tkony.store.setItem(\"isTouchIDEnabled\", false);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

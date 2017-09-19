@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_71043292d63f4518bb3d3a5c1e2bc5f5": {
+        "id": "AS_FlexContainer_71043292d63f4518bb3d3a5c1e2bc5f5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyFlxConfirmTickOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ccc33ae3f50b4c2fbc6f6eb434197cbf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"saveCompleteData\",[false]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

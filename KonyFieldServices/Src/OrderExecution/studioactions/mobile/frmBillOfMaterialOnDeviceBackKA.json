@@ -1,0 +1,25 @@
+{
+    "AS_Form_a06b9a61e2724065b92acc01bd36f103": {
+        "id": "AS_Form_a06b9a61e2724065b92acc01bd36f103",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmBillOfMaterialOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBillOfMaterialKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "77f49434b014487cbfba5004678ec3ab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__15b33934b27b45b68fc6a957e4a24d83",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backNavigationCalls\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

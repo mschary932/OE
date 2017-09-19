@@ -1,0 +1,30 @@
+{
+    "AS_Segment_e27036cccad742cda6aaef60e6397b59": {
+        "id": "AS_Segment_e27036cccad742cda6aaef60e6397b59",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__af452ad6d72046868b5f9885c1b1b77f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Swipe event\");\nif(( Object.keys(kony.servicesapp.swipedIndices).length>0) && !kony.servicesapp.isAnimationInProgress){\n  var animObj=kony.servicesapp.getEndStateTransAnimDefinition(\"-50%\",\"0%\",false);\n  frmTaskExecutionTabKA.segResourcesKA.animateRows({\n                rows: [{\n                    sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n                    rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n                }],\n                widgets: [\"flexContainerKA\"],\n                animation: animObj\n            });\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

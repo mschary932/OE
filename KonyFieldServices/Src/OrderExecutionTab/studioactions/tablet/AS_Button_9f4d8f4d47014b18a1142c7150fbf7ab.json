@@ -1,0 +1,24 @@
+{
+    "AS_Button_9f4d8f4d47014b18a1142c7150fbf7ab": {
+        "id": "AS_Button_9f4d8f4d47014b18a1142c7150fbf7ab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ccd90cdd140e4064b704b94d2d833030",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showEditTimPopUp\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

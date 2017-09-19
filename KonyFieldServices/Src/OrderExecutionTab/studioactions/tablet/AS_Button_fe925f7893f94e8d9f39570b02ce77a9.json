@@ -1,0 +1,17 @@
+{
+    "AS_Button_fe925f7893f94e8d9f39570b02ce77a9": {
+        "id": "AS_Button_fe925f7893f94e8d9f39570b02ce77a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6c800e8717f04d5388ec999056184188",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backToMap\");",
+            "callbackType": null
+        }]
+    }
+}

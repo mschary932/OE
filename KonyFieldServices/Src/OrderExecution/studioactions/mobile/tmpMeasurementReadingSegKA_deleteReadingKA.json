@@ -1,0 +1,28 @@
+{
+    "AS_Button_a37b7ff2a4c74cc48bc52313aa824ffb": {
+        "id": "AS_Button_a37b7ff2a4c74cc48bc52313aa824ffb",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpMeasurementReadingSegKA_deleteReadingKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpMeasurementReadingSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "065aad0f7bf348729ce9e8a6cbdb49db"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__138870e4a1ff48a388333e911c34db9d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDeletePopup\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

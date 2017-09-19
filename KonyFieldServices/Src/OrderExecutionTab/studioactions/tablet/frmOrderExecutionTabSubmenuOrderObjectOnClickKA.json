@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_8e3145aad9d6479eb893e57d27dd852d": {
+        "id": "AS_FlexContainer_8e3145aad9d6479eb893e57d27dd852d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabSubmenuOrderObjectOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_14d3c2cbab034cbaa9359d7eda63419d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderObject\"); ",
+            "callbackType": null
+        }]
+    }
+}

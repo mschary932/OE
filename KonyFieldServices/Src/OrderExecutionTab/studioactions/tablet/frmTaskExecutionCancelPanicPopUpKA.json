@@ -1,0 +1,18 @@
+{
+    "AS_Button_1c634acdf1634278b0aeecb94fbf78f0": {
+        "id": "AS_Button_1c634acdf1634278b0aeecb94fbf78f0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionCancelPanicPopUpKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_8b01080bdb404d5c943fd4611ea3bb33",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backFromPanicScreen\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_5c08f108a5d347568bcd2d439b2b49ec": {
+        "id": "AS_Button_5c08f108a5d347568bcd2d439b2b49ec",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpStocksRequestBtnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpStockSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "ed03b88410e8485fb6a18fe0459c191b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__06a85b35ad19479aa200d243b362bdd5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"requestStockTransfer\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

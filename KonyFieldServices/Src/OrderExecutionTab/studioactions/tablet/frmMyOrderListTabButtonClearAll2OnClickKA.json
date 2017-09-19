@@ -1,0 +1,25 @@
+{
+    "AS_Button_98a36cefcc7c4c9691ad7e9cb0aceb15": {
+        "id": "AS_Button_98a36cefcc7c4c9691ad7e9cb0aceb15",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListTabButtonClearAll2OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__97d6b364f7d14be1bcf8ea57bce132bb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

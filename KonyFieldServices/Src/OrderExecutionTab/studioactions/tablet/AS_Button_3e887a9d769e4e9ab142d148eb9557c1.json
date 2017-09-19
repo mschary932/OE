@@ -1,0 +1,23 @@
+{
+    "AS_Button_3e887a9d769e4e9ab142d148eb9557c1": {
+        "id": "AS_Button_3e887a9d769e4e9ab142d148eb9557c1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_5716d9089019462aa2c41cd061b66332",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDetailedInstruction\");",
+            "callbackType": null
+        }]
+    }
+}

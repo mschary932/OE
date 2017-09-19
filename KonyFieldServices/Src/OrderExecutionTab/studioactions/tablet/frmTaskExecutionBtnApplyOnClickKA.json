@@ -1,0 +1,18 @@
+{
+    "AS_Button_bbbe31b038c943c1a5756a3ae55ccc2c": {
+        "id": "AS_Button_bbbe31b038c943c1a5756a3ae55ccc2c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionBtnApplyOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3ef028b9aba249118fadf3ed3588e3be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCall\");",
+            "callbackType": null
+        }]
+    }
+}

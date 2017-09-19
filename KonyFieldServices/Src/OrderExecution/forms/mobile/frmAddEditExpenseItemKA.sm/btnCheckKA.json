@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "83%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9fa891ef274476b8e0059f1a12b49ef",
+    "_text_": "",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s93a610d97ef4c678947d8babe5a24c8",
+    "id": "btnCheckKA",
+    "ide_onClick": "AS_Button_f1b9df7d1cb14dc8822cefe2b34bbac6",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "ccee5a70c76b4a42bc7f150f59dd68cc",
+    "name": "kony.ui.Button",
+    "parent": "flexHeaderKA",
+    "pf": "frmAddEditExpenseItemKA",
+    "showprogressindicator": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "7.38%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "8.39%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Username",
+    "_skin_": "sd9ca6e72a1d45d1bc84f5539d35114f",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "83.30%"
+    },
+    "android": {
+        "ide_onBeginEditing": "AS_TextField_9a72bbbcd79741d7bd5ab5cc2c5ef27b",
+        "ide_onEndEditing": "AS_TextField_539eab7062e8408d81535245d9e5e01c",
+        "psp": {
+            "keyboardActionLabel": 1
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sd9ca6e72a1d45d1bc84f5539d35114f",
+    "id": "tbxUserIDKA",
+    "ide_onDone": "AS_TextField_5bd781cd3933487fa331204ce6339a7b",
+    "ide_onTouchEnd": "AS_TextField_9e97fb957ce04a5f8c79d5a6d1ce9782",
+    "ide_onTouchMove": "AS_TextField_d9d2db5b3aa7429ab2a400e5709e5e6b",
+    "info": null,
+    "ipad": {
+        "ide_onBeginEditing": "AS_TextField_34a25957e35945df9f32e67ea2c43d56",
+        "ide_onEndEditing": "AS_TextField_52bc3131807a4df09f02dd668a92fa24"
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "a07b5b2a643e4b3ba788d8bdb8dbfaa6",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxMainKA",
+    "pf": "frmLoginTabKA",
+    "placeholderi18n": "i18n.login.frmLoginVA.tbxUserIDKA.ValueKA",
+    "placeholderskin": "sd9ca6e72a1d45d1bc84f5539d35114f",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

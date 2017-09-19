@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_bfed42baeed4455a9eb6e56ec79084e0": {
+        "id": "AS_FlexContainer_bfed42baeed4455a9eb6e56ec79084e0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabHideViewUpKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3793562600d24ae7aa811b2fb7001077",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCall\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_80d4d88433b74ae585b4e97b7a31186c": {
+        "id": "AS_Button_80d4d88433b74ae585b4e97b7a31186c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmDirectionsBtnDirecctionOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDirectionStepsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet13197555111"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3a8b0f1c77f94b1f99c4ccdda1f00439",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(\"frmDirectionsKA\");\ncontroller.performAction(\"openNativeMap\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

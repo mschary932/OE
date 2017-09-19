@@ -1,0 +1,154 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "100.0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_text_": "AIzaSyAJOkl-7hJ08jbE5sBZs9Da9qrHP_XhXro",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.map.AndroidMapProperty",
+        "_mode_": 1,
+        "mode": 1,
+        "psp": {
+            "showZoomControl": false
+        },
+        "render": true,
+        "zoomLevel": 15
+    },
+    "calloutTemplateId": "p2kwiet1234563580840",
+    "callouttemplate": "flx1",
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "containerheightreference": 1,
+    "containerweight": 0,
+    "contentalignment": 5,
+    "defaultpinimage": "blank.png",
+    "hexpand": true,
+    "id": "mapDirectionKA",
+    "info": null,
+    "invokedProperty": "maps",
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.map.IPhoneMapProperty",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_mode_": 1,
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "mode": 1,
+        "render": true,
+        "zoomLevel": 14
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet1234563580154",
+    "locationdata": [
+        {
+            "desc": "Phoenix infocity, Gachibowli",
+            "lat": "17.447326",
+            "lon": "78.371358",
+            "name": "KonyLabs(New)"
+        },
+        {
+            "desc": "Mindspace, Hitech City",
+            "lat": "17.441839",
+            "lon": "78.380928",
+            "name": "KonyLabs(Old)"
+        },
+        {
+            "desc": "Jaihind Enclave, Madhapur",
+            "lat": "17.450378",
+            "lon": "78.388398",
+            "name": "My Residence"
+        }
+    ],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "margininpixel": false,
+    "name": "kony.ui.Map",
+    "paddinginpixel": false,
+    "parent": "flexDetailsKA",
+    "pf": "frmDirectionsKA",
+    "provider": "google",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.map.SPAMapProperty",
+        "_mode_": 1,
+        "mapSource": "non-native",
+        "mode": 1
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.map.SPAAndroidMapProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.map.SPABBMapProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.map.SPAIPhoneMapProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.map.SPAWinPhone8MapProperty",
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "Map",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.map.WinPhone8MapProperty",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_mode_": 1,
+        "margin": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "marginInPixel": false,
+        "mode": 1,
+        "render": true,
+        "zoomLevel": "1"
+    },
+    "zindex": 3,
+    "zoomlevel": 15
+}

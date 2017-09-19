@@ -1,0 +1,18 @@
+{
+    "AS_Button_07971381ffcf462aa07da4327f1a776a": {
+        "id": "AS_Button_07971381ffcf462aa07da4327f1a776a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoginTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dd9a5f8ab68c47128282262268edc998"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

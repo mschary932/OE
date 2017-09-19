@@ -1,0 +1,18 @@
+{
+    "AS_Button_21d7f761b73c4586bfa4f1986f475a66": {
+        "id": "AS_Button_21d7f761b73c4586bfa4f1986f475a66",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnResDecrementOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_88fc29686bc74a9a80c9124ac7f198be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nvar utilitiesObj = utilities.getUtilityObj();\nvar decrementedQuantity =utilitiesObj.roundNumber(formModel.getViewAttributeByProperty(\"tbxQuantityKA\", \"text\"), 2) - 1;\nif(decrementedQuantity<0){return;}\nformModel.setViewAttributeByProperty(\"tbxQuantityKA\", \"text\", String(utilitiesObj.roundNumber(formModel.getViewAttributeByProperty(\"tbxQuantityKA\", \"text\"), 2) - 1));;",
+            "callbackType": null
+        }]
+    }
+}

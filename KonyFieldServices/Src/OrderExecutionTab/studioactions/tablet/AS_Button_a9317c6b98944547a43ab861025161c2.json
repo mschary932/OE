@@ -1,0 +1,17 @@
+{
+    "AS_Button_a9317c6b98944547a43ab861025161c2": {
+        "id": "AS_Button_a9317c6b98944547a43ab861025161c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7c4dc5aebe384d7db7b0d055bd5ffa6e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelAddExpenseItemPopUp\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_5fb677f08c87483897ae572069db8e58": {
+        "id": "AS_FlexContainer_5fb677f08c87483897ae572069db8e58",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePdfKA_viewPdfKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "52c6306a2c144019ba9f50c84e96d346"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5a8b517e7c9343c3ab59c4ca7c8fdc47",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"viewInvoicePdf\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

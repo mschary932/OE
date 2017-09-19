@@ -1,0 +1,52 @@
+<project name="PreCompile" default="PreCompileSetup">
+	<!--
+	${basedir} points to the current dir in which this xml is present
+	${app.dir} points to Native android application directory created for the current kony app
+	${packagepath} contains the package name folder path relative to src folder
+	${build.option} indicates current build is "debug" or "release" mode
+	${supportx86} is set to "true" if x86 flag is ticked in IDE build options. 
+	${isMobileBuild} is set to "true" if current build is invoked for Mobile and 
+	 is set to "false" if current build is invoked for Tablet.
+	1) Copy this xml to project workspace base directory (using Navigator view in kony Studio)
+	${basedir} var then points to project workspace base directory
+	2) This xml can be used to perform task such as 
+	==> Overwrite generated Main Activity java file with modified file in ${app.dir}\src\${packagepath}\ folder .
+	Note: When overwriting generated activity file please follow below steps.
+	a) Compile the application in both release and debug modes
+	b) Individually modify both version of Main Activity files and maintain them seperately to overwrite in script
+	Above steps are needed as the Main Activity file generated in debug and release mode differs in certain functions or parameters
+	==> Copy Modified Build xml file to native android folder
+	==> Any other custom libs,assets,res files to be copied in to native android hierarchy
+	==> Copy any x86 .so files from any libs only when variable ${supportx86} is set to true
+	==> Changing or appending some custom paths to project.properties or local.properties etc..
+	==> Custom code can be written under {isMobileBuild} check if there are custom tasks to be performed differently for Mobile and Tablet
+	-->
+	<target name="PreCompileSetup" >
+
+		<echo message="basedir = ${basedir} ,appdir = ${app.dir} , isMobileBuild = ${isMobileBuild}"/>
+		<echo message="Build mode = ${build.option} , Packagepath = ${packagepath} , x86 Support = ${supportx86}" />
+		<if>
+			<available file="${app.dir}/libs/armeabi" type="dir"/>
+			<then>
+				<copydir src="${basedir}/libs/armeabi" dest="${app.dir}/libs/armeabi" forceoverwrite="true"/>	
+			</then>
+		</if>
+		<if>
+			<available file="${app.dir}/libs/armeabi-v7a" type="dir"/>
+			<then>
+				<copydir src="${basedir}/libs/armeabi" dest="${app.dir}/libs/armeabi-v7a" forceoverwrite="true"/>	
+			</then>
+		</if>
+		<delete file="${app.dir}/assets/libcrypto.mp3" quiet="true"/>
+		<delete file="${app.dir}/assets/libssl.so.1.0.0" quiet="true"/>		
+		<if>
+			<equals arg1="${supportx86}" arg2="true"/>
+			<then>
+				<copydir src="${basedir}/libs/x86" dest="${app.dir}/libs/x86" forceoverwrite="true"/>	
+				<delete file="${app.dir}/assets/libxcrypto.mp3" quiet="true"/>
+				<delete file="${app.dir}/assets/libxssl.so.1.0.0" quiet="true"/>
+			</then>
+		</if>
+		
+	</target>
+</project>	

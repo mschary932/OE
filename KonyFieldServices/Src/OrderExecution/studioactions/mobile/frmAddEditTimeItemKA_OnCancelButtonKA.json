@@ -1,0 +1,24 @@
+{
+    "AS_Button_65438bc99bbb4cbb871daa7e33f9d076": {
+        "id": "AS_Button_65438bc99bbb4cbb871daa7e33f9d076",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddEditTimeItemKA_OnCancelButtonKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEditTimeItemKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a1943ad5bafd4db1bed058eecf1716e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b97029302001431f80f3d34dbfb91a3b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var Controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar formModel = Controller.getFormModel();\nformModel.setViewAttributeByProperty(\"flxCalenderrBg\", \"isVisible\", false);",
+            "callbackType": null
+        }]
+    }
+}

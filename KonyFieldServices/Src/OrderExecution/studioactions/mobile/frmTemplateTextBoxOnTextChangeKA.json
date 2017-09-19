@@ -1,0 +1,28 @@
+{
+    "AS_TextField_3ae40c2bb16c4dbe9407c9e0453edf51": {
+        "id": "AS_TextField_3ae40c2bb16c4dbe9407c9e0453edf51",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateTextBoxOnTextChangeKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4d435a2061af49c0b7d4895157ddb6bf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ques = parseInt((this.id).substring(3)).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"saveInputValue\",[ques,\"TextBox\"]);\nvar formModel=controller.getFormModel();\nif(this.text!=\"\")\n  formModel.setViewAttributeByProperty(\"dyn\"+ques+\"imgQuesType\",\"src\",\"answered.png\");\nelse\n  formModel.setViewAttributeByProperty(\"dyn\"+ques+\"imgQuesType\",\"src\",\"not_answered_questions.png\");\n  ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

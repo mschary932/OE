@@ -1,0 +1,22 @@
+{
+    "p2kwiet1234563580351_lblAddressKA_onTouchEnd_seq0": {
+        "id": "p2kwiet1234563580351_lblAddressKA_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onTouchEnd_1275012345635809514",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showFrmDirectionKA\");"
+        }]
+    }
+}

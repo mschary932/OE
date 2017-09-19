@@ -1,0 +1,23 @@
+{
+    "AS_Image_e6dce45c04704bf2be0afd58a8805d0d": {
+        "id": "AS_Image_e6dce45c04704bf2be0afd58a8805d0d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_6be46dd8d6db4b6e829838b4db0ce11a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onImgDown2Call\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0e596a3e83842d38cf8e5427063ff75",
+    "_text_": "22",
+    "_top_": {
+        "type": "string",
+        "value": "38%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "84%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "safd1b50270c441894c0529bd827a7ad",
+    "id": "btnDay4KA",
+    "ide_onClick": "AS_Button_fce1c45f76124fe2ad88c231f35830f9",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ba9e4f622d584828b8126e0ffe150b46",
+    "name": "kony.ui.Button",
+    "parent": "flxSubHeaderKA",
+    "pf": "frmMyOrderListTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

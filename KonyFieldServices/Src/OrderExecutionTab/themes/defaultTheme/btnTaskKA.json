@@ -1,0 +1,16 @@
+{
+  "background_image": "taskicon.png",
+  "bg_type": "image",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "ffffffff",
+  "font_name": "Helvetica",
+  "font_size": 148,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "isDefaultSkin": false,
+  "kuid": "s239e06eeee14b2c9170cbe02df65cf1",
+  "wType": "Button"
+}

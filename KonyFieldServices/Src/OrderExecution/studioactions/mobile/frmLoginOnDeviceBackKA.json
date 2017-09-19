@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580219_frmLoginKA_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet1234563580219_frmLoginKA_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginOnDeviceBackKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDeviceBack_2469112345635809154",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Device back\");"
+        }]
+    }
+}

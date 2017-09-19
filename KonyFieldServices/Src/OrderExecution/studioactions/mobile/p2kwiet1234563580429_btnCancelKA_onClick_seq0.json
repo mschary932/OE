@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580429_btnCancelKA_onClick_seq0": {
+        "id": "p2kwiet1234563580429_btnCancelKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_7571512345635809839",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showFilters\",[false]); "
+        }]
+    }
+}

@@ -1,0 +1,118 @@
+{
+  "android": {
+    "font_name": "ClanPro-Book"
+  },
+  "applicableblockedUIWidget": "Button",
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "Andale Mono"
+  },
+  "font_color": "ffffffff",
+  "font_size": 100,
+  "font_weight": "normal",
+  "ipad": {
+    "font_name": "AmericanTypewriter"
+  },
+  "iphone": {
+    "applicableblockedUIWidget": "Button",
+    "background_color": "ffffff00",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "000000ff",
+    "font_name": "ClanPro-Book",
+    "font_size": 100,
+    "font_weight": "normal",
+    "isForked": false,
+    "wType": "ListBox"
+  },
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kiosk": {
+    "font_name": "GenericMonospace"
+  },
+  "kuid": "se38ce27b06242a2946243b71356e89a",
+  "spaan": {
+    "applicableblockedUIWidget": "Button",
+    "background_color": "ffffff00",
+    "background_style": "vg",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_radius": 0,
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "000000ff",
+    "font_name": "Arial",
+    "font_size": 100,
+    "font_weight": "normal",
+    "isForked": false,
+    "wType": "ListBox"
+  },
+  "spaandroidtablet": {
+    "font_name": "Andale Mono"
+  },
+  "spabb": {
+    "applicableblockedUIWidget": "Button",
+    "background_color": "ffffff00",
+    "background_style": "vg",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_radius": 0,
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "000000ff",
+    "font_name": "Arial",
+    "font_size": 100,
+    "font_weight": "normal",
+    "isForked": false,
+    "wType": "ListBox"
+  },
+  "spaip": {
+    "applicableblockedUIWidget": "Button",
+    "background_color": "ffffff00",
+    "background_style": "vg",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_radius": 0,
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "000000ff",
+    "font_name": "Arial",
+    "font_size": 100,
+    "font_weight": "normal",
+    "isForked": false,
+    "wType": "ListBox"
+  },
+  "spaipad": {
+    "font_name": "Andale Mono"
+  },
+  "spawindowstablet": {
+    "font_name": "Andale Mono"
+  },
+  "spawinphone8": {
+    "font_name": "Andale Mono"
+  },
+  "tabrcandroid": {
+    "font_name": "ClanPro-Book"
+  },
+  "wType": "ListBox",
+  "watchos": {
+    "font_name": "Arial"
+  },
+  "windows8": {
+    "font_name": "GenericMonospace"
+  },
+  "winphone8": {
+    "font_name": "GenericMonospace"
+  }
+}

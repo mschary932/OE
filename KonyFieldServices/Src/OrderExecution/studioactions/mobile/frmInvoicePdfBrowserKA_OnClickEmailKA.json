@@ -1,0 +1,18 @@
+{
+    "AS_Button_7d018b42635448ba94babd9af8ea5c9e": {
+        "id": "AS_Button_7d018b42635448ba94babd9af8ea5c9e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePdfBrowserKA_OnClickEmailKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_460657772b504e30a0e8f8a13703f68a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmInvoicePdfBrowserKA.flxEmailKA.setVisibility(true);",
+            "callbackType": null
+        }]
+    }
+}

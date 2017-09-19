@@ -1,0 +1,28 @@
+{
+    "AS_TextField_a2421f1776a548d1b39f412dee4f377f": {
+        "id": "AS_TextField_a2421f1776a548d1b39f412dee4f377f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmBillOfMaterialTbxBOMonDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmBillOfMaterialKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "77f49434b014487cbfba5004678ec3ab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7008d7bb9fdc46548fa3be89e878a1c5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"searchObject\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

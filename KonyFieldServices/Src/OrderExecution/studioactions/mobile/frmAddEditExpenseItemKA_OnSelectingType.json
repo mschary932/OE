@@ -1,0 +1,18 @@
+{
+    "AS_ListBox_12f321e278fd4f26a304c9d2c4916e97": {
+        "id": "AS_ListBox_12f321e278fd4f26a304c9d2c4916e97",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddEditExpenseItemKA_OnSelectingType",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_9957c8faf88e47f481fc9b4674ff2726",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var selRecord=frmAddEditExpenseItemKA.listBoxExpenseTypeKA.selectedKeyValues[0];\nvar Name=selRecord[1];\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(\"frmAddEditExpenseItemKA\");\n controller.performAction(\"populateDescription\",[Name]);\n",
+            "callbackType": null
+        }]
+    }
+}

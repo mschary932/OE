@@ -1,0 +1,27 @@
+{
+    "AS_Button_7d25623f39724bd682d6934692fd31bc": {
+        "id": "AS_Button_7d25623f39724bd682d6934692fd31bc",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmReadingExecutionOnSwipeRemoveOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpMeasurementReadingsWithAddRemoveKA",
+            "type": "templates",
+            "KUID": "2cae84e9219344dd9ffa201022fa2fa4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3b3850f24e424d3899f2cf2ca50616a5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Work in progress\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

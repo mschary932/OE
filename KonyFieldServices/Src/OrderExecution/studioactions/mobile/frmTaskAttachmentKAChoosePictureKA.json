@@ -1,0 +1,25 @@
+{
+    "AS_Button_14421e094c05474ba5847d55942c39e4": {
+        "id": "AS_Button_14421e094c05474ba5847d55942c39e4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskAttachmentKAChoosePictureKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskAttachmentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "77e42e5f74644d53a6cff291085cac36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dca07b3f41f446ac9ab674ee55cda9ef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmTaskAttachmentKA\");\ncontroller.performAction(\"getImageFromGallery\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

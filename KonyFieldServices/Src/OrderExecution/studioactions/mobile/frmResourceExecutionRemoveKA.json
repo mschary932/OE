@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580488_btnDeleteKA_onClick_seq0": {
+        "id": "p2kwiet1234563580488_btnDeleteKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmResourceExecutionRemoveKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_6531812345635804593",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(\"frmResourceExecutionKA\");\n controller.performAction(\"updateQuantity\",[false]);\n }\n catch(err){\n }\n "
+        }]
+    }
+}

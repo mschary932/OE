@@ -1,0 +1,25 @@
+{
+    "AS_Button_63b7dc2ee90c4676b88e1f47ead0774a": {
+        "id": "AS_Button_63b7dc2ee90c4676b88e1f47ead0774a",
+        "type": "ACTION_SEQUENCE",
+        "name": "AS_Button_e1ca44d21f114bfa803a22e3387278b9",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3f4fa99f2c044061b17de4fbe600a796",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

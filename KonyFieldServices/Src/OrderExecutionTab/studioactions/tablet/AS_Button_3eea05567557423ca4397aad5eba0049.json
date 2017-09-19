@@ -1,0 +1,17 @@
+{
+    "AS_Button_3eea05567557423ca4397aad5eba0049": {
+        "id": "AS_Button_3eea05567557423ca4397aad5eba0049",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a2e12a9c8d7149a19136e2a49587bb8a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showBothSegment\"); ",
+            "callbackType": null
+        }]
+    }
+}

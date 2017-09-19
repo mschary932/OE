@@ -1,0 +1,17 @@
+{
+    "AS_Button_1d563361d6c745259c172e365d812ffa": {
+        "id": "AS_Button_1d563361d6c745259c172e365d812ffa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3db36c90ebe44632b66dcae0be40597c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onRemoveCall\");",
+            "callbackType": null
+        }]
+    }
+}

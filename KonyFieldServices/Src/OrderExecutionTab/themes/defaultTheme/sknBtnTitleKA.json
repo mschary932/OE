@@ -1,0 +1,17 @@
+{
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "ffffffff",
+  "font_name": "Helvetica",
+  "font_size": 148,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {},
+  "isDefaultSkin": false,
+  "kuid": "sdfc9a4b0a6f4cddaac94f25fa9f6f99",
+  "wType": "Button"
+}

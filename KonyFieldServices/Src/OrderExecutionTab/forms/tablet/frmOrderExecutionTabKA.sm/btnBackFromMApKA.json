@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdfc9a4b0a6f4cddaac94f25fa9f6f99",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdfc9a4b0a6f4cddaac94f25fa9f6f99",
+    "id": "btnBackFromMApKA",
+    "ide_onClick": "AS_Button_1fb0930f53dd460b8b1f571372215383",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d65fd7f3ff4247c49ec42a108381a805",
+    "name": "kony.ui.Button",
+    "parent": "flexMapBackHeaderKA",
+    "pf": "frmOrderExecutionTabKA",
+    "wType": "Button",
+    "zindex": 5
+}

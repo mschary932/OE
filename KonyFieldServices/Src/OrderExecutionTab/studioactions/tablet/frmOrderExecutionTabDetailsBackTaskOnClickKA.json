@@ -1,0 +1,25 @@
+{
+    "AS_Button_09c2a3e44b4a4c869295f3d8d849bcae": {
+        "id": "AS_Button_09c2a3e44b4a4c869295f3d8d849bcae",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabDetailsBackTaskOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__512c22c0a1c9429aaa7f4472f4588930",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"BackToOrderDetailsTwo\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

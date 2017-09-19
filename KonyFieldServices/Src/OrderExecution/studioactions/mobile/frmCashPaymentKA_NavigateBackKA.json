@@ -1,0 +1,25 @@
+{
+    "AS_Button_8fa5da3f634840309817b91f0a81abb1": {
+        "id": "AS_Button_8fa5da3f634840309817b91f0a81abb1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCashPaymentKA_NavigateBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCashPaymentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c016821cbb6f41b2bfe3d35263c2714e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c25cb1d23c764ea88fb5130b95711982",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"navigateBack\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

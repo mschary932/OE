@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580624_btnAcceptKA_onClick_seq0": {
+        "id": "p2kwiet1234563580624_btnAcceptKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTouchIDSetupBtnAcceptOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_7684612345635809791",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"isTouchIDEnabled\",true);\nkony.store.setItem(\"REMEMBERMEFLAG\", true);\nkony.servicesapp.savePassword();\nif (kony.application.getPreviousForm().id !== \"frmSettingsKA\") kony.servicesapp.showFormOrderList();\n    else frmSettingsKA.show();"
+        }]
+    }
+}

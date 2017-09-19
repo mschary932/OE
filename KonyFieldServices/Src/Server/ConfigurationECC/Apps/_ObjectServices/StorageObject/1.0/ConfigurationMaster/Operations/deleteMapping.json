@@ -1,0 +1,1 @@
+{"operationConfig":{"name":"deleteUser8164","type":"MappedToBackend","cachable":false,"smsEnabled":false,"security":"authorized_app_user","responseEncoding":"UTF-8","httpMethod":"GET","decodeResponseBody":false,"referencingEndpoint":"default","applyCommonMapping":true,"opcode":"delete","relationshipHierarchyMapping":{"selected":true,"name":"ConfigurationMaster","children":[]}}}

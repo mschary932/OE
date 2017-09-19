@@ -1,0 +1,24 @@
+{
+    "AS_Form_240d15af2adb4e148009ee610d6c21a8": {
+        "id": "AS_Form_240d15af2adb4e148009ee610d6c21a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8c422fa0af1f4a158adcfad369f728bf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOneResourcesDetails\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

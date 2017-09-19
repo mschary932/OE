@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_9b4f765d47114610b8eba3840dd6c36d": {
+        "id": "AS_FlexContainer_9b4f765d47114610b8eba3840dd6c36d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderMapCalloutNavigationKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c067253ba7714e488c6e18833212864e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderExecutionForm\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

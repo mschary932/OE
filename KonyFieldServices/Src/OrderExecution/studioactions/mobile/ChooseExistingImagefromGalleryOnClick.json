@@ -1,0 +1,24 @@
+{
+    "AS_Button_fd24b17723b74ba39f5c7760527968b1": {
+        "id": "AS_Button_fd24b17723b74ba39f5c7760527968b1",
+        "type": "ACTION_SEQUENCE",
+        "name": "ChooseExistingImagefromGalleryOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseAttachmentKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "871a4592795c44198ae2c0fddd478528"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fd9e2943e52246828fb2d35128c7704f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"getImageFromGallery\");",
+            "callbackType": null
+        }]
+    }
+}

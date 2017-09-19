@@ -1,0 +1,18 @@
+{
+    "AS_Button_9c2504e65c844916a00ebcf5aaa43355": {
+        "id": "AS_Button_9c2504e65c844916a00ebcf5aaa43355",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionBtnImageCancelOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_aebfebd5b85740188fe8da470b146a33",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelAddNotes\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Segment_fea813bd2ce84175a27868776adf1fd1": {
+        "id": "AS_Segment_fea813bd2ce84175a27868776adf1fd1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b553f85c0c8a4ef98b3237970e10a159"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_6224c394b74847609de3ca0e6ccb3b50",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDetailsOfNotes\");",
+            "callbackType": null
+        }]
+    }
+}

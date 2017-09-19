@@ -1,0 +1,18 @@
+{
+    "AS_Button_72a2656fe1ad4ef98f6562cc622b4765": {
+        "id": "AS_Button_72a2656fe1ad4ef98f6562cc622b4765",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetailsKA_onUndoButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6f48fd682062445eba4fc128f001b5fd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.timer.cancel(\"deleteTimeExpenseRecord\");\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\n//alert(\"err\" +JSON.stringify(formModel));\nformModel.setViewAttributeByProperty(\"flxDeleteKA\",\"isVisible\",false);\nformModel.performActionOnView(\"flexMainKA\",\"setEnabled\",[true]);\n",
+            "callbackType": null
+        }]
+    }
+}

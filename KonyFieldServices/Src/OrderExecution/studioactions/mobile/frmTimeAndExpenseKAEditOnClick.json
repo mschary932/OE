@@ -1,0 +1,28 @@
+{
+    "AS_Button_ffa414900ea14c369a7bbc28e95997ae": {
+        "id": "AS_Button_ffa414900ea14c369a7bbc28e95997ae",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTimeAndExpenseKAEditOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpTimeAndExpenseKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a08fd6bbf2cf48719dd4647c2ac3af1e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4ef7dc8545224392b6edb4d09b046c39",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"navigateToEditScreenKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

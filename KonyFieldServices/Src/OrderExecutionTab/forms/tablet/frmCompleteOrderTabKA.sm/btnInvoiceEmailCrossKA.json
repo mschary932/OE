@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5fc8ef507594b43a1553b478910254b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5fc8ef507594b43a1553b478910254b",
+    "id": "btnInvoiceEmailCrossKA",
+    "ide_onClick": "AS_Button_b9bec37e3b574548825b4860a9798ad3",
+    "info": null,
+    "isvisible": true,
+    "kuid": "13a73c35e2ca4377a55503e6628b3721",
+    "name": "kony.ui.Button",
+    "parent": "flexInvoiceEmailHeaderKA",
+    "pf": "frmCompleteOrderTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

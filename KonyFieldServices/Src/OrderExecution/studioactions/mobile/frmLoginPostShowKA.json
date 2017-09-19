@@ -1,0 +1,32 @@
+{
+    "p2kwiet1234563580219_frmLoginKA_postshow_seq0": {
+        "id": "p2kwiet1234563580219_frmLoginKA_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginPostShowKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_postshow_80031234563580564",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "animateLoginScreen();"
+        }, {
+            "id": "customcode_postshow_6510712345635805168",
+            "type": "INVOKE_FUNCTION",
+            "display": "--None--",
+            "inputparams": []
+        }, {
+            "id": "expression_postshow_4165812345635809285",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.servicesapp.BACKGROUNDSYNCINPROGRESS = false;"
+        }, {
+            "id": "ADD_SNIPPET__f101d7113c644bd9aa119bcb98a0fe89",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var platFormName = kony.sdk.mvvm.Utils.getPlatformName(); \nif (platFormName == kony.sdk.mvvm.Platforms[\"IPHONE\"] || platFormName == 'ipad') {\n\n\tfrmLoginKA.switchonoffKA.nativeThumbLook = true;\n\t\n }\nfrmLoginKA.tbxUserIDKA.setEnabled(false);\n   frmLoginKA.tbxPasswordKA.setEnabled(false);\n    frmLoginKA.tbxUserIDKA.setEnabled(true);\n    frmLoginKA.tbxPasswordKA.setEnabled(true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

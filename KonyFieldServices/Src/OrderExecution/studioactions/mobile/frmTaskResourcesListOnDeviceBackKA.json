@@ -1,0 +1,25 @@
+{
+    "AS_Form_0bfd0851a4e74cc28c78124cd16abc4b": {
+        "id": "AS_Form_0bfd0851a4e74cc28c78124cd16abc4b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskResourcesListOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskResourcesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580581"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9d400e680e574069abe219a0fa969118",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"deviceBackForAndroidTaskResourcesList\"); }catch(e){}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

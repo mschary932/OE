@@ -1,0 +1,28 @@
+{
+    "AS_TextField_e3c16c6ac12046fa8504af1572376df9": {
+        "id": "AS_TextField_e3c16c6ac12046fa8504af1572376df9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmResourceExecutionQuantityInputOnDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmResourceExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580488"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5f98aff7e84c4c4fbc31fbe0446fe847",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"updateQuantity\",[true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

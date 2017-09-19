@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_5f7bbbeda85548c482820f8dc9a777b9": {
+        "id": "AS_FlexContainer_5f7bbbeda85548c482820f8dc9a777b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c40e55f620b544b2bb34fa1599377070",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__ec8dd9440fe847e4a7f7cc76306f8722",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nkony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderResources\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

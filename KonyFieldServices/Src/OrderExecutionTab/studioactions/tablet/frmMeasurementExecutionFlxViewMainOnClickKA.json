@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_1fc82c30524c440dbe7bda7392acfab5": {
+        "id": "AS_FlexContainer_1fc82c30524c440dbe7bda7392acfab5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementExecutionFlxViewMainOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_88e837e175234ea9977a799d39a23832",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"doNothingOnDeviceBackKA\");\n",
+            "callbackType": null
+        }]
+    }
+}

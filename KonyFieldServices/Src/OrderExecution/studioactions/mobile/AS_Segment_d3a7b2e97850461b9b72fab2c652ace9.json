@@ -1,0 +1,30 @@
+{
+    "AS_Segment_d3a7b2e97850461b9b72fab2c652ace9": {
+        "id": "AS_Segment_d3a7b2e97850461b9b72fab2c652ace9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8d58a50575f141b1bb8d48209b2e5fd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cb3ed9541e104622984cf3b10b87decb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(( Object.keys(kony.servicesapp.swipedIndices).length>0) && !kony.servicesapp.isAnimationInProgress){\n  var animObj=kony.servicesapp.getEndStateTransAnimDefinition(\"-50%\",\"0%\",false);\n  frmTimeAndExpenseKA.SegTimeExpenseKA.animateRows({\n                rows: [{\n                    sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n                    rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n                }],\n                widgets: [\"flxChildKA\"],\n                animation: animObj\n            });\n}\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

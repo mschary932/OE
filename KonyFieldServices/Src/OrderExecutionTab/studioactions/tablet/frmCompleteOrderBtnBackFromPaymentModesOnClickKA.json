@@ -1,0 +1,25 @@
+{
+    "AS_Button_8ae3ab22bb08465bb6b951ad3e8c937c": {
+        "id": "AS_Button_8ae3ab22bb08465bb6b951ad3e8c937c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnBackFromPaymentModesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0f247bb4b3e54249b19e08eb67edc063",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showflexInvoiceReceiptKAKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

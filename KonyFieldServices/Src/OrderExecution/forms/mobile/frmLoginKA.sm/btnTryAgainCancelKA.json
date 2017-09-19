@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "16.40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5.75%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "saf429d89f6740a6a46a9dd306a3ef1a",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5.75%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": false,
+    "focusskin": "s8d3831a92b64a808ec55fcfc3305e76",
+    "id": "btnTryAgainCancelKA",
+    "ide_onClick": "AS_Button_0e615dd07318438a9cdb5d11163abf7b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "75bcf0df9ac449d9b70cbee87d1a32c7",
+    "name": "kony.ui.Button",
+    "parent": "flxTryAgainKA",
+    "pf": "frmLoginKA",
+    "wType": "Button",
+    "zindex": 1
+}

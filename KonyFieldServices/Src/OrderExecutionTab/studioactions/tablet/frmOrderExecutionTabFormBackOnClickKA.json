@@ -1,0 +1,25 @@
+{
+    "AS_Button_1dd9a456b92b4a6cabffff0800f42ea7": {
+        "id": "AS_Button_1dd9a456b92b4a6cabffff0800f42ea7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabFormBackOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9ebf2639554e48da8634e27a7ddb1e43",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMyOrdersForm\");\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

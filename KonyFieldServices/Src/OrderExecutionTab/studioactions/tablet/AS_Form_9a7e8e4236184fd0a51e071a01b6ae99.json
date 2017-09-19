@@ -1,0 +1,18 @@
+{
+    "AS_Form_9a7e8e4236184fd0a51e071a01b6ae99": {
+        "id": "AS_Form_9a7e8e4236184fd0a51e071a01b6ae99",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

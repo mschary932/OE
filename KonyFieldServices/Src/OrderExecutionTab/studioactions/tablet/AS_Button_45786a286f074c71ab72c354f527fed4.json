@@ -1,0 +1,17 @@
+{
+    "AS_Button_45786a286f074c71ab72c354f527fed4": {
+        "id": "AS_Button_45786a286f074c71ab72c354f527fed4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_62195a51dfc74334be33dac0edff692e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"BackToOrderDetails\");",
+            "callbackType": null
+        }]
+    }
+}

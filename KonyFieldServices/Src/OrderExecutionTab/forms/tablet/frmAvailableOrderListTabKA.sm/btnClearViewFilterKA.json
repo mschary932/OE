@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "42%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6b4650f01d24a989958e7406be02026",
+    "_text_": "Clear",
+    "_top_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "scd6676e01774956b20ca2297afd1864",
+    "id": "btnClearViewFilterKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "712e3b01fa7147e18c4f023441a4240c",
+    "name": "kony.ui.Button",
+    "parent": "flxSubHeaderKA",
+    "pf": "frmAvailableOrderListTabKA",
+    "texti18n": "i18n.common.Clear",
+    "wType": "Button",
+    "zindex": 1
+}

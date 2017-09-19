@@ -1,0 +1,31 @@
+{
+    "AS_Segment_ac7a51ff046a45cfa99245959dbee59f": {
+        "id": "AS_Segment_ac7a51ff046a45cfa99245959dbee59f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementExecutionsegonTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8975da663a241deb130dffd3a87291f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bc3e32eeeba242bf9b9ce98f1cccab31",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(( Object.keys(kony.servicesapp.swipedIndices).length>0) && !kony.servicesapp.isAnimationInProgress){\n  var animObj=kony.servicesapp.getEndStateTransAnimDefinition(\"-50%\",\"0%\",false);\n  frmMeasurementExecutionKA.segMeasurementKA.animateRows({\n                rows: [{\n                    sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n                    rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n                }],\n                widgets: [\"flxChildKA\"],\n                animation: animObj\n            });\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

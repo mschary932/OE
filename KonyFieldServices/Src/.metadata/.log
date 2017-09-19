@@ -1,0 +1,800 @@
+!SESSION 2015-05-15 13:49:15.718 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:40.694
+!MESSAGE Eclipse opened time: May 15, 2015 13:49 PM
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:40.797
+!MESSAGE Looking for tpw.properties in 'C:\Program Files\Kony\Kony_Studio'
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-15 13:49:40.841
+!MESSAGE blackberry_50 key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-15 13:49:40.842
+!MESSAGE blackberry_60 key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-15 13:49:40.842
+!MESSAGE blackberry_70 key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-15 13:49:40.843
+!MESSAGE windows_phone key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:41.711
+!MESSAGE PLUGIN DETAILS: com.kony.windows:6.0.3.GA_v201503261007:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/339/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:41.841
+!MESSAGE PLUGIN DETAILS: com.pat.j2me:6.0.3.GA_v201503251719:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/343/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:41.930
+!MESSAGE PLUGIN DETAILS: com.kony.bb10:6.0.3.GA_v201503251839:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/319/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:41.930
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:41.989
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:6.0.3.GA_v201503251729:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/341/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:41.993
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:6.0.3.GA_v201503251729:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/341/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.013
+!MESSAGE PLUGIN DETAILS: com.kony.windows8:6.0.3.GA_v201503251749:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/340/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.014
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile6x:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.102
+!MESSAGE PLUGIN DETAILS: com.pat.android:6.0.3.GA_v201503261654:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/342/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.399
+!MESSAGE PLUGIN DETAILS: com.pat.tc:6.0.3.GA_v201503251801:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/347/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.462
+!MESSAGE PLUGIN DETAILS: com.pat.tabrcandroid:6.0.3.GA_v201503261654:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/346/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.517
+!MESSAGE PLUGIN DETAILS: com.kony.nativecodegen:6.0.3.GA_v201503251255:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/329/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.646
+!MESSAGE PLUGIN DETAILS: com.kony.spa:6.0.3.GA_v201503251734:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/330/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.738
+!MESSAGE PLUGIN DETAILS: com.kony.desktopweb:6.0.3.GA_v201503261140:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/323/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.739
+!MESSAGE PLUGIN DETAILS: com.pat.andcodeinjection:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.740
+!MESSAGE PLUGIN DETAILS: com.pat.bbcodeinjection:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.741
+!MESSAGE PLUGIN DETAILS: com.pat.iospolicyinjection:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.760
+!MESSAGE PLUGIN DETAILS: com.kony.webcommons:6.0.3.GA_v201503251811:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/338/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.762
+!MESSAGE PLUGIN DETAILS: com.kony.ios:6.0.3.GA_v201503250510:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/326/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.777
+!MESSAGE USER LOCATION: file:/C:/Users/KH896/user/
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:42.778
+!MESSAGE IDE BUNDLE LOCATION: /C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/348/1/.cp/
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.194
+!MESSAGE 'com.kony.cloudtc' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.248
+!MESSAGE 'com.pat.winmobile' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.260
+!MESSAGE 'com.pat.winmobile6x' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.261
+!MESSAGE 'com.pat.brew' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.262
+!MESSAGE 'com.pat.palm' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.274
+!MESSAGE 'com.pat.playbook' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.275
+!MESSAGE 'com.pat.qt' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.276
+!MESSAGE 'com.pat.andcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.277
+!MESSAGE 'com.pat.bbcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.285
+!MESSAGE 'com.pat.iospolicyinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.293
+!MESSAGE 'tk.eclipse.plugin.htmleditor' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.294
+!MESSAGE 'com.kony.video' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:43.303
+!MESSAGE Plugin Details are stored successfully at D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\konyplugins.xml.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:50.201
+!MESSAGE Executing build file: /C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/348/1/.cp//masterbuild.xml
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-15 13:49:52.299
+!MESSAGE      [echo] Copying middleware.properties file...
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-15 13:49:52.328
+!MESSAGE      [echo] Copying thinclient jar files to jetty lib
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-15 13:49:52.505
+!MESSAGE      [echo] Copying thinclient jar files to jetty lib
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:49:58.171
+!MESSAGE Android Home is found at: 'D:\android-sdk\'
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:50:03.753
+!MESSAGE Executing build file: /C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/348/1/.cp//preview/previewbuild.xml
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:50:14.649
+!MESSAGE [JETTY Server] /preview context created for location D:/FSServices/servicesapp-gayatree/KonyFieldServices/Src/webapps/preview
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:50:14.665
+!MESSAGE [JETTY Server] /fpreview context created for location D:/FSServices/servicesapp-gayatree/KonyFieldServices/Src/webapps/fpreview
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:50:16.304
+!MESSAGE [JETTY Server] HTTP  - started and listening on [8888]
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:50:16.321
+!MESSAGE [JETTY Server] HTTPS - started and listening on [8443]
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:20.628
+!MESSAGE Refreshing Skin View for 'KonyFS'
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:22.244
+!MESSAGE Completed Skin View Refresh for 'KonyFS'
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:54.594
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\fmTaskExecutionKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:54.807
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmCompleteOrderKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:54.974
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmCompleteOrderLayerKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:55.148
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmContactDetails.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:55.276
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmHamburgerMenuNotifKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:55.426
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmHamburgerMenuWOKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:55.652
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmLoginVA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:55.861
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmNotificationExecutionKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:56.188
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmOrderDetailsNew.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:56.430
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmOrderExecution.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:56.708
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmOrderListKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:57.269
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmOrderResourceDetailsKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:57.399
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmOrderResourcesListKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:57.606
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmResourceExecutionKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:57.798
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmResourcesExecution.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:57.928
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmTaskDetailsKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:58.095
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmTaskResourcesKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:58.193
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\forms\mobile\frmTaskTypesKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:58.417
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\contactDetailsTemplate.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:58.539
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\orderDetailsTemplate.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:58.647
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\orderExecutionHeader.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.343
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\orderExecutionTemplate.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.396
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\resorceExecTemplate.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.464
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpFilterBodyKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.522
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpFiltersKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.592
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpMyOrderHeader.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.647
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpOrderAttachmentsKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.727
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpOrderListKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.806
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpResorcesHeaderKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.860
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpResourcesSegKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.912
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpSecHeaderKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:51:59.998
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpTaskKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:00.091
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpTaskResoucesKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:00.332
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpTaskResourceKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:00.388
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpTaskResourcesHeader.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:00.452
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpTaskResourcesHeaderKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:00.496
+!MESSAGE Converted D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\templates\segments\mobile\tmpViewBodyKA.kl to Visualizer Project project
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.011
+!MESSAGE [Converted Skin]:CopyslLabel074c90c635dc24d : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel074c90c635dc24d.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.021
+!MESSAGE [Converted Skin]:slForm : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slForm.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.144
+!MESSAGE [Converted Skin]:slButtonGlossRed : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slButtonGlossRed.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.174
+!MESSAGE [Converted Skin]:sknLbl456484ClanProBook30KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl456484ClanProBook30KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.193
+!MESSAGE [Converted Skin]:sknBtnFF5D6EClanProNews24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtnFF5D6EClanProNews24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.209
+!MESSAGE [Converted Skin]:sknBtnFFFFFF : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtnFFFFFF.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.227
+!MESSAGE [Converted Skin]:sknLbl5E5050ClanProNews26KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl5E5050ClanProNews26KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.272
+!MESSAGE [Converted Skin]:sknlbl738BA3ClanProNews24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknlbl738BA3ClanProNews24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.288
+!MESSAGE [Converted Skin]:CopyslButtonGlossBlue0f5b1c95146304e : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslButtonGlossBlue0f5b1c95146304e.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.312
+!MESSAGE [Converted Skin]:CopyslLabel05435ce0c3d1546 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel05435ce0c3d1546.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.337
+!MESSAGE [Converted Skin]:CopyslLabel0d1c9364336ef41 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0d1c9364336ef41.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.360
+!MESSAGE [Converted Skin]:sknFrmFFFFFFBackgroundKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFrmFFFFFFBackgroundKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.426
+!MESSAGE [Converted Skin]:CopyslLabel031122cb640804a : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel031122cb640804a.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.444
+!MESSAGE [Converted Skin]:sknLbl456484ClanProNews20KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl456484ClanProNews20KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.461
+!MESSAGE [Converted Skin]:sknLbl456484ClanProNews21KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl456484ClanProNews21KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.477
+!MESSAGE [Converted Skin]:CopyslLabel029899f58f1e94c : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel029899f58f1e94c.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.537
+!MESSAGE [Converted Skin]:sknLbl1C3F64ClanProBook24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl1C3F64ClanProBook24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.558
+!MESSAGE [Converted Skin]:CopyslLabel0d1e1ddec3d3f4d : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0d1e1ddec3d3f4d.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.600
+!MESSAGE [Converted Skin]:CopyslLabel09db92fe2e1cd49 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel09db92fe2e1cd49.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.646
+!MESSAGE [Converted Skin]:sknBtnFF5D6EClanProNews28KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtnFF5D6EClanProNews28KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.705
+!MESSAGE [Converted Skin]:CopyslFbox0a175afa3f2d840 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslFbox0a175afa3f2d840.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.744
+!MESSAGE [Converted Skin]:sknLineA0B2C3KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLineA0B2C3KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.757
+!MESSAGE [Converted Skin]:sknFlexE4E8ECBackgroundKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexE4E8ECBackgroundKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.791
+!MESSAGE [Converted Skin]:sknBtnE4E8ECBorder738BA3Font456484KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtnE4E8ECBorder738BA3Font456484KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.846
+!MESSAGE [Converted Skin]:CopyslForm092765fbdf31640 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslForm092765fbdf31640.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.871
+!MESSAGE [Converted Skin]:CopyslLabel0b6204f270f0642 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0b6204f270f0642.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:02.887
+!MESSAGE [Converted Skin]:sknFlexFDFDFDKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexFDFDFDKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.166
+!MESSAGE [Converted Skin]:CopyslLabel001857b95008942 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel001857b95008942.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.202
+!MESSAGE [Converted Skin]:sknBtn5E5050ClanProNews30KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtn5E5050ClanProNews30KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.226
+!MESSAGE [Converted Skin]:sknBtnFFFFFFClanProNews24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtnFFFFFFClanProNews24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.235
+!MESSAGE [Converted Skin]:CopyslLabel0133f642c6f4747 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0133f642c6f4747.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.247
+!MESSAGE [Converted Skin]:sliPhoneSegmentHeader : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sliPhoneSegmentHeader.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.260
+!MESSAGE [Converted Skin]:CopyslLabel0fd61267ccc6e4d : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0fd61267ccc6e4d.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.270
+!MESSAGE [Converted Skin]:sknLbl5E5050ClanProBook24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl5E5050ClanProBook24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.280
+!MESSAGE [Converted Skin]:slTitleBar : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slTitleBar.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.291
+!MESSAGE [Converted Skin]:sknLbl5E5050ClanProNews24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl5E5050ClanProNews24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.301
+!MESSAGE [Converted Skin]:sknFlex18A4A3KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlex18A4A3KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.316
+!MESSAGE [Converted Skin]:CopyslLabel0a2455b30225546 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0a2455b30225546.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.336
+!MESSAGE [Converted Skin]:sknLblFFFFFFClanProBook30KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLblFFFFFFClanProBook30KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.349
+!MESSAGE [Converted Skin]:CopyslLabel0341dc47b281941 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0341dc47b281941.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.363
+!MESSAGE [Converted Skin]:CopyslLabel0f62c64c0df7945 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0f62c64c0df7945.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.374
+!MESSAGE [Converted Skin]:slImage : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slImage.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.386
+!MESSAGE [Converted Skin]:slPopup : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slPopup.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.438
+!MESSAGE [Converted Skin]:sknFlexF1F5F5BackgroundKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexF1F5F5BackgroundKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.452
+!MESSAGE [Converted Skin]:CopyslLabel036ce7c24c64a45 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel036ce7c24c64a45.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.467
+!MESSAGE [Converted Skin]:CopyslLabel006098529c55f41 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel006098529c55f41.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.485
+!MESSAGE [Converted Skin]:sknLbl456484ClanProBook35KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl456484ClanProBook35KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.494
+!MESSAGE [Converted Skin]:sknFlex37D5AFBackgroundKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlex37D5AFBackgroundKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.513
+!MESSAGE [Converted Skin]:sknSegFocousFDFDFDKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknSegFocousFDFDFDKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.529
+!MESSAGE [Converted Skin]:sknBtnFF5D6EClanProNews28BackgroundFFFFFFKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtnFF5D6EClanProNews28BackgroundFFFFFFKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.596
+!MESSAGE [Converted Skin]:CopyslLabel02a0ecd91096e44 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel02a0ecd91096e44.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.623
+!MESSAGE [Converted Skin]:slFSbox : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slFSbox.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.644
+!MESSAGE [Converted Skin]:sknLbl456484ClanProNews30KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl456484ClanProNews30KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.685
+!MESSAGE [Converted Skin]:CopyslLabel0793f8e1d51a448 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0793f8e1d51a448.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.749
+!MESSAGE [Converted Skin]:sknFlexScrollF1F0F0Shadow7D7469KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexScrollF1F0F0Shadow7D7469KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.768
+!MESSAGE [Converted Skin]:seg2Normal : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\seg2Normal.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.792
+!MESSAGE [Converted Skin]:sknLbl5E5050ClanProNews30KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl5E5050ClanProNews30KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.811
+!MESSAGE [Converted Skin]:CopyslLabel018d8c59a94fd46 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel018d8c59a94fd46.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.860
+!MESSAGE [Converted Skin]:CopyslButtonGlossBlue0c62635f0e3c24d : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslButtonGlossBlue0c62635f0e3c24d.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.870
+!MESSAGE [Converted Skin]:CopyslLabel02cca9094c5fb44 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel02cca9094c5fb44.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.885
+!MESSAGE [Converted Skin]:sknFlexFDFDFDBorderE4E8ECKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexFDFDFDBorderE4E8ECKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.896
+!MESSAGE [Converted Skin]:CopyslLabel01b13d34af9c443 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel01b13d34af9c443.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.915
+!MESSAGE [Converted Skin]:CopyslLabel021f44b4be6a148 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel021f44b4be6a148.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.932
+!MESSAGE [Converted Skin]:sknLbl1C3F64ClanProNews25KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl1C3F64ClanProNews25KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.952
+!MESSAGE [Converted Skin]:slButtonGlossBlue : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slButtonGlossBlue.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.960
+!MESSAGE [Converted Skin]:sknLbl456484ClanProNews28KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl456484ClanProNews28KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.970
+!MESSAGE [Converted Skin]:sknLblFFFFFFClanProBook28KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLblFFFFFFClanProBook28KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:03.980
+!MESSAGE [Converted Skin]:btnSkin : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\btnSkin.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.509
+!MESSAGE [Converted Skin]:CopyslLabel08237609e65fe4f : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel08237609e65fe4f.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.806
+!MESSAGE [Converted Skin]:CopyslLabel05cc9536273b046 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel05cc9536273b046.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.831
+!MESSAGE [Converted Skin]:sknFlexF1F0F0BorderDCDCDCKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexF1F0F0BorderDCDCDCKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.853
+!MESSAGE [Converted Skin]:sknFlexDCDCDCBorder5E5050KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexDCDCDCBorder5E5050KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.866
+!MESSAGE [Converted Skin]:seg2Focus : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\seg2Focus.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.875
+!MESSAGE [Converted Skin]:CopyslLabel05c7939c83bab41 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel05c7939c83bab41.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.888
+!MESSAGE [Converted Skin]:sknBtn456484ClanProsNews26KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtn456484ClanProsNews26KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.904
+!MESSAGE [Converted Skin]:sknLbl456484ClanProNews24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl456484ClanProNews24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.919
+!MESSAGE [Converted Skin]:sknBtn1C3F64ClanProNews24KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtn1C3F64ClanProNews24KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.929
+!MESSAGE [Converted Skin]:sknFlexFCFAF9BorderDCDCDCKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexFCFAF9BorderDCDCDCKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.943
+!MESSAGE [Converted Skin]:CopyslLabel0ea103d661c9046 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0ea103d661c9046.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.956
+!MESSAGE [Converted Skin]:slFbox : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slFbox.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.970
+!MESSAGE [Converted Skin]:sknBtnFFFFFFClanProNews28BackgroundFF5D6EKA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknBtnFFFFFFClanProNews28BackgroundFF5D6EKA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.985
+!MESSAGE [Converted Skin]:sknFlexFCFAF9KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknFlexFCFAF9KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:04.998
+!MESSAGE [Converted Skin]:slLabel : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\slLabel.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.010
+!MESSAGE [Converted Skin]:CopyslLabel05ac91c756f424a : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel05ac91c756f424a.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.026
+!MESSAGE [Converted Skin]:CopyslLabel0fe80ceb09f524c : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0fe80ceb09f524c.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.041
+!MESSAGE [Converted Skin]:sknLbl5E5050ClanProBook28KA : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\sknLbl5E5050ClanProBook28KA.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.064
+!MESSAGE [Converted Skin]:CopyslButtonGlossBlue0067b56e90f3a49 : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslButtonGlossBlue0067b56e90f3a49.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.074
+!MESSAGE [Converted Skin]:CopyslLabel0f4d88d8224eb4e : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslLabel0f4d88d8224eb4e.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.088
+!MESSAGE [Converted Skin]:CopyslFbox0a837ba96cdab4d : C:\Users\KH896\Desktop\1431678112724\KonyFS\themes\default\CopyslFbox0a837ba96cdab4d.json
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.101
+!MESSAGE Converted theme default
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.110
+!MESSAGE Skin Conversion completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:05.933
+!MESSAGE Application Properties are exported successfully.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:06.466
+!MESSAGE IPhone i18n Resources are created successfully.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:20.630
+!MESSAGE Logs written to file D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\KonyFS\.vizimportexport.log
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-15 13:52:24.169
+!MESSAGE Kony Project KonyFS is exported successfully to Visualizer Project
+!SESSION 2015-05-18 12:20:40.239 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:57.491
+!MESSAGE Eclipse opened time: May 18, 2015 12:20 PM
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:58.121
+!MESSAGE Looking for tpw.properties in 'C:\Program Files\Kony\Kony_Studio'
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:20:58.201
+!MESSAGE blackberry_50 key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:20:58.202
+!MESSAGE blackberry_60 key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:20:58.202
+!MESSAGE blackberry_70 key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:20:58.203
+!MESSAGE windows_phone key does not exist in the tpw.properties file.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.097
+!MESSAGE PLUGIN DETAILS: com.kony.windows:6.0.3.GA_v201503261007:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/339/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.329
+!MESSAGE PLUGIN DETAILS: com.pat.j2me:6.0.3.GA_v201503251719:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/343/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.469
+!MESSAGE PLUGIN DETAILS: com.kony.bb10:6.0.3.GA_v201503251839:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/319/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.470
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.549
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:6.0.3.GA_v201503251729:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/341/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.553
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:6.0.3.GA_v201503251729:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/341/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.617
+!MESSAGE PLUGIN DETAILS: com.kony.windows8:6.0.3.GA_v201503251749:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/340/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.618
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile6x:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:20:59.695
+!MESSAGE PLUGIN DETAILS: com.pat.android:6.0.3.GA_v201503261654:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/342/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.249
+!MESSAGE PLUGIN DETAILS: com.pat.tc:6.0.3.GA_v201503251801:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/347/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.315
+!MESSAGE PLUGIN DETAILS: com.pat.tabrcandroid:6.0.3.GA_v201503261654:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/346/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.393
+!MESSAGE PLUGIN DETAILS: com.kony.nativecodegen:6.0.3.GA_v201503251255:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/329/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.530
+!MESSAGE PLUGIN DETAILS: com.kony.spa:6.0.3.GA_v201503251734:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/330/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.754
+!MESSAGE PLUGIN DETAILS: com.kony.desktopweb:6.0.3.GA_v201503261140:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/323/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.756
+!MESSAGE PLUGIN DETAILS: com.pat.andcodeinjection:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.757
+!MESSAGE PLUGIN DETAILS: com.pat.bbcodeinjection:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.758
+!MESSAGE PLUGIN DETAILS: com.pat.iospolicyinjection:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.843
+!MESSAGE PLUGIN DETAILS: com.kony.webcommons:6.0.3.GA_v201503251811:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/338/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.847
+!MESSAGE PLUGIN DETAILS: com.kony.ios:6.0.3.GA_v201503250510:/C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/326/1/.cp/:true
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.857
+!MESSAGE USER LOCATION: file:/C:/Users/KH896/user/
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:00.858
+!MESSAGE IDE BUNDLE LOCATION: /C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/348/1/.cp/
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.122
+!MESSAGE 'com.kony.cloudtc' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.196
+!MESSAGE 'com.pat.winmobile' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.208
+!MESSAGE 'com.pat.winmobile6x' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.210
+!MESSAGE 'com.pat.brew' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.211
+!MESSAGE 'com.pat.palm' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.247
+!MESSAGE 'com.pat.playbook' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.248
+!MESSAGE 'com.pat.qt' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.249
+!MESSAGE 'com.pat.andcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.250
+!MESSAGE 'com.pat.bbcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.258
+!MESSAGE 'com.pat.iospolicyinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.265
+!MESSAGE 'tk.eclipse.plugin.htmleditor' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.266
+!MESSAGE 'com.kony.video' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:01.313
+!MESSAGE Plugin Details are stored successfully at D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\konyplugins.xml.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:15.484
+!MESSAGE Loading library model D:\FSServices\servicesapp-gayatree\KonyFieldServices\Src\.metadata\.plugins\com.pat.tool.keditor\js\kony\kony-1.js
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:28.072
+!MESSAGE Android Home is found at: 'D:\android-sdk\'
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:29.534
+!MESSAGE Time taken to index widgets of 'KonyFS' = 15340 ms
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:41.391
+!MESSAGE Executing build file: /C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/348/1/.cp//jettydeploy/build.xml
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:21:42.262
+!MESSAGE      [echo] thinclient plugin is changed..
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:21:42.326
+!MESSAGE      [echo] spa plugin is changed..
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:21:42.331
+!MESSAGE      [echo] desktopweb plugin is changed..
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:21:42.401
+!MESSAGE      [echo] webcommons plugin is changed..
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:42.915
+!MESSAGE Executing build file: /C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/348/1/.cp//masterbuild.xml
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:21:44.252
+!MESSAGE      [echo] Copying thinclient jar files to jetty lib
+
+!ENTRY com.pat.tool.keditor 2 0 2015-05-18 12:21:44.533
+!MESSAGE      [echo] Copying thinclient jar files to jetty lib
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:45.260
+!MESSAGE Executing build file: /C:/Program Files/Kony/Kony_Studio/configuration/org.eclipse.osgi/bundles/348/1/.cp//preview/previewbuild.xml
+
+!ENTRY com.pat.tool.keditor 4 0 2015-05-18 12:21:46.165
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at tk.eclipse.plugin.jseditor.editors.JavaScriptValidator.doValidate(JavaScriptValidator.java:128)
+	at tk.eclipse.plugin.jseditor.editors.JavaScriptChangeListener.compileFile(JavaScriptChangeListener.java:344)
+	at tk.eclipse.plugin.jseditor.editors.JavaScriptChangeListener.access$200(JavaScriptChangeListener.java:42)
+	at tk.eclipse.plugin.jseditor.editors.JavaScriptChangeListener$1.run(JavaScriptChangeListener.java:252)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-05-18 12:21:46.167
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+
+!ENTRY com.pat.tool.keditor 4 0 2015-05-18 12:21:46.174
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at tk.eclipse.plugin.jseditor.editors.model.JavaScriptModelManager.getCachedModel(JavaScriptModelManager.java:555)
+	at tk.eclipse.plugin.jseditor.editors.JavaScriptChangeListener.compileFile(JavaScriptChangeListener.java:348)
+	at tk.eclipse.plugin.jseditor.editors.JavaScriptChangeListener.access$200(JavaScriptChangeListener.java:42)
+	at tk.eclipse.plugin.jseditor.editors.JavaScriptChangeListener$1.run(JavaScriptChangeListener.java:252)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-05-18 12:21:46.174
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:46.178
+!MESSAGE JavaScript modules indexing started for project KonyFS
+
+!ENTRY com.pat.tool.keditor 4 0 2015-05-18 12:21:46.469
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/kony_sdk.js'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/KonyFS/modules/js/kony_sdk.js'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at tk.eclipse.plugin.jseditor.editors.model.JavaScriptModelManager$1.run(JavaScriptModelManager.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-05-18 12:21:46.469
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/kony_sdk.js'.
+
+!ENTRY com.pat.tool.keditor 4 0 2015-05-18 12:21:46.623
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at tk.eclipse.plugin.jseditor.editors.model.JavaScriptModelManager$1.run(JavaScriptModelManager.java:126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2015-05-18 12:21:46.623
+!MESSAGE Resource is out of sync with the file system: '/KonyFS/modules/js/mbaasconfig.js'.
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:46.659
+!MESSAGE JavaScript modules indexing completed for project P/KonyFS
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:57.392
+!MESSAGE Refreshing Skin View for 'KonyFS'
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:21:58.926
+!MESSAGE Completed Skin View Refresh for 'KonyFS'
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:22:12.297
+!MESSAGE [JETTY Server] /preview context created for location D:/FSServices/servicesapp-gayatree/KonyFieldServices/Src/webapps/preview
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:22:12.315
+!MESSAGE [JETTY Server] /fpreview context created for location D:/FSServices/servicesapp-gayatree/KonyFieldServices/Src/webapps/fpreview
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:22:15.658
+!MESSAGE [JETTY Server] HTTP  - started and listening on [8888]
+
+!ENTRY com.pat.tool.keditor 1 0 2015-05-18 12:22:15.679
+!MESSAGE [JETTY Server] HTTPS - started and listening on [8443]

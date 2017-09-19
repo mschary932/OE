@@ -1,0 +1,24 @@
+{
+    "AS_Image_84d830a0cd724823a77f3d09def18794": {
+        "id": "AS_Image_84d830a0cd724823a77f3d09def18794",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderImgPinOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_e676be4bfc2944d7b5da1a2432de0d84",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderBallonOnPinTap\");\n",
+            "callbackType": null
+        }]
+    }
+}

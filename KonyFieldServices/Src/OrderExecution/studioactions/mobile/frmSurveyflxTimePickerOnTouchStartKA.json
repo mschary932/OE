@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_07329f0a738541d38d9cecaa1a395258": {
+        "id": "AS_FlexContainer_07329f0a738541d38d9cecaa1a395258",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyflxTimePickerOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__6db13ae19a30464cadb2e05b59234bc3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.log.info(\"In Pop Up Container\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

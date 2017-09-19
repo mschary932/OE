@@ -1,0 +1,18 @@
+{
+    "AS_Switch_1c5527fa0fdf4ef4852249d8e4b9ba84": {
+        "id": "AS_Switch_1c5527fa0fdf4ef4852249d8e4b9ba84",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

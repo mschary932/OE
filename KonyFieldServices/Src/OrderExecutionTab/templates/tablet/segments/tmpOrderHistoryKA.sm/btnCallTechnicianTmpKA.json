@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "26%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_skin_": "s8a0a27dd660457bb6add734fb6e9aae",
+    "_text_": "Call Technician",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0ddbca305544f9b8a29b63cd516a5e8",
+    "id": "btnCallTechnicianTmpKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "11c93534de0a4bb2a911f76e2d651649",
+    "name": "kony.ui.Button",
+    "parent": "flexOrderHistoryMainKA",
+    "pf": "tmpOrderHistoryKA",
+    "wType": "Button",
+    "zindex": 5
+}

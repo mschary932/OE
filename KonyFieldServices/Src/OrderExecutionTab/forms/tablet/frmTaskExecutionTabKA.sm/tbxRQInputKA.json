@@ -1,0 +1,74 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "28.00%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        0,
+        6,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "sc059874f82d463997e64393923946da",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "68.00%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 1
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sc059874f82d463997e64393923946da",
+    "id": "tbxRQInputKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "closeButtonText": "",
+            "showClearButton": false
+        }
+    },
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "3acb681f62074e07a104774af4c15a2b",
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flexResourceInputPopupKA",
+    "pf": "frmTaskExecutionTabKA",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "textinputmode": "N",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15.02%"
+    },
+    "_skin_": "s76e984ab0bc4c65ae5b0834f06b4802",
+    "_text_": "Task",
+    "_top_": {
+        "type": "string",
+        "value": "63.09%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblTaskKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "cb188130490644f3a98cd22a81fd6c01",
+    "name": "kony.ui.Label",
+    "parent": "flexAddTaskMeasurmentKA",
+    "pf": "frmOrderExecutionTabKA",
+    "texti18n": "i18n.common.TaskTextKA",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Button_77471c60600c4b04bafce44b5f360887": {
+        "id": "AS_Button_77471c60600c4b04bafce44b5f360887",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabTimeOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_85692343f8b54bf28dfb561ae8b52580",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeSegment\"); ",
+            "callbackType": null
+        }]
+    }
+}

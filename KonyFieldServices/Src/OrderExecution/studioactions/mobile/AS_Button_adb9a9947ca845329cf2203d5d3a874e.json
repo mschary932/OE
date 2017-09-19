@@ -1,0 +1,22 @@
+{
+    "AS_Button_adb9a9947ca845329cf2203d5d3a874e": {
+        "id": "AS_Button_adb9a9947ca845329cf2203d5d3a874e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHamburgerMenuWOKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580197"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_67a42a77f6cd46e6a18f549656f788d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showFilters\",[false]); "
+        }]
+    }
+}

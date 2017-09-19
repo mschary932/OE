@@ -1,0 +1,1 @@
+{"description":"MyWorkECC","identity":["OEIdentityService"],"objectServices":["OrderExecution","AvailableOrders","GPSTracking","ObjectBOM"]}

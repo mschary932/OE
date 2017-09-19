@@ -1,0 +1,31 @@
+{
+    "AS_Label_6a7857a61367477cb9e7cf5e94bc9eba": {
+        "id": "AS_Label_6a7857a61367477cb9e7cf5e94bc9eba",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecShowDateSpinnerOneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0763fda6135044189a7256bc30d74752",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDateSpinnerOne\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

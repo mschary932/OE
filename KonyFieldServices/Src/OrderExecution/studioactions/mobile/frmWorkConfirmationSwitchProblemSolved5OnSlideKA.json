@@ -1,0 +1,18 @@
+{
+    "AS_Switch_b124ee7a23db4cc29ad44a308f41885d": {
+        "id": "AS_Switch_b124ee7a23db4cc29ad44a308f41885d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmWorkConfirmationSwitchProblemSolved5OnSlideKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSlide_808e8d83806449cfb91d6337a06eb75b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmWorkConfirmationKA\");\ncontroller.performAction(\"switchSlideCallback\",[\"5\"]);",
+            "callbackType": null
+        }]
+    }
+}

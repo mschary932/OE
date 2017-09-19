@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_fb8ffa4bd4334e21bb1a84c5f1971c50": {
+        "id": "AS_FlexContainer_fb8ffa4bd4334e21bb1a84c5f1971c50",
+        "type": "ACTION_SEQUENCE",
+        "name": "CashPaymentConfirmation",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e7f229f87e2648dbbb2ba227ec7dce03",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var formmodel = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\").getFormModel();\nformmodel.setViewAttributeByProperty(\"flxPaymentConfirmation\",\"isVisible\",false);",
+            "callbackType": null
+        }]
+    }
+}

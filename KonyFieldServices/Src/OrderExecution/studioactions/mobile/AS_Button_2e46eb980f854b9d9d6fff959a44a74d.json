@@ -1,0 +1,23 @@
+{
+    "AS_Button_2e46eb980f854b9d9d6fff959a44a74d": {
+        "id": "AS_Button_2e46eb980f854b9d9d6fff959a44a74d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__c293624081294b44b0c7b9eca2e7dc0b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\ncontroller.performAction(\"showCompleteOrderSummaryform\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

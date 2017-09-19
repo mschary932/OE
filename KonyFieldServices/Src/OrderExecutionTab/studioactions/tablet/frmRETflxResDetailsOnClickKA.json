@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_a7e0bdcb2df248e3a23b009d7a08dc15": {
+        "id": "AS_FlexContainer_a7e0bdcb2df248e3a23b009d7a08dc15",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmRETflxResDetailsOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResourceExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0c904960ef094a1c94459aa31be27c31"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fb773f86770a41d7949810971aaae949",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"selectResourceDetailsTab\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

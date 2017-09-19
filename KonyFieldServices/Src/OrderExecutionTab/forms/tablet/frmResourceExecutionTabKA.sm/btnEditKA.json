@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1219f4a6e6746efb377ff7d2afc75be",
+    "_text_": "Edit",
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s65d284cf14a4d2f89f950d2f59a4e22",
+    "id": "btnEditKA",
+    "ide_onClick": "AS_Button_04d5c3f4017f4bad91d2274a288f7b7d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "47c0d56bf2d1495fbc64633d92c1632b",
+    "name": "kony.ui.Button",
+    "parent": "flexBottomContainerDetailsKA",
+    "pf": "frmResourceExecutionTabKA",
+    "texti18n": "i18n.common.deitValueKA",
+    "wType": "Button",
+    "zindex": 1
+}

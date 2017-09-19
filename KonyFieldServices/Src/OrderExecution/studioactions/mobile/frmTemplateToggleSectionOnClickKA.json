@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_c72c45210ba246de99f31f78201cb90e": {
+        "id": "AS_FlexContainer_c72c45210ba246de99f31f78201cb90e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateToggleSectionOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__66f85ab1eadc46b5aed0f337168937d2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var SectionId = parseInt(((this.id).substring(3))).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"makeSectionVisible\",[SectionId]);\ncontroller.performAction(\"changeToAttemptedState\",[SectionId])\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

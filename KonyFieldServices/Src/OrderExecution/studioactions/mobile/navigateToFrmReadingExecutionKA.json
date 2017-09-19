@@ -1,0 +1,31 @@
+{
+    "AS_Segment_6377413835334bad86652a07f1d32ebe": {
+        "id": "AS_Segment_6377413835334bad86652a07f1d32ebe",
+        "type": "ACTION_SEQUENCE",
+        "name": "navigateToFrmReadingExecutionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementReadings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "160147dcef504f079e150aa881f874f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__db9642a090ea49a795c5ef0b624a7920",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"segmentOnRowClick\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

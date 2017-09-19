@@ -1,0 +1,1 @@
+[{"sourceObject":"WorkCenter","targetObject":"SystemUser","relationshipKeys":[{"sourceField":"id","targetField":"WorkCenter_id"}],"name":"WorkCenter_SystemUser","type":"OneToMany","custom":false,"cascadeDelete":false}]

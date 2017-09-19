@@ -1,0 +1,31 @@
+{
+    "AS_Segment_6b74a27a47ae4848981b2fdcf4993d2f": {
+        "id": "AS_Segment_6b74a27a47ae4848981b2fdcf4993d2f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingsOnSwipeOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementReadings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "160147dcef504f079e150aa881f874f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5d960c5637124417992c4699fd40fb02",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"segmentOnTouchStart\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

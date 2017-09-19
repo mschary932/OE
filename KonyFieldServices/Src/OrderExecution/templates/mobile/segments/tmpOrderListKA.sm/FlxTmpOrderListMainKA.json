@@ -1,0 +1,46 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "145dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7e2d3f20829468495ae758164517d46",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "FlxTmpOrderListKA",
+        "lblHLineKA"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlxTmpOrderListMainKA",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "db729b00ce97499586e8e403e3a4cedc",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tmpOrderListKA",
+    "pf": "tmpOrderListKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

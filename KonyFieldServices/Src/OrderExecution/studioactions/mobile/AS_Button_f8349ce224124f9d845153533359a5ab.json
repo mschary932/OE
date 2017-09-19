@@ -1,0 +1,26 @@
+{
+    "AS_Button_f8349ce224124f9d845153533359a5ab": {
+        "id": "AS_Button_f8349ce224124f9d845153533359a5ab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpPendingListKA",
+            "type": "templates",
+            "platform": null,
+            "KUID": "6fc1e742b7094dfdab2c65e762e874f5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d503e8c13c6347b8b82d14d39caac378",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"acceptPendingOrderKA\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580157_frmDirectionsKA_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet1234563580157_frmDirectionsKA_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmDirectionsOnDeviceBackKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDeviceBack_1458212345635805705",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showPreviousForm\",[true]);"
+        }]
+    }
+}

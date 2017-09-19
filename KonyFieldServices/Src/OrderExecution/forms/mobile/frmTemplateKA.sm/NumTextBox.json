@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s5acf6a1e7b443a3b3ff6caf802f2e07",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "3.90%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 1
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s5acf6a1e7b443a3b3ff6caf802f2e07",
+    "id": "NumTextBox",
+    "ide_onTextChange": "AS_TextField_529b9e620da54118b3d02d3dfb9e92b0",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showClearButton": true,
+            "showCloseButton": true
+        }
+    },
+    "isvisible": true,
+    "keyboardstyle": "digitpad",
+    "keyboardtype": "A",
+    "kuid": "b90feafe4e244e71bea2fd8b92b7080a",
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxMainKA",
+    "pf": "frmTemplateKA",
+    "placeholderi18n": "i18n.common.AnswerHereKA",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "textinputmode": "N",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

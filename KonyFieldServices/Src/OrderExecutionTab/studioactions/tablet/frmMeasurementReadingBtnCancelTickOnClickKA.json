@@ -1,0 +1,18 @@
+{
+    "AS_Button_b81340a791744adc96a85f14e84a476f": {
+        "id": "AS_Button_b81340a791744adc96a85f14e84a476f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingBtnCancelTickOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a83caa78d67d4bea8383cdaeba0da6f0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMeasurementExecutionForm\");",
+            "callbackType": null
+        }]
+    }
+}

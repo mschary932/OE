@@ -1,0 +1,25 @@
+{
+    "AS_Form_284359353b354d57b2479e10bf6a0c5a": {
+        "id": "AS_Form_284359353b354d57b2479e10bf6a0c5a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTenantPostShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTenantKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1239151363421"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d9cfcbc711744a16b8aabfec7035ca19",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// if (kony.store.getItem(\"SDKINIT\")) {\n//        frmLoginKA.show();\n//    }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

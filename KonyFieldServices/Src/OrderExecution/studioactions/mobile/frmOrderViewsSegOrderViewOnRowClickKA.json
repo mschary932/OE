@@ -1,0 +1,26 @@
+{
+    "p2kwiet1234563580441_segOrderViewKA_onRowClick_seq0": {
+        "id": "p2kwiet1234563580441_segOrderViewKA_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderViewsSegOrderViewOnRowClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }, {
+            "name": "selectedState",
+            "value": "selectedState"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_2375312345635809236",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n var selectedRecords = controller.getFormModel().getViewAttributeByProperty(\"segOrderViewKA\", \"selectedRowIndex\");\n if(selectedRecords){\n controller.performAction(\"onRowClickOfSegView\", [selectedRecords[1]]);\n }\n "
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Form_281be3bf6aaa4999aca5c2f93189a35e": {
+        "id": "AS_Form_281be3bf6aaa4999aca5c2f93189a35e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCODeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2dd92711ce514aa8ab01bf9da73d0253",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\ncontroller.performAction(\"cancelOrderComplete\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

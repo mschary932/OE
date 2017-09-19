@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580157_btnShareKA_onClick_seq0": {
+        "id": "p2kwiet1234563580157_btnShareKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmDirectionsKANavigateToDirectionInstructionKA1",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "expression_onClick_9433112345635806374",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "    var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n    var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n    controller.performAction(\"navigateToDirectionSteps\");"
+        }]
+    }
+}

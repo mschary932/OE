@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_9922357f95d54d06a289932d5aaa6db3": {
+        "id": "AS_FlexContainer_9922357f95d54d06a289932d5aaa6db3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabSubmenuExtendedAtributesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ee05d1dcdde34d409699e10147a4a1aa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showSixExtendedAttributes\"); ",
+            "callbackType": null
+        }]
+    }
+}

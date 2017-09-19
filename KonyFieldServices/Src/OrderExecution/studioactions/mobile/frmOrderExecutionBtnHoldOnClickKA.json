@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580351_btnHoldKA_onClick_seq0": {
+        "id": "p2kwiet1234563580351_btnHoldKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionBtnHoldOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_8912812345635805288",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmOrderExecutionKA\");\ncontroller.performAction(\"changeStatusForWorkorder\");"
+        }]
+    }
+}

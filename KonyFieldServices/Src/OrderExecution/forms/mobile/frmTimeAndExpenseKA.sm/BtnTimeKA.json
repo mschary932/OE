@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "56.30%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "57dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s994975c0cfe4864907fdc73b0284ca3",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "22.65%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s8e6ba977d0e4aab86686f60afbb0f80",
+    "id": "BtnTimeKA",
+    "ide_onClick": "AS_Button_c263559cfd534320a541f20f85635c25",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ba2311ba6d23443e920f8056cd285a24",
+    "name": "kony.ui.Button",
+    "parent": "flxSubMenuKA",
+    "pf": "frmTimeAndExpenseKA",
+    "texti18n": "i18n.common.TimeKA",
+    "wType": "Button",
+    "zindex": 1
+}

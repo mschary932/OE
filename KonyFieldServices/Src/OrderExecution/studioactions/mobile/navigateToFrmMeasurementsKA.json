@@ -1,0 +1,25 @@
+{
+    "AS_Button_0e5b0f9c33194ccc921c1820e3ea192b": {
+        "id": "AS_Button_0e5b0f9c33194ccc921c1820e3ea192b",
+        "type": "ACTION_SEQUENCE",
+        "name": "navigateToFrmMeasurementsKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8975da663a241deb130dffd3a87291f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__07c51b25921948519c1404ddfe727840",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMeasurementPoints\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

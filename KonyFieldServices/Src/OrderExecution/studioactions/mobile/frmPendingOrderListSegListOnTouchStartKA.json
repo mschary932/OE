@@ -1,0 +1,30 @@
+{
+    "AS_Segment_3aa3c15615b94b36875b6b8c4b097eda": {
+        "id": "AS_Segment_3aa3c15615b94b36875b6b8c4b097eda",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPendingOrderListSegListOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPendingOrderListKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8587586ca9f444a9047edc4d42f30a7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_511612b090fc4eaba2bb9881f7968d2b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(( Object.keys(kony.servicesapp.swipedIndices).length > 0) && !kony.servicesapp.isAnimationInProgress){\n\tvar animObj = kony.servicesapp.getEndStateTransAnimDefinition(\"-25%\",\"0%\");\n\tfrmPendingOrderListKA.segPendingOrderListKA.animateRows({\n\t\trows: [{\n\t\t\tsectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n\t\t\trowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n\t\t}],\n\t\twidgets: [\"flxPendingOrdListKA\"],\n\t\tanimation: animObj\n\t});\n}",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580185_frmFSLoginKA_preshow_seq0": {
+        "id": "p2kwiet1234563580185_frmFSLoginKA_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmFSLoginKAPreshow",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "expression_preshow_3122412345635804483",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(!kony.servicesapp.isAppLaunchedFirstTime)\n animateInitScreen();"
+        }]
+    }
+}

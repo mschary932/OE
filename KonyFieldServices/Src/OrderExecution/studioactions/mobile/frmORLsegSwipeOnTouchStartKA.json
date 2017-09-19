@@ -1,0 +1,31 @@
+{
+    "AS_Segment_892183d9ede34c829f851c0152637cb9": {
+        "id": "AS_Segment_892183d9ede34c829f851c0152637cb9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmORLsegSwipeOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmOrderResourcesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580429"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__343ab922830c4881b3a26e84b435cdad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "/*alert(\"touchstart kony.servicesapp.rowreset\"+kony.servicesapp.rowreset);\nalert(\"tpuch startswipedIndices keys length\"+Object.keys(kony.servicesapp.swipedIndices).length);*/\nif(( Object.keys(kony.servicesapp.swipedIndices).length>0) && !kony.servicesapp.isAnimationInProgress){\n  var animObj=kony.servicesapp.getEndStateTransAnimDefinition(\"-50%\",\"0%\",false);\n  frmOrderResourcesListKA.segSwipeKA.animateRows({\n                rows: [{\n                    sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n                    rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n                }],\n                widgets: [\"flxChildKA\"],\n                animation: animObj\n            });\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

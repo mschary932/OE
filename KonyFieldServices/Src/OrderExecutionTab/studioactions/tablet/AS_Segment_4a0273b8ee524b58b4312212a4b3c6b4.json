@@ -1,0 +1,23 @@
+{
+    "AS_Segment_4a0273b8ee524b58b4312212a4b3c6b4": {
+        "id": "AS_Segment_4a0273b8ee524b58b4312212a4b3c6b4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_b5f629132d3644c5a38dfc5141dd995b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showExpenseDetailsForm\"); ",
+            "callbackType": null
+        }]
+    }
+}

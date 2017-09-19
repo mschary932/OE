@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_2d2de4a1d67f4f4db29eb712df8ebcaa": {
+        "id": "AS_FlexContainer_2d2de4a1d67f4f4db29eb712df8ebcaa",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyflxCancelCrossOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9aa0e65527374537a466967e304860aa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxCancelBg\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

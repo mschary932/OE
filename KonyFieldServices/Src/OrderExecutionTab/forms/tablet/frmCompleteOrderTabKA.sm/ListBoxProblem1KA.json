@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scb082b4cc3e4a188415aeb0619ee6d9",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "tablet",
+        "formID": "frmCompleteOrderTabKA",
+        "platform": "ipad",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "dropdownimage": "popuparrownew.png",
+    "focusskin": "scb082b4cc3e4a188415aeb0619ee6d9",
+    "groupcells": false,
+    "id": "ListBoxProblem1KA",
+    "ide_onSelection": "AS_ListBox_71421a771394479e886da317d23e4f30",
+    "info": null,
+    "isvisible": false,
+    "kuid": "c30cb62ae0884eb8ac935e2749b91a52",
+    "masterdata": [
+        [
+            "lb1",
+            "Listbox One"
+        ],
+        [
+            "lb2",
+            "Listbox Two"
+        ],
+        [
+            "lb3",
+            "Listbox Three"
+        ],
+        [
+            "lbl4",
+            "Other"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flexBodySignOffMainKA",
+    "pf": "frmCompleteOrderTabKA",
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

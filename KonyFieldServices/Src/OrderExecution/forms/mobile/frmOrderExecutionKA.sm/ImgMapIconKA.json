@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "-12.13%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50.13%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "1.04%"
+    },
+    "_skin_": "s94bc51cc5b947d296c8c04e05ad11c4",
+    "_src_": "high.png",
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmOrderExecutionKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "ImgMapIconKA",
+    "ide_onTouchStart": "AS_Image_e169a974f2ce41b28596a19b237892e9",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "89395e97dd674ce2abbc13383d17b785",
+    "name": "kony.ui.Image2",
+    "parent": "FlxOrderListKA",
+    "pf": "frmOrderExecutionKA",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

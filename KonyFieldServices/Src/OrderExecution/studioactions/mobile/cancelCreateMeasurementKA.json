@@ -1,0 +1,29 @@
+{
+    "AS_Button_fff26e60b7ac4ac592d9643ffb8633fc": {
+        "id": "AS_Button_fff26e60b7ac4ac592d9643ffb8633fc",
+        "type": "ACTION_SEQUENCE",
+        "name": "cancelCreateMeasurementKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateMeasurementKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "61ec0c3237c5462cb62c80aadad227ff"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___5c40463071b847eaa0f851acee0bb6bf",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmOrderExecutionKA",
+            "formKUID": "p2kwiet1234563580351",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

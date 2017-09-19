@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "9.64%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s1364df8351e40f78947ecf78addecaf",
+    "_top_": {
+        "type": "string",
+        "value": "28.92%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblExtendedAttributesKA",
+        "imgIconEAKA",
+        "flxStatusColor2KA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxExtendedAttributesKA",
+    "ide_onClick": "AS_FlexContainer_e595413b3a484c95a570347fb7d22ac6",
+    "info": null,
+    "isvisible": true,
+    "kuid": "8ad3b6bb63fc47baa4396e74902c7131",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxResoucesTabsKA",
+    "pf": "frmResourceExecutionTabKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

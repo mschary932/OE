@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_right_": {
+        "type": "string",
+        "value": "14dp"
+    },
+    "_skin_": "s62407bd670e4670b6338c78d834c480",
+    "_text_": "",
+    "android": {},
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s62407bd670e4670b6338c78d834c480",
+    "id": "tbxProblemSolved4KA",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "pasteboardType": 2
+        }
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "2aa6c95e2e2c4ae0bb4ee1677481f4ec",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxToggle4KA",
+    "pasteboardtype": 2,
+    "pf": "frmWorkConfirmationKA",
+    "placeholderi18n": "i18n.frmNewTaskKA.mandDescKA",
+    "placeholderskin": "s43649fa78234755a99244f031ad4ab1",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

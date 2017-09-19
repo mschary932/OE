@@ -1,0 +1,17 @@
+{
+    "AS_Button_fa2280e36ed54831b60bc30fd05e6ce3": {
+        "id": "AS_Button_fa2280e36ed54831b60bc30fd05e6ce3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmorderListBtnListOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6fc9353446e44996a5da524e26191c7c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"actionForList\");"
+        }]
+    }
+}

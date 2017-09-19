@@ -1,0 +1,25 @@
+{
+    "AS_Button_69dacbf0188b49bdb086f157e166f0cd": {
+        "id": "AS_Button_69dacbf0188b49bdb086f157e166f0cd",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecAddTimeItemKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1e00aa227a89473c806067f7ac2a009c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showAddTimePopUp\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

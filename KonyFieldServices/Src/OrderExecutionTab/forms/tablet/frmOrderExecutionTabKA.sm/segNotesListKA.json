@@ -1,0 +1,194 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAuthorNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The author name will be here"
+            },
+            "lblNotesDetailsTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The notes the user input will be shown here. The notes the user input will be shown here. The notes the user input will be shown here."
+            },
+            "lblNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Notes"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblTimeTmpNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00:00 AM/PM"
+            },
+            "lblTitleNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The title will be shown here"
+            }
+        },
+        {
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAuthorNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The author name will be here"
+            },
+            "lblNotesDetailsTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The notes the user input will be shown here. The notes the user input will be shown here. The notes the user input will be shown here."
+            },
+            "lblNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Notes"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblTimeTmpNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00:00 AM/PM"
+            },
+            "lblTitleNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The title will be shown here"
+            }
+        },
+        {
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAuthorNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The author name will be here"
+            },
+            "lblNotesDetailsTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The notes the user input will be shown here. The notes the user input will be shown here. The notes the user input will be shown here."
+            },
+            "lblNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Notes"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblTimeTmpNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00:00 AM/PM"
+            },
+            "lblTitleNotesTmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The title will be shown here"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segNotesListKA",
+    "ide_onRowClick": "AS_Segment_198ed954da244eb38ed23fe831a894e5",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": false,
+    "kuid": "bb19056cba684b209be281f54e79d392",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexMainOrderNotesKA",
+    "pf": "frmOrderExecutionTabKA",
+    "retainselection": false,
+    "rowTemplateId": "c1dc4be87196490893fbe01ba16da29a",
+    "rowcounter": 2,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexNotesTmpKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexNotesTmpKA": "flexNotesTmpKA",
+        "imgChevronKA": "imgChevronKA",
+        "lblAuthorNotesTmpKA": "lblAuthorNotesTmpKA",
+        "lblNotesDetailsTmpKA": "lblNotesDetailsTmpKA",
+        "lblNotesTmpKA": "lblNotesTmpKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA",
+        "lblTimeTmpNotesTmpKA": "lblTimeTmpNotesTmpKA",
+        "lblTitleNotesTmpKA": "lblTitleNotesTmpKA"
+    },
+    "zindex": 1
+}

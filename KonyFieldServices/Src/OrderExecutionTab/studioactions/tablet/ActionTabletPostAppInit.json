@@ -1,0 +1,25 @@
+{
+    "AS_AppEvents_8491c5f79c4741e4826601a21c1842a1": {
+        "id": "AS_AppEvents_8491c5f79c4741e4826601a21c1842a1",
+        "type": "ACTION_SEQUENCE",
+        "name": "ActionTabletPostAppInit",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c0db245561274db1be6f6351905f5039",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.modules.loadFunctionalModule(\"librarymodules\");\nkony.modules.loadFunctionalModule(\"init\");\nkony.modules.loadFunctionalModule(\"appjsmodules\");\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__37265bf5917d4f1e99dbbf6f8049474e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n            try {\n                kony.sdk.mvvm.appInit(INSTANCE);\n            } catch (err) {\n                alert(err);\n            } \n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

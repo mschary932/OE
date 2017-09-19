@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "calbtn.png",
+    "__parentReadjusting__": false,
+    "_data_": null,
+    "_date_": "24/10/2016",
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7df5f675de54ab6b81aa186fe45cdff",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "advview": "onscreen",
+    "calendaricon": "calbtn.png",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "datecomponents": [
+        24,
+        10,
+        2016,
+        0,
+        0,
+        0
+    ],
+    "dateeditable": true,
+    "dateformat": "MM/dd/yyyy",
+    "day": 24,
+    "daytextalignmentincell": 5,
+    "focusskin": "s7df5f675de54ab6b81aa186fe45cdff",
+    "format": "MM/dd/yyyy",
+    "formatteddate": "10/24/2016",
+    "gridCellInactiveDaysSkin": "s831b8b560ac4ab788613e7c865d1640",
+    "gridCellSelectedSkin": "sa8ae035d67b4cc1bc8662c5ced29dfe",
+    "gridCellSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+    "gridCellTodaySkin": "s9acbab4387e411898f2231d2b442c6c",
+    "gridCellWeekendSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+    "gridSkin": "s8218a3c8a2a4a79ae12b682c3f556fb",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calenderKA",
+    "info": null,
+    "invokedProperty": "rightNavigationImage",
+    "isvisible": true,
+    "kuid": "7075d1ed0f6443cbaebf0165352493ae",
+    "minutes": 0,
+    "month": 10,
+    "name": "kony.ui.Calendar",
+    "noofmonths": 1,
+    "pagedate": "/2016",
+    "parent": "flxMainCalenderKA",
+    "pf": "frmCompleteOrderSummaryKA",
+    "seconds": 0,
+    "selectdate": "//2016",
+    "viewconfig": {
+        "gridConfig": {
+            "gridCellInactiveDaysSkin": "s831b8b560ac4ab788613e7c865d1640",
+            "gridCellSelectedSkin": "sa8ae035d67b4cc1bc8662c5ced29dfe",
+            "gridCellSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+            "gridCellTodaySkin": "s9acbab4387e411898f2231d2b442c6c",
+            "gridCellWeekendSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+            "gridSkin": "s8218a3c8a2a4a79ae12b682c3f556fb",
+            "leftNavigationImage": "bf_calendar_back.png",
+            "rightNavigationImage": "bf_calendar_front.png"
+        }
+    },
+    "viewtype": "onscreen",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "year": 2016,
+    "zindex": 1
+}

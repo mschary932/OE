@@ -1,0 +1,25 @@
+{
+    "AS_Button_e32613495d7d479e817404d1d3923189": {
+        "id": "AS_Button_e32613495d7d479e817404d1d3923189",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnOnRouteFOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__da47f64052454bfb98b07497576e6b10",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onStatusFilterClick\",['btnOnRouteFKA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

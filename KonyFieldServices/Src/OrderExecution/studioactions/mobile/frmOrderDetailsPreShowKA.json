@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580320_frmOrderDetailsKA_preshow_seq0": {
+        "id": "p2kwiet1234563580320_frmOrderDetailsKA_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderDetailsPreShowKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_130112345635803303",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmOrderDetailsKA.flxScrollDetailsKA.contentOffset = {x:0,y:0};"
+        }]
+    }
+}

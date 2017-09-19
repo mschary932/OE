@@ -1,0 +1,31 @@
+{
+    "AS_Image_e169a974f2ce41b28596a19b237892e9": {
+        "id": "AS_Image_e169a974f2ce41b28596a19b237892e9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionMapDirectionOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580351"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e8a17c17284145539892230078df385b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showFrmDirectionKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

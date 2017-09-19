@@ -1,0 +1,19 @@
+{
+    "AS_Button_1a433fd57e5e472c9d8f0aedd8d571ac": {
+        "id": "AS_Button_1a433fd57e5e472c9d8f0aedd8d571ac",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderAssetBtnOrderObjectBackOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4bcbdc3b109841388d5876ef4f8e8b8d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmOrderAssetKA\");\ncontroller.performAction(\"navigateBack\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

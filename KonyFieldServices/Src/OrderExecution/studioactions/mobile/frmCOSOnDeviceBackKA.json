@@ -1,0 +1,25 @@
+{
+    "AS_Form_97dffba6f76244e29ce1d2b4d276753f": {
+        "id": "AS_Form_97dffba6f76244e29ce1d2b4d276753f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d5550c7f68d649ebbaa6a7b4d9320fa8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"checkStartAndEndDate\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

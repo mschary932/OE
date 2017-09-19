@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580581_btnOptionsKA_onClick_seq0": {
+        "id": "p2kwiet1234563580581_btnOptionsKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskResourcesListBtnOptionsOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_2719212345635808342",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showFilters\",[true]); "
+        }]
+    }
+}

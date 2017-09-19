@@ -1,0 +1,19 @@
+{
+    "AS_Button_163043a1c9524d80bc35c0220922a85e": {
+        "id": "AS_Button_163043a1c9524d80bc35c0220922a85e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddEditExpenseItemKA_OnCalenderCancelButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__11669254e24f4475ba4e2ac0df125d2f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var Controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar formModel = Controller.getFormModel();\nformModel.setViewAttributeByProperty(\"flxCalenderrBg\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_ab04c6bb417e462b914d6993ae0b8837": {
+        "id": "AS_Button_ab04c6bb417e462b914d6993ae0b8837",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTAEList_OnClickBack",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8d58a50575f141b1bb8d48209b2e5fd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__6ade8d2edaed445ab2adeeff70352ff5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \n controller.performAction(\"navigateBack\");\n ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

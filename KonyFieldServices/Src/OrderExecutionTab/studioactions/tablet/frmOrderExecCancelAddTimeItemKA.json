@@ -1,0 +1,18 @@
+{
+    "AS_Button_38abf6dfcfd847e181a1957e1e0182f7": {
+        "id": "AS_Button_38abf6dfcfd847e181a1957e1e0182f7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecCancelAddTimeItemKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_19e90611d8844a3bbc55e6619ee1273c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelAddTimeItemPopUp\"); ",
+            "callbackType": null
+        }]
+    }
+}

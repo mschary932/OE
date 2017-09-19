@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_0d23ecc6114d4c2a8b63067acf5cbcf4": {
+        "id": "AS_FlexContainer_0d23ecc6114d4c2a8b63067acf5cbcf4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOCCLdeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmWorkConfirmationKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3ce881f4eede46c68a7e91bf6cf1a219",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var utilitiesObj= new utilities();\nutilitiesObj.doNothingOnDeviceBackKA();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

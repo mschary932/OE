@@ -1,0 +1,18 @@
+{
+    "AS_Button_74bffe3af30940b1845cf89018d674ba": {
+        "id": "AS_Button_74bffe3af30940b1845cf89018d674ba",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMEbtnImageItemCancelledOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e3d37520472a46aa9825f419b0030f5d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelReadingCreation\");",
+            "callbackType": null
+        }]
+    }
+}

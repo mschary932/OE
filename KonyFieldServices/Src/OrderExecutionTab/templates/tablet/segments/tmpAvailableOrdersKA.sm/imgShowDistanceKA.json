@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "se21689b1927482d80fa58a772dd728a",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "52dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "platform": "ipad",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgShowDistanceKA",
+    "ide_onTouchEnd": "AS_Image_c9205054fe6744c38d53057da9f8aee0",
+    "imagescalemode": 0,
+    "info": null,
+    "isvisible": true,
+    "kuid": "5aedd317f37642de8795e37249fe38fa",
+    "name": "kony.ui.Image2",
+    "parent": "flexOrderInDetailTmpKA",
+    "pf": "tmpAvailableOrdersKA",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

@@ -1,0 +1,168 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblHeaderBottomAKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblItemsKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "i18n.common.InvoiceKA",
+                    "text": "Invoice"
+                }
+            },
+            [
+                {
+                    "imgChevronKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "forward.png"
+                    },
+                    "imgInvoiceIconKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "pdficon.png"
+                    },
+                    "lblInvoiceDateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12-06-2016"
+                    },
+                    "lblInvoiceIDKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Invoice ID"
+                    },
+                    "lblInvoicePayValueKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "495.00$"
+                    },
+                    "lblItemNumbersKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Items -   94"
+                    },
+                    "lblPaymentModeInfoKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblSeparatorTemplateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "    "
+                    },
+                    "lblTimeInVoiceKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "19:28hrs"
+                    },
+                    "lblTotalInvoicePayKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.TotalKA",
+                        "text": "Total"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "91.77%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "8.23%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segInvoiceDetailsKA",
+    "ide_onRowClick": "AS_Segment_aed6e444f9564de0a380063000e789a9",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "50f893029da24d9e91e6a0cb760f2463",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexInvoiceReceiptKAKA",
+    "pf": "frmCompleteOrderTabKA",
+    "retainselection": false,
+    "rowTemplateId": "6ca77dc604a649c1b9114a0eeb0d7807",
+    "rowcounter": 0,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexInvoiceReceiptPdfTmpKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "5e9a32e0dec94f3ea1dd853c0baee707",
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "sectionheadertemplate": "flxHeaderKA",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexInvoiceReceiptPdfTmpKA": "flexInvoiceReceiptPdfTmpKA",
+        "flxHeaderKA": "flxHeaderKA",
+        "imgChevronKA": "imgChevronKA",
+        "imgInvoiceIconKA": "imgInvoiceIconKA",
+        "lblHeaderBottomAKA": "lblHeaderBottomAKA",
+        "lblInvoiceDateKA": "lblInvoiceDateKA",
+        "lblInvoiceIDKA": "lblInvoiceIDKA",
+        "lblInvoicePayValueKA": "lblInvoicePayValueKA",
+        "lblItemNumbersKA": "lblItemNumbersKA",
+        "lblItemsKA": "lblItemsKA",
+        "lblPaymentModeInfoKA": "lblPaymentModeInfoKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA",
+        "lblTimeInVoiceKA": "lblTimeInVoiceKA",
+        "lblTotalInvoicePayKA": "lblTotalInvoicePayKA"
+    },
+    "zindex": 1
+}

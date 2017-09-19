@@ -1,0 +1,18 @@
+{
+    "AS_Button_4b9fc57dd6784dd1b83d2edda9ac763b": {
+        "id": "AS_Button_4b9fc57dd6784dd1b83d2edda9ac763b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionAddMeasurementCancelKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e2a4501a45ba49219f3717ae1a58a057",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelMeasurementPopUp\");",
+            "callbackType": null
+        }]
+    }
+}

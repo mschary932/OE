@@ -1,0 +1,25 @@
+{
+    "AS_Form_2e36f823b5b44536bd77b11d2c31226d": {
+        "id": "AS_Form_2e36f823b5b44536bd77b11d2c31226d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmNotesDetailsOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNotesDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19962346794066"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c575a9e1954d4d409f160432e41d4274",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showPreviousForm\",[true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Form_a7e92fea6fda4f198d3ae89fad4b96ea": {
+        "id": "AS_Form_a7e92fea6fda4f198d3ae89fad4b96ea",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e1e8ff855e534ca8b5baab0035f257d2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller=kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"deviceBack\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

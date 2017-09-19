@@ -1,0 +1,25 @@
+{
+    "AS_Button_7ea6ae60d48e4f48ae9831f60754e9a9": {
+        "id": "AS_Button_7ea6ae60d48e4f48ae9831f60754e9a9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnBackToComplete3OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0abed7cc7305443cbded02f5d2af80ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showCancelProgressPopUpFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

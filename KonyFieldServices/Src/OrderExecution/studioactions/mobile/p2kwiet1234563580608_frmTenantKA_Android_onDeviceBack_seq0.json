@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580608_frmTenantKA_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet1234563580608_frmTenantKA_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDeviceBack_7786612345635809302",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Device back\");"
+        }]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "6.86%"
+    },
+    "_skin_": "se21689b1927482d80fa58a772dd728a",
+    "_src_": "boxtick_mark_blank.png",
+    "_top_": {
+        "type": "string",
+        "value": "3.90%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "11%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "formID": "frmAvailableOrderListTabKA",
+        "platform": "ipad",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgSelectTodayFiltersKA",
+    "ide_onTouchStart": "AS_Image_12c6776c44414841907a1de16dd6066b",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "9850bd965caf4d4da70b2a02b7c13655",
+    "name": "kony.ui.Image2",
+    "parent": "flxDateDrillKA",
+    "pf": "frmAvailableOrderListTabKA",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 3
+}

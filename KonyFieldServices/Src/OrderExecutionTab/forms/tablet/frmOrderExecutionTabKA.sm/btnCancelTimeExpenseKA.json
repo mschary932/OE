@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "87.70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s481b8b5226b4253be0398726aef5ffd",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "85.40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s2652d265cb647c7b0bfefde51090504"
+    },
+    "displaytext": true,
+    "id": "btnCancelTimeExpenseKA",
+    "ide_onClick": "AS_Button_1e62ef31cc3642699f55219310f50b20",
+    "info": null,
+    "isvisible": true,
+    "kuid": "6d076528e15348e08fab96c101244ad3",
+    "name": "kony.ui.Button",
+    "parent": "flexAddTimeExpenseKA",
+    "pf": "frmOrderExecutionTabKA",
+    "wType": "Button",
+    "zindex": 20
+}

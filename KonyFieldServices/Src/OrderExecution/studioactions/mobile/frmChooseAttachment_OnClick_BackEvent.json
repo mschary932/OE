@@ -1,0 +1,23 @@
+{
+    "AS_Button_3e8e6854a43549ba857383d09538fe3d": {
+        "id": "AS_Button_3e8e6854a43549ba857383d09538fe3d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmChooseAttachment_OnClick_BackEvent",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_d80381efe290435b8526c7603144d255",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmExpenseAttachmentsKA",
+            "formKUID": "c121fffa81d442cd8e2e61c6c5c76326",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

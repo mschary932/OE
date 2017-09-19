@@ -1,0 +1,25 @@
+{
+    "AS_Button_2d38e135f7074a778c87fd93ca4df3d9": {
+        "id": "AS_Button_2d38e135f7074a778c87fd93ca4df3d9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnDone2OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2ce8c003e0ad4ae786ce84165eb1f4f7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideDatePopUpFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

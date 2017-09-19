@@ -1,0 +1,25 @@
+{
+    "AS_ListBox_265285e9c56349f98e6acdfbf2d8823b": {
+        "id": "AS_ListBox_265285e9c56349f98e6acdfbf2d8823b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveypickListSingleOnSelectionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a0c9bc6a1375435c80bac20f2a14103a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ques = parseInt((this.id).substring(3)).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"saveInputValue\",[ques,\"picklistSingle\"]);\nvar formModel= controller.getFormModel();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

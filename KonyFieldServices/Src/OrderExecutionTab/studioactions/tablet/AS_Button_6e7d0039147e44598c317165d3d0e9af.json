@@ -1,0 +1,17 @@
+{
+    "AS_Button_6e7d0039147e44598c317165d3d0e9af": {
+        "id": "AS_Button_6e7d0039147e44598c317165d3d0e9af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_f14f031709d447caa6566b6c1ea0a780",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showPanicScreen\");",
+            "callbackType": null
+        }]
+    }
+}

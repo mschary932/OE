@@ -1,0 +1,25 @@
+{
+    "AS_Button_fe951d4853174543bd526934d7e0f2ec": {
+        "id": "AS_Button_fe951d4853174543bd526934d7e0f2ec",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetails_OnClick_BackToEditExpenseItem",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e1f862f8c77a441f90045b8fd05899fa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3f8743c58eb54554b2d9be95747be056",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToEditScreen\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

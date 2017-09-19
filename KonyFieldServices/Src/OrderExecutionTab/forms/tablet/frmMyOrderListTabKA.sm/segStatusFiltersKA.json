@@ -1,0 +1,198 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgSelectedViewsKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            },
+            "lblTaskViewKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.order.frmStatusFilterKA.Completed.ValueKA",
+                "text": "Completed"
+            }
+        },
+        {
+            "imgSelectedViewsKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            },
+            "lblTaskViewKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.order.frmStatusFilterKA.OnRoute.ValueKA",
+                "text": "On Route"
+            }
+        },
+        {
+            "imgSelectedViewsKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            },
+            "lblTaskViewKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.order.frmStatusFilterKA.Paused.ValueKA",
+                "text": "Paused"
+            }
+        },
+        {
+            "imgSelectedViewsKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            },
+            "lblTaskViewKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.order.frmStatusFilterKA.Rejected.ValueKA",
+                "text": "Rejected"
+            }
+        },
+        {
+            "imgSelectedViewsKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            },
+            "lblTaskViewKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.order.frmStatusFilterKA.Scheduled.ValueKA",
+                "text": "Scheduled"
+            }
+        },
+        {
+            "imgSelectedViewsKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            },
+            "lblTaskViewKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.order.frmStatusFilterKA.Started.ValueKA",
+                "text": "Started"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segStatusFiltersKA",
+    "ide_onRowClick": "AS_Segment_fd1a227b7775494a892fec05dd1e1020",
+    "info": null,
+    "invokedProperty": "unselectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "c1e57814880e45c3ac0a42484e5b3be3",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxStausDrillKA",
+    "pf": "frmMyOrderListTabKA",
+    "retainselection": false,
+    "rowTemplateId": "p2kwiet1234563580826",
+    "rowcounter": 5,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flxViewBodyTmpKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "boxtickmark.png",
+    "selectionbehavior": "multiselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "imgSelectedViewsKA",
+        "selectedStateImage": "boxtickmark.png",
+        "unselectedStateImage": "boxtick_mark_blank.png"
+    },
+    "selectionindicator": "imgSelectedViewsKA",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "unselectimage": "boxtick_mark_blank.png",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxViewBodyTmpKA": "flxViewBodyTmpKA",
+        "imgSelectedViewsKA": "imgSelectedViewsKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA",
+        "lblTaskViewKA": "lblTaskViewKA"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Button_97c63b82bc5e42c3ad08a19fb1d83520": {
+        "id": "AS_Button_97c63b82bc5e42c3ad08a19fb1d83520",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderTabBtnCancelCrossOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2ce119b048724171b5ef069e370b76a2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelConfirmationAndCancelPopUp\");",
+            "callbackType": null
+        }]
+    }
+}

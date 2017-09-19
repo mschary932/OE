@@ -1,0 +1,181 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblPaymentKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Payment Receipt"
+                }
+            },
+            [
+                {
+                    "imgReceiptIconKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "receipticon.png"
+                    },
+                    "lblAmountKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "400.00$"
+                    },
+                    "lblDateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12-06-2016"
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "19:28hrs"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblPaymentMethodKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cash"
+                    },
+                    "lblReceiptIDKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Receipt ID"
+                    }
+                },
+                {
+                    "imgReceiptIconKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "receipticon.png"
+                    },
+                    "lblAmountKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "400.00$"
+                    },
+                    "lblDateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12-06-2016"
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "19:28hrs"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblPaymentMethodKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Offline"
+                    },
+                    "lblReceiptIDKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Receipt ID"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "73%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "27%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segReceiptsKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": false,
+    "kuid": "9f0b600ed91247989526bf093f6bf776",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexMainKA",
+    "pf": "frmInvoicePdfKA",
+    "retainselection": false,
+    "rowTemplateId": "05aaa2045acc401aa46d08c65f4ced4e",
+    "rowcounter": 1,
+    "rowfocusskin": "sd593b463d8e45d9bdf6d998df736f41",
+    "rowskin": "sfa94a2e9c504e9c997ab6388b88644f",
+    "rowtemplate": "flxReceiptKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "04ead9b0b2364c75a9e15d0c6a5ae020",
+    "sectionheaderskin": "s9ccd5ee06e444f1bc051d1dbe5fed21",
+    "sectionheadertemplate": "flxPaymentHeaderKA",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxDateTimeKA": "flxDateTimeKA",
+        "flxFooterKA": "flxFooterKA",
+        "flxPaymentHeaderKA": "flxPaymentHeaderKA",
+        "flxPdfPreviewKA": "flxPdfPreviewKA",
+        "flxReceiptDetailsKA": "flxReceiptDetailsKA",
+        "flxReceiptKA": "flxReceiptKA",
+        "flxReceiptTypeKA": "flxReceiptTypeKA",
+        "flxTmpMainKA": "flxTmpMainKA",
+        "imgReceiptIconKA": "imgReceiptIconKA",
+        "lblAmountKA": "lblAmountKA",
+        "lblDateKA": "lblDateKA",
+        "lblDurationKA": "lblDurationKA",
+        "lblLineKA": "lblLineKA",
+        "lblPaymentKA": "lblPaymentKA",
+        "lblPaymentMethodKA": "lblPaymentMethodKA",
+        "lblReceiptIDKA": "lblReceiptIDKA"
+    },
+    "zindex": 1
+}

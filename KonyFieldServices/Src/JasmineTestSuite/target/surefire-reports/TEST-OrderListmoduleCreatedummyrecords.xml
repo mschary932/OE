@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="OrderList module: Create dummy records" errors="0" tests="12" failures="0" time="2.388" timestamp="2015-10-07T11:20:47">
+  <testcase classname="OrderList module: Create dummy records" name="Login" time="1.274"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create address records" time="0.176"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create Priority records" time="0.081"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create order list records" time="0.116"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create contact records" time="0.135"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create workordercontact records" time="0.1"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create material records" time="0.107"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create task records" time="0.135"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create workordermaterial records" time="0.078"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create asset records" time="0.069"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create stop watch records" time="0.037"></testcase>
+  <testcase classname="OrderList module: Create dummy records" name="Create OrderAsset records" time="0.077"></testcase>
+</testsuite>
+</testsuites>

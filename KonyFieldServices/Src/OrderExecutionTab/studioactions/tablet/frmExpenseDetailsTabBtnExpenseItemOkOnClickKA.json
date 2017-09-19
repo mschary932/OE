@@ -1,0 +1,18 @@
+{
+    "AS_Button_7714e1c6dfbf452f9e159bcf9d6eba70": {
+        "id": "AS_Button_7714e1c6dfbf452f9e159bcf9d6eba70",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetailsTabBtnExpenseItemOkOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2e80498434674055884786c1f0b7053b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelEditExpenseItemPopUp\");",
+            "callbackType": null
+        }]
+    }
+}

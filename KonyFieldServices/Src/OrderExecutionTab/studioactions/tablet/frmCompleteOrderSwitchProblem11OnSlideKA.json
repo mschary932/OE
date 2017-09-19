@@ -1,0 +1,25 @@
+{
+    "AS_Switch_2d8e0c7127a349e4aa527a0b3f8ea1a0": {
+        "id": "AS_Switch_2d8e0c7127a349e4aa527a0b3f8ea1a0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderSwitchProblem11OnSlideKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9adbfea785e34461bc6ac8ba681d847f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"switchToggleConfirmation\",[\"11\"]);\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

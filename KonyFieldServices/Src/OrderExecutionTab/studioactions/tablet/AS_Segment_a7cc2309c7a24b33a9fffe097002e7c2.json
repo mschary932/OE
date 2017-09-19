@@ -1,0 +1,30 @@
+{
+    "AS_Segment_a7cc2309c7a24b33a9fffe097002e7c2": {
+        "id": "AS_Segment_a7cc2309c7a24b33a9fffe097002e7c2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fb4cee266b45445abc927fe0789ea0c1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  alert(\"on touch start event\");\nif((Object.keys(kony.servicesapp.swipedIndices).length)>0 &&  !kony.servicesapp.isAnimationInProgress){\n  alert(\"In swipe event\");\n  var animObj=kony.servicesapp.getEndStateTransAnimDefinition(\"-50%\",\"0%\",false);\n    alert(\"In swipe event22\");\n\n  frmTaskExecutionTabKA.segResourcesKA.animateRows({\n                rows: [{\n                    sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n                    rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n                }],\n                widgets: [\"flexContainerKA\"],\n                animation: animObj\n            });\n      alert(\"In swipe event33\");\n\n}\nelse{\n  alert(\"in else\");\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

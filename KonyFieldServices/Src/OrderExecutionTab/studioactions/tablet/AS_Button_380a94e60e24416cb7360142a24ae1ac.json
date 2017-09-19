@@ -1,0 +1,23 @@
+{
+    "AS_Button_380a94e60e24416cb7360142a24ae1ac": {
+        "id": "AS_Button_380a94e60e24416cb7360142a24ae1ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b553f85c0c8a4ef98b3237970e10a159"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3a56618bfba748ccbdfdc4e3de858df1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showContactDetails\");",
+            "callbackType": null
+        }]
+    }
+}

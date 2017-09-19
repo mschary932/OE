@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580608_frmTenantKA_preshow_seq0": {
+        "id": "p2kwiet1234563580608_frmTenantKA_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_9261212345635804915",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmTenantKA.lblBuildNumberKA.text = kony.servicesapp.constants.getServiceConstantsObj().getValue(\"VERSION_NUMBER\");"
+        }]
+    }
+}

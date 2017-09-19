@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_6fa5c6b9da4f45eca8f34e4119aa0795": {
+        "id": "AS_FlexContainer_6fa5c6b9da4f45eca8f34e4119aa0795",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementExecutionSubmenuAttachmentsKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b553f85c0c8a4ef98b3237970e10a159"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3b852d7d98f444d3ae8509c8b11d15aa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showAttachments\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

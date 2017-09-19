@@ -1,0 +1,1 @@
+[{"sourceObject":"MaterialAttachment","targetObject":"media","relationshipKeys":[{"sourceField":"Media_Id","targetField":"name"}],"name":"MaterialAttachment_media","type":"ManyToOne","custom":false,"cascadeDelete":false}]

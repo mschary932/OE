@@ -1,0 +1,25 @@
+{
+    "AS_Button_ee4b734011374479844d0bbd8bbb6704": {
+        "id": "AS_Button_ee4b734011374479844d0bbd8bbb6704",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnRejectedFOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4528cb8919ee4da186820dc78d55960e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onStatusFilterClick\",['btnRejectedFKA']);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

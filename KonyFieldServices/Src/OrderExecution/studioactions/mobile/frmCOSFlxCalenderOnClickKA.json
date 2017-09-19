@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_545b9e96104f4c19b843a0c85b845107": {
+        "id": "AS_FlexContainer_545b9e96104f4c19b843a0c85b845107",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSFlxCalenderOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__215512b3a87f4687936d5cac991f4120",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.log.info(\"==frmCOSFlxCalenderOnClickKA==>\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

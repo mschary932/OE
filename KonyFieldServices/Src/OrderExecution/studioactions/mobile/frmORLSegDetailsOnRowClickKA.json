@@ -1,0 +1,31 @@
+{
+    "AS_Segment_8fda04f5dfd84bb58c45c40d14e0433d": {
+        "id": "AS_Segment_8fda04f5dfd84bb58c45c40d14e0433d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmORLSegDetailsOnRowClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmOrderResourcesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580429"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8a1e3b1b398f41d3a78aff7ca240c788",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(kony.servicesapp.isAnimationInProgress){return;}\nelse if(((Object.keys(kony.servicesapp.swipedIndices).length>0))){ \n  frmOrderResourcesListKA.segSwipeKA.animateRows({\n                rows: [{\n                    sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n                    rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n                }],\n                widgets: [\"flxChildKA\"],\n                animation: kony.servicesapp.getEndStateTransAnimDefinition(\"-50%\",\"0%\",true)\n            });\n}\nelse if(kony.servicesapp.coords.length == 0 ){\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"navigateToResourceExecution\");\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

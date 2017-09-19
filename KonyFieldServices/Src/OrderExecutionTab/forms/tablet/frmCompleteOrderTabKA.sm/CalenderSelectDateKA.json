@@ -1,0 +1,129 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "calbtn.png",
+    "__id": "frmCompleteOrderTabKA_CalenderSelectDateKA",
+    "__input": "CalenderSelectDateKA",
+    "__parentReadjusting__": false,
+    "_data_": null,
+    "_date_": "12/12/2016",
+    "_height_": {
+        "type": "string",
+        "value": "73%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s46c0d23b957409291664ea3c8c5b345",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "advview": "onscreen",
+    "calendaricon": "calbtn.png",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "datecomponents": [
+        12,
+        12,
+        2016,
+        0,
+        0,
+        0
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "datesGroup": [],
+    "datesState": 0,
+    "day": 12,
+    "daytextalignmentincell": 5,
+    "disabledSkins": {
+        "gridCellInactiveDaysSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+        "gridSkin": "s8218a3c8a2a4a79ae12b682c3f556fb"
+    },
+    "displayedMonths": [
+        12,
+        2016
+    ],
+    "entereddate": [
+        12,
+        12,
+        2016,
+        0,
+        0,
+        0
+    ],
+    "focusskin": "s46c0d23b957409291664ea3c8c5b345",
+    "format": "dd/MM/yyyy",
+    "formatteddate": "12/12/2016",
+    "gridCellInactiveDaysSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+    "gridCellSelectedSkin": "sa8ae035d67b4cc1bc8662c5ced29dfe",
+    "gridCellSkin": "s09708b71b6743faa4afd6916b10cded",
+    "gridCellTodaySkin": "s9acbab4387e411898f2231d2b442c6c",
+    "gridCellWeekendSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+    "gridSkin": "s8218a3c8a2a4a79ae12b682c3f556fb",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "CalenderSelectDateKA",
+    "info": null,
+    "invokedProperty": "leftNavigationImage",
+    "isvisible": true,
+    "kuid": "02a659eac831476ca94b2ca0207236c0",
+    "minutes": 0,
+    "month": 12,
+    "monthsinrow": 3,
+    "name": "kony.ui.Calendar",
+    "navigatorAlert": "Invalid Selection",
+    "noofmonths": 1,
+    "pagedate": "/2016",
+    "parent": "flexDatePickerKA",
+    "pf": "frmCompleteOrderTabKA",
+    "popupHeight": "auto",
+    "popupWidth": "auto",
+    "seconds": 0,
+    "selectdate": "//2016",
+    "startDay": 0,
+    "viewconfig": {
+        "gridConfig": {
+            "gridCellSelectedSkin": "sa8ae035d67b4cc1bc8662c5ced29dfe",
+            "gridCellSkin": "s09708b71b6743faa4afd6916b10cded",
+            "gridCellTodaySkin": "s9acbab4387e411898f2231d2b442c6c",
+            "gridCellWeekendSkin": "s511125bb90e4fcfac3fe70d7e2902ca",
+            "leftNavigationImage": "backward.png",
+            "rightNavigationImage": "forward_arrow.png"
+        }
+    },
+    "viewtype": "onscreen",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "widths": [
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;"
+    ],
+    "year": 2016,
+    "zindex": 1
+}

@@ -1,0 +1,1 @@
+[{"sourceObject":"EventType","targetObject":"EventSurveyDefinition","relationshipKeys":[{"sourceField":"id","targetField":"EventType_id"}],"name":"EventType_EventSurveyDefinition","type":"OneToMany","custom":false,"cascadeDelete":false}]

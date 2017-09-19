@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "87.70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s611f5af965e42c7b28ec39e2ae9fff0",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "73%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s2652d265cb647c7b0bfefde51090504"
+    },
+    "displaytext": true,
+    "id": "btnMeasurementKA",
+    "ide_onClick": "AS_Button_a9f93e9824de4054a96e1b2d25e1ad26",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a393ddc55a4e464ca3cb87d31d0c2de4",
+    "name": "kony.ui.Button",
+    "parent": "flexAddTaskMeasurmentKA",
+    "pf": "frmOrderExecutionTabKA",
+    "wType": "Button",
+    "zindex": 50
+}

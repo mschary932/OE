@@ -1,0 +1,128 @@
+{
+  "entry": {
+    "ZEAM_WO_HDR": {
+      "ORDER_NUM": "ORD20170118104192",
+      "ORDER_TYPE": "SM01",
+      "SHORT_TEXT": "Fork Truck Breakdown.",
+      "PLANT": "8000",
+      "MAINT_PLAN_PLANT": "8000",
+      "BASIC_START_DAT": "20170117",
+      "BASIC_FINISH_DAT": "20170127",
+      "BASIC_START_TIM": "074500",
+      "BASIC_FINISH_TIM": "120000",
+      "WORK_CENTER": "MAINT04",
+      "SHORT_DESC": "General Maintenance",
+      "PARTNER": "0000493000",
+      "PRIORITY_TYPE": "SM",
+      "PRIORITY": "3",
+      "STATUS_PROFILE": "EAM_WORD",
+      "USER_STATUS": "E0002",
+      "OPMODE": "A",
+      "EQUIP_NUM": "000000000010000131",
+      "LTEXT": "This is the instruction text for the Order that has the description as : Fork Truck Breakdown",
+      "ZEAM_WO_ADDRESS": [
+        {
+          "DOC_NUM": "ORD20170118104192",
+          "ADDR_TYPE": "AG",
+          "ADDR_TYPE_ID": "0000493000",
+          "OPMODE": "A"
+        },
+        {
+          "DOC_NUM": "ORD20170118104192",
+          "ADDR_TYPE": "AP",
+          "ADDR_TYPE_ID": "0000023236",
+          "OPMODE": "A"
+        }
+      ],
+      "ZEAM_ADDRESS": {
+        "DOC_NUM": "ORD20170118104192",
+        "ADDR_TYPE": "ORD",
+        "NAME1": "care",
+        "NAME2": "hospital",
+        "HOUSE_NUM": "1",
+        "STREET": "Banjara hills",
+        "CITY": "HYDERABAD",
+        "REGION": "01",
+        "POST_CODE": "500034",
+        "COUNTRY": "IN",
+        "PHONE1": "040123121331",
+        "TEL_EXTENSION1": "1234",
+        "MOBILE1": "97534553545",
+        "FAX": "04092323123",
+        "FAX_EXTENSION": "8888",
+        "LATITUDE": "17.4151778",
+        "LONGITUDE": "78.4502462",
+        "EMAIL": "test@test.com"
+      },
+      "ZEAM_WO_OPERATION": [
+        {
+          "ORDER_NUM": "ORD20170118104192",
+          "OPERATION": "0010",
+          "TASK_ID": "ORD201701181041920010",
+          "OPERATION_TXT": "Single Service Test",
+          "TASK_TYPE": "ORD",
+          "WORK_CENTER": "MAINT04",
+          "WORK_ACTIVITY": "10.0",
+          "WORK_UNIT": "H",
+          "STAT_PROF": "EAM_WOPE",
+          "USER_STATUS": "E0002",
+          "OPMODE": "A",
+		"EQUIP_NUM": "000000000010000131",
+          "ZEAM_WO_MAT": [
+            {
+              "ORDER_NUM": "ORD20170118104192",
+              "COMP_ITEM_NUM": "ORD2017011810419200100010",
+              "TASK_ID": "ORD201701181041920010",
+              "OPERATION": "0010",
+              "BOM_ITEM_NUM": "0010",
+              "MATERIAL_NUM": "ANCH_BRACK1",
+              "SHORT_TXT_TASK": "A1 Grand Prix super sprint BMX Bike 2",
+              "REQUIRE_QUAN": "2.000",
+              "BASE_UNIT": "EA",
+              "OPMODE": "A"
+            },
+            {
+              "ORDER_NUM": "ORD20170118104192",
+              "COMP_ITEM_NUM": "ORD2017011810419200100020",
+              "TASK_ID": "ORD201701181041920010",
+              "OPERATION": "0010",
+              "BOM_ITEM_NUM": "0020",
+              "MATERIAL_NUM": "ANCH_BRACK1",
+              "SHORT_TXT_TASK": "A1 Grand Prix super sprint BMX Bike 2",
+              "REQUIRE_QUAN": "2.000",
+              "BASE_UNIT": "EA",
+              "OPMODE": "A"
+            }
+          ]
+        },
+        {
+	        "ORDER_NUM": "MOB20161025105805",
+			"OPERATION": "0020",
+			"TASK_TYPE": "MEAS",
+			"TASK_ID": "MOB201610251058050020",
+			"OPERATION_TXT": "Measurement Task",
+			"WORK_CENTER": "MAINT04",
+			"WORK_ACTIVITY": "10.0",
+			"WORK_UNIT": "H",
+			"STAT_PROF": "EAM_WOPE",
+			"USER_STATUS": "E0002",
+			"OPMODE": "A",
+			"EQUIP_NUM": "000000000010000131",
+			"ZEAM_WO_MPT": {
+				"MEASURING_POINT":"000000000082",
+				"ORDER_NUM":"MOB20161025105805",
+				"TASK_ID":"MOB201610251058050020",
+				"OPERATION":"0020",
+				"EQUIP_ASSET_VAL":"000000000010000131",
+				"MEASURING_TEXT":"Pressure",
+				"MEASURING_CAT":"M",
+				"MEASURING_DATE":"20170303",
+				"MEASURING_READ":"10",
+				"MEASURING_UNIT":"",
+				"OPMODE":"A"
+			}
+        }
+      ]
+    }
+  }
+}

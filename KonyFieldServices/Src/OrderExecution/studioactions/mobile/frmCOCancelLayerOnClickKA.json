@@ -1,0 +1,24 @@
+{
+    "AS_Button_52fd3490dfde427791ad75ad948a8c8e": {
+        "id": "AS_Button_52fd3490dfde427791ad75ad948a8c8e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOCancelLayerOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderLayerKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055615"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bcf09a2b5cf4435abac0946b1a8ac8a1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.servicesapp.showFormOrderList();\n",
+            "callbackType": null
+        }]
+    }
+}

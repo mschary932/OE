@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="KonyService" name="KonyService">
+    <container isflex="false" displayname="Popup" id="tmpFilterBodyKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpFiltersKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpMyOrderHeader" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderAttachmentsKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderExecutionHeader" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderExecutionHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderExecutionTemplate" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderListKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpResorceExecTemplate" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpResorcesHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpResourcesSegKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpSecHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResoucesKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResourcHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResourceHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResourceKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResourcesHeader" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResourcesHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpViewBodyKA" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmAddNotificationKA" type="form">
+        <component displayname="TextBox2" id="tbxTypeValKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxPriorityValKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxCustomerValKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxFunctionalLocationValKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxAssetKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxAssemblyKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxSerialNumKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmBarCodeScannnerKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmCompleteOrderKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmCompleteOrderLayerKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmCompleteOrderSummaryKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmContactDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmDirectionsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmEditTaskResourcesKA" type="form">
+        <component displayname="TextBox2" id="txtEnterValueKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmHamburgerMenuNotifKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmHamburgerMenuWOKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmLoginKA" type="form">
+        <component displayname="TextBox2" id="tbxCRMUserIDKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxCRMPasswordKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmMyNotificationLiskKA" type="form">
+        <component displayname="Map" id="mapMyOrderKA" type="map">
+            <attributes datatype="string" name="key" platform="general" value="Google map key is not defined in application properties"/>
+        </component>
+        <component displayname="Map" id="mapMyOrderListKA" type="map">
+            <attributes datatype="string" name="key" platform="general" value="Google map key is not defined in application properties"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmNotificationDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmNotificationExecutionKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderAttachmentsKA" type="form">
+        <component displayname="TextBox2" id="tbxOrderAttachmentsKA" type="textbox2">
+            <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmOrderCompleteCheckListKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderExecutionKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderListKA" type="form">
+        <component displayname="Map" id="mapMyOrderKA" type="map">
+            <attributes datatype="string" name="key" platform="general" value="Google map key is not defined in application properties"/>
+        </component>
+        <component displayname="Map" id="mapMyOrderListKA" type="map">
+            <attributes datatype="string" name="key" platform="general" value="Google map key is not defined in application properties"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmOrderResourceDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderResourcesListKA" type="form">
+        <component displayname="TextBox2" id="txtSearchKA" type="textbox2">
+            <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmOrdersViewsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmResourceExecutionAddKA" type="form">
+        <component displayname="TextBox2" id="txtQuantityInputKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmResourceExecutionKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmTaskDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmTaskExecutionKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmTaskResourcesKA" type="form">
+        <component displayname="TextBox2" id="tbxTaskResourcesKA" type="textbox2">
+            <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmTenantKA" type="form">
+        <component displayname="TextBox2" id="tbxCRMTenantNameKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxCRMTenantURLKA" type="textbox2"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

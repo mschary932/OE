@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580638_btnBarcodeScanKA_onClick_seq0": {
+        "id": "p2kwiet1234563580638_btnBarcodeScanKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmURLBtnBarcodeScanOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_4929312345635806920",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LoginController.captureBarcode();"
+        }]
+    }
+}

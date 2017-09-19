@@ -1,0 +1,25 @@
+{
+    "AS_Button_58f6702d63034da7b1730933eb88f2c4": {
+        "id": "AS_Button_58f6702d63034da7b1730933eb88f2c4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnPausedFOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a2247c79ab9e4f038c405b0d695c8a0d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onStatusFilterClick\",['btnPausedFKA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

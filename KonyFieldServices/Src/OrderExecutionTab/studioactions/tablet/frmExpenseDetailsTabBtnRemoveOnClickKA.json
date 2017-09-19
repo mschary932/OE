@@ -1,0 +1,25 @@
+{
+    "AS_Button_7a7bde01f265449abdbcab582cef4874": {
+        "id": "AS_Button_7a7bde01f265449abdbcab582cef4874",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetailsTabBtnRemoveOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e8f7e65edb06416bacaaa687fb843c0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__26f118f89382468b8021804c157292dd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDeleteExpensePopUp\");\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

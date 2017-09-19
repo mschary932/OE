@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf98cf88ec834c30988a066324234c7d",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "imgTimeItemCancelled2KA",
+        "btnTimeItemCancelledKA",
+        "lblAddTimeItemKA",
+        "imgTimeItemOk2KA",
+        "btnTimeItemOk2KA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexTopContainerAddTimeKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "47f52f96321248208793d98995e843f5",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexAddTimePopupContainerKA",
+    "pf": "frmTaskExecutionTabKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

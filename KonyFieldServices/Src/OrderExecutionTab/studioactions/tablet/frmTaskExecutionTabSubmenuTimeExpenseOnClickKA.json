@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_08a79799abb74ed5b3f7b30c4122cf4a": {
+        "id": "AS_FlexContainer_08a79799abb74ed5b3f7b30c4122cf4a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabSubmenuTimeExpenseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_02c0de32d2924bdfbd95547d1817f641",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeExpense\"); ",
+            "callbackType": null
+        }]
+    }
+}

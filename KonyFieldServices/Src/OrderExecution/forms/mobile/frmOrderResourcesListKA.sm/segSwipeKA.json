@@ -1,0 +1,429 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "btnConssumedKA": {},
+                "btnDeleteKA": {},
+                "btnEditKA": {},
+                "flxAvailableKA": {},
+                "flxCheckKA": {},
+                "flxChildKA": {},
+                "flxDataKA": {},
+                "flxEditDelete": {},
+                "flxHeadertmpKA": {},
+                "flxMaterialKA": {},
+                "flxSegmentMainKA": {},
+                "flxTypeKA": {},
+                "flxUsedKA": {},
+                "imgClickKA": {},
+                "lblAvaialableQuantityValueKA": {},
+                "lblAvailabaleQuantityKA": {},
+                "lblCodeKA": {},
+                "lblFilterKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "In Task, Filter (2)"
+                },
+                "lblLineBottomKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": " "
+                },
+                "lblLineKA": {},
+                "lblLineTopKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": " "
+                },
+                "lblMaterialKA": {},
+                "lblResourceKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "7 Resources"
+                },
+                "lblTypeKA": {},
+                "lblUsedQuantityKA": {},
+                "lblUsedQuantityValueKA": {}
+            },
+            [
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData"
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12345"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Materials"
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Gas Turbine"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData"
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "53455"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Materials"
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Electrical Generator"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData"
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "65566"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Materials"
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Gas Compressor"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData"
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "43444"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Materials"
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Induction Motor"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData"
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "53453"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Materials"
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Power Transformer"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData"
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "64566"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Materials"
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Air Conditioner"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData"
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "76567"
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Materials"
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Rotor"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "seg2Normal",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+        "psp": {
+            "dockSectionHeaders": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {
+                "isCircular": true,
+                "projectionAngle": 60
+            }
+        },
+        "viewType": "tableview"
+    },
+    "canUpdateUI": true,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "06",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segSwipeKA",
+    "ide_onRowClick": "AS_Segment_8fda04f5dfd84bb58c45c40d14e0433d",
+    "ide_onTouchStart": "AS_Segment_892183d9ede34c829f851c0152637cb9",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+        "psp": {
+            "bounces": false,
+            "editStyle": "none",
+            "enableDictionary": false,
+            "indicator": "none",
+            "progressIndicatorColor": "white",
+            "searchCriteria": 1,
+            "showProgressIndicator": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {}
+        },
+        "viewType": "tableview"
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet1234563580414",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollKA",
+    "pf": "frmOrderResourcesListKA",
+    "retainselection": false,
+    "rowTemplateId": "p2kwiet1234563580769",
+    "rowcounter": 6,
+    "rowfocusskin": "s49df93815194fd78f6864c1b36c1913",
+    "rowskin": "s8c2fab249d64e72b880bb52212759d3",
+    "rowtemplate": "flxSegmentMainKA",
+    "screenlevelwidget": false,
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "p2kwiet1234563580747",
+    "sectionheaderskin": "s7e7975295224664a0880e18f22fb694",
+    "sectionheadertemplate": "flxHeadertmpKA",
+    "selectedRowIndex": null,
+    "selectedRowIndices": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "64646464",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidSegment2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBSegment2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPhoneSegment2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWinPhone8Segment2Property",
+        "render": true
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnConssumedKA": "btnConssumedKA",
+        "btnDeleteKA": "btnDeleteKA",
+        "btnEditKA": "btnEditKA",
+        "flxAvailableKA": "flxAvailableKA",
+        "flxCheckKA": "flxCheckKA",
+        "flxChildKA": "flxChildKA",
+        "flxDataKA": "flxDataKA",
+        "flxEditDelete": "flxEditDelete",
+        "flxHeadertmpKA": "flxHeadertmpKA",
+        "flxMaterialKA": "flxMaterialKA",
+        "flxSegmentMainKA": "flxSegmentMainKA",
+        "flxTypeKA": "flxTypeKA",
+        "flxUsedKA": "flxUsedKA",
+        "imgClickKA": "imgClickKA",
+        "lblAvaialableQuantityValueKA": "lblAvaialableQuantityValueKA",
+        "lblAvailabaleQuantityKA": "lblAvailabaleQuantityKA",
+        "lblCodeKA": "lblCodeKA",
+        "lblFilterKA": "lblFilterKA",
+        "lblLineBottomKA": "lblLineBottomKA",
+        "lblLineKA": "lblLineKA",
+        "lblLineTopKA": "lblLineTopKA",
+        "lblMaterialKA": "lblMaterialKA",
+        "lblResourceKA": "lblResourceKA",
+        "lblTypeKA": "lblTypeKA",
+        "lblUsedQuantityKA": "lblUsedQuantityKA",
+        "lblUsedQuantityValueKA": "lblUsedQuantityValueKA"
+    },
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
+        "render": true
+    },
+    "zindex": 1
+}

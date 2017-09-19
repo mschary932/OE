@@ -1,0 +1,25 @@
+{
+    "AS_Button_31934bb7b1e8440587fca65d02055c34": {
+        "id": "AS_Button_31934bb7b1e8440587fca65d02055c34",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddEditTimeItemKA_OnPickerDoneBtnKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEditTimeItemKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a1943ad5bafd4db1bed058eecf1716e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9286c00998724c988f4a75c6c26d51d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var Controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar formModel = Controller.getFormModel();\ninputValue = formModel.getViewAttributeByProperty(\"TimePicker\", \"selectedKeys\");\nformModel.setViewAttributeByProperty(\"lblDurationKA\",\"text\",inputValue[0]+\":\"+inputValue[1]);\nformModel.setViewAttributeByProperty(\"flxTimePickerBg\", \"isVisible\", false);\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

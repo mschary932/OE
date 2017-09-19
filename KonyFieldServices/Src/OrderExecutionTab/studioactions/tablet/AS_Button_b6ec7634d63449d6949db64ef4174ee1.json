@@ -1,0 +1,17 @@
+{
+    "AS_Button_b6ec7634d63449d6949db64ef4174ee1": {
+        "id": "AS_Button_b6ec7634d63449d6949db64ef4174ee1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_314b4b76a5af4e25ac6215762793e7b9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showBackBomFlex\");",
+            "callbackType": null
+        }]
+    }
+}

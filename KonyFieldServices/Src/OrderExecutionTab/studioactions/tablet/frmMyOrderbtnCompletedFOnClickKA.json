@@ -1,0 +1,25 @@
+{
+    "AS_Button_73673c34a540405b9bf3e8c95e9d7a98": {
+        "id": "AS_Button_73673c34a540405b9bf3e8c95e9d7a98",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnCompletedFOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__01d9e00cc96a42cabb2d286310dbc422",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onStatusFilterClick\",['btnCompletedFKA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1219f4a6e6746efb377ff7d2afc75be",
+    "_text_": "Back",
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s65d284cf14a4d2f89f950d2f59a4e22",
+    "id": "btnBackEmailKA",
+    "ide_onClick": "AS_Button_860321777dcc44f1980eadc6f43d9a70",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b008eb9363f24c52b3ee31edf166ee58",
+    "name": "kony.ui.Button",
+    "parent": "flexBottomContainerEmailDetailsKA",
+    "pf": "frmCompleteOrderTabKA",
+    "texti18n": "i18n.common.Back",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_5601966523b64b7bacb5e2ece161947a": {
+        "id": "AS_Button_5601966523b64b7bacb5e2ece161947a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmWorkConfirmationCancelLayerOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSaveLayerKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "90ec4ef5d9084f108d8020247cea49dc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a64cbfcfea404c0588ae91351d4b1f5d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmWorkConfirmationKA\");\ncontroller.performAction(\"navigateBack\");\nvar formmodel = controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flexPopupKA\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

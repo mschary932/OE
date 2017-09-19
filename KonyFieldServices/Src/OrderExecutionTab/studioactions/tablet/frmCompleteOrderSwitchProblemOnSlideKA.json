@@ -1,0 +1,25 @@
+{
+    "AS_Switch_fcfa40f37f66421a9b639c0606bbd378": {
+        "id": "AS_Switch_fcfa40f37f66421a9b639c0606bbd378",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderSwitchProblemOnSlideKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9f2ea591b7ab4752b38c79487dfdab51",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"switchToggle\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_4b8213f375ca473191f67ecc277e6259": {
+        "id": "AS_Button_4b8213f375ca473191f67ecc277e6259",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnAlertReadOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__766c861fc1894036b806deae69432675",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"continueFillingRequiredData\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

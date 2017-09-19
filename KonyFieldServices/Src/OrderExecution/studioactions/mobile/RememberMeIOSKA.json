@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580219_switchonoffKA_onslide_seq0": {
+        "id": "p2kwiet1234563580219_switchonoffKA_onslide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "RememberMeIOSKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onslide_2756612345635807026",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " if(kony.store.getItem(\"isTouchIDEnabled\")){\n kony.ui.Alert(kony.i18n.getLocalizedString(\"i18n.common.login.alert.RememberMe\"), callback, constants.ALERT_TYPE_CONFIRMATION , kony.i18n.getLocalizedString(\"i18n.common.login.alert.continueKA\"), kony.i18n.getLocalizedString(\"i18n.common.cancelValueKA\"), kony.i18n.getLocalizedString(\"i18n.common.login.alert.continueKA\"), {});\n function callback(response){\n if(response){\n kony.store.setItem(\"isTouchIDEnabled\",false);\n frmLoginKA.flxTouchDKA.setVisibility(false);\n }\n else{\n frmLoginKA.switchonoffKA.selectedIndex = 0;\n }\n }\n }"
+        }]
+    }
+}

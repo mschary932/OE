@@ -1,0 +1,25 @@
+{
+    "AS_Button_c54a29092202468da6f1ba66d1ed3c8f": {
+        "id": "AS_Button_c54a29092202468da6f1ba66d1ed3c8f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetails_OnClick_NavigateToExpenseAttachments",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e1f862f8c77a441f90045b8fd05899fa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8fcf3b7958374f268abb2be36c4b42ae",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeAndExpenseAttachmentImages\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

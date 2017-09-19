@@ -1,0 +1,1 @@
+[{"sourceObject":"Inventory","targetObject":"Material","relationshipKeys":[{"sourceField":"Material_id","targetField":"id"}],"name":"Inventory_Material","type":"ManyToOne","custom":false,"cascadeDelete":false}]

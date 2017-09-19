@@ -1,0 +1,36 @@
+{
+    "AS_Button_b63dccc8dbd74a19bac8299ed3244ce0": {
+        "id": "AS_Button_b63dccc8dbd74a19bac8299ed3244ce0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSummaryKA_OnGenerateInvoiceBtnKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "07622c56b8444fdc873864e0133e3aa0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___6a637ea37af74befb7df3147b44954ce",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmInvoicePdfKA",
+            "formKUID": "52c6306a2c144019ba9f50c84e96d346",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "disabled": true
+        }, {
+            "id": "ADD_SNIPPET__16b32fdeaaa545bcb016e558a448070d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"generateInvoice\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

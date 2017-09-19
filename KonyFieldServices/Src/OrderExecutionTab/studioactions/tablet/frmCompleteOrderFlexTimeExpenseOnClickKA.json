@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_96b8dbf47b3849349ef1017b34b82347": {
+        "id": "AS_FlexContainer_96b8dbf47b3849349ef1017b34b82347",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlexTimeExpenseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ac0455e33d9743be8e7b8fc721ff2ef2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeExpense\"); ",
+            "callbackType": null
+        }]
+    }
+}

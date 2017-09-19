@@ -1,0 +1,23 @@
+{
+    "AS_Button_fe2acff58a8f4c1cb2ae107d0058d42a": {
+        "id": "AS_Button_fe2acff58a8f4c1cb2ae107d0058d42a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTenantKABtnQRCodeNewKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_af76c335021e47b989489691dd3bf482",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmFSLoginKA",
+            "formKUID": "p2kwiet1234563580185",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

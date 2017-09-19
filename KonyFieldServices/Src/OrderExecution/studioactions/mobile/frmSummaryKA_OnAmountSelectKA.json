@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_2886d84e900644cfa393e4414452a1e2": {
+        "id": "AS_FlexContainer_2886d84e900644cfa393e4414452a1e2",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSummaryKA_OnAmountSelectKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "07622c56b8444fdc873864e0133e3aa0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__679135c02a9140ad9fc8ad35a896000f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nformModel.setViewAttributeByProperty(\"imgPercentSelectKA\", \"src\", \"radiobuttonblank.png\");\nformModel.setViewAttributeByProperty(\"imgAmountSelectKA\", \"src\", \"radiobuttonfilled.png\");\nformModel.setViewAttributeByProperty(\"lblSymbolKA\", \"text\", \"$\");\n//formModel.setViewAttributeByProperty(\"tbxAmountKA\", \"text\", \"0\");\ncontroller.performAction(\"calculateDiscount\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_447d5670e9d84ebb97e743c12eda2002": {
+        "id": "AS_FlexContainer_447d5670e9d84ebb97e743c12eda2002",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_5066a0042d174335bf9b5dd41d00cbe7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTwoOrderDetails\"); ",
+            "callbackType": null
+        }]
+    }
+}

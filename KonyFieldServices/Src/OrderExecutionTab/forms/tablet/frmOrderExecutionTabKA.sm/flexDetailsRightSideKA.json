@@ -1,0 +1,71 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "85.89%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0634136c9754819af992f20ce38cf88",
+    "_top_": {
+        "type": "string",
+        "value": "14.11%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flexOnePendingTasksKA",
+        "flexTwoOrderDetailsKA",
+        "flexThreeOrderHistoryKA",
+        "flexFourOrderResourcesKA",
+        "flexFiveOrderObjectKA",
+        "flexSixOrderNotesKA",
+        "flexSevenAttachmentsKA",
+        "flexEightImagesKA",
+        "flexNineTimeExpenseKA",
+        "flexTenExtendedAttributesKA",
+        "flexMapKA",
+        "flexStepNavigationKA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexDetailsRightSideKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "8a70e40a9d7a42639609577d6645e036",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexBodyKA",
+    "pf": "frmOrderExecutionTabKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "vizProps": {
+        "lock": false
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

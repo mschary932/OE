@@ -1,0 +1,25 @@
+{
+    "AS_Button_e63cc0f059624ae189a12853b2da45e5": {
+        "id": "AS_Button_e63cc0f059624ae189a12853b2da45e5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetailsKA_OnRemoveButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e1f862f8c77a441f90045b8fd05899fa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0a459438edb3476fb72feed689dd746c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"removeRecord\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

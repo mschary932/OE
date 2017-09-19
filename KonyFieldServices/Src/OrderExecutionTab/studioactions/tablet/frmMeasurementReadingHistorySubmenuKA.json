@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_dd126ef1c32144eb8a69a3262ad30521": {
+        "id": "AS_FlexContainer_dd126ef1c32144eb8a69a3262ad30521",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingHistorySubmenuKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementsReadingKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c7fc7cfba00b4915a11d26206bb0aed5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__db2abe32458840f8aaf81aafc8bcc204",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showHistory\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

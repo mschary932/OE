@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_7d524233ab9c4bafa678db316ae79d50": {
+        "id": "AS_FlexContainer_7d524233ab9c4bafa678db316ae79d50",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginFlxReConnectOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoginKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580219"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e21b68a4a0764b199413f4cc2a9e394c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(kony.sdk.mvvm.isNetworkAvailabile()) {\n\tfrmFSLoginKA.show();\t\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

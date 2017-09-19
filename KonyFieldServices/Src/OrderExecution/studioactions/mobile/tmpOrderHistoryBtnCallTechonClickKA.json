@@ -1,0 +1,20 @@
+{
+    "p2kwiet1234563580719_btnCallTechKA_onClick_seq0": {
+        "id": "p2kwiet1234563580719_btnCallTechKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpOrderHistoryBtnCallTechonClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_4782812345635808799",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n \n controller.performAction(\"makeCall\");"
+        }]
+    }
+}

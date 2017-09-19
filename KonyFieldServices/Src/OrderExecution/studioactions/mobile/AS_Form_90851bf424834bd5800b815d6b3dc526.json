@@ -1,0 +1,21 @@
+{
+    "AS_Form_90851bf424834bd5800b815d6b3dc526": {
+        "id": "AS_Form_90851bf424834bd5800b815d6b3dc526",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingOrderListKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8587586ca9f444a9047edc4d42f30a7"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDeviceBack_1c7da9fe2aca499e9fc877a2c83d7c56",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "new utilities().doNothingOnDeviceBackKA();\n "
+        }]
+    }
+}

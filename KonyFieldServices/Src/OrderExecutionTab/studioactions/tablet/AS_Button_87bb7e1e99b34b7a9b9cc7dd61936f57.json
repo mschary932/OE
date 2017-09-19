@@ -1,0 +1,17 @@
+{
+    "AS_Button_87bb7e1e99b34b7a9b9cc7dd61936f57": {
+        "id": "AS_Button_87bb7e1e99b34b7a9b9cc7dd61936f57",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c7c2232d2fec4c7f9507a0b8533a8447",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelAddTimeItemPopUp\"); ",
+            "callbackType": null
+        }]
+    }
+}

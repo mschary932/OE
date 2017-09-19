@@ -1,0 +1,225 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "8.23%"
+    },
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnCallKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "btnRequestKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "imgBom2KA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map_pin.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Available : 35 lbs"
+            },
+            "lblMilesKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10 Miles"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblStockIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock ID"
+            },
+            "lblStockLocationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock Location Name Stock Location"
+            }
+        },
+        {
+            "btnCallKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "btnRequestKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "imgBom2KA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map_pin.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Available : 35 lbs"
+            },
+            "lblMilesKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10 Miles"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblStockIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock ID"
+            },
+            "lblStockLocationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock Location Name Stock Location"
+            }
+        },
+        {
+            "btnCallKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "btnRequestKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "imgBom2KA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "map_pin.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Available : 35 lbs"
+            },
+            "lblMilesKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10 Miles"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblStockIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock ID"
+            },
+            "lblStockLocationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock Location Name Stock Location"
+            }
+        }
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "21.23%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segStockLocationKA",
+    "ide_onRowClick": "AS_Segment_e35268f1244e4369997453a1c47dfcd9",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "5814236970d142b6a7b1db17109423eb",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexStockLocationsKA",
+    "pf": "frmTaskExecutionTabKA",
+    "retainselection": false,
+    "rowTemplateId": "da3587e59a694de198e612a3f4b6faff",
+    "rowcounter": 2,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexStockMainKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnCallKA": "btnCallKA",
+        "btnRequestKA": "btnRequestKA",
+        "flexCallRequestKA": "flexCallRequestKA",
+        "flexImageTmpKA": "flexImageTmpKA",
+        "flexLeftContainer2KA": "flexLeftContainer2KA",
+        "flexStockListContainerKA": "flexStockListContainerKA",
+        "flexStockMainKA": "flexStockMainKA",
+        "imgBom2KA": "imgBom2KA",
+        "imgChevronKA": "imgChevronKA",
+        "lblAvailableKA": "lblAvailableKA",
+        "lblMilesKA": "lblMilesKA",
+        "lblSeparatorTemplate2KA": "lblSeparatorTemplate2KA",
+        "lblStockIdKA": "lblStockIdKA",
+        "lblStockLocationKA": "lblStockLocationKA"
+    },
+    "zindex": 1
+}

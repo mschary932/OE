@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1219f4a6e6746efb377ff7d2afc75be",
+    "_text_": "Raise Purchase Request",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s65d284cf14a4d2f89f950d2f59a4e22",
+    "id": "btnRaisePurchaseRequestKA",
+    "ide_onClick": "AS_Button_4ef030b86ccd47b398214a58263b0f73",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fadc12984f044c64af86fbe891cc8fa0",
+    "name": "kony.ui.Button",
+    "parent": "flexRaisePurchaseRequestKA",
+    "pf": "frmTaskExecutionTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

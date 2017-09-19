@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_2de9998db7764544bcb75ee38a226eda": {
+        "id": "AS_FlexContainer_2de9998db7764544bcb75ee38a226eda",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_329cdcb8e6c74c87b40416f91d3c0cf8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOnePendingTasks\"); ",
+            "callbackType": null
+        }]
+    }
+}

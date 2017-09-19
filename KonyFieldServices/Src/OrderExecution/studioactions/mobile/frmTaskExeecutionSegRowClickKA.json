@@ -1,0 +1,31 @@
+{
+    "AS_Segment_94efa707145f498e8738e4d0e0c5bed7": {
+        "id": "AS_Segment_94efa707145f498e8738e4d0e0c5bed7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExeecutionSegRowClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580554"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2d7e81f0f52b4ad2a9df7ec85e0b9af3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"onRowClick kony.servicesapp.rowreset\"+kony.servicesapp.rowreset);\n/*alert(\"onRowClick swiped indices length\"+Object.keys(kony.servicesapp.swipedIndices).length);\nalert(\"onRowClick coord\"+kony.servicesapp.coords.length);\nalert(\"onRowClick kony.servicesapp.isAnimationInProgress\"+kony.servicesapp.isAnimationInProgress);*/\nif(kony.servicesapp.isAnimationInProgress){return;}\nelse if(((Object.keys(kony.servicesapp.swipedIndices).length>0))){ \n  \nfrmTaskExecutionKA.segSwipeKA.animateRows({\n                rows: [{\n                    sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n                    rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n                }],\n                widgets: [\"flxChildKA\"],\n                animation: kony.servicesapp.getEndStateTransAnimDefinition(\"-50%\",\"0%\",true)\n            });\n}\nelse if(kony.servicesapp.coords.length == 0 ){\n\n  var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToResourceExecution\");\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

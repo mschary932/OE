@@ -1,0 +1,25 @@
+{
+    "AS_ListBox_b958818663714ebd899af4c5585964bf": {
+        "id": "AS_ListBox_b958818663714ebd899af4c5585964bf",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCustomerSignOffListBoxOnSelectKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerSignOffKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f59c9f1bbd174521a523b58a373ac79f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__91f0ee541d304b4da2ffe7335b99af34",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCustomerSignOffKA\");\ncontroller.performAction(\"onSelectListBox\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_TextField_199498d76a0c42439759d388bc35bbff": {
+        "id": "AS_TextField_199498d76a0c42439759d388bc35bbff",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementsKA_tbxSearchKADone",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "382dc3a2541c4998b2d0e7678792005b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2d5423c321ba493fae76b2f6a88ba5d0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"doSearch\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

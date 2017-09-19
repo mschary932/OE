@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_4c29d948b2634b6c9543f4da949cc44d": {
+        "id": "AS_FlexContainer_4c29d948b2634b6c9543f4da949cc44d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAddEditTimeItemKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a1943ad5bafd4db1bed058eecf1716e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_adbddc8984d44176bdec091523068d85",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var Controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar formModel = Controller.getFormModel();\nformModel.setViewAttributeByProperty(\"flxTimePickerBg\", \"isVisible\", true);\nController.performAction(\"schedulePopUpTime\");",
+            "callbackType": null
+        }]
+    }
+}

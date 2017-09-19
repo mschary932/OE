@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s261eb8ac74e428698e4e146650bfbde",
+    "_text_": "Contact Name",
+    "_top_": {
+        "type": "string",
+        "value": "2.40%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblContactNameKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "a937e26392864bc082030e4dd94a4619",
+    "name": "kony.ui.Label",
+    "parent": "flexContactKA",
+    "pf": "frmOrderExecutionTabKA",
+    "texti18n": "i18n.order.frmContactDetailsKA.lblContactNameKA.ValueKA",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

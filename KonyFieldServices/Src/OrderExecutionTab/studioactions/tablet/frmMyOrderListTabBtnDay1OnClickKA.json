@@ -1,0 +1,18 @@
+{
+    "AS_Button_5b83c2cc039148de8eda5cb699dd3014": {
+        "id": "AS_Button_5b83c2cc039148de8eda5cb699dd3014",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListTabBtnDay1OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_44c519db34e0416fb4ea6d98f634871b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onDayButtonClick\",['btnDay1KA']); ",
+            "callbackType": null
+        }]
+    }
+}

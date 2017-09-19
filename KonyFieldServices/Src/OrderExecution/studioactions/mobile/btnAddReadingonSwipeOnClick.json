@@ -1,0 +1,21 @@
+{
+    "AS_Button_629b46e1f677498ca52a14a6993b135f": {
+        "id": "AS_Button_629b46e1f677498ca52a14a6993b135f",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnAddReadingonSwipeOnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d21d0e1dde1d4a598d2f586569a3b853",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nvar controllerExxtensionObject=controller.getControllerExtensionObject();\ncontrollerExxtensionObject.setFormModelInfo(\"isDelete\", false);\nvar selRecord = formModel.getViewAttributeByProperty(\"segMeasurementKA\", \"selectedItems\")[0];\t\ncontroller.performAction(\"addMeasurementReading\",[selRecord]);",
+            "callbackType": null
+        }]
+    }
+}

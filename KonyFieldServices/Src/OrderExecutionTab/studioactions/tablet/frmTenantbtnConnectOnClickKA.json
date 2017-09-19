@@ -1,0 +1,25 @@
+{
+    "AS_Button_1e55173f87a34eae98292d42a7824f09": {
+        "id": "AS_Button_1e55173f87a34eae98292d42a7824f09",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTenantbtnConnectOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTenantTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet12400450961823"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fb1c0e405f3346c2b1610b9dcd90230c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmLoginTabKA.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_b88cae6110ab482f90194eb980276428": {
+        "id": "AS_FlexContainer_b88cae6110ab482f90194eb980276428",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

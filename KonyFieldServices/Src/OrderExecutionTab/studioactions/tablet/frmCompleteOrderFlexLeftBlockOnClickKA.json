@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_675bbb86e4cc41588a2f7d336ff0e459": {
+        "id": "AS_FlexContainer_675bbb86e4cc41588a2f7d336ff0e459",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlexLeftBlockOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__6f4baa684c8945bcbb249248b042c02f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideTimePopUpFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_1eba9b460e5d4012a2ff5a299e3f3d22": {
+        "id": "AS_FlexContainer_1eba9b460e5d4012a2ff5a299e3f3d22",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListTabFlexPriorityFilterOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_10a1c3f765ab47cfb78a8358ecb1af0c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onFilterDrill\",['flxPriorityFilterKA']);",
+            "callbackType": null
+        }]
+    }
+}

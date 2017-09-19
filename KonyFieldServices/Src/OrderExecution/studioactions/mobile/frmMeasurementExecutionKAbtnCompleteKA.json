@@ -1,0 +1,17 @@
+{
+    "AS_Button_4fc24b8e90e746428060948445e75e55": {
+        "id": "AS_Button_4fc24b8e90e746428060948445e75e55",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementExecutionKAbtnCompleteKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_76ab2a40af2b41fbb472848b35b97967",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n \n controller.performAction(\"changeStatusForTask\");\n "
+        }]
+    }
+}

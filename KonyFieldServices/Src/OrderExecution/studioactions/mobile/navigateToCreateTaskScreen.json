@@ -1,0 +1,31 @@
+{
+    "AS_Segment_59d69529e6a147aa80e25fb8e8b4b58f": {
+        "id": "AS_Segment_59d69529e6a147aa80e25fb8e8b4b58f",
+        "type": "ACTION_SEQUENCE",
+        "name": "navigateToCreateTaskScreen",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmCreateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "6d9c85e8ebbc443589f2ab1bc8d5f48b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e439dbf41f234ce1b4c55c7f3ca1cd0d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "showCreateTaskScreen();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

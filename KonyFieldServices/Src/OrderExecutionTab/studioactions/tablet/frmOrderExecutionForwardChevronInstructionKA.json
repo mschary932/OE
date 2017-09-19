@@ -1,0 +1,25 @@
+{
+    "AS_Button_df0e8c26de4b4a9ea130ade037c2127e": {
+        "id": "AS_Button_df0e8c26de4b4a9ea130ade037c2127e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionForwardChevronInstructionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cb09e15ab7ef449b9e239104f6d1154a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDetailedInstruction\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

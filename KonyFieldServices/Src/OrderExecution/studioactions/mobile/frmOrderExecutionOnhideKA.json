@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580351_frmOrderExecutionKA_onhide_seq0": {
+        "id": "p2kwiet1234563580351_frmOrderExecutionKA_onhide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionOnhideKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onhide_8664312345635804898",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "/*var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(\"frmOrderExecutionKA\");\n \n controller.performAction(\"cancelTimer\");*/\n "
+        }]
+    }
+}

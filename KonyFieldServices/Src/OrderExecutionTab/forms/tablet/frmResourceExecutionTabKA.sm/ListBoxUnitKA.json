@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "9%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "54%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfad51392f3547beacb4b272e16c6e19",
+    "_top_": {
+        "type": "string",
+        "value": "71%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "android": {
+        "dropDownImage": "popuparrownew.png"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "tablet",
+        "formID": "frmResourceExecutionTabKA",
+        "platform": "ipad",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "dropdownimage": "popuparrownew.png",
+    "groupcells": false,
+    "id": "ListBoxUnitKA",
+    "info": null,
+    "ipad": {
+        "dropDownImage": "popuparrownew.png"
+    },
+    "isvisible": true,
+    "kuid": "db2cbb05bf264d07a4b8285d00a4ab81",
+    "masterdata": [
+        [
+            "lb1",
+            "Each"
+        ],
+        [
+            "lb2",
+            "Carton"
+        ],
+        [
+            "lb3",
+            "Crate"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flexEditTimeItemKA",
+    "pf": "frmResourceExecutionTabKA",
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 3
+}

@@ -1,0 +1,22 @@
+{
+    "p2kwiet1234563580554_segTaskExecutionKA_onRowClick_seq0": {
+        "id": "p2kwiet1234563580554_segTaskExecutionKA_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_6732412345635802497",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"navigateToResourceExecution\");\n "
+        }]
+    }
+}

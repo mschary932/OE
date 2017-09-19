@@ -1,0 +1,18 @@
+{
+    "AS_Button_73b0eaf47c2b42a59d50c7765626d785": {
+        "id": "AS_Button_73b0eaf47c2b42a59d50c7765626d785",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingBtnCancelCrossOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_65f718d2777f462b92a5e71ffa687f7d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelDeletePopUp\");",
+            "callbackType": null
+        }]
+    }
+}

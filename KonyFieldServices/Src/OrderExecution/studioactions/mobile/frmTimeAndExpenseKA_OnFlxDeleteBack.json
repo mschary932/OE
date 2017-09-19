@@ -1,0 +1,25 @@
+{
+    "AS_Button_ce0b97ca368b4c7485db210d4ffff7ec": {
+        "id": "AS_Button_ce0b97ca368b4c7485db210d4ffff7ec",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTimeAndExpenseKA_OnFlxDeleteBack",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8d58a50575f141b1bb8d48209b2e5fd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__373a32f66af14036a59af3ae656e96f4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nformModel.setViewAttributeByProperty(\"flxDeleteKA\",\"isVisible\",false);\nkony.sdk.mvvm.KonyApplicationContext.showLoadingScreen(kony.i18n.getLocalizedString(\"i18n.common.msg.loadingDataKA\"));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_65d955ce570e4a4aa086463213704732": {
+        "id": "AS_Button_65d955ce570e4a4aa086463213704732",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTAE_Submenu_OnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580554"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0142c92978cf48f6a3ad1348f62c2214",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar controllerExtension = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.servicesapp.FRMTIMEANDEXPENSEKA).getControllerExtensionObject();\ncontrollerExtension.setFormModelInfo(\"previousForm\", kony.servicesapp.FRMTASKEXECUTIONKA);\ncontroller.performAction(\"navigateToTimeAndExpense\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

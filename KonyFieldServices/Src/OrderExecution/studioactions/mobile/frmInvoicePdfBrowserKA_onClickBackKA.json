@@ -1,0 +1,25 @@
+{
+    "AS_Button_7f81d05143f643a2ac39304de1af07ba": {
+        "id": "AS_Button_7f81d05143f643a2ac39304de1af07ba",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePdfBrowserKA_onClickBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfBrowserKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "04903397fcfb41608ab27a63c122b0ba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7829d7d55e764bfd97e26314f15a4ed3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateBack\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

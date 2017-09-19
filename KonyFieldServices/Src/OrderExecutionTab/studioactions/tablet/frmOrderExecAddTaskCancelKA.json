@@ -1,0 +1,24 @@
+{
+    "AS_Button_37a650100976450280573ded63fbb894": {
+        "id": "AS_Button_37a650100976450280573ded63fbb894",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecAddTaskCancelKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_93c091233e7241b9a949e32592710bc5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelAddTask\");",
+            "callbackType": null
+        }]
+    }
+}

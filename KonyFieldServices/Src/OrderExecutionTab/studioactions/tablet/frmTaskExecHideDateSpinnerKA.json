@@ -1,0 +1,18 @@
+{
+    "AS_Button_762c0752d9094b71a994e598a31f87c0": {
+        "id": "AS_Button_762c0752d9094b71a994e598a31f87c0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecHideDateSpinnerKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a2548c21cb474ffebfb4ceb619188df1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideDateSpinner\");",
+            "callbackType": null
+        }]
+    }
+}

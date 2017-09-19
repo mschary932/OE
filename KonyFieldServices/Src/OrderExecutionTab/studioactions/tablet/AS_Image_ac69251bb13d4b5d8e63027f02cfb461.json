@@ -1,0 +1,24 @@
+{
+    "AS_Image_ac69251bb13d4b5d8e63027f02cfb461": {
+        "id": "AS_Image_ac69251bb13d4b5d8e63027f02cfb461",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Segment_7f1d161376c44586ae36627696d1b3dd": {
+        "id": "AS_Segment_7f1d161376c44586ae36627696d1b3dd",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPendingOrderListSegPOOnPullKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingOrderListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8587586ca9f444a9047edc4d42f30a7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7f35c93807fc434b8b0e93ae524f1f14",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.servicesapp.syncPendingOrdersKA();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

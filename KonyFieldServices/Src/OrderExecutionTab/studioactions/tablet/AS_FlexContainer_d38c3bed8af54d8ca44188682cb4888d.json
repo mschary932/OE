@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_d38c3bed8af54d8ca44188682cb4888d": {
+        "id": "AS_FlexContainer_d38c3bed8af54d8ca44188682cb4888d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e1d6e9d9113f4270bb69296220d891f9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showHamburgerMenu\"); \ncontroller.performAction(\"showAndHideShadow\"); \ncontroller.performAction(\"showMyOrderListForm\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_ecef33995bd74252bc74c70523f5b09d": {
+        "id": "AS_Button_ecef33995bd74252bc74c70523f5b09d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_88c6734599f344e3b8b09a1914cf01b9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backFromSettingScreen\"); ",
+            "callbackType": null
+        }]
+    }
+}

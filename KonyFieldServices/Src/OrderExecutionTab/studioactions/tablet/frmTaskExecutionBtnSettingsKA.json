@@ -1,0 +1,18 @@
+{
+    "AS_Button_f923ba174aa242a9af8b98b05fe031c1": {
+        "id": "AS_Button_f923ba174aa242a9af8b98b05fe031c1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionBtnSettingsKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cfd7c08f7125486f8c7b70dbdf816677",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showSettingScreen\");",
+            "callbackType": null
+        }]
+    }
+}

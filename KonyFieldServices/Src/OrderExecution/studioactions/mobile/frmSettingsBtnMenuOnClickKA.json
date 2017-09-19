@@ -1,0 +1,25 @@
+{
+    "AS_Button_d690142c59b7486490a8c9262c5fa589": {
+        "id": "AS_Button_d690142c59b7486490a8c9262c5fa589",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSettingsBtnMenuOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettingsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "00f9908defb843b687555694136887a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__00aeccc12a564754b706cf016529fdb2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "new hamburgerMenu().execute();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_Button_cbf2c279d3704401abc50a9db5ac2053": {
+        "id": "AS_Button_cbf2c279d3704401abc50a9db5ac2053",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmNewTaskBtnAddClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_5fe8df16e1bd4f08a52f7c0f056384ab",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var instance = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = instance.getFormController(\"frmNewTaskKA\");\ncontroller.performAction(\"saveTaskKA\");"
+        }]
+    }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+    <test name="MyWork-CRMApp_P1Test">
+        <classes>
+            <class name="test.orderexecution.tests.TestFormFSLoginKA">
+                <methods>
+                    <include name="test_app_login" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormSettingsKA">
+                <methods>
+                    <include name="test_reset_database_validate_alert" />
+                    <exclude name="test_Offline_Reset_Database" />
+                    <include name="test_settings_start_reset_database" />
+                    <include name="test_settings_notification" />
+                    <include name="test_App_Maintenance_validate_alert_header" />
+                    <exclude name="test_start_App_Maintenance" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestMyOrdersForm">
+                <methods>
+                    <include name="testFilter" />
+                    <include name="testDateSelection" />
+                    <include name="testMapNavigation" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormTaskResourcesListKA">
+                <methods>
+                    <include name="test_do_search_offline" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormTaskExecutionKA">
+                <methods>
+                    <include name="test_information_visible_task_execution" />
+                    <include name="test_materials_visible_task_execution" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormTaskDetailsKA">
+                <methods>
+                    <include name="test_information_visible_task_details" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormPendingOrdersListKA">
+                <methods>
+                    <include name="test_Pending_orders" />
+                    <include name="test_navigate_myOrders" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormOrderExecutionRejection">
+                <methods>
+                    <include name="RejectWorkOrder" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormPriorityFilter">
+                <include name="checkCriticalClick" />
+                <include name="checkHighClick" />
+                <include name="checkLowClick" />
+                <include name="checkMediumClick" />
+            </class>
+            <class name="test.orderexecution.tests.TestFormOrderViewsKA">
+                <include name="testStatusView" />
+                <include name="testPriorityView" />
+                <include name="testNearMeView" />
+                <include name="testScheduledView" />
+                <include name="testStartedView" />
+                <include name="testTodayView" />
+            </class>
+            <class name="test.orderexecution.tests.TestFormStatusFilterKA">
+                <methods>
+                    <include name="testback" />
+                    <include name="test_apply_no_filter" />
+                    <include name="testCompletedFilter" />
+                    <include name="test_clear_filter" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

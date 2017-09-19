@@ -1,0 +1,77 @@
+{
+    "AS_Button_9e2b00a8c95641cbae0e87bb10c98b85": {
+        "id": "AS_Button_9e2b00a8c95641cbae0e87bb10c98b85",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderHamburgerOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "IF_CONDITION__4a74020b7fc044a88b8161227b0ed335",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "frmMyOrderListTabKA.flxMainMenuKA.isVisible",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "false",
+                "leftItemKUID": "8975d3fba9cc42b69fb98933055e3aa7",
+                "leftWidgetKUID": "84c8c28caf184d60aa513a740c571975"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ELSE_CONDITION__3eb07230b8cf45ef979de5b552392878",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___9b9a96ff902945b8af358ab31fa63970",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmMyOrderListTabKA",
+            "widgetId": "flxMainMenuKA",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "8975d3fba9cc42b69fb98933055e3aa7",
+            "widgetKUID": "84c8c28caf184d60aa513a740c571975",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": "ELSE_CONDITION__3eb07230b8cf45ef979de5b552392878",
+            "callbackType": null,
+            "widgetPath": "frmMyOrderListTabKA.flxMainMenuKA"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___28d13677ea4549c8966996d6eafd741b",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmMyOrderListTabKA",
+            "widgetId": "flxMainMenuKA",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "8975d3fba9cc42b69fb98933055e3aa7",
+            "widgetKUID": "84c8c28caf184d60aa513a740c571975",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__4a74020b7fc044a88b8161227b0ed335",
+            "callbackType": null,
+            "widgetPath": "frmMyOrderListTabKA.flxMainMenuKA"
+        }]
+    }
+}

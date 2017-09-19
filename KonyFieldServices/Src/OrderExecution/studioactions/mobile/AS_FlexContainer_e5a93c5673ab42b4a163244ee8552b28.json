@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_e5a93c5673ab42b4a163244ee8552b28": {
+        "id": "AS_FlexContainer_e5a93c5673ab42b4a163244ee8552b28",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

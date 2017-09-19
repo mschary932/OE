@@ -1,0 +1,25 @@
+{
+    "AS_Form_42679c033e434715a21ed07a9fcbfa69": {
+        "id": "AS_Form_42679c033e434715a21ed07a9fcbfa69",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadings_deviceBackForAndroid",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementReadings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "160147dcef504f079e150aa881f874f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7c8d94d701fd4176891b744108995726",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showPreviousForm\",[true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

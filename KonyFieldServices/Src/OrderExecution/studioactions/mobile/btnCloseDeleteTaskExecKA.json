@@ -1,0 +1,25 @@
+{
+    "AS_Button_03444aa3b19c48a4a01a8330777f2c56": {
+        "id": "AS_Button_03444aa3b19c48a4a01a8330777f2c56",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnCloseDeleteTaskExecKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580554"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d0ba5ca6c25f4ca7a0caed4d94ec900d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formmodel = controller.getFormModel();\nvar controllerExtension = controller.getControllerExtensionObject();\ncontrollerExtension.fetchData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

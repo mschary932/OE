@@ -1,0 +1,155 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgPdfIconKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "shape1.png"
+            },
+            "lblAttachmentIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Head southwest on S EI Camino Real toward W 4th Ave Head southwest on S EI Camino Real toward W 4th Ave"
+            },
+            "lblDirectionHeadingKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "85 Feet | 2 seconds"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "imgPdfIconKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "shape3.png"
+            },
+            "lblAttachmentIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Take the 1st left onto E 4th Ave Head southwest on S EI Camino Real toward W 4th Ave"
+            },
+            "lblDirectionHeadingKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.8 Miles | 3 Minutes"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "imgPdfIconKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "shape4.png"
+            },
+            "lblAttachmentIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Slight left to stay on E 4th Ave Head southwest on S EI Camino Real toward W 4th Ave"
+            },
+            "lblDirectionHeadingKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "0.1 Miles | 10 Seconds"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        }
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "8.23%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segStepNavigationKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "e74a8d2851da461587d0ad1d9a24f137",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexStepNavigationKA",
+    "pf": "frmOrderExecutionTabKA",
+    "retainselection": false,
+    "rowTemplateId": "4af535b42ff24482b448f78d894d779c",
+    "rowcounter": 2,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexStepByStepNavigationKAKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexStepByStepNavigationKAKA": "flexStepByStepNavigationKAKA",
+        "imgPdfIconKA": "imgPdfIconKA",
+        "lblAttachmentIdKA": "lblAttachmentIdKA",
+        "lblDirectionHeadingKA": "lblDirectionHeadingKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_7783bbc269c14e4098a320c120052bb9": {
+        "id": "AS_FlexContainer_7783bbc269c14e4098a320c120052bb9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSelectPaymentMethod_NavigateToCashKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSelectPaymentMethodKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dddc810f2e9a4f46a0b4c84a58f86eaa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__070c78c611ab4ca0be7c70f15cb71f39",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"navigateToCashPayment\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

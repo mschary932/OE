@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_9a5363266b9a430fb29670638e15e28c": {
+        "id": "AS_FlexContainer_9a5363266b9a430fb29670638e15e28c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionFlexMaterialDetailsOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__10100bc8f1b8451f86b7d6ccfe4de25d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showResourceExecutionForm\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

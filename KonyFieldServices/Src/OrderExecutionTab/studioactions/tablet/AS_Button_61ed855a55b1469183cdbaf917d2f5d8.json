@@ -1,0 +1,46 @@
+{
+    "AS_Button_61ed855a55b1469183cdbaf917d2f5d8": {
+        "id": "AS_Button_61ed855a55b1469183cdbaf917d2f5d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___570d4971484c48038570a174cca1399d",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmMyOrderListTabKA",
+            "widgetId": "btnLogOutKA",
+            "propertyName": "text",
+            "propertyValue": "",
+            "itemKUID": "8975d3fba9cc42b69fb98933055e3aa7",
+            "widgetKUID": "c54faefa4a0d4405a744a2607549de9a",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmMyOrderListTabKA.btnLogOutKA"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___884caa167bb24478ab211bae3d6fc24d",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmMyOrderListTabKA",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "8975d3fba9cc42b69fb98933055e3aa7",
+            "widgetKUID": "6aa32a010a354c0f8370cab211da2e80",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "AS_Button_da0a628f59b741b5b48cfa15da924f03": {
+        "id": "AS_Button_da0a628f59b741b5b48cfa15da924f03",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionBtnBOMOnCLickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2fa2a80f16e64a6385d037acc95db42c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmOrderExecutionKA\");\ncontroller.performAction(\"showOrderObjectFromExecution\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

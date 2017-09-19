@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "14.98%"
+    },
+    "_skin_": "s76e984ab0bc4c65ae5b0834f06b4802",
+    "_text_": "Time",
+    "_top_": {
+        "type": "string",
+        "value": "63.15%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblTimeaddKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "11ed13724847416aaaf098792119803d",
+    "name": "kony.ui.Label",
+    "parent": "flexAddTimeExpenseKA",
+    "pf": "frmTaskExecutionTabKA",
+    "texti18n": "i18n.common.TimeKA",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

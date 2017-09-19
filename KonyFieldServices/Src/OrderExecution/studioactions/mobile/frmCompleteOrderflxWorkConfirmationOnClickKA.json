@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_628456245dcd4fc59bddc5e7fce560fb": {
+        "id": "AS_FlexContainer_628456245dcd4fc59bddc5e7fce560fb",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderflxWorkConfirmationOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__94da70cf58504ddaad1463496380d80d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\ncontroller.performAction(\"showWorkConfirmationform\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

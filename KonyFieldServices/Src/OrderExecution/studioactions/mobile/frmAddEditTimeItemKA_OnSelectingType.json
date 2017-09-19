@@ -1,0 +1,18 @@
+{
+    "AS_ListBox_94dc968fd4e64618b1e0b52fd101c477": {
+        "id": "AS_ListBox_94dc968fd4e64618b1e0b52fd101c477",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddEditTimeItemKA_OnSelectingType",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSelection_4535a72b8218488a9f2a70f90132ffc4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var selRecord=frmAddEditTimeItemKA.listBoxExpenseTypeKA.selectedKeyValues[0];\nvar Name=selRecord[1];\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(\"frmAddEditTimeItemKA\");\n controller.performAction(\"populateDescription\",[Name]);\n",
+            "callbackType": null
+        }]
+    }
+}

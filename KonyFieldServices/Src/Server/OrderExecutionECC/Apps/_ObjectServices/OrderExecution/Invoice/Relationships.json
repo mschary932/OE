@@ -1,0 +1,1 @@
+[{"sourceObject":"Invoice","targetObject":"InvoiceAttachment","relationshipKeys":[{"sourceField":"id","targetField":"Invoice_id"}],"name":"Invoice_InvoiceAttachment","type":"OneToMany","custom":false,"cascadeDelete":false}]

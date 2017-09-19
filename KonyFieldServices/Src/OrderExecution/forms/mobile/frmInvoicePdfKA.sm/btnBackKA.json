@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2a858d09b704be48f814bbe3a9d3ab3",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd61c1a415694c47856d2bbd25fce81c",
+    "id": "btnBackKA",
+    "ide_onClick": "AS_Button_02a89b8eb21e44a6be68098b02150742",
+    "info": null,
+    "isvisible": false,
+    "kuid": "40180ff493c14ed59644a328c8268aa6",
+    "name": "kony.ui.Button",
+    "parent": "flxHeaderKA",
+    "pf": "frmInvoicePdfKA",
+    "wType": "Button",
+    "zindex": 1
+}

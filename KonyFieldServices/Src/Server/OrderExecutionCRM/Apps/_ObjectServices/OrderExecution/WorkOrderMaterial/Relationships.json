@@ -1,0 +1,1 @@
+[{"sourceObject":"WorkOrderMaterial","targetObject":"ExtendedAttributeValue","relationshipKeys":[{"sourceField":"Id","targetField":"PARENT_KEY2"},{"sourceField":"WorkOrder_id","targetField":"PARENT_KEY"}],"name":"WorkOrderMaterial_ExtendedAttributeValue","type":"OneToMany","custom":false,"cascadeDelete":false}]

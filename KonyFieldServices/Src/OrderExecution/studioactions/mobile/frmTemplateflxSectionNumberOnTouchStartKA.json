@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_f4121bdb815c462aa8a80272b2fd09b7": {
+        "id": "AS_FlexContainer_f4121bdb815c462aa8a80272b2fd09b7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateflxSectionNumberOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__60609242204a44618e47cd233c0a23ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

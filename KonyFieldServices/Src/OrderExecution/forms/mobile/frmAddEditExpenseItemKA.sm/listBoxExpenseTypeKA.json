@@ -1,0 +1,98 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5.33%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3.60%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Select",
+    "_skin_": "sebe0d9d34eb4d34b4f0e56929a64b7b",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "dropDownImage": "transparentimage.png",
+        "psp": {
+            "placeholderSkin": "s7ea05c7c35b4a2d8a6043587abcbd1f"
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmAddEditExpenseItemKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "disabledSkins": {},
+    "dropdownimage": "transparentimage.png",
+    "focusskin": "s7ea05c7c35b4a2d8a6043587abcbd1f",
+    "groupcells": false,
+    "i18n_placeholder": "i18n.common.SelectKA",
+    "id": "listBoxExpenseTypeKA",
+    "ide_onSelection": "AS_ListBox_12f321e278fd4f26a304c9d2c4916e97",
+    "info": null,
+    "iphone": {
+        "dropDownImage": "transparentimage.png",
+        "psp": {
+            "i18n_placeholder": "i18n.common.SelectKA"
+        }
+    },
+    "isvisible": true,
+    "kuid": "ac77a1ed18f748f796126d446e71239f",
+    "masterdata": [
+        [
+            "lb1",
+            "Listbox One"
+        ],
+        [
+            "lb2",
+            "Listbox Two"
+        ],
+        [
+            "lb3",
+            "Listbox Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "flexScrollEditExpenseItemKA",
+    "pf": "frmAddEditExpenseItemKA",
+    "selectedkey": null,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

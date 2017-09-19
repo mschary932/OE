@@ -1,0 +1,24 @@
+{
+    "AS_Button_11dcf69986164f83bf8629049a844924": {
+        "id": "AS_Button_11dcf69986164f83bf8629049a844924",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPendingOrderListBtnCurrentLocationOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingOrderListKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8587586ca9f444a9047edc4d42f30a7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e2d44f8a3f6749ad9c30703af5fa304e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar utilitiesObj = utilities.getUtilityObj();\nkony.sdk.mvvm.KonyApplicationContext.showLoadingScreen(utilitiesObj.geti18nValueKA(\"i18n.common.showLoadingKA\"));\ncontroller.performAction(\"getCurrentLocation\",[true]);",
+            "callbackType": null
+        }]
+    }
+}

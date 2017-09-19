@@ -1,0 +1,88 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "32dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "sf71c1f171c54f6aac1ff703f39c72f1",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.AndroidSwitchProperty",
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "contentalignment": 5,
+    "hexpand": true,
+    "id": "switchonoff12KA",
+    "ide_onSlide": "p2kwiet1234563580219_switchonoffKA_onslide_seq0",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.IPhoneSwitchProperty",
+        "render": true
+    },
+    "isvisible": false,
+    "kuid": "p2kwiet1234563580210",
+    "margininpixel": false,
+    "name": "kony.ui.Switch",
+    "onslide": null,
+    "osPlatform": "iphone",
+    "osVersion": "iOS7",
+    "paddinginpixel": false,
+    "parent": "flxSwitchKA",
+    "pf": "frmLoginKA",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.SPASwitchProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.SPAAndroidSwitchProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.SPABBSwitchProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.SPAIPhoneSwitchProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.SPAWinPhone8SwitchProperty",
+        "render": true
+    },
+    "swidth": 165,
+    "vexpand": false,
+    "wType": "Switch",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.WinPhone8SwitchProperty",
+        "render": true
+    },
+    "zindex": 2
+}

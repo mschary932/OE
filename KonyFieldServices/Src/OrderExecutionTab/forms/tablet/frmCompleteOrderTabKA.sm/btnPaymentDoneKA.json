@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1219f4a6e6746efb377ff7d2afc75be",
+    "_text_": "Done",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s65d284cf14a4d2f89f950d2f59a4e22",
+    "id": "btnPaymentDoneKA",
+    "ide_onClick": "AS_Button_045ffc15c96a46f1a6e9656840881489",
+    "info": null,
+    "isvisible": true,
+    "kuid": "841b180259bc49e9a2b6ccb9930eda34",
+    "name": "kony.ui.Button",
+    "parent": "flexPayementDoneKA",
+    "pf": "frmCompleteOrderTabKA",
+    "texti18n": "i18n.Notes.frmCreateNoteKA.Done.ValueKA",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Image_b39ac7d464b34a2784cdc850cb45097b": {
+        "id": "AS_Image_b39ac7d464b34a2784cdc850cb45097b",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpResourceListTabBomImgOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "tmpResourceListTabKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "9cc9bc353c57486b8c8afcfe99faa279"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__06e09b8352c843e8b6b6a7d11c085716",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showBomFlex\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

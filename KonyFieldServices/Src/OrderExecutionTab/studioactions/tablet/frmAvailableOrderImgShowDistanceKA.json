@@ -1,0 +1,31 @@
+{
+    "AS_Image_c9205054fe6744c38d53057da9f8aee0": {
+        "id": "AS_Image_c9205054fe6744c38d53057da9f8aee0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAvailableOrderImgShowDistanceKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "tmpAvailableOrdersKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "bb5be872ec4543558a4bc9b5b738cfbb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4cf07e5717c14a3aa86fddb5a6b7b537",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderBallonOnPinTap\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

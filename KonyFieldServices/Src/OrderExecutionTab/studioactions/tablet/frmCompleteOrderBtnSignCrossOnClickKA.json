@@ -1,0 +1,25 @@
+{
+    "AS_Button_7345ce800bef4390841a8d9ff7a6e7bc": {
+        "id": "AS_Button_7345ce800bef4390841a8d9ff7a6e7bc",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnSignCrossOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__78693e5810f94e52b552143194c9d85b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelConfirmationPopUp\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_952aeead0cb444348d9f8bfd427fff15": {
+        "id": "AS_Button_952aeead0cb444348d9f8bfd427fff15",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmBillOfMaterialbtnBarcodeOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBillOfMaterialKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "77f49434b014487cbfba5004678ec3ab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7ed4b7296f18445592ccf46ea41d0d04",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var BOMBarcodeSearch = function(barcodeDataDummmy, barcodeData) {\n            var platFormName = kony.sdk.mvvm.Utils.getPlatformName();\n            if (platFormName === kony.sdk.mvvm.Platforms[\"IPHONE\"] || platFormName === kony.sdk.mvvm.Platforms[\"IPAD\"]) {\n                barcodeData = barcodeDataDummmy.barcodestring;\n            }\n            kony.sdk.mvvm.log.info(\"==barCodeText==>\" + barcodeData);\n  if(barcodeData){\n            var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n            var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n            controller.getFormModel().setViewAttributeByProperty(\"tbxBomSearchKA\", \"text\", barcodeData);\n            controller.performAction(\"searchObject\");\n        };\n}\n    Barcode.captureBarcode(BOMBarcodeSearch);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

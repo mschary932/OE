@@ -1,0 +1,25 @@
+{
+    "AS_Button_5b9cf737311841a9a108fc149ba8974d": {
+        "id": "AS_Button_5b9cf737311841a9a108fc149ba8974d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOShowHistoryOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f121b556a71548a3a4b493f542c9ee92",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "    var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n    var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n    controller.performAction(\"showWorkOrderHistoryForm\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

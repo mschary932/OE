@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0634136c9754819af992f20ce38cf88",
+    "_width_": {
+        "type": "string",
+        "value": "18%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "imgView2KA",
+        "lblView2KA",
+        "imgDownArrow2KA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexViewGroup2KA",
+    "ide_onClick": "AS_FlexContainer_feef9212f5714d3798252f73a1c43774",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ae04ec3a0ff84f99a0f717ca00823f40",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexFilterSearchBarcodeTopBar2KA",
+    "pf": "frmTaskExecutionTabKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

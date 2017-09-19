@@ -1,0 +1,25 @@
+{
+    "AS_Button_0098ff06ea024f44be411517c3cf8160": {
+        "id": "AS_Button_0098ff06ea024f44be411517c3cf8160",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementExecutionFormBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b553f85c0c8a4ef98b3237970e10a159"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8d0d58df56224a4f9e882e37f281a4a3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"FormBack\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

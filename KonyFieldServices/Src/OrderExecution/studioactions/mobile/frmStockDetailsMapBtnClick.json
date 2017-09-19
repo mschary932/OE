@@ -1,0 +1,25 @@
+{
+    "AS_Button_82f0d805554d46f49ba777a01c374d0b": {
+        "id": "AS_Button_82f0d805554d46f49ba777a01c374d0b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmStockDetailsMapBtnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStockLocationDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "80f03fe99e8d4ddb8595cb75ab1e4936"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__633df0d48392486b9e676a145c1aaed3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showFrmDirectionKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

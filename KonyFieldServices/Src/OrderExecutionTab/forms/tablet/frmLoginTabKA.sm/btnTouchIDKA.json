@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "76dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa9a3a14ccc14764b6f33aba25d5697b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s05b8b2dbe85430c8dec86280ce5f76f",
+    "id": "btnTouchIDKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "3e7a3243aa3742cb97fa1c0a4c6d5a9b",
+    "name": "kony.ui.Button",
+    "parent": "flxMainKA",
+    "pf": "frmLoginTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

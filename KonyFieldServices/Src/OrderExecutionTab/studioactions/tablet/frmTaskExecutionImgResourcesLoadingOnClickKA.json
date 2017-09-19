@@ -1,0 +1,31 @@
+{
+    "AS_Image_0b8b7eb4a44a4067a71778896f0024a4": {
+        "id": "AS_Image_0b8b7eb4a44a4067a71778896f0024a4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionImgResourcesLoadingOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4973f8428a7f4d5a9668203270ce52c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMaterialList\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

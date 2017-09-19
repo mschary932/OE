@@ -1,0 +1,31 @@
+{
+    "AS_Image_f28f23290643447087132cfa023b01b7": {
+        "id": "AS_Image_f28f23290643447087132cfa023b01b7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMOLimgDown2OnTouchEndKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aec2e484a52740279f44d8a7b6ad067a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onImgDown2Call\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

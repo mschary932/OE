@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580185_frmFSLoginKA_preshow_seq0": {
+        "id": "p2kwiet1234563580185_frmFSLoginKA_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmFSLoginPreShowKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_3122412345635804483",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(!kony.servicesapp.isAppLaunchedFirstTime)\n \tanimateInitScreen();\nfrmFSLoginKA.lblVersionNumberKA.text = kony.servicesapp.constants.getServiceConstantsObj().getValue(\"VERSION_NUMBER\");\nfrmFSLoginKA.lblBuildNoKA.text = kony.servicesapp.constants.getServiceConstantsObj().getValue(\"BUILD_NUMBER\");"
+        }]
+    }
+}

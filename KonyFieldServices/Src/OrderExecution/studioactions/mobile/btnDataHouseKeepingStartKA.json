@@ -1,0 +1,25 @@
+{
+    "AS_Button_3af928a4f7b1479c81ae766e94cdc747": {
+        "id": "AS_Button_3af928a4f7b1479c81ae766e94cdc747",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnDataHouseKeepingStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettingsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "00f9908defb843b687555694136887a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5ce6b10ef7af4e13a7ebfa6621cc74bd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.servicesapp = kony.servicesapp || {};\nvar cleanData = new kony.servicesapp.DataHouseKeeping();\nkony.ui.Alert(\"Are you sure you want to continue with app maintainance?\", callback, constants.ALERT_TYPE_CONFIRMATION, \"Yes\", \"No\", \"Continue\", {});\nfunction callback(response){\n  if(response){\n\tcleanData.cleanUpData(\"WorkOrder\", \"PlannedStartDate\", kony.servicesapp.DATA_CLEAN, \"OrderExecution\");\n    cleanData.cleanUpData(\"PendingOrders\", \"PlannedStartDate\", kony.servicesapp.DATA_CLEAN, \"AvailableOrders\");\n  }\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

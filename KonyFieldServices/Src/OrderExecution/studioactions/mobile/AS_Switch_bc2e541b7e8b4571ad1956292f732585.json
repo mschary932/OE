@@ -1,0 +1,23 @@
+{
+    "AS_Switch_bc2e541b7e8b4571ad1956292f732585": {
+        "id": "AS_Switch_bc2e541b7e8b4571ad1956292f732585",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderCompleteCheckListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__6357961e21ad42febe216055f67e00e5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmOrderCompleteCheckListKA\");\ncontroller.performAction(\"switchSlideCallback\",[\"1\"]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

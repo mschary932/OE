@@ -1,0 +1,25 @@
+{
+    "AS_Button_f5115cd3e32e40b89cc7508aa9f1e8fe": {
+        "id": "AS_Button_f5115cd3e32e40b89cc7508aa9f1e8fe",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmStockLocationDetailsBackBtnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStockLocationDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "80f03fe99e8d4ddb8595cb75ab1e4936"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1fc85b0349f54563bce8ebf54a522285",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"navigateBack\",[false]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

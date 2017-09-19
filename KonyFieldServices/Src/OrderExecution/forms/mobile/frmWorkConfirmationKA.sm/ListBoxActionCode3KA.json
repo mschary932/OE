@@ -1,0 +1,90 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "4dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "sebe0d9d34eb4d34b4f0e56929a64b7b",
+    "android": {},
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmWorkConfirmationKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "disabledSkins": {
+        "nativeListFieldFocusSkin": "se38ce27b06242a2946243b71356e89a",
+        "nativeListFieldSkin": "se38ce27b06242a2946243b71356e89a"
+    },
+    "dropdownimage": "",
+    "focusskin": "s77ab1b18ddc466d8c46d81fb328ad61",
+    "groupcells": false,
+    "id": "ListBoxActionCode3KA",
+    "ide_onSelection": "AS_ListBox_f8b8be096e5a4b0780a31c79852c67c4",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d910b8dbe71d4dfb802cd16d697dc0da",
+    "masterdata": [
+        [
+            "lb1",
+            "Listbox One"
+        ],
+        [
+            "lb2",
+            "Listbox Two"
+        ],
+        [
+            "lb3",
+            "Listbox Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxToggle3KA",
+    "pf": "frmWorkConfirmationKA",
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Listbox One"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

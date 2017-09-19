@@ -1,0 +1,25 @@
+{
+    "AS_Button_cbb37029ba32459a923881e2af22ed6e": {
+        "id": "AS_Button_cbb37029ba32459a923881e2af22ed6e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionbtnBackSelectStockLocationOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__26dc6461c7eb430e9b831733c299756f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backStockLocationFlexOnlineCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

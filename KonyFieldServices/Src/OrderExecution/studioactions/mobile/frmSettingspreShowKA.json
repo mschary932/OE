@@ -1,0 +1,25 @@
+{
+    "AS_Form_2f218f73d1a84478b88edcb7b451e2a9": {
+        "id": "AS_Form_2f218f73d1a84478b88edcb7b451e2a9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSettingsPreShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettingsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "00f9908defb843b687555694136887a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3662de52d8a84a1b95fc660e006fb63d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (kony.store.getItem(\"isTouchIDEnabled\")) {\n        frmSettingsKA.SwitchTouchIDKA.selectedIndex = 0;\n    } else {\n        frmSettingsKA.SwitchTouchIDKA.selectedIndex = 1;\n    }\n\nif (kony.store.getItem(\"isNotificationEnabled\")) {\n        frmSettingsKA.switchNotificationKA.selectedIndex = 0;\n    } else {\n        frmSettingsKA.switchNotificationKA.selectedIndex = 1;\n    }\n\nif (kony.sdk.mvvm.Utils.isAndroid()||kony.sdk.mvvm.Utils.isAndroidTablet())\n  frmSettingsKA.flxEnableTouchID.isVisible = false;\n\n ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

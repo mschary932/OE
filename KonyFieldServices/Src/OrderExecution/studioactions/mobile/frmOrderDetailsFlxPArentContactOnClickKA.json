@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_371ce6d331ee49bc91c3957afad8ec18": {
+        "id": "AS_FlexContainer_371ce6d331ee49bc91c3957afad8ec18",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderDetailsFlxParentContactOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580320"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ae9bbb29deca454e8d8dafa22f5cfe43",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\n  var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n        controller.performAction(\"showContactDetailsForm\");\n}\ncatch(err){}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

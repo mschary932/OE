@@ -1,0 +1,31 @@
+{
+    "AS_Image_f5d50a3858b6422994304c383096d980": {
+        "id": "AS_Image_f5d50a3858b6422994304c383096d980",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrdrExecutionTabMapPinOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__27e7f766bb114199a2900b3d3b2d63d8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMap\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

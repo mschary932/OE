@@ -1,0 +1,31 @@
+{
+    "AS_Segment_259c2e59b7e343a2b9644d7e53b98f7e": {
+        "id": "AS_Segment_259c2e59b7e343a2b9644d7e53b98f7e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementsKA_segMeasurementPointsKAonRowClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "382dc3a2541c4998b2d0e7678792005b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0408c60bb8d64ecd9e74b8c2a777bba5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToMeasurementReadings\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter notes here",
+    "_skin_": "sa1107e2a3bd49b997a14deb18898968",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "64.88%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "51%"
+    },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 1
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa1107e2a3bd49b997a14deb18898968",
+    "id": "tbxNoteValueKA",
+    "info": null,
+    "ipad": {},
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "a16ed1e624df49128740710a961eb3a7",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flexEditTimeItemKA",
+    "pf": "frmMeasurementExecutionKA",
+    "placeholderi18n": "i18n.common.PaymentNotesPlaceHolderKA",
+    "placeholderskin": "sbc59ca5a84b41e2bf5c8017d7080ae2",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Image_41b306583db1486ab21e121cd1f99fef": {
+        "id": "AS_Image_41b306583db1486ab21e121cd1f99fef",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmFSLoginKAImgScannerKAOnTouchEndKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmFSLoginKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580185"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__59ed25da81dd40c59d2d8bda874024c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LoginController.captureBarcode();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

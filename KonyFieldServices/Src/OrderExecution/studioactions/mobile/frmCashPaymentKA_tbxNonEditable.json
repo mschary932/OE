@@ -1,0 +1,25 @@
+{
+    "AS_Form_6749cb13976e48389a47020bd0d6ec8b": {
+        "id": "AS_Form_6749cb13976e48389a47020bd0d6ec8b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCashPaymentKA_tbxNonEditable",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCashPaymentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c016821cbb6f41b2bfe3d35263c2714e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__33b7ee790f9140389185d7a4aadd17c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var formModel = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCashPaymentKA\").getFormModel();\nformModel.performActionOnView(\"tbxAmountKA\", \"setEnabled\", [false]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

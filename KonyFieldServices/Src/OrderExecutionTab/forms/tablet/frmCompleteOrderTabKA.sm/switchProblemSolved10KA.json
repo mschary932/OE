@@ -1,0 +1,88 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "sf71c1f171c54f6aac1ff703f39c72f1",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.AndroidSwitchProperty",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "hexpand": true,
+    "id": "switchProblemSolved10KA",
+    "ide_onSlide": "AS_Switch_3088f484e8e346ea9b28d24eb9009af6",
+    "info": null,
+    "ipad": {
+        "render": true
+    },
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "2edb96818bb343ff8ab1c6dead82223d",
+    "margininpixel": false,
+    "name": "kony.ui.Switch",
+    "onslide": null,
+    "osPlatform": "ipad",
+    "osVersion": "iOS7",
+    "paddinginpixel": false,
+    "parent": "flxToggle10KA",
+    "pf": "frmCompleteOrderTabKA",
+    "selectedindex": 0,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.switchh.SPASwitchProperty"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "swidth": 165,
+    "vexpand": false,
+    "wType": "Switch",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

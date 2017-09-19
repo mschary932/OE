@@ -1,0 +1,25 @@
+{
+    "AS_Button_4ec3ef4968db48978a38b5d865d49fcb": {
+        "id": "AS_Button_4ec3ef4968db48978a38b5d865d49fcb",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderAssetBtnBOMHeaderOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderAssetKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d3815d0152e24151853fbc2b675f70f2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9dc8c2add07d408c800c4bfb4dbaab2f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmOrderAssetKA\");\nif (kony.sdk.mvvm.isNetworkAvailabile()) {\ncontroller.performAction('navigateToBOM');\n}\nelse{\n  var utilitiesObj  = utilities.getUtilityObj();\n  alert(utilitiesObj.geti18nValueKA(\"i18n.common.NoInternetAlertKA\"));\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

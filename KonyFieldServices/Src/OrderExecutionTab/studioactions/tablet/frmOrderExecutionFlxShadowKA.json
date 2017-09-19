@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_acd995e2a55b449a9d64479cb198c6af": {
+        "id": "AS_FlexContainer_acd995e2a55b449a9d64479cb198c6af",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionFlxShadowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_49f768413e59478a913e2e388cfc4cf2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showHamburgerMenu\"); \ncontroller.performAction(\"showAndHideShadow\"); ",
+            "callbackType": null
+        }]
+    }
+}

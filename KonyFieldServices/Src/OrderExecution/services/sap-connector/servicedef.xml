@@ -1,0 +1,6 @@
+<application desc="" id="KonyService" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value=""/>
+   </app-config>
+   <services/>
+</application>

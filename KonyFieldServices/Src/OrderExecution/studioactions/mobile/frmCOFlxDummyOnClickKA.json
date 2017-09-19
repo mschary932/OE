@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_cc52c50509534acf9f0a609b02280d69": {
+        "id": "AS_FlexContainer_cc52c50509534acf9f0a609b02280d69",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOFlxDummyOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f63dc6164a704341b93fb9e5a1461168",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"COFlxDummyOnClick\");"
+        }]
+    }
+}

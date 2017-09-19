@@ -1,0 +1,25 @@
+{
+    "AS_Button_2d253a87053047deb577a5d9ca316d05": {
+        "id": "AS_Button_2d253a87053047deb577a5d9ca316d05",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnDiscountInAmountOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4f19406bcd4c43d880799c094fdc86eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"giveDiscountInAmount\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

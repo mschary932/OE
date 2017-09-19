@@ -1,0 +1,25 @@
+{
+    "AS_Button_b242905575f9470492629b0c2cc7c071": {
+        "id": "AS_Button_b242905575f9470492629b0c2cc7c071",
+        "type": "ACTION_SEQUENCE",
+        "name": "cancelViewsfrmMeasurementsKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHamburgerMenuWOKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580197"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dd774d8ae3ff43b39d32f7d79a57f432",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"applyViews\",[false]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

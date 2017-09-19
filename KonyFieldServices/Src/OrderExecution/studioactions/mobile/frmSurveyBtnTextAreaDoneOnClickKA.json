@@ -1,0 +1,25 @@
+{
+    "AS_Button_fda0552a6e9c439cbd33709cd86986db": {
+        "id": "AS_Button_fda0552a6e9c439cbd33709cd86986db",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyBtnTextAreaDoneOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__23159a05bb614f64ab801347423b263b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"setTextField\",[\"DONE\"]);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

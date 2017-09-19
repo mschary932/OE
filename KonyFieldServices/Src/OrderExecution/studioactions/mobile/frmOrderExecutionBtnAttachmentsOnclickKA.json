@@ -1,0 +1,18 @@
+{
+    "AS_Button_994d14cad3f14f1197f17ff046cb9d03": {
+        "id": "AS_Button_994d14cad3f14f1197f17ff046cb9d03",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionBtnAttachmentsOnclickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7ea431c81eb742a38574fc660f1dc0bb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showOrderAttachments\");}catch(e){}",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_d95a4a1cf68d4748974add8b9b92463e": {
+        "id": "AS_Button_d95a4a1cf68d4748974add8b9b92463e",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnCancelSaveQuantitSwipe",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580554"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fdcc9cea4fdf458ab9065aa5a7848047",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\ncurrIndices={};var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nformModel.performActionOnView(\"flexDetailsKA\",\"setEnabled\",[true]);\nformModel.performActionOnView(\"btnBackKA\",\"setEnabled\",[true]);\nformModel.setViewAttributeByProperty(\"flxEditKA\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

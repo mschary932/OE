@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_53c4d55d904a4e0f94434f20f9146119": {
+        "id": "AS_FlexContainer_53c4d55d904a4e0f94434f20f9146119",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d51b6be67d664ce1b74efad95208e284",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showFiveOrderNotes\"); ",
+            "callbackType": null
+        }]
+    }
+}

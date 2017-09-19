@@ -1,0 +1,28 @@
+{
+    "AS_Button_26721c6c5ddd42e491215da27b879f51": {
+        "id": "AS_Button_26721c6c5ddd42e491215da27b879f51",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpOABtnDownloadOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpOrderAttachmentsKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet1234563580681"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4e3b5952527f4638adf86fe5d9b0db00",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"openAttachment\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

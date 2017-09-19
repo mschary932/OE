@@ -1,0 +1,17 @@
+{
+    "AS_Button_ca6fdcc5a64a4976adccc2c9579b04c8": {
+        "id": "AS_Button_ca6fdcc5a64a4976adccc2c9579b04c8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3b246429800a40ce8e75edfe00df7470",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"CreateMeasurementPopUpShow\");",
+            "callbackType": null
+        }]
+    }
+}

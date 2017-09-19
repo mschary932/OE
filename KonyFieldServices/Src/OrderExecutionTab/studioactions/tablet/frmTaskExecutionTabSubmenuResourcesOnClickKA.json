@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_0852792df27a4a58bd1a2740d2e6ff08": {
+        "id": "AS_FlexContainer_0852792df27a4a58bd1a2740d2e6ff08",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabSubmenuResourcesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c9fd99e4200b4abeb88045e43df7723c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOneResourcesDetails\"); ",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_1f07c43d2d734382a4e99fcef2454089": {
+        "id": "AS_Button_1f07c43d2d734382a4e99fcef2454089",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7dfb4bb554ac49b1b7c78be857ce9621",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeSegment\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

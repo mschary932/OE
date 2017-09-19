@@ -1,0 +1,31 @@
+{
+    "AS_Segment_aed6e444f9564de0a380063000e789a9": {
+        "id": "AS_Segment_aed6e444f9564de0a380063000e789a9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderSegInvoiceDetailsOnRowClickkA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cda0d0dd1bab48329cd8189521bd8efc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showSendEmailKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

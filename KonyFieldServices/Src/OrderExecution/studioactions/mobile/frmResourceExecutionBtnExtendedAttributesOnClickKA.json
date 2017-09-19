@@ -1,0 +1,17 @@
+{
+    "AS_Button_a362301f894f4921b2528fd2cdedc8f7": {
+        "id": "AS_Button_a362301f894f4921b2528fd2cdedc8f7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmResourceExecutionBtnExtendedAttributesOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_233095f2311b4bc2b488c8701d64866a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showExtendedObjectFormKA\");"
+        }]
+    }
+}

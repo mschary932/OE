@@ -1,0 +1,25 @@
+{
+    "AS_Button_deff7a37a8ca436085d44153e8dc7f98": {
+        "id": "AS_Button_deff7a37a8ca436085d44153e8dc7f98",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingBackFormKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementsReadingKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c7fc7cfba00b4915a11d26206bb0aed5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__349d0d551c8e46c2ad8181618fd926a8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMeasurementExecutionForm\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

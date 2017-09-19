@@ -1,0 +1,1 @@
+{"type":"SAAS","custom":false,"junction":false,"customizable":false,"verbs":{"update":"updateMapping","get":"getMapping","delete":"deleteMapping","create":"createMapping"},"entityProperties":{"backendMeta":{},"designTimeBackendMeta":{},"UniquePrefixId":"a4637120-0458-414b-8aea-6b37a165bcd6"}}

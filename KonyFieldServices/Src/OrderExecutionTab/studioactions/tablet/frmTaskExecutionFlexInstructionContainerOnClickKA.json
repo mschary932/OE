@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_42674d6a1c1d4af4b9fc0bb15a7393b5": {
+        "id": "AS_FlexContainer_42674d6a1c1d4af4b9fc0bb15a7393b5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionFlexInstructionContainerOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_5e7c439d91c7408785b31b278494b441",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDetailedInstruction\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_daf0be5a16c14bfebcff55f2387d1302": {
+        "id": "AS_Button_daf0be5a16c14bfebcff55f2387d1302",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCashPaymentKA_onSave",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCashPaymentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c016821cbb6f41b2bfe3d35263c2714e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a1398c835fa345678179a1c1bcb69091",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"createPaymentRecord\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

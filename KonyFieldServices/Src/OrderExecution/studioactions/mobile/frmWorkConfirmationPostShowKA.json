@@ -1,0 +1,25 @@
+{
+    "AS_Form_88a51ff2997e4ee9addf3f77340f9923": {
+        "id": "AS_Form_88a51ff2997e4ee9addf3f77340f9923",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmWorkConfirmationPostShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkConfirmationKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8073f6ab8fba4321a2e29086d173865f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var platFormName = kony.sdk.mvvm.Utils.getPlatformName(); \nif (platFormName == kony.sdk.mvvm.Platforms[\"IPHONE\"] || platFormName == 'ipad') {\n\n\tfrmWorkConfirmationKA.switchProblemSolved1KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved2KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved3KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved4KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved5KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved6KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved7KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved8KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved9KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved10KA.nativeThumbLook = true;\n    frmWorkConfirmationKA.switchProblemSolved11KA.nativeThumbLook = true;\n\t\n }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

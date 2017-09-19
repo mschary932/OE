@@ -1,0 +1,17 @@
+{
+    "AS_Button_ad118deda7114d19bc9b798e7766020f": {
+        "id": "AS_Button_ad118deda7114d19bc9b798e7766020f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementExecutionKAbtnCancelKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_637e8073c2cf4813b55f57bf325f4cce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n \n controller.performAction(\"completeOrRejectTask\");\n "
+        }]
+    }
+}

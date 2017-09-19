@@ -1,0 +1,17 @@
+{
+    "AS_Button_9c90184d927d431385bc1d6125f67053": {
+        "id": "AS_Button_9c90184d927d431385bc1d6125f67053",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ad51f19baad9457b972b821a31a1da1a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelReadingCreation\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "AS_Button_0e313f9676cf42bcbea2d4cc7b951847": {
+        "id": "AS_Button_0e313f9676cf42bcbea2d4cc7b951847",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmBillOFMaterialbtnBOMBackOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4dee6e240669451b8e0ac7976427ac4a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backNavigationCalls\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

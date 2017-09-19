@@ -1,0 +1,25 @@
+{
+    "AS_Button_2427f5befb8e48abb438a830f4aa9f51": {
+        "id": "AS_Button_2427f5befb8e48abb438a830f4aa9f51",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveybtnSubmitNoOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b8a398bd7322485e92ce6eb89932c106",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction('navigateBack');",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_35e0df902d20467991f06d1c9210d0ad": {
+        "id": "AS_Button_35e0df902d20467991f06d1c9210d0ad",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginKABtnLoginOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoginKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580219"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aed5c2e72e0e473ebe5245101942feb6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.LoginAction();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

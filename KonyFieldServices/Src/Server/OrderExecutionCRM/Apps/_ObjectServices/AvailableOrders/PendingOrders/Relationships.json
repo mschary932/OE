@@ -1,0 +1,1 @@
+[{"sourceObject":"PendingOrders","targetObject":"PendingOrdAddress","relationshipKeys":[{"sourceField":"Address_id","targetField":"id"}],"name":"PendingOrders_PendingOrdAddress","type":"OneToMany","custom":false,"cascadeDelete":false}]

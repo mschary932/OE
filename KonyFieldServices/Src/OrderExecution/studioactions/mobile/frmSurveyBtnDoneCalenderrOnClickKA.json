@@ -1,0 +1,24 @@
+{
+    "AS_Button_31b74133d25c4d8e9dc69ce421de40e4": {
+        "id": "AS_Button_31b74133d25c4d8e9dc69ce421de40e4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyBtnDoneCalenderrOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_50cb499da72f4917a165b5c8318eaa32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");  \ncontroller.performAction(\"saveInputValue\",[selectedQuestion,\"Date\"]);\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxCalenderrBg\", \"isVisible\", false);",
+            "callbackType": null
+        }]
+    }
+}

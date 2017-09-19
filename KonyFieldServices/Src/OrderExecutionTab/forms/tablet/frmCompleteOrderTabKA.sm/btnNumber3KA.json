@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s182ca8f3079467db56e11592d66a627",
+    "_text_": "3.",
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s2652d265cb647c7b0bfefde51090504"
+    },
+    "displaytext": true,
+    "id": "btnNumber3KA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f21d28c30bd5481cbd77d96714bde3bd",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexPaymentKA",
+    "pf": "frmCompleteOrderTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

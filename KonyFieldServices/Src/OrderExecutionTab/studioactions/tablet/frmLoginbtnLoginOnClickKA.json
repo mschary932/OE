@@ -1,0 +1,25 @@
+{
+    "AS_Button_945d58adc13249a68ed9725c343cf417": {
+        "id": "AS_Button_945d58adc13249a68ed9725c343cf417",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginbtnLoginOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoginTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dd9a5f8ab68c47128282262268edc998"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8fb9047cca5b495e92558553ca184bd9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmMyOrderListTabKA.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

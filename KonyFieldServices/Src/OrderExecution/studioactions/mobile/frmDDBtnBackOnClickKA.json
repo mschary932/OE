@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580148_btnBackKA_onClick_seq0": {
+        "id": "p2kwiet1234563580148_btnBackKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmDDBtnBackOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_1633912345635808805",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"navigateBack\"); "
+        }]
+    }
+}

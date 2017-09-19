@@ -1,0 +1,18 @@
+{
+    "AS_Button_1781a78ca03f4a07bae8c549cb919a9a": {
+        "id": "AS_Button_1781a78ca03f4a07bae8c549cb919a9a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnTodayOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_dfee7f2384a24825a6e53cac6a098b55",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onViewsButtonClick\",['btnTodayKA']); ",
+            "callbackType": null
+        }]
+    }
+}

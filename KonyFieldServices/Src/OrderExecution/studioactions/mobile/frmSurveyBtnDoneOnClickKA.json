@@ -1,0 +1,25 @@
+{
+    "AS_Button_449216becab54117b46645a693073516": {
+        "id": "AS_Button_449216becab54117b46645a693073516",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyBtnDoneOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0100e9cfebe142069c5b01ae6f7b2f72",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\nvar callSave = controller.performAction(\"checkForMandatoryFields\");\nif(!callSave) {\n   \t\tvar utilitiesObj  = utilities.getUtilityObj();\n\t\tvar alertText = utilitiesObj.geti18nValueKA(\"i18n.common.FillMandatoryFields\");\n\t\talert(alertText);\n}\nelse {\n  var formmodel = controller.getFormModel();\n  formmodel.setViewAttributeByProperty(\"flxConfirmbg\", \"isVisible\", true);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

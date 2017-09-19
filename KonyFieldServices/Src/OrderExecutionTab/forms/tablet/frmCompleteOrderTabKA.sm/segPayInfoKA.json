@@ -1,0 +1,159 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "lblPayInfoDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Item description will be shown here."
+            },
+            "lblPayInfoTitileKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name Of Item 1"
+            },
+            "lblPayInfoValueKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Qty - 5lbs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            }
+        },
+        {
+            "lblPayInfoDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPayInfoTitileKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.frmCompleteOrder.OrderDurationKA",
+                "text": "Order Duration"
+            },
+            "lblPayInfoValueKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.5 Hrs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            }
+        },
+        {
+            "lblPayInfoDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPayInfoTitileKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.ExpenseKA",
+                "text": "Expense"
+            },
+            "lblPayInfoValueKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "20 $"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "    "
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segPayInfoKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": true
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "bfcc104d0c1342c6b7732f1de8a594c6",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexPaymentMainContainerTopKA",
+    "pf": "frmCompleteOrderTabKA",
+    "retainselection": false,
+    "rowTemplateId": "8588f83dec2744babe09252f2cf460d8",
+    "rowcounter": 2,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexPaymentDataTempKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": true,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexPaymentDataTempKA": "flexPaymentDataTempKA",
+        "lblPayInfoDescriptionKA": "lblPayInfoDescriptionKA",
+        "lblPayInfoTitileKA": "lblPayInfoTitileKA",
+        "lblPayInfoValueKA": "lblPayInfoValueKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA"
+    },
+    "zindex": 10
+}

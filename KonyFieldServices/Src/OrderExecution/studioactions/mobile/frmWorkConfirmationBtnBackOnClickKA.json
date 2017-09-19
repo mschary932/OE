@@ -1,0 +1,25 @@
+{
+    "AS_Button_63dd8b4ce9cd41f0a05809a47af55b92": {
+        "id": "AS_Button_63dd8b4ce9cd41f0a05809a47af55b92",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmWorkConfirmationBtnBackOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkConfirmationKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__526ba921640a480a89e9242b18a96a76",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmWorkConfirmationKA\");\ncontroller.performAction(\"cancelOrderComplete\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_d2488c9b41da4ee5abd9e317c1ee87d5": {
+        "id": "AS_Button_d2488c9b41da4ee5abd9e317c1ee87d5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnBackFromInvoicePdfFinalOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7f12143a84764262b91c24a2b748b1a0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderCompletion\"); ",
+            "callbackType": null
+        }]
+    }
+}

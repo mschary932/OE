@@ -1,0 +1,31 @@
+{
+    "AS_Segment_43984b7db6a74c48844dd098957a08ce": {
+        "id": "AS_Segment_43984b7db6a74c48844dd098957a08ce",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOASegOAOnRowClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmOrderAttachmentsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580229"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d8a4816ce6284e2e86d3b65277256e81",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"openAttachment\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_eaabe66bcf1d408ea413eeb67bd3ef1f": {
+        "id": "AS_FlexContainer_eaabe66bcf1d408ea413eeb67bd3ef1f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlxWorkConfirmationOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__55d7dd6abc38403d931e3c97225dfbe6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showWorkConfirmationFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

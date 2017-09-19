@@ -1,0 +1,25 @@
+{
+    "AS_Button_8679c86a41a54cd29cbee13e79dde1ad": {
+        "id": "AS_Button_8679c86a41a54cd29cbee13e79dde1ad",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionStepNavigationOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__03dfdc4db5404d89aaaf5b02d587633d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"startStepNavigation\");\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

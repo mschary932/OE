@@ -1,0 +1,18 @@
+{
+    "AS_Button_a67ddb17b736488993492dfc5f049fc4": {
+        "id": "AS_Button_a67ddb17b736488993492dfc5f049fc4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingShowPopUpKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d1ab36efd5ae4fa2a443203016acb088",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showEditPopUp\");",
+            "callbackType": null
+        }]
+    }
+}

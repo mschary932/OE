@@ -1,0 +1,25 @@
+{
+    "AS_Button_23e96f3122874b57bf1f17ecd0859526": {
+        "id": "AS_Button_23e96f3122874b57bf1f17ecd0859526",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAvailableOrderBtnClearAll2OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAvailableOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "19da301ac729497db3a77ce9f92f980c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__66467aaaaf0f4af2ba9b6dd94fd1b31f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

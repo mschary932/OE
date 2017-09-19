@@ -1,0 +1,21 @@
+{ 
+ "NSCalendarsUsageDescription"  : "Please give a suitable description on usage of this feature in the app", 
+ "NSCameraUsageDescription"  : "Please give a suitable description on usage of this feature in the app", 
+ "NSContactsUsageDescription"   : "Please give a suitable description on usage of this feature in the app", 
+"NSLocationAlwaysUsageDescription" : "Please give a suitable description on usage of this feature in the app",
+ "NSPhotoLibraryUsageDescription" : "Please give a suitable description on usage of this feature in the app", 
+"Privacy Camera Usage Description" :"hi",
+"Privacy Photo Library Description" :"test",
+"NSAppTransportSecurity" :
+    {
+        "NSAllowsArbitraryLoads" : true ,
+        "NSExceptionDomains" :
+            {
+                "example.com" :
+                    {
+                        "NSIncludesSubdomains" : true ,
+                        "NSExceptionAllowsInsecureHTTPLoads" : true
+                    }
+            }
+    } 
+} 

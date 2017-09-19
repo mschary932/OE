@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "9%"
+    },
+    "_skin_": "s4d58ab2a601467d984b115117982631",
+    "_text_": "Done",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s511014ce1754b84ae4743ab8ab61a06",
+    "id": "btnDoneTimeKA",
+    "ide_onClick": "AS_Button_c2cdb3c3e2304ebbac8f3b940e9e0d00",
+    "info": null,
+    "isvisible": true,
+    "kuid": "6c77abdf1d1c4d75a14c9d9d7c4d256f",
+    "name": "kony.ui.Button",
+    "parent": "flxFooterKA",
+    "pf": "frmCompleteOrderSummaryKA",
+    "wType": "Button",
+    "zindex": 1
+}

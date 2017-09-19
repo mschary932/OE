@@ -1,0 +1,18 @@
+{
+    "AS_Button_23e8d03439e64752b2df31aa307e423a": {
+        "id": "AS_Button_23e8d03439e64752b2df31aa307e423a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetailsKA_onCloseButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bbea31025d7d4418a23d6a29b75dc292",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nformModel.setViewAttributeByProperty(\"flxDeleteKA\",\"isVisible\",false);\nkony.sdk.mvvm.KonyApplicationContext.showLoadingScreen(kony.i18n.getLocalizedString(\"i18n.common.msg.loadingDataKA\"));\n",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se719ef912b04bc7a686313c37ea9cac",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "4.50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5cd5b4ed7134c65812f4b3f9c64e4bd",
+    "id": "btnBackKA",
+    "ide_onClick": "AS_Button_e6c875257c2f4a1293968d92158196d4",
+    "info": null,
+    "isvisible": true,
+    "kuid": "14b5de2779cd4c099de4a84422586917",
+    "name": "kony.ui.Button",
+    "parent": "flexStatusBarTaskStartPauseCompleteKA",
+    "pf": "frmTaskExecutionTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

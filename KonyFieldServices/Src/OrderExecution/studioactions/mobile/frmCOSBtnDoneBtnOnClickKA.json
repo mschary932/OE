@@ -1,0 +1,25 @@
+{
+    "AS_Button_c55e14003d0c42f88e9f3e393f557ffa": {
+        "id": "AS_Button_c55e14003d0c42f88e9f3e393f557ffa",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSBtnDoneBtnOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2794369a27c24d2d8fedb1120dfae417",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderSummaryKA\");\ncontroller.performAction(\"setCalendarDataKA\");\ncontroller.performAction(\"calculateDuration\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

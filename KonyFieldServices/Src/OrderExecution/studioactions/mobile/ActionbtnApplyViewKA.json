@@ -1,0 +1,17 @@
+{
+    "AS_Button_c5d3e5001bd744da90235bddf6709b92": {
+        "id": "AS_Button_c5d3e5001bd744da90235bddf6709b92",
+        "type": "ACTION_SEQUENCE",
+        "name": "actionBtnApplyViewKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a30c5d1f75ca463ca274b4f006756cab",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"applyView\"); \n \n "
+        }]
+    }
+}

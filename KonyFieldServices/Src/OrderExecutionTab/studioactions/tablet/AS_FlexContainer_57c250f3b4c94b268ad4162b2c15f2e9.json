@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_57c250f3b4c94b268ad4162b2c15f2e9": {
+        "id": "AS_FlexContainer_57c250f3b4c94b268ad4162b2c15f2e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b553f85c0c8a4ef98b3237970e10a159"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6351e31dd6034919ba21b4063f640f1b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderDetails\"); ",
+            "callbackType": null
+        }]
+    }
+}

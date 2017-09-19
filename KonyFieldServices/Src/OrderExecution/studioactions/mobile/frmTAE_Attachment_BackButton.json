@@ -1,0 +1,24 @@
+{
+    "AS_Button_30054313ea7f43488f3d1b6f5248e5f3": {
+        "id": "AS_Button_30054313ea7f43488f3d1b6f5248e5f3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTAE_Attachment_BackButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseAttachmentKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "871a4592795c44198ae2c0fddd478528"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b29bcfb968094bc2978cfa86fb1aac09",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"clearData\"); \ncontroller.performAction(\"navigateBack\");",
+            "callbackType": null
+        }]
+    }
+}

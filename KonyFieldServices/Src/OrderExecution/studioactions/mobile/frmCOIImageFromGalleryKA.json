@@ -1,0 +1,25 @@
+{
+    "AS_Button_354948ad970f48de8bb7ed17c8b8d9c8": {
+        "id": "AS_Button_354948ad970f48de8bb7ed17c8b8d9c8",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOIImageFromGalleryKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteImagesKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "089660d3b8ad4948a066d441de453d52"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__92e5e26fdf3f44e385dddfd82ace9796",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteImagesKA\");\ncontroller.performAction(\"getImageFromGallery\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Segment_fe0b48e91d0a4cab9ddced8874e9d605": {
+        "id": "AS_Segment_fe0b48e91d0a4cab9ddced8874e9d605",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_440d9f4dcc924ce08bb614a57cc713a8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showResourceExecutionForm\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0634136c9754819af992f20ce38cf88",
+    "_top_": {
+        "type": "string",
+        "value": "21.46%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblFindResourcesKA",
+        "imgResourcesLoadingKA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexResourcesLoadingKA",
+    "info": null,
+    "isvisible": false,
+    "kuid": "d552872fc4c94afd97f13886034226d3",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexOnlineCalls1KA",
+    "pf": "frmTaskExecutionTabKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

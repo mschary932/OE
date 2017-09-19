@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_cd0f0a1d051a4d518f9bd15178b6767d": {
+        "id": "AS_FlexContainer_cd0f0a1d051a4d518f9bd15178b6767d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionViewFilterDoNothingKa",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__86689cd563e442bba894b1742c9fcde9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"doNothingOnDeviceBackKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

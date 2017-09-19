@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_2352af5693de4289a2c623caf16bacd2": {
+        "id": "AS_FlexContainer_2352af5693de4289a2c623caf16bacd2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_81a1ed45e14c4b778f4dffda42fc306b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showSurveyFlex\");",
+            "callbackType": null
+        }]
+    }
+}

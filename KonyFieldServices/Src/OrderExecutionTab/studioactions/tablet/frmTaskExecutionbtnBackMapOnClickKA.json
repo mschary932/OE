@@ -1,0 +1,25 @@
+{
+    "AS_Button_82f956268a4e44fd9d9378f3da2ec3ad": {
+        "id": "AS_Button_82f956268a4e44fd9d9378f3da2ec3ad",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionbtnBackMapOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a63c28deffaf43fcb94d10a2e8bb5564",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backMapFlexOnlineCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

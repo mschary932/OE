@@ -1,0 +1,23 @@
+{
+    "AS_Button_f1899bae13f24401827df225fc503cac": {
+        "id": "AS_Button_f1899bae13f24401827df225fc503cac",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionBtnExtendedAttributesOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580554"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_4b5a7d9661734d3f973ee139b323df74",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showExtendedObjectFormKA\");"
+        }]
+    }
+}

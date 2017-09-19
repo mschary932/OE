@@ -1,0 +1,24 @@
+{
+    "p2kwiet1234563580197_flxMenuItem0CntrKA_onTouchEnd_seq0": {
+        "id": "p2kwiet1234563580197_flxMenuItem0CntrKA_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }],
+        "actions": [{
+            "id": "expression_onTouchEnd_7459712345635808335",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var viewControllerExtension = INSTANCE.getFormController(\"frmOrdersViewsKA\").getControllerExtensionObject();;\n var listController = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n new hamburgerMenu().execute();\n viewControllerExtension.setFormModelInfo(\"viewType\",kony.sdk.mvvm.frmOrdersViewsKAControllerExtension.ORDERLIST_VIEWTYPE_TODAY);\n 
+			viewControllerExtension.setFormModelInfo(\"viewType1\",kony.sdk.mvvm.frmOrdersViewsKAControllerExtension.ORDERLIST_VIEWTYPE_TODAY);\n 
+			viewControllerExtension.setFormModelInfo(\"defaultFilterApplied\",true);\n
+			viewControllerExtension.setFormModelInfo(\"DateFilterIndex1\",null);\n viewControllerExtension.setFormModelInfo(\"DateFilter1\",null); \n viewControllerExtension.setFormModelInfo(\"orderViewFilters1\",null); \n listController.performAction(\"setSegmentListDataKA\",[\"btnDay1KA\"]);"
+        }]
+    }
+}

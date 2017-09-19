@@ -1,0 +1,20 @@
+{
+    "p2kwiet1234563580703_btnClearKA_onClick_seq0": {
+        "id": "p2kwiet1234563580703_btnClearKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpOrderFilterHeaderBtnClearKAOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "context",
+            "value": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_5640312345635804975",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(\"frmOrdersViewsKA\");\n controller.performAction(\"clearAllFilter\");\n "
+        }]
+    }
+}

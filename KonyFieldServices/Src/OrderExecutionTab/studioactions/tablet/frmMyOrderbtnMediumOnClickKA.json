@@ -1,0 +1,25 @@
+{
+    "AS_Button_7f49c0089c8e4021adbac2528bd7837c": {
+        "id": "AS_Button_7f49c0089c8e4021adbac2528bd7837c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnMediumOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0846d5fe3e30480899eabd5e73575958",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onPriorityFilterClick\",['btnMediumKA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Button_5c1320f6f397461fb7f19b3aaf2cb3f7": {
+        "id": "AS_Button_5c1320f6f397461fb7f19b3aaf2cb3f7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderLocationPopUpShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpOrderListRowAKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "982ed5d361884362bc1d5f8017a47126"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__31ad49e651f7400ea8e0d1202a3aeed8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderBallonOnPinTap\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

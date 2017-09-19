@@ -1,0 +1,25 @@
+{
+    "AS_Button_8deefa5f3b9843ef9a31ce8e3ca4f864": {
+        "id": "AS_Button_8deefa5f3b9843ef9a31ce8e3ca4f864",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionLocationStockLocationKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d10e8cb916a54fdfb4bb61a7461db144",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMapStockLocation\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

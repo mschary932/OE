@@ -1,0 +1,17 @@
+{
+    "AS_TPW_46aadbffdd714db9a625266d08dda0f1": {
+        "id": "AS_TPW_46aadbffdd714db9a625266d08dda0f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderCompleteCheckListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "actions": []
+    }
+}

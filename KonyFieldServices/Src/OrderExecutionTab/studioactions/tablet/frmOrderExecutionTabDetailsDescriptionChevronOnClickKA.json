@@ -1,0 +1,18 @@
+{
+    "AS_Button_913e1a96e8f7455f8604d7063e16b586": {
+        "id": "AS_Button_913e1a96e8f7455f8604d7063e16b586",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabDetailsDescriptionChevronOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6b07c1d8aa8048c4bc276dd7d4668309",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showDetailedDescription\");",
+            "callbackType": null
+        }]
+    }
+}

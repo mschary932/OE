@@ -1,0 +1,25 @@
+{
+    "AS_Button_25644401f5ca487ebce6df3371b2071c": {
+        "id": "AS_Button_25644401f5ca487ebce6df3371b2071c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionBtnClearAllViewsOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__25eca2a109d54c1b8a81bb8fdca6cc6d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCallOne\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

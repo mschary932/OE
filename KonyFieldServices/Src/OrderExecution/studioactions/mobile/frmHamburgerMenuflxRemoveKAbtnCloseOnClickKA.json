@@ -1,0 +1,25 @@
+{
+    "AS_Button_e6ee96c0ba9644499eea442998a1186d": {
+        "id": "AS_Button_e6ee96c0ba9644499eea442998a1186d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmHamburgerMenuflxRemoveKAbtnCloseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHamburgerMenuWOKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580197"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8e00329472d448129c44645b67dac921",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"updateReadings\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Button_a914e18b26bf47f5a2b452a4cd92fdaf": {
+        "id": "AS_Button_a914e18b26bf47f5a2b452a4cd92fdaf",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrdrExecutionTabTaskMeasurementCancelOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e998443c62e2452ab36353c3fadf306e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"closeScreenTaskMeasurement\"); ",
+            "callbackType": null
+        }]
+    }
+}

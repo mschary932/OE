@@ -1,0 +1,25 @@
+{
+    "AS_Button_22a7adeee32b4b5dae9eb3d2bac3f353": {
+        "id": "AS_Button_22a7adeee32b4b5dae9eb3d2bac3f353",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmREbtnRejectOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResourceExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0c904960ef094a1c94459aa31be27c31"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0852ad0a002b4177a8b01b253bfd808c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onCancelCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnDownloadKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "imgCloudKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bf_attachments_available.png"
+            },
+            "imgDocpdfKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bf_attachments_pdf.png"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "02/11/15"
+            },
+            "lblDocmtNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Work Order Status Report Apr 2015"
+            },
+            "lblLineKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "  "
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Available"
+            }
+        },
+        {
+            "btnDownloadKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "  "
+            },
+            "imgCloudKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bf_attachments_on_device.png"
+            },
+            "imgDocpdfKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bf_attachments_word.png"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "02/11/15"
+            },
+            "lblDocmtNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Work Order Status Report May 2015"
+            },
+            "lblLineKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "  "
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "On Device"
+            }
+        },
+        {
+            "btnDownloadKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "  "
+            },
+            "imgCloudKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bf_attachments_missing.png"
+            },
+            "imgDocpdfKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bf_attachments_ppt.png"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "02/11/15"
+            },
+            "lblDocmtNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Work Order Status Report Jun 2015"
+            },
+            "lblLineKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "  "
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Missing"
+            }
+        }
+    ],
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "87%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "seg2Normal",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+        "psp": {
+            "dockSectionHeaders": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {
+                "isCircular": true,
+                "projectionAngle": 60
+            }
+        },
+        "viewType": "tableview"
+    },
+    "canUpdateUI": true,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segOrderAttachmentKA",
+    "ide_onRowClick": "AS_Segment_43984b7db6a74c48844dd098957a08ce",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+        "psp": {
+            "bounces": true,
+            "editStyle": "none",
+            "enableDictionary": false,
+            "indicator": "none",
+            "progressIndicatorColor": "white",
+            "searchCriteria": 1,
+            "showProgressIndicator": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {}
+        },
+        "viewType": "tableview"
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet1234563580227",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexMainKA",
+    "pf": "frmOrderAttachmentsKA",
+    "retainselection": false,
+    "rowTemplateId": "p2kwiet1234563580681",
+    "rowcounter": 2,
+    "rowfocusskin": "s49df93815194fd78f6864c1b36c1913",
+    "rowskin": "s68ecdbb8ea744e2807c4499986c822a",
+    "rowtemplate": "flxOrderAttachmentKA",
+    "screenlevelwidget": false,
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s7e7975295224664a0880e18f22fb694",
+    "selectedRowIndex": null,
+    "selectedRowIndices": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "64646464",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidSegment2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBSegment2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPhoneSegment2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWinPhone8Segment2Property",
+        "render": true
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDownloadKA": "btnDownloadKA",
+        "flxOrderAttachmentKA": "flxOrderAttachmentKA",
+        "imgCloudKA": "imgCloudKA",
+        "imgDocpdfKA": "imgDocpdfKA",
+        "lblDateKA": "lblDateKA",
+        "lblDocmtNameKA": "lblDocmtNameKA",
+        "lblLineKA": "lblLineKA",
+        "lblStatusKA": "lblStatusKA",
+        "tmpOrderAttachmentsKA": "tmpOrderAttachmentsKA"
+    },
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
+        "render": true
+    },
+    "zindex": 20
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Form_8e08c649ad7747dea283ae97933e4dee": {
+        "id": "AS_Form_8e08c649ad7747dea283ae97933e4dee",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCardPaymentKA_initKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCardPaymentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0382a557e1f45bc801335d78571de90"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__47efebbc3660472c92614650428397be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function handleRequestCallback(browserWidget, params) {\n        kony.print(\"handleRequest event triggered\");\n  \t\tvar result = params[\"originalURL\"];\n  \t\tvar returnURL = \"www.google.co.in\";\n        if(result.indexOf(returnURL) != -1) {\n            var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n            var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n          \tvar keyValues = result.split(\"?\")[1].split(\"&\");\n          \tvar keyValuesObj = {};\n          \tfor(var a in keyValues) {\n              keyValuesObj[keyValues[a].split(\"=\")[0]] = keyValues[a].split(\"=\")[1];\n            }\n          \tvar amount = keyValuesObj.amt;\n          \tamount = decodeURI(amount);\n            controller.performAction(\"createPaymentRecord\",[amount]);\n        }\n        return false;//If false is returned, platform will load the originalurl in the browser widget.\n}\n    \nfrmCardPaymentKA.browserPayPalKA.handleRequest = handleRequestCallback;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "p2kwiet1234563580219_SwitchWidgetcustom_onSlideCallback_seq0": {
+        "id": "p2kwiet1234563580219_SwitchWidgetcustom_onSlideCallback_seq0",
+        "type": "ACTION_SEQUENCE",
+        "language": "js",
+        "actions": [{
+            "id": "expression_onSlideCallback_6096512345635807863",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.appfoundation.rememberMeKA();"
+        }]
+    }
+}

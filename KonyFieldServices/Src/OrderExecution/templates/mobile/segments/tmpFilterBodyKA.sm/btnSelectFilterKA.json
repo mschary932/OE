@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_skin_": "s80d46f2c26e41ad9a975c808a383dcb",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "36dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s3e63d0051454349bcb1ea6eaa6d02b2",
+    "id": "btnSelectFilterKA",
+    "ide_onClick": "AS_Button_21cc8a0116064269890b316189268078",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "f71c5456c00b4367be805dd8ecd6f745",
+    "name": "kony.ui.Button",
+    "parent": "flxFilterBodyKA",
+    "pf": "tmpFilterBodyKA",
+    "showprogressindicator": false,
+    "wType": "Button",
+    "zindex": 1
+}

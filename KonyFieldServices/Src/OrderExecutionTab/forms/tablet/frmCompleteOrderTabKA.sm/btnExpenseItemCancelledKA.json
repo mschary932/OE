@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5fc8ef507594b43a1553b478910254b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5fc8ef507594b43a1553b478910254b",
+    "id": "btnExpenseItemCancelledKA",
+    "ide_onClick": "AS_Button_0ed7bbad26794054a82ec97acd9ba823",
+    "info": null,
+    "isvisible": true,
+    "kuid": "90e92449cc3b4334899f29dd5246b0a2",
+    "name": "kony.ui.Button",
+    "parent": "flexTopContainerAddExpenseKA",
+    "pf": "frmCompleteOrderTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

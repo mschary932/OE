@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580624_btnRejectKA_onClick_seq0": {
+        "id": "p2kwiet1234563580624_btnRejectKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTouchIDSetupBtnRejectOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_7961112345635803938",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.store.setItem(\"isTouchIDEnabled\",false);\n if (kony.application.getPreviousForm().id !== \"frmSettingsKA\") kony.servicesapp.showFormOrderList();\n    else frmSettingsKA.show();"
+        }]
+    }
+}

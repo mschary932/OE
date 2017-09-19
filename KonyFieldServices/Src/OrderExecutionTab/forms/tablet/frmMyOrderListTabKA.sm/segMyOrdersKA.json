@@ -1,0 +1,451 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        [
+            {
+                "labelScheduledAKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3 Scheduled"
+                },
+                "lblHeaderBottomAKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            [
+                {
+                    "btnLocationPopUpShowKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgPrioritityColorTempKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "highrectangle.png"
+                    },
+                    "imgScheduledOrNotATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "scheduledicon.png"
+                    },
+                    "imgStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "locationdrilldownicon.png"
+                    },
+                    "lblAddressATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "29545 Gainsborough Avenue Park"
+                    },
+                    "lblDateTimeATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "07/06, 04:30 PM"
+                    },
+                    "lblDescriptionATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Description line of work long"
+                    },
+                    "lblM2ATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M2"
+                    },
+                    "lblOrderIDATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "00002333"
+                    },
+                    "lblPriorityATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LOW"
+                    },
+                    "lblSeparatorTemplateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "    "
+                    },
+                    "lblStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "SCHEDULED"
+                    }
+                },
+                {
+                    "btnLocationPopUpShowKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgPrioritityColorTempKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "mediumrectangle.png"
+                    },
+                    "imgScheduledOrNotATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "scheduledicon.png"
+                    },
+                    "imgStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "locationdrilldownicon.png"
+                    },
+                    "lblAddressATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "29545 Gainsborough Avenue Park"
+                    },
+                    "lblDateTimeATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "07/06, 04:30 PM"
+                    },
+                    "lblDescriptionATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Description line of work long"
+                    },
+                    "lblM2ATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M2"
+                    },
+                    "lblOrderIDATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "00002333"
+                    },
+                    "lblPriorityATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LOW"
+                    },
+                    "lblSeparatorTemplateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "    "
+                    },
+                    "lblStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "SCHEDULED"
+                    }
+                },
+                {
+                    "btnLocationPopUpShowKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgPrioritityColorTempKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lowrectangle.png"
+                    },
+                    "imgScheduledOrNotATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "scheduledicon.png"
+                    },
+                    "imgStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "locationdrilldownicon.png"
+                    },
+                    "lblAddressATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "29545 Gainsborough Avenue Park"
+                    },
+                    "lblDateTimeATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "07/06, 04:30 PM"
+                    },
+                    "lblDescriptionATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Description line of work long"
+                    },
+                    "lblM2ATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M2"
+                    },
+                    "lblOrderIDATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "00002333"
+                    },
+                    "lblPriorityATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LOW"
+                    },
+                    "lblSeparatorTemplateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "    "
+                    },
+                    "lblStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "SCHEDULED"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "labelScheduledAKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3 In Progress"
+                },
+                "lblHeaderBottomAKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            [
+                {
+                    "btnLocationPopUpShowKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgPrioritityColorTempKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "mediumrectangle.png"
+                    },
+                    "imgScheduledOrNotATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "inprogress.png"
+                    },
+                    "imgStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "locationdrilldownicon.png"
+                    },
+                    "lblAddressATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "29545 Gainsborough Avenue Park"
+                    },
+                    "lblDateTimeATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "07/06, 04:30 PM"
+                    },
+                    "lblDescriptionATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Description line of work long"
+                    },
+                    "lblM2ATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M2"
+                    },
+                    "lblOrderIDATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "00002333"
+                    },
+                    "lblPriorityATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LOW"
+                    },
+                    "lblSeparatorTemplateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "    "
+                    },
+                    "lblStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "IN PROGRESS"
+                    }
+                },
+                {
+                    "btnLocationPopUpShowKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgPrioritityColorTempKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "lowrectangle.png"
+                    },
+                    "imgScheduledOrNotATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "inprogress.png"
+                    },
+                    "imgStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "locationdrilldownicon.png"
+                    },
+                    "lblAddressATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "29545 Gainsborough Avenue Park"
+                    },
+                    "lblDateTimeATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "07/06, 04:30 PM"
+                    },
+                    "lblDescriptionATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Description line of work long"
+                    },
+                    "lblM2ATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M2"
+                    },
+                    "lblOrderIDATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "00002333"
+                    },
+                    "lblPriorityATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LOW"
+                    },
+                    "lblSeparatorTemplateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "    "
+                    },
+                    "lblStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "IN PROGRESS"
+                    }
+                },
+                {
+                    "btnLocationPopUpShowKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Button"
+                    },
+                    "imgPrioritityColorTempKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "highrectangle.png"
+                    },
+                    "imgScheduledOrNotATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "inprogress.png"
+                    },
+                    "imgStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "locationdrilldownicon.png"
+                    },
+                    "lblAddressATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "29545 Gainsborough Avenue Park"
+                    },
+                    "lblDateTimeATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "07/06, 04:30 PM"
+                    },
+                    "lblDescriptionATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Description line of work long"
+                    },
+                    "lblM2ATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M2"
+                    },
+                    "lblOrderIDATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "00002333"
+                    },
+                    "lblPriorityATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LOW"
+                    },
+                    "lblSeparatorTemplateKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "    "
+                    },
+                    "lblStatusATmpKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "IN PROGRESS"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "se2747adf89c4142b87a097f9057e321"
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "12",
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segMyOrdersKA",
+    "ide_onRowClick": "AS_Segment_bedd9094504745f3b213e23462440a41",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "92b26fc93c7a4f36949d59e02ecbd1a7",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxOrderListKA",
+    "pf": "frmMyOrderListTabKA",
+    "retainselection": false,
+    "rowTemplateId": "982ed5d361884362bc1d5f8017a47126",
+    "rowcounter": 2,
+    "rowfocusskin": "se2747adf89c4142b87a097f9057e321",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexOrdersListTmpKA",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "bf0586147b8149b2815c9a82ccf68e27",
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "sectionheadertemplate": "flxHeaderAKA",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnLocationPopUpShowKA": "btnLocationPopUpShowKA",
+        "flexOrderInDetailTmpKA": "flexOrderInDetailTmpKA",
+        "flexOrdersListTmpKA": "flexOrdersListTmpKA",
+        "flexPrioritySignalTmpKA": "flexPrioritySignalTmpKA",
+        "flxHeaderAKA": "flxHeaderAKA",
+        "imgPrioritityColorTempKA": "imgPrioritityColorTempKA",
+        "imgScheduledOrNotATmpKA": "imgScheduledOrNotATmpKA",
+        "imgStatusATmpKA": "imgStatusATmpKA",
+        "labelScheduledAKA": "labelScheduledAKA",
+        "lblAddressATmpKA": "lblAddressATmpKA",
+        "lblDateTimeATmpKA": "lblDateTimeATmpKA",
+        "lblDescriptionATmpKA": "lblDescriptionATmpKA",
+        "lblHeaderBottomAKA": "lblHeaderBottomAKA",
+        "lblM2ATmpKA": "lblM2ATmpKA",
+        "lblOrderIDATmpKA": "lblOrderIDATmpKA",
+        "lblPriorityATmpKA": "lblPriorityATmpKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA",
+        "lblStatusATmpKA": "lblStatusATmpKA"
+    },
+    "zindex": 1
+}

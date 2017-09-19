@@ -1,0 +1,29 @@
+{
+    "AS_Button_d8d605728388406999a39f1b29d0cefe": {
+        "id": "AS_Button_d8d605728388406999a39f1b29d0cefe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "CopyfrmTaskExecutionTabKA06e92a3429eee41",
+            "type": "forms",
+            "platform": null,
+            "KUID": "5a6399f9618a44dc89c128e485b3900d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_e3a5f5eef48845958d184d7a876a75f3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderExecutionForm\"); ",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_28d12f7051a24285b39ce3df39a534bc": {
+        "id": "AS_Button_28d12f7051a24285b39ce3df39a534bc",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementsViewsKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "382dc3a2541c4998b2d0e7678792005b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4811cdecb71f4a109c70f0d64b4830d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"applyViews\",[true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

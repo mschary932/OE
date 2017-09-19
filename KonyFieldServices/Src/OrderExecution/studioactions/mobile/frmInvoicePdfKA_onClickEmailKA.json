@@ -1,0 +1,25 @@
+{
+    "AS_Button_a32bdb1ade8b4bc09886c779fe31e3c6": {
+        "id": "AS_Button_a32bdb1ade8b4bc09886c779fe31e3c6",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePdfKA_onClickEmailKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "52c6306a2c144019ba9f50c84e96d346"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__25a20b82d606407abcc0a64bed9074ad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmInvoicePdfKA.FlxEmailKA.setVisibility(true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

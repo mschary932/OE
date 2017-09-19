@@ -1,0 +1,18 @@
+{
+    "AS_Button_2429d907ee0e452d96db4e64637f8d7a": {
+        "id": "AS_Button_2429d907ee0e452d96db4e64637f8d7a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOImagesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_878e6568be264838aeadbe34345e1f93",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\n    controller.performAction(\"showCompleteImagesForm\");",
+            "callbackType": null
+        }]
+    }
+}

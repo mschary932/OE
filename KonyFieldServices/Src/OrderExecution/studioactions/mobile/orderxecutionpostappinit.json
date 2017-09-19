@@ -1,0 +1,16 @@
+{
+    "orderxecutionpostappinit": {
+        "id": "orderxecutionpostappinit",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "params",
+            "value": "params"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_postappinit_5502612345635805463",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.modules.loadFunctionalModule(\"librarymodules\");\nkony.modules.loadFunctionalModule(\"preloadviews\");\nkony.modules.loadFunctionalModule(\"preloadmodules\");\nkony.modules.loadFunctionalModule(\"init\");\nkony.modules.loadFunctionalModule(\"appjsmodules1\");\nkony.modules.loadFunctionalModule(\"appjsmodules2\");\nkony.application.setApplicationBehaviors({\"retainSpaceOnHide\":false,\"hideDefaultLoadingIndicator\":true});\n\treturn LoginController.postAppInit();\n "
+        }]
+    }
+}

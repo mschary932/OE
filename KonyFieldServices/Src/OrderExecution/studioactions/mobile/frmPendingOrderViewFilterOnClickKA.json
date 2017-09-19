@@ -1,0 +1,25 @@
+{
+    "AS_Button_f19de15ecff04a01bf9193537ae48fe1": {
+        "id": "AS_Button_f19de15ecff04a01bf9193537ae48fe1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPendingOrderViewFilterOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingOrderListKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8587586ca9f444a9047edc4d42f30a7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2d1c23dde2bd4b7bb64ee793b0905804",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderListView\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

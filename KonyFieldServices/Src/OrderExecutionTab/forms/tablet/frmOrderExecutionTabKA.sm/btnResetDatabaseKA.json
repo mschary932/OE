@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_skin_": "s2ffa4b4fd3a41babf976b3a1afe5ffb",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "18.96%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s107c7921b4a4a0a93dd270f93acf0ac",
+    "id": "btnResetDatabaseKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ff669cc6538b46b6af6c5cf9c060110c",
+    "name": "kony.ui.Button",
+    "parent": "flexResetDatabaseKA",
+    "pf": "frmOrderExecutionTabKA",
+    "texti18n": "i18n.common.statusMechine.startKA",
+    "wType": "Button",
+    "zindex": 1
+}

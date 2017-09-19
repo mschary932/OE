@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15.20%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "26.30%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1cc06b80c6942e489c8ede07cbd7806",
+    "_text_": "NO",
+    "_top_": {
+        "type": "string",
+        "value": "76.60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20.40%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0a5cff5f6a34d5ebafe0a59e7c3ed91",
+    "id": "btnCancelAlertNoKA",
+    "ide_onClick": "AS_Button_3a86afe71bf2472685c43d0a08a70aed",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e92a5da0bff44685aaeedaaa2e47e797",
+    "name": "kony.ui.Button",
+    "parent": "flexCalcelAlertMainKA",
+    "pf": "frmCompleteOrderTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

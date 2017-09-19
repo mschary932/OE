@@ -1,0 +1,24 @@
+{
+    "AS_Button_297bedabb5e6459daa59372f225b5bab": {
+        "id": "AS_Button_297bedabb5e6459daa59372f225b5bab",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnResourceCancelDeleteOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHamburgerMenuWOKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580197"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a8f8105be37e4636a35542e1c61d4425",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formmodel = controller.getFormModel();\nvar controllerExtension = controller.getControllerExtensionObject();\ncontrollerExtension.setFormModelInfo(\"isDelete\", true);\n kony.timer.cancel(\"deleteResourceTimer\");\nshowHideHamburgerMenuKA(kony.application.getCurrentForm(), frmHamburgerMenuWOKA, false, \"flxDeleteKA\");\ncontrollerExtension.fetchData();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_856005fb84ea4e0bb2f5d7f24681270d": {
+        "id": "AS_Button_856005fb84ea4e0bb2f5d7f24681270d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnScheduledFOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0cd63abf85604cfb9bd85a1889e78d05",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onStatusFilterClick\",['btnScheduledFKA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

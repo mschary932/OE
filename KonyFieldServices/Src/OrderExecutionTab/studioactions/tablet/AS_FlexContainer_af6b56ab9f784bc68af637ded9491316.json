@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_af6b56ab9f784bc68af637ded9491316": {
+        "id": "AS_FlexContainer_af6b56ab9f784bc68af637ded9491316",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2f49a6ace8d141c38de29e66234bbba7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onImgDownCall\");",
+            "callbackType": null
+        }]
+    }
+}

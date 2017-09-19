@@ -1,0 +1,25 @@
+{
+    "AS_Button_02aef251302947b691d86b9574cce62f": {
+        "id": "AS_Button_02aef251302947b691d86b9574cce62f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCustomerSignOffBtnSaveOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerSignOffKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f59c9f1bbd174521a523b58a373ac79f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__acef4a2ad5b6467f8c387fd12de6e69e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCustomerSignOffKA\");\ncontroller.performAction(\"completeChecklist\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

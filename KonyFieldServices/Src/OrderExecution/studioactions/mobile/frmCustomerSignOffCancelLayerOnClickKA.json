@@ -1,0 +1,24 @@
+{
+    "AS_Button_aebd797be41646778851af5f2e19d4dc": {
+        "id": "AS_Button_aebd797be41646778851af5f2e19d4dc",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCustomerSignOffCancelLayerOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSaveLayerKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "90ec4ef5d9084f108d8020247cea49dc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e26e125c15f141bb9b729edc9aa9c80d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCustomerSignOffKA\");\ncontroller.performAction(\"navigateBack\");\nvar formmodel = controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flexPopupKA\", \"isVisible\", false);\n",
+            "callbackType": null
+        }]
+    }
+}

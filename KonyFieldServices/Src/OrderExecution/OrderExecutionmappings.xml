@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="OrderExecution" name="OrderExecution">
+    <container isflex="false" displayname="Popup" id="tmpDateFIlterKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpFilterBodyKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpFiltersKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpNotificationsListKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderAttachmentsKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderExecutionKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderExecutionRowKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderFIlterHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderHistoryKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderListHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpOrderListKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpResorcesHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpResourcesSegKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpSecHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskExecutionKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResourceKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskResourcesHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpTaskViewHeaderKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpViewBodyKA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpMapCalloutTemplate1KA" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="tmpMapCalloutTemplateKA" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmBarCodeScannnerKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmBarcodeScannerKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmCompleteOrderKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmCompleteOrderLayerKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmCompleteOrderSummaryKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmContactDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmDateFilterKA" type="form">
+        <component displayname="Calendar" id="calenderKA" type="calendar"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmDescriptionDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmDirectionsKA" type="form">
+        <component displayname="Map" id="mapDirectionKA" type="map">
+            <attributes datatype="string" name="key" platform="general" value="AIzaSyAJOkl-7hJ08jbE5sBZs9Da9qrHP_XhXro"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmEditTaskResourcesKA" type="form">
+        <component displayname="TextBox2" id="txtEnterValueKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmHamburgerMenuWOKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmLoginKA" type="form">
+        <component displayname="TextBox2" id="tbxUserIDKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxPasswordKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmOrderAttachmentsKA" type="form">
+        <component displayname="TextBox2" id="tbxOrderAttachmentsKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmOrderCompleteCheckListKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderExecutionKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderHistoryKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderListKA" type="form">
+        <component displayname="Map" id="mapMyOrderListKA" type="map">
+            <attributes datatype="string" name="key" platform="general" value="AIzaSyAJOkl-7hJ08jbE5sBZs9Da9qrHP_XhXro"/>
+        </component>
+    </container>
+    <container isflex="false" displayname="Form" id="frmOrderResourceDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmOrderResourcesListKA" type="form">
+        <component displayname="TextBox2" id="tbxOrderAttachmentsKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmOrdersViewsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmResourceExecutionAddKA" type="form">
+        <component displayname="TextBox2" id="txtQuantityInputKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmResourceExecutionKA" type="form">
+        <component displayname="TextBox2" id="tbxQuantityKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxUnitKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmStatusFilterKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmTanentKA" type="form">
+        <component displayname="TextBox2" id="tbxTenantKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxURLKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmTaskDetailsKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmTaskExecutionKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmTaskResourcesListKA" type="form">
+        <component displayname="TextBox2" id="tbxOrderAttachmentsKA" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmTaskViewFiltersKA" type="form"/>
+    <container isflex="false" displayname="Form" id="frmURLKA" type="form">
+        <component displayname="TextBox2" id="tbxTenantKA" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxURLKA" type="textbox2"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

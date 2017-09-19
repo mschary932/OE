@@ -1,0 +1,20 @@
+{
+    "p2kwiet1234563580219_tbxPasswordKA_onDone_seq0": {
+        "id": "p2kwiet1234563580219_tbxPasswordKA_onDone_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginTxtPwdOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "changedtext",
+            "value": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onDone_8239412345635808901",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.LoginAction();"
+        }]
+    }
+}

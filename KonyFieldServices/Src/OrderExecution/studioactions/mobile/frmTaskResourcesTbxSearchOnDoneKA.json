@@ -1,0 +1,21 @@
+{
+    "AS_TextField_b970e3aecb2c4fa8b5f9254513f8c580": {
+        "id": "AS_TextField_b970e3aecb2c4fa8b5f9254513f8c580",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskResourcesTbxSearchOnDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDone_6670153a18df425ab652485e0ddbfaf1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var instance = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar listController = instance.getFormController(\"frmTaskResourcesListKA\");\nlistController.performAction(\"doSearch\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_fb6963fe16554234906e3fc2b25afe5a": {
+        "id": "AS_FlexContainer_fb6963fe16554234906e3fc2b25afe5a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionHamburgerMyOrderKa",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a71d79efe8c24690a1c5697b407da221",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showHamburgerMenu\"); \ncontroller.performAction(\"showAndHideShadow\"); \ncontroller.performAction(\"showMyOrderListForm\");\n\n",
+            "callbackType": null
+        }]
+    }
+}

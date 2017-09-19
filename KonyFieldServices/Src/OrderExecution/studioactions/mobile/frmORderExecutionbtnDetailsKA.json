@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580351_btnOrderDetailsKA_onClick_seq0": {
+        "id": "p2kwiet1234563580351_btnOrderDetailsKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmORderExecutionbtnDetailsKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "expression_onClick_4116112345635804588",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showWorkOrderDetailsForm\");}catch(err){}"
+        }]
+    }
+}

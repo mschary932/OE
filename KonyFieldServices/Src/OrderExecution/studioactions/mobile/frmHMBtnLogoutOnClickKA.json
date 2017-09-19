@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580197_btnLogoutKA_onClick_seq0": {
+        "id": "p2kwiet1234563580197_btnLogoutKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmHMBtnLogoutOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_1344812345635804596",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n TAG.NC.registerEvent(frmOrderListKA.btnLogoutKA);\n kony.servicesapp.LogoutAction();"
+        }]
+    }
+}

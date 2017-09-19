@@ -1,0 +1,29 @@
+{
+    "AS_Segment_e81d2518261142419161055a3fca6512": {
+        "id": "AS_Segment_e81d2518261142419161055a3fca6512",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "CopyfrmTaskExecutionTabKA06e92a3429eee41",
+            "type": "forms",
+            "platform": null,
+            "KUID": "5a6399f9618a44dc89c128e485b3900d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_7e4851092796409181a57bbede3d8190",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showResourceExecutionForm\");",
+            "callbackType": null
+        }]
+    }
+}

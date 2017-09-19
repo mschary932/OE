@@ -1,0 +1,31 @@
+{
+    "AS_Image_cda2094e1b2240baad448f1171601944": {
+        "id": "AS_Image_cda2094e1b2240baad448f1171601944",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpResourcesSegChevronImgClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "tmpResourcesSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet1234563580769"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__74dce06c9cf2457c9c4ae71171ddb5ca",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onSegChevronClick\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

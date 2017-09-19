@@ -1,0 +1,23 @@
+{
+    "AS_Button_e1dc7d932fc94c7b97fa1c40ef91a3a4": {
+        "id": "AS_Button_e1dc7d932fc94c7b97fa1c40ef91a3a4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_45858e4e8bfb4ea493d89b0d851c0dee",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showflexPaymentModesKA\");",
+            "callbackType": null
+        }]
+    }
+}

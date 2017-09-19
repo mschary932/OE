@@ -1,0 +1,28 @@
+{
+    "AS_TextField_529b9e620da54118b3d02d3dfb9e92b0": {
+        "id": "AS_TextField_529b9e620da54118b3d02d3dfb9e92b0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateNumTextBoxOnTextChangeKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0a39aa53dcbb48198a7dc5af25a24ad4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ques = parseInt((this.id).substring(3)).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"saveInputValue\",[ques,\"Num\"]);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

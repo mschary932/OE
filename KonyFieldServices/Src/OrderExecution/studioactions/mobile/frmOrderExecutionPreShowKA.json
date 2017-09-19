@@ -1,0 +1,25 @@
+{
+    "AS_Form_506efa5bc2964d02be495a6819554a60": {
+        "id": "AS_Form_506efa5bc2964d02be495a6819554a60",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionPreShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580351"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5664d01fa3d349949e946bb2421f2b59",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmOrderExecutionKA.flxScrollTypesKA.contentOffset = {x:0,y:0};",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

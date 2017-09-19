@@ -1,0 +1,18 @@
+{
+    "AS_Switch_9b7e889652ae4cce82d89e9bdf86ccbe": {
+        "id": "AS_Switch_9b7e889652ae4cce82d89e9bdf86ccbe",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCustomerSignOffSwitchProblemSolvedOnSlideKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onSlide_c5978dbd42d442e9866eb05720473d0e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCustomerSignOffKA\");\ncontroller.performAction(\"switchSlideCallback\");",
+            "callbackType": null
+        }]
+    }
+}

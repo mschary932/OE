@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580624_frmTouchIDSetupKA_preshow_seq0": {
+        "id": "p2kwiet1234563580624_frmTouchIDSetupKA_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTouchIDSetupPreShowKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_2148712345635806854",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var credStore = kony.store.getItem(kony.sdk.mvvm.credStoreName);\n var storedUsername;\n var key;\n if (credStore !== null && credStore !== undefined) {\n key = credStore[kony.sdk.mvvm.credStoreSecretKey];\n //storedUsername = kony.appfoundation.decryptData(key, credStore[kony.appfoundation.credStoreUsername]);\n   storedUsername = credStore[kony.sdk.mvvm.credStoreUsername];\n }\n frmTouchIDSetupKA.lblUserNameKA.text = storedUsername;"
+        }]
+    }
+}

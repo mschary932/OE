@@ -1,0 +1,47 @@
+<functionalModules projectName="OrderExecutionTab">
+    <functionalModule name="init">
+        <views>
+		frmAvailableOrderListTabKA,
+		frmCompleteOrderTabKA,
+		frmExpenseDetailsTabKA,
+		frmLoginTabKA,
+		frmMeasurementExecutionKA,
+		frmMeasurementsReadingKA,
+		frmMyOrderListTabKA,
+		frmOrderExecutionTabKA,
+		frmResourceExecutionTabKA,
+		frmTaskExecutionTabKA,
+		frmTemplateTabKA,
+		frmTenantTabKA,
+		tempStepByStepDirectionKA,
+		tmpAttachmentsKA,
+		tmpAvailableOrdersKA,
+		tmpAvailableRowHeaderAOKA,
+		tmpBomKA,
+		tmpHistoryKA,
+		tmpInvoicePdfKA,
+		tmpInvoiceReceiptPdfKA,
+		tmpMaterialListKA,
+		tmpMeasurementListKA,
+		tmpMeasurementReadingsKA,
+		tmpNotesListKA,
+		tmpOrderHistoryKA,
+		tmpOrderListRowAKA,
+		tmpOrderListRowHeaderAKA,
+		tmpPaymentDataKA,
+		tmpPendingTasksTabKA,
+		tmpPinBaloonKA,
+		tmpResourceListTabKA,
+		tmpStockListKA,
+		tmpTimeExpenseHeaderKA,
+		tmpTimeExpenseKA,
+		tmpViewBodyKA
+		</views>
+    </functionalModule>
+    <functionalModule name="librarymodules">
+        <jsModules>konymvvm_sdk</jsModules>
+    </functionalModule>
+    <functionalModule name="appjsmodules">
+        <jsModules>frmAvailableOrderListTabKAConfig,frmAvailableOrderListTabKAController,frmAvailableOrderListTabKAControllerExtension,frmAvailableOrderListTabKAFormModel,frmAvailableOrderListTabKAFormModelExtension,frmCompleteOrderTabKAConfig,frmCompleteOrderTabKAController,frmCompleteOrderTabKAControllerExtension,frmCompleteOrderTabKAFormModel,frmCompleteOrderTabKAFormModelExtension,frmExpenseDetailsTabKAConfig,frmExpenseDetailsTabKAController,frmExpenseDetailsTabKAControllerExtension,frmExpenseDetailsTabKAFormModel,frmExpenseDetailsTabKAFormModelExtension,frmMeasurementExecutionKAConfig,frmMeasurementExecutionKAController,frmMeasurementExecutionKAControllerExtension,frmMeasurementExecutionKAFormModel,frmMeasurementExecutionKAFormModelExtension,frmMeasurementsReadingKAConfig,frmMeasurementsReadingKAController,frmMeasurementsReadingKAControllerExtension,frmMeasurementsReadingKAFormModel,frmMeasurementsReadingKAFormModelExtension,frmMyOrderListTabKAConfig,frmMyOrderListTabKAController,frmMyOrderListTabKAControllerExtension,frmMyOrderListTabKAFormModel,frmMyOrderListTabKAFormModelExtension,frmOrderExecutionTabKAConfig,frmOrderExecutionTabKAController,frmOrderExecutionTabKAControllerExtension,frmOrderExecutionTabKAFormModel,frmOrderExecutionTabKAFormModelExtension,frmResourceExecutionTabKAConfig,frmResourceExecutionTabKAController,frmResourceExecutionTabKAControllerExtension,frmResourceExecutionTabKAFormModel,frmResourceExecutionTabKAFormModelExtension,frmTaskExecutionTabKAConfig,frmTaskExecutionTabKAController,frmTaskExecutionTabKAControllerExtension,frmTaskExecutionTabKAFormModel,frmTaskExecutionTabKAFormModelExtension,KonyAppFoundationLibraryAppFormInit,KonyAppInit,konylibrary,KonySyncLib,loginAnimation,mbaasconfig,ServicesConstants,servicesUtility,SwipeUtility</jsModules>
+    </functionalModule>
+</functionalModules>

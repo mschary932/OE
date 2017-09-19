@@ -1,0 +1,21 @@
+{
+    "AS_Button_b65a57ef9afd40cba6b02e9282dacbf4": {
+        "id": "AS_Button_b65a57ef9afd40cba6b02e9282dacbf4",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnRemoveKASwipeOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_7cdbcdff6996424685a14584a9aa8e3c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar controllerExtensionObject=controller.getControllerExtensionObject()\nvar formModel = controller.getFormModel();\nvar selRecord = formModel.getViewAttributeByProperty(\"segMeasurementKA\", \"selectedItems\")[0];\t\t\t\nvar utilitiesObj = utilities.getUtilityObj();\ncontrollerExtensionObject.removeReadings(selRecord);\n",
+            "callbackType": null
+        }]
+    }
+}

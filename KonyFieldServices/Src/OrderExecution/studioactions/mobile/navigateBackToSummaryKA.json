@@ -1,0 +1,29 @@
+{
+    "AS_Button_dc15360dcdb944d1b798a99ec5febadd": {
+        "id": "AS_Button_dc15360dcdb944d1b798a99ec5febadd",
+        "type": "ACTION_SEQUENCE",
+        "name": "navigateBackToSummaryKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "52c6306a2c144019ba9f50c84e96d346"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___23b4ed113ca04d7bba6f984fec581a20",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSummaryKA",
+            "formKUID": "07622c56b8444fdc873864e0133e3aa0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

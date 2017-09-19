@@ -1,0 +1,25 @@
+{
+    "AS_Button_6a42f460f8244e70991a36ee5314d605": {
+        "id": "AS_Button_6a42f460f8244e70991a36ee5314d605",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyFlxTimePickerBtnDoneOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4205b3fd09b14002abf06224a7f2bff3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"saveInputValue\",[selectedQuestion,\"Time\"]);\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxTimePickerBg\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

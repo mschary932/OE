@@ -1,0 +1,28 @@
+{
+    "AS_Calendar_a7a7535c956449a5b387bd8bb02c6ab6": {
+        "id": "AS_Calendar_a7a7535c956449a5b387bd8bb02c6ab6",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAvailableOrderCalenderSelectDateOnSelectionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "contextObj": {
+            "name": "frmAvailableOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "19da301ac729497db3a77ce9f92f980c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4d189ab6460e4ed0afc03f796231c70f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"selectAnyDateFromCalender\");\ncontroller.performAction(\"indicateIfAnyDateSelected\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_e0dff8c846e0479b9feee47b0875d554": {
+        "id": "AS_Button_e0dff8c846e0479b9feee47b0875d554",
+        "type": "ACTION_SEQUENCE",
+        "name": "createMeasurementDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateMeasurementDescriptionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ce9974f3314e46f38133321f5941223e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dc08392af5de43ae93ab0569ca397d71",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controllerObject = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCreateMeasurementDescriptionKA\").getControllerExtensionObject();\ncontrollerObject.createMeasurementNavigation();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

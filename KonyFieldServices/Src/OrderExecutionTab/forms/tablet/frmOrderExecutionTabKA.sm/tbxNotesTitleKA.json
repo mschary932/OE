@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter title here",
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "se483fb4d9de4547850b3a3c991d7dd6",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "33%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "se483fb4d9de4547850b3a3c991d7dd6",
+    "id": "tbxNotesTitleKA",
+    "info": null,
+    "ipad": {},
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "1923398ec88b4f3cad471ae1e7c4cdd3",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flexQueKA",
+    "pf": "frmOrderExecutionTabKA",
+    "placeholderskin": "s8c081324bee4e5d90bda79b3e7b4df4",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 3
+}

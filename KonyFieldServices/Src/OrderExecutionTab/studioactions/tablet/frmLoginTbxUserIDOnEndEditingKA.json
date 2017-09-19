@@ -1,0 +1,31 @@
+{
+    "AS_TextField_52bc3131807a4df09f02dd668a92fa24": {
+        "id": "AS_TextField_52bc3131807a4df09f02dd668a92fa24",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginTbxUserIDOnEndEditingKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLoginTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dd9a5f8ab68c47128282262268edc998"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___2042f0919af24f36b678548fbcd8854d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "scrollDownLoginPage",
+            "display": "scrollDownLoginPage",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

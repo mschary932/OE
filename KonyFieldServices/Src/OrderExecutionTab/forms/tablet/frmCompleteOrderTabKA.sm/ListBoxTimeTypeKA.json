@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "11.60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "49%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4348535c4964ea9a0f4f9f5d14e3deb",
+    "_top_": {
+        "type": "string",
+        "value": "19.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "android": {
+        "dropDownImage": "popuparrownew.png"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "tablet",
+        "formID": "frmCompleteOrderTabKA",
+        "platform": "ipad",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "dropdownimage": "popuparrownew.png",
+    "focusskin": "s4348535c4964ea9a0f4f9f5d14e3deb",
+    "groupcells": false,
+    "id": "ListBoxTimeTypeKA",
+    "info": null,
+    "ipad": {
+        "dropDownImage": "popuparrownew.png",
+        "viewType": 0
+    },
+    "isvisible": true,
+    "kuid": "8537ddb583e4458aa89b9b1415f5ad8b",
+    "masterdata": [
+        [
+            "lb1",
+            "TRAVEL"
+        ],
+        [
+            "lb2",
+            "STAY"
+        ],
+        [
+            "lb3",
+            "FOOD & BEVERAGES"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flexAddTimePopupContainerKA",
+    "pf": "frmCompleteOrderTabKA",
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "TRAVEL"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

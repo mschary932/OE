@@ -1,0 +1,31 @@
+{
+    "AS_Label_dad91ba180df465c915baf33497f8f42": {
+        "id": "AS_Label_dad91ba180df465c915baf33497f8f42",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateLblTextBoxOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a7b97221b33940348bcbe6d09651ffbb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "selectedQuestion = parseInt(((this.id).substring(3))).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"setTextArea\",[selectedQuestion]);\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxTextArea\",\"isVisible\", true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

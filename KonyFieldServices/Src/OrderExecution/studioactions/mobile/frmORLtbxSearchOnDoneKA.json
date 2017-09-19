@@ -1,0 +1,28 @@
+{
+    "AS_TextField_8117f8874b234afdbabd4b4a7cfca400": {
+        "id": "AS_TextField_8117f8874b234afdbabd4b4a7cfca400",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmORLtbxSearchOnDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmOrderResourcesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580429"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0b599ec2e3be440398d9368125cbe599",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var instance = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar listController = instance.getFormController(\"frmOrderResourcesListKA\");\nlistController.performAction(\"doSearch\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

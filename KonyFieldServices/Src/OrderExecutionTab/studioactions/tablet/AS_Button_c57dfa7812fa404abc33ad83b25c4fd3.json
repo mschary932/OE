@@ -1,0 +1,17 @@
+{
+    "AS_Button_c57dfa7812fa404abc33ad83b25c4fd3": {
+        "id": "AS_Button_c57dfa7812fa404abc33ad83b25c4fd3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_db91c9e0ded842c5bc5e893997eac86f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelConfirmationAndCancelPopUp\");",
+            "callbackType": null
+        }]
+    }
+}

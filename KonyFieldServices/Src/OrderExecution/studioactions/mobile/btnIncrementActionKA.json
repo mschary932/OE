@@ -1,0 +1,25 @@
+{
+    "AS_Button_487c301a057344dab067ed9f824d2202": {
+        "id": "AS_Button_487c301a057344dab067ed9f824d2202",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnIncrementActionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580554"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ae13ed47a6774014b4c13136a8c98288",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n    var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n    var formModel = controller.getFormModel();\n    var utilitiesObj = utilities.getUtilityObj();\n    formModel.setViewAttributeByProperty(\"tbxQuantityKA\", \"text\", String(utilitiesObj.roundNumber(formModel.getViewAttributeByProperty(\"tbxQuantityKA\", \"text\"), 2) + 1));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Button_5a2ae9063fd445dd9ed0626bd842a7df": {
+        "id": "AS_Button_5a2ae9063fd445dd9ed0626bd842a7df",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnCancelTimeExpenseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_8d0943bb88bc41999f529b72d7898aec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"closeAddTimeExpense\"); ",
+            "callbackType": null
+        }]
+    }
+}

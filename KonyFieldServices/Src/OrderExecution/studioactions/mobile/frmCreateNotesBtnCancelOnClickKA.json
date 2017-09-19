@@ -1,0 +1,25 @@
+{
+    "AS_Button_c77285da456c44bbbd1b17be3f6e2723": {
+        "id": "AS_Button_c77285da456c44bbbd1b17be3f6e2723",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCreateNotesBtnCancelOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateNotesKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19962346794045"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca67030edbdb4e21ab09a7eb24034fdb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var instance = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = instance.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateBackToList\", [true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

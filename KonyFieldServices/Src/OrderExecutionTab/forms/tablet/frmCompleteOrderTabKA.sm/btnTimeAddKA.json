@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "87.70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1b1a60147694cb7838c3a75ee3145b3",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "60.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s2652d265cb647c7b0bfefde51090504"
+    },
+    "displaytext": true,
+    "id": "btnTimeAddKA",
+    "ide_onClick": "AS_Button_c521aeb208e84e898b3f90a1de5d20f4",
+    "info": null,
+    "isvisible": true,
+    "kuid": "db900570f6af4c138a062db7b9c561b7",
+    "name": "kony.ui.Button",
+    "parent": "flexAddTimeExpenseKA",
+    "pf": "frmCompleteOrderTabKA",
+    "wType": "Button",
+    "zindex": 20
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Image_e80a0f2a07a042ad8b67dddd5660df7e": {
+        "id": "AS_Image_e80a0f2a07a042ad8b67dddd5660df7e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSStartDateEditBtnOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4f30c2e284c14928bae3d7240dc18915",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderSummaryKA\");\ncontroller.performAction(\"showCalenderWidgetKA\", [\"lblStartDateKA\", \"lblStartTimeKA\"]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

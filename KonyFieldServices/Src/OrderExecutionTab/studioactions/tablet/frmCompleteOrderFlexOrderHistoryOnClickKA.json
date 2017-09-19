@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_6671c13773d04fd1b72cb41e0332061a": {
+        "id": "AS_FlexContainer_6671c13773d04fd1b72cb41e0332061a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlexOrderHistoryOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a2bda9cc7c654c0288910feadc1b0b86",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderHistory\"); \n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

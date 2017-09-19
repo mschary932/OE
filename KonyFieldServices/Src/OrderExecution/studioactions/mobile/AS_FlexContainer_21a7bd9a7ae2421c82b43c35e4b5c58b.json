@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_21a7bd9a7ae2421c82b43c35e4b5c58b": {
+        "id": "AS_FlexContainer_21a7bd9a7ae2421c82b43c35e4b5c58b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEditExpenseItemKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e08826ea7d69401e81ca6dc966cf41e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__12eb6a6385054270baf14526d409d68d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var Controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar formModel = Controller.getFormModel();\nController.performAction(\"scheduleDate\");\nformModel.setViewAttributeByProperty(\"flxCalenderrBg\", \"isVisible\", true);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

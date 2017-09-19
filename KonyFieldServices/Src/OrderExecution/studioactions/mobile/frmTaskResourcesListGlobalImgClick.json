@@ -1,0 +1,31 @@
+{
+    "AS_Image_0c7864ac51fd4500b7de72b6b57dff0e": {
+        "id": "AS_Image_0c7864ac51fd4500b7de72b6b57dff0e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskResourcesListGlobalImgClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTaskResourcesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580581"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__41799ea6166d460985d75d23f662c1b7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"triggerGlobalSearch\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+    <test name="MyWork-ECCApp_SmokeTest">
+        <classes>
+            <class name="test.orderexecution.tests.TestFormFSLoginKA">
+                <methods>
+                    <include name="test_app_login" />
+                </methods>
+            </class>
+           <class name="test.orderexecution.tests.TestMyOrdersForm">
+                <methods>
+                    <include name="testNavigation" />
+                </methods>
+            </class> 
+            <class name="test.orderexecution.tests.TestFormOrderResourcesList">
+                <methods>
+                    <include name="test_search_by_resource_code" />
+                    <include name="test_search_by_resource_name" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormCreateNotesKA">
+                <methods>
+                    <include name="test_create_notes" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

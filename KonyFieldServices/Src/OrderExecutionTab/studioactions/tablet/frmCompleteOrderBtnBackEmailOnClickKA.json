@@ -1,0 +1,25 @@
+{
+    "AS_Button_860321777dcc44f1980eadc6f43d9a70": {
+        "id": "AS_Button_860321777dcc44f1980eadc6f43d9a70",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnBackEmailOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__337218b54be8429fbcd2a7ae24b313e8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backFromSendEmailKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

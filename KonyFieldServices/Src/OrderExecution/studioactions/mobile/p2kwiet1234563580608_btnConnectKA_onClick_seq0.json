@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580608_btnConnectKA_onClick_seq0": {
+        "id": "p2kwiet1234563580608_btnConnectKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_9317212345635805592",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LoginController.verifyTenantURL();\n //frmLoginKA.show();"
+        }]
+    }
+}

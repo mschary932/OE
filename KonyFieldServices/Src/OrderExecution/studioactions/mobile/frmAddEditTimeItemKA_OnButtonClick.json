@@ -1,0 +1,25 @@
+{
+    "AS_Button_3a2b8cf525ea41dea9b659b4f7078e80": {
+        "id": "AS_Button_3a2b8cf525ea41dea9b659b4f7078e80",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddEditTimeItemKA_OnButtonClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEditTimeItemKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a1943ad5bafd4db1bed058eecf1716e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__aa035caa6953484cb0f4f3a282837af0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(\"frmAddEditTimeItemKA\");\n controller.performAction(\"saveData\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_61d40a9da5df48a4b8696c3a7a059f4d": {
+        "id": "AS_FlexContainer_61d40a9da5df48a4b8696c3a7a059f4d",
+        "type": "ACTION_SEQUENCE",
+        "name": "PaymentConfirmation_doNothing",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c41917bd1ce147fbb9d9995f75467c0a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var utilitiesObj = utilities.getUtilityObj();\nutilitiesObj.doNothingOnDeviceBackKA();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

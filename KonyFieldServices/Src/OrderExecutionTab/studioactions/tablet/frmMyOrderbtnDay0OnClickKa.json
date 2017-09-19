@@ -1,0 +1,25 @@
+{
+    "AS_Button_962a7e1dcc984d00b3f602a7e5dcd959": {
+        "id": "AS_Button_962a7e1dcc984d00b3f602a7e5dcd959",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderbtnDay0OnClickKa",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bd8000f6489647d9a6e0089ee6ad90b2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onDayButtonClick\",['btnDay0KA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

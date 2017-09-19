@@ -1,0 +1,25 @@
+{
+    "AS_Button_c7dfa6740c3a4859a80dd2c74df85b3a": {
+        "id": "AS_Button_c7dfa6740c3a4859a80dd2c74df85b3a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmStockDetailsRequestTransferBtnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStockLocationDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "80f03fe99e8d4ddb8595cb75ab1e4936"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__319305b84fc94b45a5b8d25b51a3f59f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nvar controllerExxtensionObject=controller.getControllerExtensionObject();\ncontrollerExxtensionObject.setFormModelInfo(\"isDelete\", false);\n\nvar materialDescription=formModel.getViewAttributeByProperty(\"lblStockLocationNameKA\", \"text\");\nvar quantity=formModel.getViewAttributeByProperty(\"lblQuantityKA\", \"text\");\nquantity=quantity.split(\" \");\n// var requestedQuantityNumber=quantity[0];\nvar requestedQuantityNumber=\"1\";\nvar reqUnitDescription=quantity[1];\n\nvar selRecord ={\n\"MaterialDescription\":materialDescription,\n\"RequestedQuantityNumber\":requestedQuantityNumber,\n\"ReqUnitDescription\":reqUnitDescription,\n};\n\n//formModel.setViewAttributeByProperty(\"tbxQuantityKA\",\"text\",selRecord.RequestedQuantity);\nvar utilitiesObj = utilities.getUtilityObj();\nutilitiesObj.editQuantity(selRecord);\nformModel.setViewAttributeByProperty(\"flxEditKA\", \"isVisible\",true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

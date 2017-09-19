@@ -1,0 +1,25 @@
+{
+    "AS_Button_f940ccf366474fdbac54c8003310d5f7": {
+        "id": "AS_Button_f940ccf366474fdbac54c8003310d5f7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderBtnBackToMainMenuOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__6fe446b2a1714de293fc98f10d0dc231",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backFromSettingScreen\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

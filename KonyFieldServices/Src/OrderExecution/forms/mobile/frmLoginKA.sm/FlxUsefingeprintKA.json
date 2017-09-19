@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "205dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7.81%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "7.81%"
+    },
+    "_skin_": "s6b5607dbab444a497692b6b405770a0",
+    "_top_": {
+        "type": "string",
+        "value": "26.40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "84.38%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblUseFingerPrintKA",
+        "lblOEKA",
+        "lblExecutionKA",
+        "lblTouchSensorKA",
+        "ImgFingerPrintKA",
+        "btnCancelKA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlxUsefingeprintKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "43d884fe0f424e57bbe22178c9360081",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxUseFingerprintAuthKA",
+    "pf": "frmLoginKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 5
+}

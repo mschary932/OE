@@ -1,0 +1,25 @@
+{
+    "AS_Button_ef0f89fec6574c799f28da7e49da0e13": {
+        "id": "AS_Button_ef0f89fec6574c799f28da7e49da0e13",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePdfKA_EmailCancelKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "52c6306a2c144019ba9f50c84e96d346"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__282995c5d8744339816c5a06846544e6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmInvoicePdfKA.FlxEmailKA.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

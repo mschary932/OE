@@ -1,0 +1,31 @@
+{
+    "AS_Image_571968fe1a534a53a1178e65d7db88b5": {
+        "id": "AS_Image_571968fe1a534a53a1178e65d7db88b5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmStockLocationsImgResourceChevronClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmStockLocationListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b74ea6b6511d46878779b917e5d9c857"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__67d6c728cd3f49b5a63042495eb2e98b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToResourceExecution\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

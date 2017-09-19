@@ -1,0 +1,25 @@
+{
+    "AS_Button_b3d1795d460f4c68b46261d47007e3ef": {
+        "id": "AS_Button_b3d1795d460f4c68b46261d47007e3ef",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnCancelFlxUsefingerprintActionKA_Android",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoginKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580219"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5903237ee72847329fe41c8939d5d5eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.servicesapp.TOUCH_ID_ANDROID_FLAG = true;\nkony.localAuthentication.cancelAuthentication();\nfrmLoginKA.flxUseFingerprintAuthKA.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

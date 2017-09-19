@@ -1,0 +1,25 @@
+{
+    "AS_Button_ae6b79f991994b288396340a7e62448a": {
+        "id": "AS_Button_ae6b79f991994b288396340a7e62448a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingsKA_addNewReading",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementReadings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "160147dcef504f079e150aa881f874f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__246e547c11d342058bdf948875172515",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"addMeasurementReading\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0634136c9754819af992f20ce38cf88",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblTimeTmpNotesTmpKA",
+        "lblTitleNotesTmpKA",
+        "lblAuthorNotesTmpKA",
+        "lblNotesTmpKA",
+        "lblNotesDetailsTmpKA",
+        "lblSeparatorTemplateKA",
+        "imgChevronKA"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexNotesTmpKA",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "e2cb3ec4779942b7a96ff1d62b1d73fb",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tmpNotesListKA",
+    "pf": "tmpNotesListKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

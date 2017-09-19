@@ -1,0 +1,1 @@
+[{"sourceObject":"EAM_WO_ATTACHMENT","targetObject":"media","relationshipKeys":[{"sourceField":"BINARY_NAME","targetField":"name"}],"name":"EAM_WO_ATTACHMENT_media","type":"ManyToOne","custom":false,"cascadeDelete":false}]

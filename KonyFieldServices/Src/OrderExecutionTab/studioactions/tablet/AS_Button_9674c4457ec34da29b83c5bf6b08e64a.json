@@ -1,0 +1,17 @@
+{
+    "AS_Button_9674c4457ec34da29b83c5bf6b08e64a": {
+        "id": "AS_Button_9674c4457ec34da29b83c5bf6b08e64a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_3b459b29ea40402d82a30286a8707ed7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeSegment\"); ",
+            "callbackType": null
+        }]
+    }
+}

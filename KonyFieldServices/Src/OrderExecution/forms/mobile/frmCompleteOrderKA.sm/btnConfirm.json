@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "seef029c072644838f29e8a0688dfb15",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "55%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s629df9e7204460380b13bdaeef70a2f",
+    "id": "btnConfirm",
+    "ide_onClick": "AS_Button_fa6d3a0a55cd44e8bf57751364c5b455",
+    "info": null,
+    "isvisible": true,
+    "kuid": "6409235d941145ac8b09dbdc4eccf397",
+    "name": "kony.ui.Button",
+    "parent": "flxConfirmTickKA",
+    "pf": "frmCompleteOrderKA",
+    "wType": "Button",
+    "zindex": 2
+}

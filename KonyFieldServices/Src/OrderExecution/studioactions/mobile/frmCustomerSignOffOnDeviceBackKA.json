@@ -1,0 +1,25 @@
+{
+    "AS_Form_f7a73a6d7f144248b7fdd9f39b4ca822": {
+        "id": "AS_Form_f7a73a6d7f144248b7fdd9f39b4ca822",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCustomerSignOffOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerSignOffKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f59c9f1bbd174521a523b58a373ac79f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ddf0c71142ce4efe8fc5961c86953f0f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCustomerSignOffKA\");\ncontroller.performAction(\"cancelOrderComplete\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

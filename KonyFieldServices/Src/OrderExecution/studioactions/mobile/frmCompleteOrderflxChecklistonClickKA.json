@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_890136ced0d54df4a855703ca4a448f4": {
+        "id": "AS_FlexContainer_890136ced0d54df4a855703ca4a448f4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderflxChecklistonClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5cb388b7a8d54d158fa3b4342fbb62e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\ncontroller.performAction(\"showCheckListform\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

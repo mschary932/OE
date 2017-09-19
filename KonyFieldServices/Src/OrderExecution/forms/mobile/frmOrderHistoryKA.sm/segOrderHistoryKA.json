@@ -1,0 +1,377 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnCallTechKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgStatusKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "label12345636092740005": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblContactKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Peter Chang"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "09/18/2015"
+            },
+            "lblDescKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Work Order"
+            },
+            "lblDurationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23:38"
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paused"
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:30 AM"
+            },
+            "lblWorkIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "120467328"
+            }
+        },
+        {
+            "btnCallTechKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgStatusKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "label12345636092740005": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblContactKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Peter Chang"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "09/18/2015"
+            },
+            "lblDescKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Work Order"
+            },
+            "lblDurationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23:38"
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paused"
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:30 AM"
+            },
+            "lblWorkIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "120467328"
+            }
+        },
+        {
+            "btnCallTechKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgStatusKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "label12345636092740005": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblContactKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Peter Chang"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "09/18/2015"
+            },
+            "lblDescKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Work Order"
+            },
+            "lblDurationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23:38"
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paused"
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:30 AM"
+            },
+            "lblWorkIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "120467328"
+            }
+        },
+        {
+            "btnCallTechKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgStatusKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "label12345636092740005": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblContactKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Peter Chang"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "09/18/2015"
+            },
+            "lblDescKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Work Order"
+            },
+            "lblDurationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23:38"
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paused"
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:30 AM"
+            },
+            "lblWorkIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "120467328"
+            }
+        },
+        {
+            "btnCallTechKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgStatusKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "label12345636092740005": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblContactKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Peter Chang"
+            },
+            "lblDateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "09/18/2015"
+            },
+            "lblDescKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Work Order"
+            },
+            "lblDurationKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23:38"
+            },
+            "lblStatusKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paused"
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:30 AM"
+            },
+            "lblWorkIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "120467328"
+            }
+        }
+    ],
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "seg2Normal",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.AndroidSegment2Property",
+        "psp": {
+            "dockSectionHeaders": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {
+                "isCircular": true,
+                "projectionAngle": 60
+            }
+        },
+        "viewType": "tableview"
+    },
+    "canUpdateUI": true,
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "04",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segOrderHistoryKA",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+        "psp": {
+            "bounces": true,
+            "editStyle": "none",
+            "enableDictionary": false,
+            "indicator": "none",
+            "progressIndicatorColor": "white",
+            "searchCriteria": 1,
+            "showProgressIndicator": false
+        },
+        "render": true,
+        "viewConfig": {
+            "coverflowConfig": {}
+        },
+        "viewType": "tableview"
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet1234563580356",
+    "layoutalignment": 3,
+    "margininpixel": false,
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainKA",
+    "pf": "frmOrderHistoryKA",
+    "retainselection": false,
+    "rowTemplateId": "p2kwiet1234563580719",
+    "rowcounter": 4,
+    "rowfocusskin": "s8c2fab249d64e72b880bb52212759d3",
+    "rowskin": "s8c2fab249d64e72b880bb52212759d3",
+    "rowtemplate": "flxTmpOrderHistoryKA",
+    "screenlevelwidget": false,
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s7e7975295224664a0880e18f22fb694",
+    "selectedRowIndex": null,
+    "selectedRowIndices": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": {},
+    "separatorcolor": "64646432",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPASegment2Property"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAAndroidSegment2Property",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPABBSegment2Property",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAIPhoneSegment2Property",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.SPAWinPhone8Segment2Property",
+        "render": true
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnCallTechKA": "btnCallTechKA",
+        "flxTmpDateKA": "flxTmpDateKA",
+        "flxTmpOrderHistoryKA": "flxTmpOrderHistoryKA",
+        "flxTmpStatusKA": "flxTmpStatusKA",
+        "flxTmpTimeKA": "flxTmpTimeKA",
+        "imgStatusKA": "imgStatusKA",
+        "label12345636092740005": "label12345636092740005",
+        "lblContactKA": "lblContactKA",
+        "lblDateKA": "lblDateKA",
+        "lblDescKA": "lblDescKA",
+        "lblDurationKA": "lblDurationKA",
+        "lblStatusKA": "lblStatusKA",
+        "lblTimeKA": "lblTimeKA",
+        "lblWorkIdKA": "lblWorkIdKA",
+        "tmpOrderHistoryKA": "tmpOrderHistoryKA"
+    },
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.WinPhone8Segment2Property",
+        "render": true
+    },
+    "zindex": 1
+}

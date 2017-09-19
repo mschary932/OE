@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project name="OrderExecution" path="D:\Order30Dec\orderexecutionapp30dec\KonyFieldServices\Src\OrderExecution">
+    <channel type="mobile"/>
+    <channel type="tablet"/>
+    <channel type="desktop"/>
+</project>

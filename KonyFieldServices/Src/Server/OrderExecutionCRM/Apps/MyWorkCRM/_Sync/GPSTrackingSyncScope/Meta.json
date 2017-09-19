@@ -1,0 +1,1 @@
+{"strategy":"OTASync","nameSpace":"GPSTrackingSyncScope","dataSource":"GPSTracking","changeTrackingPolicyType":"datasource","softDeleteFlag":true,"lastUpdateTimeStamp":true,"conflictPolicyType":"clientwins","syncJar":null,"className":null,"operations":{"Operation":[]},"identityProviders":[],"dataSourceType":"objectSvc"}

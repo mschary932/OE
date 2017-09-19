@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_e7553d663dc747af9577734b0e9c2e65": {
+        "id": "AS_FlexContainer_e7553d663dc747af9577734b0e9c2e65",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_9a1adbede96f4d54879b2e54368ed480",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.log.info(\"In Pop Up Container\");",
+            "callbackType": null
+        }]
+    }
+}

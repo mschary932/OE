@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+    <test name="MyWork-ECCApp_SmokeTest">
+        <classes>
+            <class name="test.orderexecution.tests.TestFormFSLoginKA">
+                <methods>
+                    <include name="test_app_login" />
+                </methods>
+            </class>
+           <class name="test.orderexecution.tests.TestMyOrdersForm">
+                <methods>
+                    <include name="testNavigation" />
+                </methods>
+            </class> 
+            <class name="test.orderexecution.tests.TestFormOrderExecution">
+                <methods>
+                    <include name="verifystatusAsScheduled" />
+                    <include name="clickOnRoute" />
+                    <include name="verifystatusAsOnRoute" />
+                    <include name="CheckStart" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormOrderResourcesList">
+                <methods>
+                    <include name="test_search_by_resource_code" />
+                    <include name="test_search_by_resource_name" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormCreateNotesKA">
+                <methods>
+                    <include name="test_create_notes" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormNotesDetailsKA">
+                <methods>
+                    <include name="test_notes_details" />
+                </methods>
+            </class> 
+            <class name="test.orderexecution.tests.TestFormResourceExecutionKA">
+                <methods>
+                    <include name="edit_resource_quantity_from_resourceExecution" />
+                </methods>
+            </class> 
+            <class name="test.orderexecution.tests.TestFormTaskExecutionKA">
+                <methods>
+                    <include name="start_task" />
+                    <include name="pause_task" />
+                    <include name="edit_resource_quantity" />
+                    <include name="click_resource_checkbox" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormTaskResourcesListKA">
+                <methods>                
+                	<include name="test_search_by_resource_name" />
+                    <include name="test_search_by_resource_code" />
+                    <include name="test_checkbox" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestCreateNewRecords">
+                <methods>
+                    <include name="add_new_Task" />
+                    <include name="add_new_Measurement_Task" />
+                </methods>
+            </class>
+            <class name="test.orderexecution.tests.TestFormMeasurementExecutionKA">
+                <methods>
+                    <include name="start_measurement_task" />
+                    <include name="complete_measurement_task" />
+                </methods>
+            </class> 
+            <class name="test.orderexecution.tests.TestFormCompleteOrderFS">
+                <methods>
+                    <include name="test_WorkConfirmation" />
+                    <include name="test_CustomerSignOff" />
+                    <include name="test_OrderDone" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

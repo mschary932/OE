@@ -1,0 +1,25 @@
+{
+    "AS_Form_7ea9e8649f5e4877bf531d66ae1e7be3": {
+        "id": "AS_Form_7ea9e8649f5e4877bf531d66ae1e7be3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frrmOABPostShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderAttachmentBrowserKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebb4b2fd9f3d41269078ad0a25d6b9b3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c483950c3e124bba843c82fd480f373b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"loadBrowserData\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_TextField_9821c5bc6b3a49f49aa5b18a8a977775": {
+        "id": "AS_TextField_9821c5bc6b3a49f49aa5b18a8a977775",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTimeAndExpenseKAdoSearchOnDone",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8d58a50575f141b1bb8d48209b2e5fd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__26796916683a430abbbe829ec69116a1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var instance = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar listController = instance.getFormController(\"frmTimeAndExpenseKA\");\nlistController.performAction(\"doSearch\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

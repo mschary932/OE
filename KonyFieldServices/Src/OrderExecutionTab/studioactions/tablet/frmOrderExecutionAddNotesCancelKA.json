@@ -1,0 +1,25 @@
+{
+    "AS_Button_4a9c4b7cd3094a659d72fe520cc34625": {
+        "id": "AS_Button_4a9c4b7cd3094a659d72fe520cc34625",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionAddNotesCancelKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a223a5075bc94ad0a1a077cc74427816",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelAddNotes\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

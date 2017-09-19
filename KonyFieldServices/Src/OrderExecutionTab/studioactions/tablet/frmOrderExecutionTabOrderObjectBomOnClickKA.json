@@ -1,0 +1,25 @@
+{
+    "AS_Button_4d8b20ed6f1045c0aa16a54547074236": {
+        "id": "AS_Button_4d8b20ed6f1045c0aa16a54547074236",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabOrderObjectBomOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0ce09b8a313740c9965381680909c78b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderResources\");\ncontroller.performAction(\"showBomFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sddb399b7b90428a8064f105ed20dde3",
+    "_text_": "EDIT",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2652d265cb647c7b0bfefde51090504",
+    "id": "btnCallKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "25f3dd1582dc413893b3d0546535589d",
+    "name": "kony.ui.Button",
+    "parent": "flexCallRequestKA",
+    "pf": "tmpStockListKA",
+    "wType": "Button",
+    "zindex": 2
+}

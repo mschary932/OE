@@ -1,0 +1,23 @@
+{
+    "p2kwiet1234563580441_segFilterViewKA_onRowClick_seq0": {
+        "id": "p2kwiet1234563580441_segFilterViewKA_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderViewsSegFilterViewOnRowClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_7993112345635808177",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n var selectedRecords = controller.getFormModel().getViewAttributeByProperty(\"segFilterViewKA\", \"selectedRowIndex\");\n if(selectedRecords){\n controller.performAction(\"showOrderFilterForm\", [selectedRecords[1]]);\n }\n "
+        }]
+    }
+}

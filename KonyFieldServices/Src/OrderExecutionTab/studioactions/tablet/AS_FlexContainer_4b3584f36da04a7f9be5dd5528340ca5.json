@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_4b3584f36da04a7f9be5dd5528340ca5": {
+        "id": "AS_FlexContainer_4b3584f36da04a7f9be5dd5528340ca5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__af94617a5cfe4f9e98b48532befeaf53",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nkony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderHistory\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

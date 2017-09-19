@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "sebe0d9d34eb4d34b4f0e56929a64b7b",
+    "_top_": {
+        "type": "string",
+        "value": "-7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmCustomerSignOffKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "focusskin": "s77ab1b18ddc466d8c46d81fb328ad61",
+    "groupcells": false,
+    "i18n_placeholder": "i18n.Notes.frmCreateNoteKA.Done.ValueKA",
+    "id": "ListBoxProblemKA",
+    "ide_onSelection": "AS_ListBox_b958818663714ebd899af4c5585964bf",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "i18n_placeholder": "i18n.Notes.frmCreateNoteKA.Done.ValueKA"
+        }
+    },
+    "isvisible": false,
+    "kuid": "e45337d4757f4899b249e2f04d86a393",
+    "masterdata": [
+        [
+            "lb1",
+            "Listbox One"
+        ],
+        [
+            "lb2",
+            "Listbox Two"
+        ],
+        [
+            "lb3",
+            "Listbox Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxDetailsKA",
+    "pf": "frmCustomerSignOffKA",
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Listbox One"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

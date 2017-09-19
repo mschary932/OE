@@ -1,0 +1,18 @@
+{
+    "AS_Button_5ccc06623ca3428e83bef13ab081cf12": {
+        "id": "AS_Button_5ccc06623ca3428e83bef13ab081cf12",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnResCloseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_5241e971279847f2a49b9ba48cfd3dce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nformModel.performActionOnView(\"flexDetailsKA\",\"setEnabled\",[true]);\nformModel.performActionOnView(\"btnBackKA\",\"setEnabled\",[true]);\nif(kony.application.getCurrentForm().id==\"frmTaskResourcesListKA\" || kony.application.getCurrentForm().id==\"frmOrderResourcesListKA\"){\n\tformModel.performActionOnView(\"btnOptionsKA\",\"setEnabled\",[true]);  \n}\nshowHideHamburgerMenuKA(kony.application.getCurrentForm(),frmHamburgerMenuWOKA,false,\"flxEditKA\");\n",
+            "callbackType": null
+        }]
+    }
+}

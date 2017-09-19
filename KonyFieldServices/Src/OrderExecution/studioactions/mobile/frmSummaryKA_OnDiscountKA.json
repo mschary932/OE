@@ -1,0 +1,28 @@
+{
+    "AS_TextField_3057e0892cfb44ee975770147ec1f840": {
+        "id": "AS_TextField_3057e0892cfb44ee975770147ec1f840",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSummaryKA_OnDiscountKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "07622c56b8444fdc873864e0133e3aa0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d19903ccaf2540cabce9232bc4d5cecc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"calculateDiscount\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

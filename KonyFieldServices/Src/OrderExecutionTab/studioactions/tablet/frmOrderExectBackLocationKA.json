@@ -1,0 +1,18 @@
+{
+    "AS_Button_ab3a649fd7da4e5485938d1031707605": {
+        "id": "AS_Button_ab3a649fd7da4e5485938d1031707605",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExectBackLocationKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_eb2fcf4d88e544c09099e85ee7403ecf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"BackToOrderDetailsTwo\");",
+            "callbackType": null
+        }]
+    }
+}

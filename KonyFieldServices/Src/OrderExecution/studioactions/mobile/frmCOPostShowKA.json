@@ -1,0 +1,25 @@
+{
+    "AS_Form_332efbbcd79c459ba09d3fe15454af34": {
+        "id": "AS_Form_332efbbcd79c459ba09d3fe15454af34",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOPostShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8a5c4d82f5984c8b9cd9695a403847e9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\ncontroller.performAction(\"destroySurveyForm\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

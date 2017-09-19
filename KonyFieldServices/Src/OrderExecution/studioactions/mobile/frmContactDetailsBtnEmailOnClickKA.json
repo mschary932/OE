@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580124_btnEmailKA_onClick_seq0": {
+        "id": "p2kwiet1234563580124_btnEmailKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmContactDetailsBtnEmailOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_5270912345635809049",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"sendMail\",[this.parent.lblEmailValueKA.text]);\n "
+        }]
+    }
+}

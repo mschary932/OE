@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_1dacb413606245228fe4ad286a3ffdb3": {
+        "id": "AS_FlexContainer_1dacb413606245228fe4ad286a3ffdb3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlexInfoSavedOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7efb76c1fec741e7afd9ce93559a6e4a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"doNothing\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

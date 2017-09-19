@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb9d26d5126844b09430e1627bf97a49",
+    "_text_": "No Images Uploaded",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "57%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblNoImagesUploadedKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "3fbbde04314b4f48bbc6d5a27fc34d20",
+    "name": "kony.ui.Label",
+    "parent": "flexTopContainerImagesKA",
+    "pf": "frmCompleteOrderTabKA",
+    "texti18n": "i18n.frmAddnotification.lblnoimagesuploaded",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

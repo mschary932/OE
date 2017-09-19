@@ -1,0 +1,28 @@
+{
+    "AS_Button_afa77062198d4f039177d4658604eba6": {
+        "id": "AS_Button_afa77062198d4f039177d4658604eba6",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpBOMbtnBOMSegmentOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpBOMKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "75a73e6ffd1a4e82b405ac03c2736d14"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__264d43e6920745c08d7309eb1e574e8d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar formmodel = controller.getFormModel();\nif (kony.sdk.mvvm.isNetworkAvailabile()) {\n\tvar selectedRow = formmodel.getViewAttributeByProperty(\"segBOMKA\",\"selectedIndex\");\n\tcontroller.performAction(\"fetchChildObjects\",[selectedRow]);\n}\nelse{\n  var utilitiesObj  = utilities.getUtilityObj();\n  alert(utilitiesObj.geti18nValueKA(\"i18n.common.NoInternetAlertKA\"));\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

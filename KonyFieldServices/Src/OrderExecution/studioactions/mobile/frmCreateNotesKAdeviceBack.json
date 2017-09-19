@@ -1,0 +1,25 @@
+{
+    "AS_Form_6612c1b4b27d4807abfeae28bec688bc": {
+        "id": "AS_Form_6612c1b4b27d4807abfeae28bec688bc",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCreateNotesKAdeviceBack",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateNotesKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19962346794045"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bee247f4aec140659783ca6b77af4bc8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var instance = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = instance.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateBackToList\", [true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

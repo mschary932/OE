@@ -1,0 +1,28 @@
+{
+    "AS_Button_1e13e090bb0f476f97e5e091f0efe4fa": {
+        "id": "AS_Button_1e13e090bb0f476f97e5e091f0efe4fa",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTimeAndExpenseKA_OnDeleteButton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpTimeAndExpenseKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a08fd6bbf2cf48719dd4647c2ac3af1e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b84ceacbbf88469ead805cc3a9762a88",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nformModel.setViewAttributeByProperty(\"flxDeleteKA\",\"isVisible\",true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

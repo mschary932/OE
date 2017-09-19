@@ -1,0 +1,25 @@
+{
+    "AS_Form_0a842fee8886406d8020b82974a74085": {
+        "id": "AS_Form_0a842fee8886406d8020b82974a74085",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOPreshowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8f46e72bcc1d4e28a23af3cff16e3563",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\nvar formModel = controller.getFormModel();\nformModel.setViewAttributeByProperty(\"flexPopupKA\", \"isVisible\", false); \nfrmCompleteOrderKA.flxScrollTypesKA.contentOffset = {x:0,y:0};\n//frmCompleteOrderKA.flexPopupKA.setVisibilty(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

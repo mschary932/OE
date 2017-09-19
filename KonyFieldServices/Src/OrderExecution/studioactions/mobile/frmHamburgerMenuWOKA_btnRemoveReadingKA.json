@@ -1,0 +1,24 @@
+{
+    "AS_Button_da589fcf76694c18b59112bb04f362dd": {
+        "id": "AS_Button_da589fcf76694c18b59112bb04f362dd",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmHamburgerMenuWOKA_btnRemoveReadingKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHamburgerMenuWOKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580197"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_312f3bf4649744e1a7108fd9f37bf6bc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"deleteMeasurementReading\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Button_ae1e1dd0c769445c923db23289b97643": {
+        "id": "AS_Button_ae1e1dd0c769445c923db23289b97643",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkConfirmationTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "84f367ee5bf34b7ab76a5a712951bfd0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___a92029049bdc47caaa1768b1d7f3c478",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "84f367ee5bf34b7ab76a5a712951bfd0",
+            "widgetKUID": "c4e00ac4ea9a425a8db81d2cc45401f1",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

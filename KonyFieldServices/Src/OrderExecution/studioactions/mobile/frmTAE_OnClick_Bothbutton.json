@@ -1,0 +1,25 @@
+{
+    "AS_Button_0d6542d1500c49769b3a4182b927bea8": {
+        "id": "AS_Button_0d6542d1500c49769b3a4182b927bea8",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTAE_OnClick_Bothbutton",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8d58a50575f141b1bb8d48209b2e5fd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1c18a77a15ae4c869386ba0914887b0c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmTimeAndExpenseKA.BtnTimeKA.skin = sknBtnFF5D6EClanProNews28BackgroundFFFFFFKA;\nfrmTimeAndExpenseKA.BtnBothKA.skin = sknBtnFFFFFFClanProNews28BackgroundFF5D6EKA;\nfrmTimeAndExpenseKA.BtnExpenseKA.skin = sknBtnFF5D6EClanProNews28BackgroundFFFFFFKA;\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToBoth\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

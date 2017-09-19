@@ -1,0 +1,25 @@
+{
+    "AS_Form_da9a9352cad64474a0bffd526bb81a19": {
+        "id": "AS_Form_da9a9352cad64474a0bffd526bb81a19",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTenantOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTenantKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1239151363421"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1310727506c64a6f8b86d5ba05f4b19a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

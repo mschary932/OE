@@ -1,0 +1,18 @@
+{
+    "AS_Button_2db1ddc1336f40cfadc6ad86e2738a41": {
+        "id": "AS_Button_2db1ddc1336f40cfadc6ad86e2738a41",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskAttachmentKAbtnImageKAOnclickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d0a6237e5f2545f0aa98a504b23de48e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showTaskAttachmentForm\");}catch(e){}",
+            "callbackType": null
+        }]
+    }
+}

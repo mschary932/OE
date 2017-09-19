@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_c0a7f76a79f943d1a74edd92d6ceb1fb": {
+        "id": "AS_FlexContainer_c0a7f76a79f943d1a74edd92d6ceb1fb",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyflxCancel",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

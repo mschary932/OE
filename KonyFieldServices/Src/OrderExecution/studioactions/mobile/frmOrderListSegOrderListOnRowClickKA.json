@@ -1,0 +1,23 @@
+{
+    "p2kwiet1234563580384_segOrderListKA_onRowClick_seq0": {
+        "id": "p2kwiet1234563580384_segOrderListKA_onRowClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderListSegOrderListOnRowClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "sectionNumber",
+            "value": "sectionNumber"
+        }, {
+            "name": "rowNumber",
+            "value": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onRowClick_1534712345635804730",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(!hamburgerMenu.IS_MENU_SHOWN){\n  \tvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n\tvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n\tcontroller.performAction(\"showOrderExecutionForm\");\n}else{\n\tnew hamburgerMenu().execute();\n}"
+        }]
+    }
+}

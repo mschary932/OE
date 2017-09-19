@@ -1,0 +1,25 @@
+{
+    "AS_Switch_9ca94571f28542c2bd94a106419578e9": {
+        "id": "AS_Switch_9ca94571f28542c2bd94a106419578e9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSettingsEnableNotificationKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSettingsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "00f9908defb843b687555694136887a0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ac667fda196e472e8130baff40209341",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  if (frmSettingsKA.switchNotificationKA.selectedIndex === 0) {\n        kony.servicesapp.pushRegister();\n    } else {\n        kony.servicesapp.unsubscribeKPNS();\n    }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

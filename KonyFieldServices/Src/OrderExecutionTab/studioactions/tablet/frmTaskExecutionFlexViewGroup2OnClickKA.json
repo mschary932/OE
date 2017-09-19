@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_feef9212f5714d3798252f73a1c43774": {
+        "id": "AS_FlexContainer_feef9212f5714d3798252f73a1c43774",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionFlexViewGroup2OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_15312bd19e8247bd82f0643fbcb1c1f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showViewFilterOne\");\n",
+            "callbackType": null
+        }]
+    }
+}

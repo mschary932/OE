@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7d795f958d244e7b7ad203743f36a8f",
+    "_text_": "Add",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s00221a534334c65805f888f9a170271",
+    "id": "btnAddReadingKA",
+    "ide_onClick": "AS_Button_629b46e1f677498ca52a14a6993b135f",
+    "info": null,
+    "isvisible": true,
+    "kuid": "24d4b54ebaae4621896ede07dc1b027a",
+    "name": "kony.ui.Button",
+    "parent": "flxAddRemoveKA",
+    "pf": "tmpMeasurementExecutionWithAddRemoveKA",
+    "wType": "Button",
+    "zindex": 1
+}

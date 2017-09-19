@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s82546c9703e47ff9b381b0d062e283c",
+    "_text_": "CALL",
+    "_top_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s82546c9703e47ff9b381b0d062e283c",
+    "id": "btnAcknowledgeCrossKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e6273bac701a41a0a21ef793145e590f",
+    "name": "kony.ui.Button",
+    "parent": "flexAcknowledgePaymentMainKA",
+    "pf": "frmMyOrderListTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

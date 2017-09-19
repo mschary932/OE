@@ -1,0 +1,365 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        [
+            {
+                "lblLineBottomKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "  "
+                },
+                "lblLineTopKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "  "
+                },
+                "lblResourceKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3 Time items"
+                }
+            },
+            [
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Duration"
+                    },
+                    "lblDurationValKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "4:30"
+                    },
+                    "lblHoursKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Hrs"
+                    },
+                    "lblVal2KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Train Technicians"
+                    },
+                    "lblvalue1KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Training And Learning"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Duration"
+                    },
+                    "lblDurationValKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "4:30"
+                    },
+                    "lblHoursKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Hrs"
+                    },
+                    "lblVal2KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Skill Development"
+                    },
+                    "lblvalue1KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Training And Learning"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Duration"
+                    },
+                    "lblDurationValKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "4:30"
+                    },
+                    "lblHoursKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Hrs"
+                    },
+                    "lblVal2KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "troubeshooting 101"
+                    },
+                    "lblvalue1KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Training And Learning"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblLineBottomKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "  "
+                },
+                "lblLineTopKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "  "
+                },
+                "lblResourceKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "4 Expense items"
+                }
+            },
+            [
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Amount"
+                    },
+                    "lblDurationValKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "180"
+                    },
+                    "lblHoursKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "USD"
+                    },
+                    "lblVal2KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Taxi"
+                    },
+                    "lblvalue1KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Travel"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Amount"
+                    },
+                    "lblDurationValKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "10"
+                    },
+                    "lblHoursKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "USD"
+                    },
+                    "lblVal2KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Train"
+                    },
+                    "lblvalue1KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Travel"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Amount"
+                    },
+                    "lblDurationValKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "80"
+                    },
+                    "lblHoursKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "USD"
+                    },
+                    "lblVal2KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lunch"
+                    },
+                    "lblvalue1KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Meal"
+                    }
+                },
+                {
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDurationKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Amount"
+                    },
+                    "lblDurationValKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "150"
+                    },
+                    "lblHoursKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "USD"
+                    },
+                    "lblVal2KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Taxi"
+                    },
+                    "lblvalue1KA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Travel"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "13",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "SegTimeExpenseKA",
+    "ide_onRowClick": "AS_Segment_04d3693a25aa427799e7e6ccac0020b3",
+    "ide_onTouchStart": "AS_Segment_d3a7b2e97850461b9b72fab2c652ace9",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "rowselect",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "04ba91a0fbc845b48a62532ffc730349",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexScrollContainer068c6d43f630945",
+    "pf": "frmTimeAndExpenseKA",
+    "retainselection": false,
+    "rowTemplateId": "a08fd6bbf2cf48719dd4647c2ac3af1e",
+    "rowcounter": 3,
+    "rowfocusskin": "s17c1010cd4e4ce48494d72133b4aa3e",
+    "rowskin": "s8c2fab249d64e72b880bb52212759d3",
+    "rowtemplate": "flxMainKA",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "663a02db07104c1ba23bb2d03ed989f8",
+    "sectionheaderskin": "s43886f044a74705bfc3432864bd3109",
+    "sectionheadertemplate": "flxTimeAndExpenseHeaderKA",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "00000050",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showprogressindicator": false,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0e7759eef3a3f43": "FlexContainer0e7759eef3a3f43",
+        "btnDeleteKA": "btnDeleteKA",
+        "btnEditKA": "btnEditKA",
+        "flxChildKA": "flxChildKA",
+        "flxEditDelete": "flxEditDelete",
+        "flxMainKA": "flxMainKA",
+        "flxTimeAndExpenseHeaderKA": "flxTimeAndExpenseHeaderKA",
+        "flxdataKA": "flxdataKA",
+        "lblDurationKA": "lblDurationKA",
+        "lblDurationValKA": "lblDurationValKA",
+        "lblHoursKA": "lblHoursKA",
+        "lblLineBottomKA": "lblLineBottomKA",
+        "lblLineTopKA": "lblLineTopKA",
+        "lblResourceKA": "lblResourceKA",
+        "lblVal2KA": "lblVal2KA",
+        "lblvalue1KA": "lblvalue1KA"
+    },
+    "zindex": 20
+}

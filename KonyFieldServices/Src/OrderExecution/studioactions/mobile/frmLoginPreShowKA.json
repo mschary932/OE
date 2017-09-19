@@ -1,0 +1,23 @@
+{
+    "p2kwiet1234563580219_frmLoginKA_preshow_seq0": {
+        "id": "p2kwiet1234563580219_frmLoginKA_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginPreShowKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_2059612345635808068",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmLoginKA.flxInnerKA.opacity=0;\nfrmLoginKA.tbxUserIDKA.opacity=0;\nfrmLoginKA.tbxPasswordKA.opacity=kony.servicesapp.OPACITY_0;\nfrmLoginKA.tbxPasswordKA.autoSuggestions = false;\nfrmLoginKA.btnLoginKA.opacity=0;\nfrmLoginKA.flxSwitchKA.opacity = 0;\nvar platFormName = kony.sdk.mvvm.Utils.getPlatformName();\nif(platFormName == kony.sdk.mvvm.Platforms[\"IPHONE\"] || platFormName == 'ipad' ){\n  frmLoginKA.flxSwitchToggleKA.width = \"56dp\";\n  frmLoginKA.flxSwitchToggleKA.height = \"100%\";\n  frmLoginKA.switchonoffKA.nativeThumbLook=true;\n}\nkony.servicesapp.populateUserCredentialsFromStore();\nfrmLoginKA.lblVersionNumberKA.text = kony.servicesapp.constants.getServiceConstantsObj().getValue(\"VERSION_NUMBER\");\nfrmLoginKA.lblBuildNoKA.text = kony.servicesapp.constants.getServiceConstantsObj().getValue(\"BUILD_NUMBER\");\nif(kony.servicesapp.isAppLaunchedFirstTime)\n  animateLoginScreen();"
+        }, {
+            "id": "ADD_SNIPPET__f9031f30abf1416eb446475ef9c0bb69",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmLoginKA.flxUseFingerprintAuthKA.setVisibility(false);\nfrmLoginKA.FlxTouchAuthTryAgainFailKA.setVisibility(false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

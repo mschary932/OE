@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580429_btnBarcodeSearchKA_onClick_seq0": {
+        "id": "p2kwiet1234563580429_btnBarcodeSearchKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_763412345635807642",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Work In Progress\");"
+        }]
+    }
+}

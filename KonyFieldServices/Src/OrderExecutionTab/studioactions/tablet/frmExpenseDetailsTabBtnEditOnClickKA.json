@@ -1,0 +1,25 @@
+{
+    "AS_Button_0b794d7da355450a8c1dd6ddb1706631": {
+        "id": "AS_Button_0b794d7da355450a8c1dd6ddb1706631",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmExpenseDetailsTabBtnEditOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e8f7e65edb06416bacaaa687fb843c0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__647a657b221c482bbe1f3e7e9072b573",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showEditExpensePopUp\");\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Segment_c3f50b142caf4e5288b3c8e63ba818d2": {
+        "id": "AS_Segment_c3f50b142caf4e5288b3c8e63ba818d2",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmStockLocationListSegRowClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmStockLocationListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b74ea6b6511d46878779b917e5d9c857"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fa5c30ea0d0540419f6aa296e21b7866",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToStockLocationDetails\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_98c8f2c082734a61a6de7be571ad748c": {
+        "id": "AS_FlexContainer_98c8f2c082734a61a6de7be571ad748c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePdfKA_doNothingOnBackEmailKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "52c6306a2c144019ba9f50c84e96d346"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e09403c8b18f492594c0da41eb5e0b8f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var utilitiesObj= new utilities();\nutilitiesObj.doNothingOnDeviceBackKA();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580269_frmOrderCompleteCheckListKA_postshow_seq0": {
+        "id": "p2kwiet1234563580269_frmOrderCompleteCheckListKA_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_postshow_425221234563580958",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmDescriptionDetailsKA.lblHeaderKA.text = \"Complete Order Description\";"
+        }]
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="OrderList module: Controller Extension valid cases" errors="0" tests="9" failures="1" time="1.493" timestamp="2015-10-07T11:20:50">
+  <testcase classname="OrderList module: Controller Extension valid cases" name="Login" time="1.049"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="Show frmOrderListKA form" time="0.13"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="GroupBy Status OrderList" time="0.015"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="GroupBy priority OrderList" time="0.01"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="Scheduled view OrderList" time="0.053"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="Started view OrderList" time="0.067"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="Filter By Status OrderList" time="0.063"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="Filter By Priority OrderList" time="0.05"></testcase>
+  <testcase classname="OrderList module: Controller Extension valid cases" name="Filter By Date OrderList" time="0.051"><failure>1: Expected false to equal true.</failure></testcase>
+</testsuite>
+</testsuites>

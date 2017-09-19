@@ -1,0 +1,24 @@
+{
+    "AS_Image_640d7c5e18fe4b198881732b7ef21abb": {
+        "id": "AS_Image_640d7c5e18fe4b198881732b7ef21abb",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderimgStatusOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_7c1f71cd4e05447787c0f839f3aba98d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showOrderExecutionForm\");",
+            "callbackType": null
+        }]
+    }
+}

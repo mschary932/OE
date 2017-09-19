@@ -1,0 +1,31 @@
+{
+    "AS_Segment_cde045daf48148e38cd943ccc79d9b78": {
+        "id": "AS_Segment_cde045daf48148e38cd943ccc79d9b78",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabStockLocationKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eb16ae9e215d41f3ab314527292d73c3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

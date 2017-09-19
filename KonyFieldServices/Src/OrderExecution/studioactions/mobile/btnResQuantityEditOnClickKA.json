@@ -1,0 +1,28 @@
+{
+    "AS_Button_ac2ca60a750541228f1252dbebe4f932": {
+        "id": "AS_Button_ac2ca60a750541228f1252dbebe4f932",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnResQuantityEditOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpResourcesSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet1234563580769"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9b09e2a2eb304fe9ba882246ebd08f1e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nvar controllerExxtensionObject=controller.getControllerExtensionObject();\ncontrollerExxtensionObject.setFormModelInfo(\"isDelete\", false);\nvar selRecord = formModel.getViewAttributeByProperty(\"segSwipeKA\", \"selectedItems\")[0];\t\t\t\n//formModel.setViewAttributeByProperty(\"tbxQuantityKA\",\"text\",selRecord.RequestedQuantity);\n var utilitiesObj = utilities.getUtilityObj();\nutilitiesObj.editQuantity(selRecord);\nformModel.setViewAttributeByProperty(\"flxEditKA\", \"isVisible\",true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

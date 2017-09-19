@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580157_frmDirectionsKA_Android_onDeviceBack_seq0": {
+        "id": "p2kwiet1234563580157_frmDirectionsKA_Android_onDeviceBack_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmDirectionOnDeviceBack",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "expression_onDeviceBack_1458212345635805705",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var utilitiesObj = new utilities();\n utilitiesObj.doNothingOnDeviceBackKA();"
+        }]
+    }
+}

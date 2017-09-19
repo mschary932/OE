@@ -1,0 +1,569 @@
+!SESSION 2016-12-08 16:35:35.108 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+
+!ENTRY org.eclipse.ui 2 0 2016-12-08 16:36:14.516
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-12-08 16:36:14.516
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.cleanAndBuildCommand'
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-12-08 16:36:14.516
+!MESSAGE Cannot bind to an undefined command: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.applicationpublish'
+
+!ENTRY com.kony.ide.paas.branding 1 0 2016-12-08 16:36:15.284
+!MESSAGE Time taken for loading Studio plugin: 660
+
+!ENTRY com.kony.ide.paas.branding 1 0 2016-12-08 16:36:16.109
+!MESSAGE Time taken for loading node plugins: 825
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-12-08 16:36:31.310
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kh9270'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.072
+!MESSAGE Found installation dir: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.264
+!MESSAGE Found installation dir: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.265
+!MESSAGE Both are same.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.289
+!MESSAGE Eclipse opened time: Dec 08, 2016 16:36 PM
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:36:34.371
+!MESSAGE blackberry_50 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:36:34.372
+!MESSAGE blackberry_60 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:36:34.372
+!MESSAGE blackberry_70 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:36:34.373
+!MESSAGE windows_phone key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:36:34.374
+!MESSAGE enableMetrics key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.404
+!MESSAGE PLUGIN DETAILS: com.kony.windows:7.2.0.GA_v201611031725_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.404
+!MESSAGE PLUGIN DETAILS: com.pat.j2me:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.405
+!MESSAGE PLUGIN DETAILS: com.kony.bb10:7.2.0.GA_v201611031618_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.405
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.406
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.2.0.GA_v201611031713_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.407
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.2.0.GA_v201611031713_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.407
+!MESSAGE PLUGIN DETAILS: com.kony.windows8:7.2.0.GA_v201611031653_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.408
+!MESSAGE PLUGIN DETAILS: com.kony.windows10:7.2.0.GA_v201611031708_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.408
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile6x:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.410
+!MESSAGE PLUGIN DETAILS: com.pat.android:7.2.0.GA_v201611031634_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.411
+!MESSAGE PLUGIN DETAILS: com.pat.tabrcandroid:7.2.0.GA_v201611031634_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.413
+!MESSAGE PLUGIN DETAILS: com.kony.nativecodegen:7.2.0.GA_v201611031456_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.414
+!MESSAGE PLUGIN DETAILS: com.kony.spa:7.2.0.GA_v201611031649_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.415
+!MESSAGE PLUGIN DETAILS: com.kony.desktopweb:7.2.0.GA_v201611031703_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.415
+!MESSAGE PLUGIN DETAILS: com.kony.webcommons:7.2.0.GA_v201611031624_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.416
+!MESSAGE PLUGIN DETAILS: com.kony.ios:7.2.0.GA_v201611031733_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.417
+!MESSAGE USER LOCATION: file:/C:/Users/kh9270/user/
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.417
+!MESSAGE IDE BUNDLE LOCATION: /D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/configuration/org.eclipse.osgi/bundles/486/1/.cp/
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.531
+!MESSAGE 'com.kony.help' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.567
+!MESSAGE 'com.kony.cloudtc' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.629
+!MESSAGE 'com.kony.studio.viz.chrome.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.635
+!MESSAGE 'com.kony.studio.viz.core.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.637
+!MESSAGE 'com.kony.studio.viz.nodejs.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.640
+!MESSAGE 'com.pat.j2me' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.642
+!MESSAGE 'com.pat.winmobile' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.658
+!MESSAGE 'com.pat.winmobile6x' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.659
+!MESSAGE 'com.pat.brew' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.660
+!MESSAGE 'com.pat.palm' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.669
+!MESSAGE 'com.pat.playbook' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.680
+!MESSAGE 'com.pat.qt' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.681
+!MESSAGE 'com.pat.andcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.681
+!MESSAGE 'com.pat.bbcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.682
+!MESSAGE 'com.pat.iospolicyinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.692
+!MESSAGE 'tk.eclipse.plugin.htmleditor' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.693
+!MESSAGE 'com.kony.video' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:34.701
+!MESSAGE Plugin Details are stored successfully at D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab\konyplugins.xml.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:36.501
+!MESSAGE Android Home is found at: 'C:\Android\android-sdk'
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:45.636
+!MESSAGE Node server shut down successfull.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:45.637
+!MESSAGE workspace location: D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:45.750
+!MESSAGE Node location: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\win64\v0.12.7\node.exe
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:45.751
+!MESSAGE Node start location: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\node_start.bat
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:46.386
+!MESSAGE Starting node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:46.412
+!MESSAGE Executing node startup command: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\win64\v0.12.7\node.exe app.js console D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab C:\Users\kh9270\Kony Visualizer D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\win64\v0.12.7\node.exe --NODE_APP_INSTANCE=vide --NODE_CONFIG={\"transfer\":{\"codeanalysis\":{\"serverport\":5230}},\"functionalPreviewPort\":8888,\"expressServerPort\":5000,\"vizClientConfig\":{\"enableNativeApi\":true,\"enableMVC\":false,\"enableOrientation\":false,\"enableCordovaDevelopment\":true,\"enableRA\":false},\"codeanalysis\":{\"serverport\":5230}} 
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:46.423
+!MESSAGE Time for node to execute : 9msec
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:46.476
+!MESSAGE ***Started watch for node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:47.451
+!MESSAGE [node console]Loading[config]..D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\473\1\.cp\konywebstudio\config\default.js
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:47.469
+!MESSAGE [node console]Proxy details not found. Setting useProxy to false.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:51.523
+!MESSAGE [node console]GitDir: C:\Users\kh9270\Kony Visualizer\vizdata\.konyvizgit
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:51.712
+!MESSAGE [node console]Viz running in EMBEDDED mode
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.337
+!MESSAGE [node console][32m[2016-12-08 16:36:52.335] [INFO] vide - [39mPorting project[Sample] in workspace [D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab] from_version[sprint22], to_version[sprint25]
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.338
+!MESSAGE [node console][32m[2016-12-08 16:36:52.337] [INFO] vide - [39mPorting [Sample] from sprint22 to sprint23.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.342
+!MESSAGE [node console][32m[2016-12-08 16:36:52.341] [INFO] vide - [39mPorting [Sample] to sprint23, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.343
+!MESSAGE [node console][32m[2016-12-08 16:36:52.342] [INFO] vide - [39mPorting [Sample] from sprint23 to sprint24.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.379
+!MESSAGE [node console][36m[2016-12-08 16:36:52.378] [DEBUG] vide - [39mPort self-sufficient moudles if exists...
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.380
+!MESSAGE [node console][36m[2016-12-08 16:36:52.380] [DEBUG] vide - [39mportSsmModules: 'D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab\Sample\selfsufficientmodules' doesn't exist. 
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.381
+!MESSAGE [node console]Nothing to port.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.382
+!MESSAGE [node console][32m[2016-12-08 16:36:52.380] [INFO] vide - [39mPorting [Sample] to sprint24, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.382
+!MESSAGE [node console][32m[2016-12-08 16:36:52.380] [INFO] vide - [39mPorting [Sample] from sprint24 to sprint25.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:52.383
+!MESSAGE [node console][32m[2016-12-08 16:36:52.382] [INFO] vide - [39mPorting [Sample] to sprint25, is completed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.289
+!MESSAGE Node Server state :true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.359
+!MESSAGE javaLibPath->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/jre/bin/server;D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/jre/bin;D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\android-sdk\platform-tools;C:\android-sdk\tools;C:\python;C:\python\Scripts;C:\Users\kh9270\AppData\Local\Microsoft\WindowsApps;D:\KonyVisualizer7.2/gradle/bin;D:\KonyVisualizer7.2\ImageMagick;D:\KonyVisualizer7.2\Ant\bin;D:\KonyVisualizer7.2\Java\jdk1.7.0_67\bin;D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise;;.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.360
+!MESSAGE DYLD_LIBRARY_PATH(Only in Mac)->null
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.361
+!MESSAGE JAVACEF_PATH->D:\KonyVisualizer7.2/Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.362
+!MESSAGE Invoking windows configure libs
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.417
+!MESSAGE Chrome lib location->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\chromium_loader
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.417
+!MESSAGE CEF lib location->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.418
+!MESSAGE java.library.path->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\chromium_loader;D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.419
+!MESSAGE fieldSysPath->private static java.lang.String[] java.lang.ClassLoader.sys_paths
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.420
+!MESSAGE java.library.path configured
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.421
+!MESSAGE Invoking chromebrowser.embed()
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.613
+!MESSAGE Invoking vide init()
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:36:53.626
+!MESSAGE Invoking vide initiated
+
+!ENTRY org.eclipse.ui 4 0 2016-12-08 16:36:54.983
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:344)
+	at org.eclipse.swt.widgets.Text.getText(Text.java:1345)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents$4$1.run(QuickAccessContents.java:550)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4271)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3358)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:58:00.880
+!MESSAGE [node console]Initial scan complete. Ready for changes.
+
+!ENTRY com.pat.tool.keditor 4 0 2016-12-08 16:58:02.236
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.pat.tool.keditor.utils.FFIUtilsAsInstance.getContainerFileForProject(FFIUtilsAsInstance.java:733)
+	at com.pat.tool.keditor.utils.FFIUtilsAsInstance.unMarshallJsContainerForProject(FFIUtilsAsInstance.java:696)
+	at com.pat.tool.keditor.utils.FFIUtilsAsInstance.loadJsContainerForProject(FFIUtilsAsInstance.java:685)
+	at com.pat.tool.keditor.utils.FFIUtilsAsInstance.loadJsContainerForProject(FFIUtilsAsInstance.java:669)
+	at com.pat.tool.keditor.utils.FFIUtilsAsInstance.getJsFFIContainerForProject(FFIUtilsAsInstance.java:633)
+	at com.pat.tool.keditor.utils.FFIUtilsAsInstance.getJsFFIContainerForProject(FFIUtilsAsInstance.java:620)
+	at com.kony.studio.browser.services.VizECustomMetricsService.execute(VizECustomMetricsService.java:37)
+	at com.kony.studio.browser.services.ServiceHandlerRouter.handle(ServiceHandlerRouter.java:132)
+	at com.kony.studio.browser.services.VizStudioServiceRegistry$34.handle(VizStudioServiceRegistry.java:293)
+	at com.kony.studio.viz.api.handlers.Vide._onVizMessageReceived_(Unknown Source)
+	at com.kony.studio.viz.api.handlers.Vide$20.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:58:27.664
+!MESSAGE Node process exit code: 1
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:58:27.666
+!MESSAGE Node server shut down sucessful.
+!SESSION 2016-12-08 16:58:38.134 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.pat.tool.keditor.perspective.KonyPerspective -application org.eclipse.ui.ide.workbench -product com.kony.ide.paas.branding.studio
+
+!ENTRY org.eclipse.ui 2 0 2016-12-08 16:59:03.681
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-12-08 16:59:03.681
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.cleanAndBuildCommand'
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-12-08 16:59:03.681
+!MESSAGE Cannot bind to an undefined command: plug-in='com.pat.tool.keditor', id='com.pat.tool.keditor.applicationpublish'
+
+!ENTRY com.kony.ide.paas.branding 1 0 2016-12-08 16:59:04.344
+!MESSAGE Time taken for loading Studio plugin: 587
+
+!ENTRY com.kony.ide.paas.branding 1 0 2016-12-08 16:59:05.046
+!MESSAGE Time taken for loading node plugins: 701
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:08.998
+!MESSAGE Found installation dir: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.138
+!MESSAGE Found installation dir: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.143
+!MESSAGE Both are same.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.162
+!MESSAGE Eclipse opened time: Dec 08, 2016 16:59 PM
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:59:09.315
+!MESSAGE blackberry_50 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:59:09.316
+!MESSAGE blackberry_60 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:59:09.317
+!MESSAGE blackberry_70 key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:59:09.318
+!MESSAGE windows_phone key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 2 0 2016-12-08 16:59:09.322
+!MESSAGE enableMetrics key does not exist in the globalpreferences.json file.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.335
+!MESSAGE PLUGIN DETAILS: com.kony.windows:7.2.0.GA_v201611031725_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.335
+!MESSAGE PLUGIN DETAILS: com.pat.j2me:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.337
+!MESSAGE PLUGIN DETAILS: com.kony.bb10:7.2.0.GA_v201611031618_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.338
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.339
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.2.0.GA_v201611031713_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.341
+!MESSAGE PLUGIN DETAILS: com.kony.windowsphone8:7.2.0.GA_v201611031713_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.342
+!MESSAGE PLUGIN DETAILS: com.kony.windows8:7.2.0.GA_v201611031653_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.344
+!MESSAGE PLUGIN DETAILS: com.kony.windows10:7.2.0.GA_v201611031708_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.345
+!MESSAGE PLUGIN DETAILS: com.pat.winmobile6x:::false
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.346
+!MESSAGE PLUGIN DETAILS: com.pat.android:7.2.0.GA_v201611031634_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.348
+!MESSAGE PLUGIN DETAILS: com.pat.tabrcandroid:7.2.0.GA_v201611031634_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.349
+!MESSAGE PLUGIN DETAILS: com.kony.nativecodegen:7.2.0.GA_v201611031456_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.351
+!MESSAGE PLUGIN DETAILS: com.kony.spa:7.2.0.GA_v201611031649_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.353
+!MESSAGE PLUGIN DETAILS: com.kony.desktopweb:7.2.0.GA_v201611031703_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.355
+!MESSAGE PLUGIN DETAILS: com.kony.webcommons:7.2.0.GA_v201611031624_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.357
+!MESSAGE PLUGIN DETAILS: com.kony.ios:7.2.0.GA_v201611031733_r1::true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.357
+!MESSAGE USER LOCATION: file:/C:/Users/kh9270/user/
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.358
+!MESSAGE IDE BUNDLE LOCATION: /D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/configuration/org.eclipse.osgi/bundles/486/1/.cp/
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.377
+!MESSAGE 'com.kony.help' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.381
+!MESSAGE 'com.kony.cloudtc' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.388
+!MESSAGE 'com.kony.studio.viz.chrome.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.396
+!MESSAGE 'com.kony.studio.viz.core.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.403
+!MESSAGE 'com.kony.studio.viz.nodejs.mac64' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.407
+!MESSAGE 'com.pat.j2me' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.410
+!MESSAGE 'com.pat.winmobile' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.413
+!MESSAGE 'com.pat.winmobile6x' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.414
+!MESSAGE 'com.pat.brew' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.415
+!MESSAGE 'com.pat.palm' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.417
+!MESSAGE 'com.pat.playbook' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.421
+!MESSAGE 'com.pat.qt' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.422
+!MESSAGE 'com.pat.andcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.423
+!MESSAGE 'com.pat.bbcodeinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.424
+!MESSAGE 'com.pat.iospolicyinjection' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.430
+!MESSAGE 'tk.eclipse.plugin.htmleditor' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.430
+!MESSAGE 'com.kony.video' bundle is not installed.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:09.434
+!MESSAGE Plugin Details are stored successfully at D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab\konyplugins.xml.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:10.308
+!MESSAGE Android Home is found at: 'C:\Android\android-sdk'
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:18.788
+!MESSAGE Node server shut down successfull.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:18.789
+!MESSAGE workspace location: D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:18.928
+!MESSAGE Node location: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\win64\v0.12.7\node.exe
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:18.930
+!MESSAGE Node start location: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\node_start.bat
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:19.739
+!MESSAGE Starting node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:19.742
+!MESSAGE Executing node startup command: D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\win64\v0.12.7\node.exe app.js console D:\OE007\KonyFieldServices\SrcTab\OrderExecutionTab C:\Users\kh9270\Kony Visualizer D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\474\1\.cp\node\win64\v0.12.7\node.exe --NODE_APP_INSTANCE=vide --NODE_CONFIG={\"transfer\":{\"codeanalysis\":{\"serverport\":5230}},\"functionalPreviewPort\":8888,\"expressServerPort\":5000,\"vizClientConfig\":{\"enableNativeApi\":true,\"enableMVC\":false,\"enableOrientation\":false,\"enableCordovaDevelopment\":true,\"enableRA\":false},\"codeanalysis\":{\"serverport\":5230}} 
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:19.752
+!MESSAGE Time for node to execute : 9msec
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:19.754
+!MESSAGE ***Started watch for node server...
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:20.493
+!MESSAGE [node console]Loading[config]..D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\473\1\.cp\konywebstudio\config\default.js
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:20.524
+!MESSAGE [node console]Proxy details not found. Setting useProxy to false.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:22.759
+!MESSAGE [node console]GitDir: C:\Users\kh9270\Kony Visualizer\vizdata\.konyvizgit
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:22.925
+!MESSAGE [node console]Viz running in EMBEDDED mode
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.347
+!MESSAGE Node Server state :true
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.470
+!MESSAGE javaLibPath->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/jre/bin/server;D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/jre/bin;D:/KonyVisualizer7.2/Kony_Visualizer_Enterprise/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\android-sdk\platform-tools;C:\android-sdk\tools;C:\python;C:\python\Scripts;C:\Users\kh9270\AppData\Local\Microsoft\WindowsApps;D:\KonyVisualizer7.2/gradle/bin;D:\KonyVisualizer7.2\ImageMagick;D:\KonyVisualizer7.2\Ant\bin;D:\KonyVisualizer7.2\Java\jdk1.7.0_67\bin;D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise;;.
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.471
+!MESSAGE DYLD_LIBRARY_PATH(Only in Mac)->null
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.472
+!MESSAGE JAVACEF_PATH->D:\KonyVisualizer7.2/Kony_Visualizer_Enterprise
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.473
+!MESSAGE Invoking windows configure libs
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.631
+!MESSAGE Chrome lib location->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\chromium_loader
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.632
+!MESSAGE CEF lib location->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.633
+!MESSAGE java.library.path->D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\chromium_loader;D:\KonyVisualizer7.2\Kony_Visualizer_Enterprise\configuration\org.eclipse.osgi\bundles\472\1\.cp\win64_build\third_party\cef_runtime\win64
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.634
+!MESSAGE fieldSysPath->private static java.lang.String[] java.lang.ClassLoader.sys_paths
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.636
+!MESSAGE java.library.path configured
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.638
+!MESSAGE Invoking chromebrowser.embed()
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.711
+!MESSAGE Invoking vide init()
+
+!ENTRY com.pat.tool.keditor 1 0 2016-12-08 16:59:23.719
+!MESSAGE Invoking vide initiated

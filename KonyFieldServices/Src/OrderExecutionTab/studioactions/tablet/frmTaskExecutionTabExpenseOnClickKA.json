@@ -1,0 +1,18 @@
+{
+    "AS_Button_a9f463ca6d3c4d07b43e8a6855457992": {
+        "id": "AS_Button_a9f463ca6d3c4d07b43e8a6855457992",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabExpenseOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_efa796e3e8f44efe9ac1f87b06a172c2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showExpenseSegment\"); ",
+            "callbackType": null
+        }]
+    }
+}

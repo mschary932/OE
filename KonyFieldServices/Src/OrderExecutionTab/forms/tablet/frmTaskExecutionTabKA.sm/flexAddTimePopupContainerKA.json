@@ -1,0 +1,76 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "42%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf98cf88ec834c30988a066324234c7d",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flexTopContainerAddTimeKA",
+        "lblTimeTypeKA",
+        "ListBoxTimeType2KA",
+        "lblTimeLine1KA",
+        "lblDescriptionTimeKA",
+        "lblTimeDateKA",
+        "lblDateValueTimeKA",
+        "lblDateLineTime3KA",
+        "lblTimeTitleKA",
+        "tbxTimeValueKA",
+        "lblAmountLine2KA",
+        "lblTimeBillableKA",
+        "flexIsBillable2SwitchKA",
+        "flexCalendar2ContainerKA",
+        "lblDescriptionAddTimeKA",
+        "lblDurationUnitKA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexAddTimePopupContainerKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "aeac101b2bd74021a43945d2d908690b",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexAddTimePopupMainKA",
+    "pf": "frmTaskExecutionTabKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

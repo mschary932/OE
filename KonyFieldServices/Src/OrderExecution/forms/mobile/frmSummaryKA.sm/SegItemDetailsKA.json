@@ -1,0 +1,161 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "lblItemNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Resource 1"
+            },
+            "lblItemValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Qty: 5"
+            }
+        },
+        {
+            "lblItemNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Order Duration"
+            },
+            "lblItemValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.5 Hrs"
+            }
+        },
+        {
+            "lblItemNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Expense 1"
+            },
+            "lblItemValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100$"
+            }
+        },
+        {
+            "lblItemNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "New Resource"
+            },
+            "lblItemValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Qty: 4"
+            }
+        },
+        {
+            "lblItemNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Time Item"
+            },
+            "lblItemValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3 Hrs"
+            }
+        },
+        {
+            "lblItemNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Expense 2"
+            },
+            "lblItemValKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "50$"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegItemDetailsKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "c242556b23c042f794bf19fde6cb895c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollContainerItemsKA",
+    "pf": "frmSummaryKA",
+    "retainselection": false,
+    "rowTemplateId": "166b45a5b62940ba8cc919eff264bea2",
+    "rowcounter": 5,
+    "rowfocusskin": "s7a6330ef5fa490289426695cca4010f",
+    "rowskin": "sc0a46a7d9074c02a7a2689ccf1384ae",
+    "rowtemplate": "flxTimeAndExpenseDetailsKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s15d7e12f206491c8a5b73c4960ac47c",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxTimeAndExpenseDetailsKA": "flxTimeAndExpenseDetailsKA",
+        "lblItemNameKA": "lblItemNameKA",
+        "lblItemValKA": "lblItemValKA"
+    },
+    "zindex": 1
+}

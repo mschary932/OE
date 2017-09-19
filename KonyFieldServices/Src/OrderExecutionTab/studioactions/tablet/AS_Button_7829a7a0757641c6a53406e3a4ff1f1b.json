@@ -1,0 +1,23 @@
+{
+    "AS_Button_7829a7a0757641c6a53406e3a4ff1f1b": {
+        "id": "AS_Button_7829a7a0757641c6a53406e3a4ff1f1b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpenseDetailsTabKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e8f7e65edb06416bacaaa687fb843c0d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_95d66bb7ef324dabab21661d33947bcd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"BackToOrderDetails\");",
+            "callbackType": null
+        }]
+    }
+}

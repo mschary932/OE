@@ -1,0 +1,28 @@
+{
+    "AS_Button_c4879a296fce42cd92272395256c468c": {
+        "id": "AS_Button_c4879a296fce42cd92272395256c468c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionMaterialListTmpPlusOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpMaterialListKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "9fb155cf8cde417495d3af6e09274269"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1d5f0030d49c4e609849803d702aaf4c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showStockLocationsFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

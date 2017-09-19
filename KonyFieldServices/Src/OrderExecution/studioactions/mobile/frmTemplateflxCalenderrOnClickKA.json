@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_c930df648c4b4ecaa8d81a14eb9914c1": {
+        "id": "AS_FlexContainer_c930df648c4b4ecaa8d81a14eb9914c1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateflxCalenderrOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a4488cd2b027468abd66c6b5c50b8d9d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "selectedQuestion = parseInt(((this.id).substring(3))).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxCalenderrBg\", \"isVisible\", true);",
+            "callbackType": null
+        }]
+    }
+}

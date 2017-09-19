@@ -1,0 +1,28 @@
+{
+    "AS_Button_549a43e3f9884893948399f3f3da9167": {
+        "id": "AS_Button_549a43e3f9884893948399f3f3da9167",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpResourceSegBtnBOMOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpResourcesSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet1234563580769"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__58f539cb96954bcfa9f2f19625bc3009",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar formmodel = controller.getFormModel();\nif (kony.sdk.mvvm.isNetworkAvailabile()) {\n\tvar selectedRow = formmodel.getViewAttributeByProperty(\"segSwipeKA\",\"selectedIndex\");\n\tcontroller.performAction(\"showBOM\",[selectedRow]);\n}\nelse{\n  var utilitiesObj  = utilities.getUtilityObj();\n  alert(utilitiesObj.geti18nValueKA(\"i18n.common.NoInternetAlertKA\"));\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

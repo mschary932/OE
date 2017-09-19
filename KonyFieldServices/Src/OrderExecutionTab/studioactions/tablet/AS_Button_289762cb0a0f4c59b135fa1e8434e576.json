@@ -1,0 +1,46 @@
+{
+    "AS_Button_289762cb0a0f4c59b135fa1e8434e576": {
+        "id": "AS_Button_289762cb0a0f4c59b135fa1e8434e576",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResourceExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0c904960ef094a1c94459aa31be27c31"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___dd19c3a4c5954f85a73c114e386b32e4",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmResourceExecutionTabKA",
+            "widgetId": "flxItemDeleteKA",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "0c904960ef094a1c94459aa31be27c31",
+            "widgetKUID": "f2522060148b43449d12e7334704bef3",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmResourceExecutionTabKA.flxItemDeleteKA"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___1f8d4de2c073419592ca85432782433c",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmResourceExecutionTabKA",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "0c904960ef094a1c94459aa31be27c31",
+            "widgetKUID": "ea6f98cffed24d26b48958d81275c749",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

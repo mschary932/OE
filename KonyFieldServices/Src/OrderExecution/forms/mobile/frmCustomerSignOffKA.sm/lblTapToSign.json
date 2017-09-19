@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf90bea1ea254670936346d14744358d",
+    "_text_": "",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "53%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "69%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblTapToSign",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "2edc5ffb089040fa91ef992275b725e1",
+    "name": "kony.ui.Label",
+    "parent": "flxSignatureKA",
+    "pf": "frmCustomerSignOffKA",
+    "texti18n": "i18n.common.TapToSignKA",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

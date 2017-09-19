@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_71eaabef77f1447aaeca981ff0416d4a": {
+        "id": "AS_FlexContainer_71eaabef77f1447aaeca981ff0416d4a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderListFlexMainOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580384"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__460cf79d39354965bbc7eb236e0c5f39",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(hamburgerMenu.IS_MENU_SHOWN){\n\tnew hamburgerMenu().execute();\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

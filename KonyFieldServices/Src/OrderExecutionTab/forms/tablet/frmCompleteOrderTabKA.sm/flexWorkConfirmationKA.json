@@ -1,0 +1,61 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0634136c9754819af992f20ce38cf88",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "btnNumber1KA",
+        "lblWorkConfirmationKA",
+        "btnForward1KA"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "focusskin": "s842161c534f44528d352a4ef7a2320e",
+    "id": "flexWorkConfirmationKA",
+    "ide_onClick": "AS_FlexContainer_eaabe66bcf1d408ea413eeb67bd3ef1f",
+    "info": null,
+    "isvisible": true,
+    "kuid": "39388d794c1e4b769334b8f8dfade745",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexOrderCompletionMainKA",
+    "pf": "frmCompleteOrderTabKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

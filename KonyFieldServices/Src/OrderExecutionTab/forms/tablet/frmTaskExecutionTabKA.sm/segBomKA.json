@@ -1,0 +1,362 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnDeleteKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEditKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBomKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableLocalKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ordered: 2"
+            },
+            "lblChildcomponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock: 8Lbs"
+            },
+            "lblResourceIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM : 22 Lbs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "btnDeleteKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEditKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBomKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableLocalKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ordered: 2"
+            },
+            "lblChildcomponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock: 8Lbs"
+            },
+            "lblResourceIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM : 22 Lbs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "btnDeleteKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEditKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBomKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableLocalKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ordered: 2"
+            },
+            "lblChildcomponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock: 8Lbs"
+            },
+            "lblResourceIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM : 22 Lbs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "btnDeleteKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEditKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBomKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableLocalKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ordered: 2"
+            },
+            "lblChildcomponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock: 8Lbs"
+            },
+            "lblResourceIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM : 22 Lbs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "btnDeleteKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEditKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBomKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableLocalKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ordered: 2"
+            },
+            "lblChildcomponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock: 8Lbs"
+            },
+            "lblResourceIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM : 22 Lbs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "btnDeleteKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEditKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBomKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblAvailableLocalKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ordered: 2"
+            },
+            "lblChildcomponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Stock: 8Lbs"
+            },
+            "lblResourceIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM : 22 Lbs"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        }
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "29.69%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segBomKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "be9f85b029a54189bd73d073b8fae7ed",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexBomKA",
+    "pf": "frmTaskExecutionTabKA",
+    "retainselection": false,
+    "rowTemplateId": "97b5f059841e4093843f5efaa6221f9a",
+    "rowcounter": 5,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexBomTmpKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDeleteKA": "btnDeleteKA",
+        "btnEditKA": "btnEditKA",
+        "flexBomContainerKA": "flexBomContainerKA",
+        "flexBomTmpKA": "flexBomTmpKA",
+        "flexEditDeleteKA": "flexEditDeleteKA",
+        "flexLeftContainerKA": "flexLeftContainerKA",
+        "imgBomKA": "imgBomKA",
+        "imgChevronKA": "imgChevronKA",
+        "lblAvailableLocalKA": "lblAvailableLocalKA",
+        "lblChildcomponentIDKA": "lblChildcomponentIDKA",
+        "lblComponentDescriptionKA": "lblComponentDescriptionKA",
+        "lblQuantityKA": "lblQuantityKA",
+        "lblResourceIdKA": "lblResourceIdKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA"
+    },
+    "zindex": 15
+}

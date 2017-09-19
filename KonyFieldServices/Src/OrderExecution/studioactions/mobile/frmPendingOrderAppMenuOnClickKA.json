@@ -1,0 +1,23 @@
+{
+    "AS_Button_606e275ee40e44b2b67abf42e9a68e67": {
+        "id": "AS_Button_606e275ee40e44b2b67abf42e9a68e67",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPendingOrderAppMenuOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingOrderListKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8587586ca9f444a9047edc4d42f30a7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_085818cedde244de88a7dc87e95863ae",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if( Object.keys(kony.servicesapp.swipedIndices).length > 0){\n  var animObj = kony.servicesapp.getEndStateTransAnimDefinition(\"-25%\",\"0%\",true);\n  animObj[\"callbacks\"] = {\n    \"animationEnd\":function(){ \n      var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n      var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n      kony.servicesapp.rowreset=true;\n      kony.servicesapp.swipedIndices={};\n      kony.servicesapp.coords=[];\n      kony.servicesapp.isAnimationInProgress=false;\n    }\n  }\n  frmPendingOrderListKA.segPendingOrderListKA.animateRows({\n    rows: [{\n      sectionIndex: kony.servicesapp.swipedIndices[\"secIndex\"],\n      rowIndex: kony.servicesapp.swipedIndices[\"rowIndex\"]\n    }],\n    widgets: [\"flxPendingOrdListKA\"],\n    animation: animObj\n  });\n}\nnew hamburgerMenu().execute();"
+        }]
+    }
+}

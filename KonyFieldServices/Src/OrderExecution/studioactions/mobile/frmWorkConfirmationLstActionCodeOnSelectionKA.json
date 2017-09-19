@@ -1,0 +1,25 @@
+{
+    "AS_ListBox_f8b8be096e5a4b0780a31c79852c67c4": {
+        "id": "AS_ListBox_f8b8be096e5a4b0780a31c79852c67c4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmWorkConfirmationLstActionCodeOnSelectionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkConfirmationKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8a138a1f73044fada560d80d4d3c64ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var frmController = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nfrmController.performAction(\"setListBox\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

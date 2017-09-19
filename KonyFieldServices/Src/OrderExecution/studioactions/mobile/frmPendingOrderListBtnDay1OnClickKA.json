@@ -1,0 +1,23 @@
+{
+    "AS_Button_a48650a1763f4961be0c2f160ecc98d3": {
+        "id": "AS_Button_a48650a1763f4961be0c2f160ecc98d3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPendingOrderListBtnDay1OnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPendingOrderListKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b8587586ca9f444a9047edc4d42f30a7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_89973cee6dd1417aa8cd9cc637b8b16e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nif(!hamburgerMenu.IS_MENU_SHOWN){\n\tcontroller.performAction(\"setSegmentListDataKA\",[this.id]);\n}else{\n\tnew hamburgerMenu().execute();\n}"
+        }]
+    }
+}

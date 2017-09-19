@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.kony.servicesapp</groupId>
+    <artifactId>KonyWorkOrder</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>KonyWorkOrder</name>
+    <url>http://maven.apache.org</url>
+    <build>
+        <plugins>
+	   	 	<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.16</version>
+				<configuration>
+				  <skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <configuration>
+                        	<!-- skipping the ant run process until the jenkins job is configured to skip this explicitly from commandline -->
+                        	<skip> ${skipClientBinary}</skip>
+                            <target>
+								<!-- <property name="project.name" value="${project.name}" />
+		                		<property name="WORKSPACE" value="${WORKSPACE}" />
+		                		<property name="eclipse.path" value="${eclipse.path}" /> -->
+                                <!-- Will run build.xml in legacy-client/ folder -->
+								<!--<property name = "autobuild.properties" value="D:\Kony\configurations\autobuild.properties" />-->
+                                <ant antfile="Main-build.xml"/>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+			
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.1</version>
+                <executions>
+                    <execution>
+                        <id>Jasmine Unit Testing</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+						<configuration>
+						   <skip>${maven.test.skip}</skip>
+						</configuration>
+                    </execution>
+                </executions>
+				
+                <configuration>
+                    <executable>phantomjs</executable>
+                    <workingDirectory>jasmine-lib</workingDirectory>
+                    <arguments>
+						<!--this argument will get around cross domain issues -->
+						<argument>--local-to-remote-url-access=yes</argument>
+                        <argument>phantomjs_jasminexml_runner.js</argument>
+                        <!-- append hostUrl to the web page, so that jasmine can read the hostUrl tha is being passed dynamically -->
+                        <argument>kony_jasmine_test_runner.html</argument>
+                        <argument>${project.build.directory}/surefire-reports</argument>
+                        
+				     </arguments>
+                </configuration>
+            </plugin>
+		</plugins>
+    </build>
+</project>

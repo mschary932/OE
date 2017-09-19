@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "8.36%"
+    },
+    "_skin_": "seef029c072644838f29e8a0688dfb15",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "12.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "16dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "55%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s629df9e7204460380b13bdaeef70a2f",
+    "id": "btnYes",
+    "ide_onClick": "AS_Button_b2246250caca4d8a89bf9d7f87b835fe",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ec710e7fbc5441b39ca56543d981cb8c",
+    "name": "kony.ui.Button",
+    "parent": "flxCancelTickKA",
+    "pf": "frmSurveyKA",
+    "wType": "Button",
+    "zindex": 2
+}

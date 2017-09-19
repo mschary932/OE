@@ -1,0 +1,35 @@
+{
+    "AS_Segment_703367c374054c86aa1ccb72789a2c3a": {
+        "id": "AS_Segment_703367c374054c86aa1ccb72789a2c3a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTAE_OnRowclickEvent",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmTimeAndExpenseKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8d58a50575f141b1bb8d48209b2e5fd9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___3a50fba9afc949be9394d1089a0e9c5f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmExpenseDetailsKA",
+            "formKUID": "e1f862f8c77a441f90045b8fd05899fa",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

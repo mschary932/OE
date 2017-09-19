@@ -1,0 +1,25 @@
+{
+    "AS_Button_c2cdb3c3e2304ebbac8f3b940e9e0d00": {
+        "id": "AS_Button_c2cdb3c3e2304ebbac8f3b940e9e0d00",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSBtnDoneOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__59e0f904dd9940df87741f289accfd60",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderSummaryKA\");\ncontroller.performAction(\"setPickerViewDataKA\");\ncontroller.performAction(\"calculateDuration\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

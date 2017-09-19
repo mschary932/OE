@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+    <!-- ==================================================== -->
+    <!--      Build file for our first WAP application        -->
+    <!--        build.xml, 11/Mar/2008      -->
+    <!--        Author: Rajendra Kumar K                        -->
+    <!-- ==================================================== -->
+<project name="Kony web project" default="all" basedir=".">
+
+    <target name="init">
+        <property name="dirs.base" value="${basedir}"/>
+        <property name="sciptsfiles" location="${basedir}/scripts"/>
+       
+        <property name="webpreviewsciptsfiles" location="${preview.dir}/output/lua"/>
+        <property name="webpreviewm4bat" location="${previewbuildfiles.dir}"/>
+    </target>
+
+
+<target name="m4luagen">
+<exec executable="${webpreviewm4bat}/m4routine.bat" failonerror="true" failifexecutionfails="true">
+	            <env key="PATH" path="${env.PATH};${webpreviewm4bat}/m4.exe;${webpreviewm4bat}/regex2.dll;"/>
+				<arg value="${webpreviewsciptsfiles}"/>
+				<arg value="${sciptsfiles}"/>
+				<arg value="wap"/>
+	 </exec>
+
+</target>
+
+
+<target name="previewbuild" depends="init,m4luagen">
+	<if>
+	<equals arg1="${build.option}" arg2="debug" />
+	<then>
+        <exec executable="cmd.exe" failonerror="true" failifexecutionfails="true">
+         <env key="PATH" path="${env.PATH};${webpreviewm4bat}/luacompiler"/>
+         <arg line='/c "luac -o ${dirs.base}  ${sciptsfiles}/*.lua"'/>
+        </exec>
+	</then>
+	<else>
+        <exec executable="cmd.exe" failonerror="true" failifexecutionfails="true">
+         <env key="PATH" path="${env.PATH};${webpreviewm4bat}/luacompiler"/>
+      <arg line='/c "luac -s -o ${dirs.base} ${sciptsfiles}/*.lua"'/>
+	</exec>
+	</else>
+	</if>
+</target>
+
+
+</project>

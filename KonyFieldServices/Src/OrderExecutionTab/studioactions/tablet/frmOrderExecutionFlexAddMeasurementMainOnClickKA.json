@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_a03077fb17064782a625bc592c0e2a2e": {
+        "id": "AS_FlexContainer_a03077fb17064782a625bc592c0e2a2e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionFlexAddMeasurementMainOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7354163ed09f47c6a01c79802ff0311f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"doNothingOnDeviceBackKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580488_btnEditKA_onClick_seq0": {
+        "id": "p2kwiet1234563580488_btnEditKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmResourceExecutionBtnEditOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_6409712345635807039",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"editQuantity\");"
+        }]
+    }
+}

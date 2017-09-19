@@ -1,0 +1,21 @@
+{
+    "AS_TextField_d8c1b12f03cb49fe85e4c3eeb9bad313": {
+        "id": "AS_TextField_d8c1b12f03cb49fe85e4c3eeb9bad313",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

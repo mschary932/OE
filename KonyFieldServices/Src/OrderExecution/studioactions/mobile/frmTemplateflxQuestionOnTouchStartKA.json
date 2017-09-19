@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_587f3b9de128448a84d4f80e5dad53d2": {
+        "id": "AS_FlexContainer_587f3b9de128448a84d4f80e5dad53d2",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateflxQuestionOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1f10461bb9954997871a11bdf1bcbc03",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ques = parseInt((this.id).substring(3)).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"changeFlexSkins\",[ques]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580351_frmOrderExecutionKA_init_seq0": {
+        "id": "p2kwiet1234563580351_frmOrderExecutionKA_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionKAinit",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_init_523912345635804295",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var orderDetailsKA = function(){\n var controller = navController().getViewController(\"frmOrderExecutionKA\");\n controller.performAction(\"showEmpDetailsForm\");\n };\n \n var orderAttachmentsKA = function(){\n alert(\"Work in progress\");\n }\n \n var orderResourcesKA = function(){\n alert(\"Work in progress\");\n }\n \n var orderHistoryKA = function(){\n alert(\"Work in progress\");\n }\n var orderNotificationKA = function(){\n alert(\"Work in progress\");\n }\n \n var widgets=[\n {\"skin\" : \"sknBtnDtlsKA\",\"focusSkin\":\"sknBtnDtlsFocKA\",\"onclick\":orderDetailsKA,\"widgetType\":\"button\"},\n {\"skin\" : \"sknBtnAttachmentsKA\",\"focusSkin\":\"sknBtnAttachmentsFocKA\",\"onclick\":orderAttachmentsKA,\"widgetType\":\"button\"},\n {\"skin\" : \"sknBtnHistoryKA\",\"focusSkin\":\"sknBtnHistoryFocKA\",\"onclick\":orderHistoryKA,\"widgetType\":\"button\"},\n {\"skin\" : \"sknBtnResourcesKA\",\"focusSkin\":\"sknBtnResourcesFocKA\",\"onclick\":orderResourcesKA,\"widgetType\":\"button\"},\n {\"skin\" : \"sknBtnPhotosKA\",\"focusSkin\":\"sknBtnPhotosFocKA\",\"onclick\":orderNotificationKA,\"widgetType\":\"button\"}\n ];\n \n \n var utilitiesObj= new utilities(frmOrderExecutionKA);\n utilitiesObj.configureSubMenu(\"flxScrollTypesKA\",widgets,true);"
+        }]
+    }
+}

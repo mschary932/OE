@@ -1,0 +1,1 @@
+[{"sourceObject":"MeasurePoint","targetObject":"MeasureValueHistory","relationshipKeys":[{"sourceField":"id","targetField":"MeasurePoint_id"}],"name":"MeasurePoint_MeasureValueHistory","type":"OneToMany","custom":false,"cascadeDelete":false}]

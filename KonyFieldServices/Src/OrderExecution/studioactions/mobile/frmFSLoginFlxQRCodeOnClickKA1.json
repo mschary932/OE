@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_3218760743194d6b8f4e6ac6664bca70": {
+        "id": "AS_FlexContainer_3218760743194d6b8f4e6ac6664bca70",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmFSLoginFlxQRCodeOnClickKA1",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFSLoginKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580185"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1d05dc189e24446880efe44f52640942",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LoginController.captureBarcode();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

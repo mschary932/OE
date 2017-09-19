@@ -1,0 +1,28 @@
+{
+    "AS_Button_21cc8a0116064269890b316189268078": {
+        "id": "AS_Button_21cc8a0116064269890b316189268078",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderViewBtnSeletfilterOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpFilterBodyKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet1234563580652"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f0c8771934a4402faedebf2c70bf89b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(\"frmOrdersViewsKA\");\ncontroller.performAction(\"checkUncheckFilter\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

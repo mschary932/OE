@@ -1,0 +1,28 @@
+{
+    "p2kwiet1234563580219_flxReConnectKA_onTouchStart_seq0": {
+        "id": "p2kwiet1234563580219_flxReConnectKA_onTouchStart_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginKAbtnReconfigureOnClick",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "navigation_onTouchStart_3299512345635804581",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmFSLoginKA",
+            "formKUID": "p2kwiet1234563580185",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "enableMappingEditor": true
+        }]
+    }
+}

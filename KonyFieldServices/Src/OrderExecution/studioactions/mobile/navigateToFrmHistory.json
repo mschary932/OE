@@ -1,0 +1,25 @@
+{
+    "AS_Button_d3667882b0384afd89f229a82df8cc60": {
+        "id": "AS_Button_d3667882b0384afd89f229a82df8cc60",
+        "type": "ACTION_SEQUENCE",
+        "name": "navigateToFrmHistory",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementReadings",
+            "type": "forms",
+            "platform": "",
+            "KUID": "160147dcef504f079e150aa881f874f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__62497255e88445ad814246ddf35c72eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showHistoryForm\");}catch(e){}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

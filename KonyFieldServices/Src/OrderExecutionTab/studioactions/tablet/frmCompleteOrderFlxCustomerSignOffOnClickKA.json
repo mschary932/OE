@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_37235bb1354d43fdb4e550b926aaf6f2": {
+        "id": "AS_FlexContainer_37235bb1354d43fdb4e550b926aaf6f2",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlxCustomerSignOffOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca517814cf0749ddae061221b05bfecf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showSignOffFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

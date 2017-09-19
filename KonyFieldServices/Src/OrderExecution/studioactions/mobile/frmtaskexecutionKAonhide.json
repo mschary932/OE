@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580554_frmTaskExecutionKA_onhide_seq0": {
+        "id": "p2kwiet1234563580554_frmTaskExecutionKA_onhide_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmtaskexecutionKAonhide",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "expression_onhide_7030612345635801561",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try {\n            kony.timer.cancel(\"SecondTimer\");\n        } catch (e) {\n            kony.sdk.mvvm.log.error(\"error in Blogic cancelTimer : \" + e);\n        }\n "
+        }]
+    }
+}

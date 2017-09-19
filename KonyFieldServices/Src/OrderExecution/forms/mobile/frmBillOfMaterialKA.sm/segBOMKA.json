@@ -1,0 +1,204 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnBOMSegmentKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "kk"
+            },
+            "lblBOMQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM :"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Component Description"
+            },
+            "lblComponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblLineKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " "
+            },
+            "lblObjectTypeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblQuantityBOMKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "22 Lbs"
+            }
+        },
+        {
+            "btnBOMSegmentKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "kk"
+            },
+            "lblBOMQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM :"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Component Description"
+            },
+            "lblComponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblLineKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " "
+            },
+            "lblObjectTypeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblQuantityBOMKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "22 Lbs"
+            }
+        },
+        {
+            "btnBOMSegmentKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "kk"
+            },
+            "lblBOMQuantityKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In BoM :"
+            },
+            "lblComponentDescriptionKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Component Description"
+            },
+            "lblComponentIDKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Child Component ID"
+            },
+            "lblLineKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " "
+            },
+            "lblObjectTypeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblQuantityBOMKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "22 Lbs"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segBOMKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "a21f8c5a6d044c009395b250c95595a2",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxBOMSegmentKA",
+    "pf": "frmBillOfMaterialKA",
+    "progressindicatorcolor": "white",
+    "retainselection": false,
+    "rowTemplateId": "75a73e6ffd1a4e82b405ac03c2736d14",
+    "rowcounter": 2,
+    "rowfocusskin": "s5022970e2c94404b835a9ce8946b1e5",
+    "rowskin": "sab5e0512b1647a8bb8ba1d221b84ee5",
+    "rowtemplate": "flxBOMRowKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s3ad01f277a846afad503befc91b181c",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "a0b2c300",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showprogressindicator": false,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 750,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnBOMSegmentKA": "btnBOMSegmentKA",
+        "flxBOMRowKA": "flxBOMRowKA",
+        "lblBOMQuantityKA": "lblBOMQuantityKA",
+        "lblComponentDescriptionKA": "lblComponentDescriptionKA",
+        "lblComponentIDKA": "lblComponentIDKA",
+        "lblLineKA": "lblLineKA",
+        "lblObjectTypeKA": "lblObjectTypeKA",
+        "lblQuantityBOMKA": "lblQuantityBOMKA"
+    },
+    "zindex": 20
+}

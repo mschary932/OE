@@ -1,0 +1,18 @@
+{
+    "AS_Button_fc5ad5b338b046a4bb6ee451e0c9efbf": {
+        "id": "AS_Button_fc5ad5b338b046a4bb6ee451e0c9efbf",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnBackFromBomOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_49647636d19749a88d890043caec3eb4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backFromBom\");",
+            "callbackType": null
+        }]
+    }
+}

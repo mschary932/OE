@@ -1,0 +1,23 @@
+{
+    "p2kwiet1234563580185_btnManualSetupKA_onClick_seq0": {
+        "id": "p2kwiet1234563580185_btnManualSetupKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmFSLoginBtnManualSetupOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e8515da2b277401aab46f5575b31332f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTenantKA",
+            "formKUID": "p2kwiet1239151363421",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

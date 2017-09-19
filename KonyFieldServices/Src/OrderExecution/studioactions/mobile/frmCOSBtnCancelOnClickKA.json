@@ -1,0 +1,25 @@
+{
+    "AS_Button_2c955cb966414db598744d97d22da49d": {
+        "id": "AS_Button_2c955cb966414db598744d97d22da49d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSBtnCancelOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__8fd142012bcb4ce3b4b9b28d7328954b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderSummaryKA\");\ncontroller.performAction(\"cancelCalendarKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

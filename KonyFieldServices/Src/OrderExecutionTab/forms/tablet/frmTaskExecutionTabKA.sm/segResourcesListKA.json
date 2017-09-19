@@ -1,0 +1,253 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnDelete2TmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit2TempKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBom2KA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "imgResourceSelectedKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ovalicon.png"
+            },
+            "lblAvailableLocal2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used 3 each"
+            },
+            "lblBom2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SPONGE_1"
+            },
+            "lblMaterialKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Raw materials"
+            },
+            "lblMaterialNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Sponge"
+            },
+            "lblQuantity2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Available 9959 each"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "btnDelete2TmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit2TempKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBom2KA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "imgResourceSelectedKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bomcircletick.png"
+            },
+            "lblAvailableLocal2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used 3 each"
+            },
+            "lblBom2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SPONGE_1"
+            },
+            "lblMaterialKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Raw materials"
+            },
+            "lblMaterialNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Sponge"
+            },
+            "lblQuantity2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Available 9959 each"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "btnDelete2TmpKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit2TempKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgBom2KA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bom.png"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "imgResourceSelectedKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ovalicon.png"
+            },
+            "lblAvailableLocal2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used 3 each"
+            },
+            "lblBom2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "SPONGE_1"
+            },
+            "lblMaterialKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Raw materials"
+            },
+            "lblMaterialNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Sponge"
+            },
+            "lblQuantity2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Available 9959 each"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        }
+    ],
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "13.23%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "editstyle": "swipe",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segResourcesListKA",
+    "ide_onRowClick": "AS_Segment_27cf5eb84b534afc88d9cda7e3b9fbc9",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "editStyle": "none",
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "5c8d4aae65cb442986339447eac194ec",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexResourcesKA",
+    "pf": "frmTaskExecutionTabKA",
+    "retainselection": false,
+    "rowTemplateId": "9cc9bc353c57486b8c8afcfe99faa279",
+    "rowcounter": 2,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexResourceListKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDelete2TmpKA": "btnDelete2TmpKA",
+        "btnEdit2TempKA": "btnEdit2TempKA",
+        "flexEditDelete2KA": "flexEditDelete2KA",
+        "flexImageTmpKA": "flexImageTmpKA",
+        "flexLeftContainer2KA": "flexLeftContainer2KA",
+        "flexResourceListKA": "flexResourceListKA",
+        "flexResourcesListContainerKA": "flexResourcesListContainerKA",
+        "imgBom2KA": "imgBom2KA",
+        "imgChevronKA": "imgChevronKA",
+        "imgResourceSelectedKA": "imgResourceSelectedKA",
+        "lblAvailableLocal2KA": "lblAvailableLocal2KA",
+        "lblBom2KA": "lblBom2KA",
+        "lblMaterialKA": "lblMaterialKA",
+        "lblMaterialNameKA": "lblMaterialNameKA",
+        "lblQuantity2KA": "lblQuantity2KA",
+        "lblSeparatorTemplate2KA": "lblSeparatorTemplate2KA"
+    },
+    "zindex": 1
+}

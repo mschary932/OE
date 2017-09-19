@@ -1,0 +1,23 @@
+{
+    "AS_Button_75e23a32a38246bfbc1065fac4a13746": {
+        "id": "AS_Button_75e23a32a38246bfbc1065fac4a13746",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580351"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__0dc47d37c9b34332b7ceef3931f00f3a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"showAttachmentForm\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

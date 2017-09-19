@@ -1,0 +1,25 @@
+{
+    "AS_Button_3afb081bab29466fbae67507984c8742": {
+        "id": "AS_Button_3afb081bab29466fbae67507984c8742",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSBtnCancelBtnOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__41eb81d2c0b5421ca9411ac9323cddad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderSummaryKA\");\ncontroller.performAction(\"cancelPickerViewKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

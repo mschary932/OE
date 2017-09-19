@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s1219f4a6e6746efb377ff7d2afc75be",
+    "_text_": "Done",
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s65d284cf14a4d2f89f950d2f59a4e22",
+    "id": "btnDoneFillKA",
+    "ide_onClick": "AS_Button_f2724c3aacef436b853a9b2c07b8337c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e870eb27b48248cea1423d933129d7c6",
+    "name": "kony.ui.Button",
+    "parent": "flexBottomContainerDetailsKA",
+    "pf": "frmCompleteOrderTabKA",
+    "texti18n": "i18n.Notes.frmCreateNoteKA.Done.ValueKA",
+    "wType": "Button",
+    "zindex": 1
+}

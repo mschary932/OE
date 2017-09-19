@@ -1,0 +1,18 @@
+{
+    "AS_Button_e9c2a42c3c644aa291087d1378db3d73": {
+        "id": "AS_Button_e9c2a42c3c644aa291087d1378db3d73",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionBtnPanicKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_9483f88f4e70465196efed981b3afac9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showPanicScreen\");",
+            "callbackType": null
+        }]
+    }
+}

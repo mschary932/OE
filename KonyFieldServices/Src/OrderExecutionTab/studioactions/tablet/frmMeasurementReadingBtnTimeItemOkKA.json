@@ -1,0 +1,18 @@
+{
+    "AS_Button_4294c1511d2340e6a2ed1a8d1c5439b5": {
+        "id": "AS_Button_4294c1511d2340e6a2ed1a8d1c5439b5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingBtnTimeItemOkKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_20795851e68746bfaaf1c11fa77bb18c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"cancelReadingCreation\");",
+            "callbackType": null
+        }]
+    }
+}

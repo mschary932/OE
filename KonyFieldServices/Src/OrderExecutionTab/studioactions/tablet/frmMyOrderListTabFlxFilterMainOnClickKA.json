@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_ea4278c7a66e4174a73f0fbcb5641954": {
+        "id": "AS_FlexContainer_ea4278c7a66e4174a73f0fbcb5641954",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListTabFlxFilterMainOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0b484a5a5e3147f38e1ce4413d6056d2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_202ecce5824844f5a894774886a7d0b3": {
+        "id": "AS_Button_202ecce5824844f5a894774886a7d0b3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmStockListBtnPurchaseRequest",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStockLocationListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b74ea6b6511d46878779b917e5d9c857"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__7011e258d7b54b48b5a725de92646289",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"editQuantity\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

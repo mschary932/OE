@@ -1,0 +1,25 @@
+{
+    "AS_Button_ff415d66a90b40efbb2ee2fae63f4e99": {
+        "id": "AS_Button_ff415d66a90b40efbb2ee2fae63f4e99",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmWorkConfirmationBtnSaveOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkConfirmationKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055829"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b9a53d41ca4447e3b81a4f116bdf75c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmWorkConfirmationKA\");\ncontroller.performAction(\"completeChecklist\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

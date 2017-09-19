@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_4804a1bb48314152819cc0594155cfda": {
+        "id": "AS_FlexContainer_4804a1bb48314152819cc0594155cfda",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurementReadingSubmenuKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementsReadingKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c7fc7cfba00b4915a11d26206bb0aed5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9d1c234cb4914622b5ff065fe075d7c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMeasurementReadings\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

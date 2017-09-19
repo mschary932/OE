@@ -1,0 +1,31 @@
+{
+    "AS_Segment_5d7a7da1426048b6a11042c3fa2697d1": {
+        "id": "AS_Segment_5d7a7da1426048b6a11042c3fa2697d1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmNoteListSegmentOnRowClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmNotesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19962346794075"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__2489bde3064e46c3b40366630e9170d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "try{\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showNotesDetailsForm\");\n}catch(e){\n  kony.print(\"couldnot find the method\");\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

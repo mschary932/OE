@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_cb35f5f9664f4ac4a9ed15a655517a49": {
+        "id": "AS_FlexContainer_cb35f5f9664f4ac4a9ed15a655517a49",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlexRightBlockOnClick2KA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_03ae939d95b04d92bf21ce1424dfcc15",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideTimePopUpFlex\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "AS_Button_8425ef2467b0405081a3142affd390e3": {
+        "id": "AS_Button_8425ef2467b0405081a3142affd390e3",
+        "type": "ACTION_SEQUENCE",
+        "name": "navigateToResourceAttachment",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d5eb1491114e4ca6a27c700c46c19e49",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToResourceAttachment\");",
+            "callbackType": null
+        }]
+    }
+}

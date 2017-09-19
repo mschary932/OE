@@ -1,0 +1,25 @@
+{
+    "AS_Button_045ffc15c96a46f1a6e9656840881489": {
+        "id": "AS_Button_045ffc15c96a46f1a6e9656840881489",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnPaymentDoneOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__4387d61cf2324c0d89bd09cf94659dec",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showflexPaymentAcknowledgePopUpKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

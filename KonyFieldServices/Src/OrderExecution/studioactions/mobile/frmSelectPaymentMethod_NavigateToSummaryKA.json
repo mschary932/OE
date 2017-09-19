@@ -1,0 +1,25 @@
+{
+    "AS_Button_4a15211c50c047be8b972a729a58b0fd": {
+        "id": "AS_Button_4a15211c50c047be8b972a729a58b0fd",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSelectPaymentMethod_NavigateToSummaryKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSelectPaymentMethodKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dddc810f2e9a4f46a0b4c84a58f86eaa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__20bd6edfd3dc467aaf63fbbba3bb93b7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id); \ncontroller.performAction(\"navigateBack\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "AS_FlexContainer_f7f9c53f4e01442c9cdf74866d740094": {
+        "id": "AS_FlexContainer_f7f9c53f4e01442c9cdf74866d740094",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePdfBrowserKA_doNothingOnDeviceBackSendEmailKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfBrowserKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "04903397fcfb41608ab27a63c122b0ba"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9f0bf5ecb31c4df3b5c28bfb7efb1171",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__7f7481bf889947b1b3ee82c0f5797981",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var utilitiesObj= new utilities();\nutilitiesObj.doNothingOnDeviceBackKA();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

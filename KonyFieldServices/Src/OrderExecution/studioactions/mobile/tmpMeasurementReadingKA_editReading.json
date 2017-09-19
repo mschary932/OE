@@ -1,0 +1,28 @@
+{
+    "AS_Button_43bf8c7807bf40479bbcae0cec8bb51c": {
+        "id": "AS_Button_43bf8c7807bf40479bbcae0cec8bb51c",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpMeasurementReadingKA_editReading",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpMeasurementReadingSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "065aad0f7bf348729ce9e8a6cbdb49db"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e9f1093457db4737b64902fcad67de7b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"editMeasurementReading\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

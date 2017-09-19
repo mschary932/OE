@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s895450df0e646c494af8634f7dcbda6",
+    "_text_": "Clear All",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s65d284cf14a4d2f89f950d2f59a4e22",
+    "id": "btnClearAllKA",
+    "ide_onClick": "AS_Button_a460f8fc3a6a4a169b659f04c7bc9622",
+    "info": null,
+    "isvisible": true,
+    "kuid": "7dd7cd8f6a0c40beac16ceffb517b6f7",
+    "name": "kony.ui.Button",
+    "parent": "flxTopKA",
+    "pf": "frmMyOrderListTabKA",
+    "texti18n": "i18n.order.frmOrdersViewsKA.subHeader.btnClearValueKA",
+    "wType": "Button",
+    "zindex": 1
+}

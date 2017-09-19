@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        20,
+        0
+    ],
+    "_skin_": "s4d58ab2a601467d984b115117982631",
+    "_text_": "Email",
+    "_top_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s8e6ba977d0e4aab86686f60afbb0f80",
+    "id": "btnEmailKA",
+    "ide_onClick": "AS_Button_a32bdb1ade8b4bc09886c779fe31e3c6",
+    "info": null,
+    "isvisible": true,
+    "kuid": "898a4554bdcd43698795dac6e19c1638",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxFooterKA",
+    "pf": "frmInvoicePdfKA",
+    "wType": "Button",
+    "zindex": 1
+}

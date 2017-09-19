@@ -1,0 +1,17 @@
+{
+    "AS_Button_ea2eca7e18f448ecac7c19105b2670c8": {
+        "id": "AS_Button_ea2eca7e18f448ecac7c19105b2670c8",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmNewTaskBtnCancelOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2d6ad162e1c14e8d8b2d19f8478da30e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateBackToOrderExecution\");"
+        }]
+    }
+}

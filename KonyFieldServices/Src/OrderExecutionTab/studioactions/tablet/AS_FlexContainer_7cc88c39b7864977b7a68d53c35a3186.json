@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_7cc88c39b7864977b7a68d53c35a3186": {
+        "id": "AS_FlexContainer_7cc88c39b7864977b7a68d53c35a3186",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0f8c67c57f0e45248410e20c0ff52f7e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__1827c22ffd3d47128e09f16bbed2880a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nkony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showAttachments\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

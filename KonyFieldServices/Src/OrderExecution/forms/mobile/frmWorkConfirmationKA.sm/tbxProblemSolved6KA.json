@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "s62407bd670e4670b6338c78d834c480",
+    "_text_": "",
+    "android": {},
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s62407bd670e4670b6338c78d834c480",
+    "id": "tbxProblemSolved6KA",
+    "info": null,
+    "isvisible": false,
+    "keyboardtype": "A",
+    "kuid": "9667c295b40e430ca721a59b4cc07d6c",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flexDetailsKA",
+    "pf": "frmWorkConfirmationKA",
+    "placeholderi18n": "i18n.frmCompleteOrderAcceptanceKA.tbxProblemSolvedKA",
+    "placeholderskin": "s43649fa78234755a99244f031ad4ab1",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

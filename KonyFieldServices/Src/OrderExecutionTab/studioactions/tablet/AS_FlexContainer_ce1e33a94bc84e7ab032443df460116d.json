@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_ce1e33a94bc84e7ab032443df460116d": {
+        "id": "AS_FlexContainer_ce1e33a94bc84e7ab032443df460116d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAvailableOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "19da301ac729497db3a77ce9f92f980c"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,10 @@
+<project name="TestCases" basedir=".">
+    <description>
+        Running test cases
+    </description>
+    <exec executable="phantomjs.exe" failonerror="true" output="jasmineReport.txt">
+       <arg line="--web-security=false" />
+       <arg line="D:/Jasmine/lib/jasmine-1.3.1/run-jasmine.js" />
+       <arg line="C:/Users/kh1437/workspace/VerticalApp/jsUnitTests/SpecRunner.html" />
+    </exec>
+</project>

@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_b10d4e9464104eb886c2ba6a1fb7fa64": {
+        "id": "AS_FlexContainer_b10d4e9464104eb886c2ba6a1fb7fa64",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmBillOfMaterialflxBackToOrderObjectOnCLickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBillOfMaterialKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "77f49434b014487cbfba5004678ec3ab"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__1f344507b60746b8a5f3df59754d7928",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backToFirst\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

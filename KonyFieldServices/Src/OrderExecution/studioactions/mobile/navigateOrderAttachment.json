@@ -1,0 +1,25 @@
+{
+    "AS_Button_975349a71f2e4119acd1aeee33922ca5": {
+        "id": "AS_Button_975349a71f2e4119acd1aeee33922ca5",
+        "type": "ACTION_SEQUENCE",
+        "name": "navigateOrderAttachment",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b8975da663a241deb130dffd3a87291f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__26460ee79a294f399eac5b87c38a93ca",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMeasurementAttachment\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

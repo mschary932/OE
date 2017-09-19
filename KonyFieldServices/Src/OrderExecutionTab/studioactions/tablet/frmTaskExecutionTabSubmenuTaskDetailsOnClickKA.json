@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_c05b9f0662fd4421a48acd011dc49ac6": {
+        "id": "AS_FlexContainer_c05b9f0662fd4421a48acd011dc49ac6",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabSubmenuTaskDetailsOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_2d29a47c2b9d46e984e4ffcbfadf83d5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTwoTaskDetails\"); ",
+            "callbackType": null
+        }]
+    }
+}

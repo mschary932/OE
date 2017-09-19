@@ -1,0 +1,18 @@
+{
+    "AS_Button_85d168e07b764f7d8a6e330a229adc3d": {
+        "id": "AS_Button_85d168e07b764f7d8a6e330a229adc3d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMeasurementExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b553f85c0c8a4ef98b3237970e10a159"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

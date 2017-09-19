@@ -1,0 +1,25 @@
+{
+    "AS_Button_c7bcad550f9b48158b5764b05354de3f": {
+        "id": "AS_Button_c7bcad550f9b48158b5764b05354de3f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderBtnPanicOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bcee9d850c6141219f4e1b5d3b05fd4f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showPanicScreen\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

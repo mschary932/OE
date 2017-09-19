@@ -1,0 +1,8 @@
+{
+  "formid": "primaryNameTemplate",
+  "primaryNameTemplate": {
+    "formcontroller": "ViewController",
+    "templateType": "segment",
+    "events": {}
+  }
+}

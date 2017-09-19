@@ -1,0 +1,23 @@
+{
+    "AS_Segment_098b218295e74cdab9ce37ecc05e81a3": {
+        "id": "AS_Segment_098b218295e74cdab9ce37ecc05e81a3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_7c77e61a34cc4f819b135017bae05d2e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nkony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backToListView\");\n",
+            "callbackType": null
+        }]
+    }
+}

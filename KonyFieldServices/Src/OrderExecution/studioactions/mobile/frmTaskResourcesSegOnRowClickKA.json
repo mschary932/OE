@@ -1,0 +1,31 @@
+{
+    "AS_Segment_492e1ab244b44a9c97efdfc275cc921a": {
+        "id": "AS_Segment_492e1ab244b44a9c97efdfc275cc921a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskResourcesSegOnRowClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmTaskResourcesListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580581"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a66ee841fef64e00aa36f476cd495388",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onSegRowClick\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

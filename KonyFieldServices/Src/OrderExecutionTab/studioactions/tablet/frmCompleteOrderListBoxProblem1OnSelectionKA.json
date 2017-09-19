@@ -1,0 +1,25 @@
+{
+    "AS_ListBox_71421a771394479e886da317d23e4f30": {
+        "id": "AS_ListBox_71421a771394479e886da317d23e4f30",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderListBoxProblem1OnSelectionKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9e3bb8ba65ee40e3a634f220ca9a4daa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"listSelection\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

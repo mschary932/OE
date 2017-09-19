@@ -1,0 +1,1 @@
+{"type":"svcdriven","custom":false,"junction":false,"customizable":false,"verbs":{"get":"getMapping"},"entityProperties":{"backendMeta":{"operationName":"getConfigurationMaster","serviceVersion":"1.0","serviceName":"GetCOnfigurations"},"designTimeBackendMeta":{},"BatchMode":"buffer"}}

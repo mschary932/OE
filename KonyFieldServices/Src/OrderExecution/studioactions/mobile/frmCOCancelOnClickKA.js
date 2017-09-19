@@ -1,0 +1,8 @@
+function frmCOCancelOnClickKA(eventobject) {
+    return AS_Button_1484eaf3445e4e9c95a317b3bbbe59b4(eventobject);
+}
+
+function AS_Button_1484eaf3445e4e9c95a317b3bbbe59b4(eventobject) {
+    var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController("frmCompleteOrderKA");
+    controller.performAction("cancelOrderComplete");
+}

@@ -1,0 +1,29 @@
+{
+  "android": {
+    "border_color": "ffffffff",
+    "border_type": 0,
+    "font_name": "ClanPro-Book",
+    "font_size": 100,
+    "isForked": true
+  },
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "fontSizeInPx": true,
+  "font_color": "5e5050ff",
+  "font_name": "Helvetica",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "iphone": {
+    "font_name": "ClanPro-Book",
+    "font_size": 100,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sebe0d9d34eb4d34b4f0e56929a64b7b",
+  "wType": "ListBox"
+}

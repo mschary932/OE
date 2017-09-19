@@ -1,0 +1,18 @@
+{
+    "AS_Button_8465260440ed40f6a1b8e59c602dba23": {
+        "id": "AS_Button_8465260440ed40f6a1b8e59c602dba23",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMeasurmentReadingDetailsBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e02da872314d4d2298723d6411d2c526",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showMeasurementReadings\");\n",
+            "callbackType": null
+        }]
+    }
+}

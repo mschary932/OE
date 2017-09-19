@@ -1,0 +1,25 @@
+{
+    "AS_Button_bb0c1e9bee2a48f3980c1ac2b6f70add": {
+        "id": "AS_Button_bb0c1e9bee2a48f3980c1ac2b6f70add",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionBtnCompleteOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580351"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__0734a1f27ee54e299ff84e4f37c2b654",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmOrderExecutionKA\");\ncontroller.performAction(\"changeStatusForWorkorder\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

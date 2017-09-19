@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580554_frmTaskExecutionKA_init_seq0": {
+        "id": "p2kwiet1234563580554_frmTaskExecutionKA_init_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionInitKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_init_1643812345635807448",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var taskDetailsKA = function(){\n \n var controller = navController().getViewController(\"frmTaskExecutionKA\");\n controller.performAction(\"showTaskDetails\");\n \n };\n var taskResourcesKA = function(){\n alert(\"Work in progress\"); \n };\n var attachmentKA = function(){\n alert(\"Work in progress\"); \n };\n var widgets=[\n {\"skin\" :\"sknBtnDtlsKA\",\"focusSkin\":\"sknBtnDtlsFocKA\",\"onclick\": taskDetailsKA,\"widgetType\":\"button\"},\n {\"skin\" :\"sknBtnAttachmentsKA\",\"focusSkin\":\"sknBtnAttachmentsFocKA\",\"onclick\":attachmentKA,\"widgetType\":\"button\"},\n {\"skin\" :\"sknBtnResourcesKA\",\"focusSkin\":\"sknBtnResourcesFocKA\",\"onclick\": taskResourcesKA,\"widgetType\":\"button\" }\n ];\n \n var utilitiesObj= new utilities(frmTaskExecutionKA);\n utilitiesObj.configureSubMenu(\"flxScrollTypesKA\",widgets,true); "
+        }]
+    }
+}

@@ -1,0 +1,1 @@
+{"description":"ConfigurationsAsStorage","orchSvcs":[{"name":"GetCOnfigurations","version":"1.0"}],"objectSvcs":[{"name":"StorageObject","version":"1.0"},{"name":"ConfigurationSDO","version":"1.0"}]}

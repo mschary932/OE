@@ -1,0 +1,28 @@
+{
+    "AS_Button_139296ef78b74b129c5f511f348ecc6b": {
+        "id": "AS_Button_139296ef78b74b129c5f511f348ecc6b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTimeAndExpenseKA_onClickDelete",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpTimeAndExpenseKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a08fd6bbf2cf48719dd4647c2ac3af1e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3163ad550444425eb3c7800c1b62328d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar controllerExxtensionObject=controller.getControllerExtensionObject()\nvar formModel = controller.getFormModel();\nvar selRecord = formModel.getViewAttributeByProperty(\"SegTimeExpenseKA\", \"selectedItems\")[0];\t\t\t\nformModel.performActionOnView(\"flxContentKA\", \"setEnabled\",[false]);\t\t\t\n var utilitiesObj = utilities.getUtilityObj();\ncontrollerExxtensionObject.setFormModelInfo(\"isDelete\", true);\nutilitiesObj.deleteRecord(selRecord);\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

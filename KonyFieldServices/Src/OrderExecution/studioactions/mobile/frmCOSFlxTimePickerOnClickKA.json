@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_1c13d518da14462eb0ab98f7932174ff": {
+        "id": "AS_FlexContainer_1c13d518da14462eb0ab98f7932174ff",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSFlxTimePickerOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ac990837094543139bc66c97f8092fa8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.log.info(\"==frmCOSFlxTimePickerOnClickKA==>\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

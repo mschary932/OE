@@ -1,0 +1,15 @@
+{
+    "AS_Button_e2052f1fe0224e97aecbb8ba7e455a08": {
+        "id": "AS_Button_e2052f1fe0224e97aecbb8ba7e455a08",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_517c7d73543d4cc6824b52fc6285b5d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n controller.performAction(\"actionForMap\");"
+        }]
+    }
+}

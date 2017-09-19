@@ -1,0 +1,31 @@
+{
+    "AS_Image_6b8897beac624dabaf66ae05d5d46fd7": {
+        "id": "AS_Image_6b8897beac624dabaf66ae05d5d46fd7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListTabImgSelectTodayFiltersOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__64370d971ba4477a8ee897bbd24cf3b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"selectToday\");\ncontroller.performAction(\"indicateIfAnyDateSelected\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

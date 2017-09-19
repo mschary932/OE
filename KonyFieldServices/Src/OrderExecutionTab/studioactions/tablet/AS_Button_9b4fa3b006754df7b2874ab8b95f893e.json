@@ -1,0 +1,24 @@
+{
+    "AS_Button_9b4fa3b006754df7b2874ab8b95f893e": {
+        "id": "AS_Button_9b4fa3b006754df7b2874ab8b95f893e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

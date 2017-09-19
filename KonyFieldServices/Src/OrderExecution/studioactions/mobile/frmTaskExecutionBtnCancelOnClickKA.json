@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580554_btnCancelKA_onClick_seq0": {
+        "id": "p2kwiet1234563580554_btnCancelKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionBtnCancelOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_249781234563580945",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n \n controller.performAction(\"completeOrRejectTask\");\n "
+        }]
+    }
+}

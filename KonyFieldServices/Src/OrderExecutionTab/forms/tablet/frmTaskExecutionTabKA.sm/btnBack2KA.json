@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdfc9a4b0a6f4cddaac94f25fa9f6f99",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sdfc9a4b0a6f4cddaac94f25fa9f6f99",
+    "id": "btnBack2KA",
+    "ide_onClick": "AS_Button_db9cd0209cfc47d9971dd23895e81ea9",
+    "info": null,
+    "isvisible": true,
+    "kuid": "6e5cecabc2394dc981d151d860cfa76c",
+    "name": "kony.ui.Button",
+    "parent": "flexOnlineCallsHeaderKA",
+    "pf": "frmTaskExecutionTabKA",
+    "wType": "Button",
+    "zindex": 5
+}

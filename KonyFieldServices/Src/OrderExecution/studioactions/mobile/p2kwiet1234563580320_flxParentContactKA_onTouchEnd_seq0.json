@@ -1,0 +1,18 @@
+{
+    "p2kwiet1234563580320_flxParentContactKA_onTouchEnd_seq0": {
+        "id": "p2kwiet1234563580320_flxParentContactKA_onTouchEnd_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }, {
+            "name": "x",
+            "value": "x"
+        }, {
+            "name": "y",
+            "value": "y"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

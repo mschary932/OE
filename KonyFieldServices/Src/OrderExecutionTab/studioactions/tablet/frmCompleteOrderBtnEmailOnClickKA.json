@@ -1,0 +1,25 @@
+{
+    "AS_Button_1de945ec0a3a48d9b6ecd35d44bd238a": {
+        "id": "AS_Button_1de945ec0a3a48d9b6ecd35d44bd238a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderBtnEmailOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__af16d9fbe844406bac4faa1d2afb7d31",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showEmailPopUp\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

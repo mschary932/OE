@@ -1,0 +1,19 @@
+{
+    "AS_FlexContainer_9db389a50dd445689230ad8df7121d52": {
+        "id": "AS_FlexContainer_9db389a50dd445689230ad8df7121d52",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderflxCustomerSignOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__097b8e3e90ff4a868882f8e523bf68c8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\ncontroller.performAction(\"showCustomerSignOffForm\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

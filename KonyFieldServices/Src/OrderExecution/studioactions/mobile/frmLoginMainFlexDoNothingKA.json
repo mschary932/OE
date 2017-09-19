@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_b86f9bcd1df94151a4e89807d8e93c3e": {
+        "id": "AS_FlexContainer_b86f9bcd1df94151a4e89807d8e93c3e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginMainFlexDoNothingKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLoginKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580219"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__99f457409a1b485cb8320c8e1971bc20",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var utilitiesObj= new utilities();\nutilitiesObj.doNothingOnDeviceBackKA();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

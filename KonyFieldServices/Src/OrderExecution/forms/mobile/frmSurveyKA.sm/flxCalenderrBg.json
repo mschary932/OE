@@ -1,0 +1,59 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s34b0cd751684d0dad566413275b7dae",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxCalenderr",
+        "flxCancelOrdoneCalenderr"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxCalenderrBg",
+    "ide_onTouchStart": "AS_FlexContainer_3ac19751fbed43daa8d689827aab1275",
+    "info": null,
+    "isvisible": false,
+    "kuid": "b4fd1264b1f143a6919e301269d2502b",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmSurveyKA",
+    "pf": "frmSurveyKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

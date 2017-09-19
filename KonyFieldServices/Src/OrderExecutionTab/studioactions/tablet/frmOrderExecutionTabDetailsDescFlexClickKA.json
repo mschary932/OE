@@ -1,0 +1,19 @@
+{
+    "AS_FlexContainer_1cf1f6ef03ec4f82857ad7fe353f8540": {
+        "id": "AS_FlexContainer_1cf1f6ef03ec4f82857ad7fe353f8540",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionTabDetailsDescFlexClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

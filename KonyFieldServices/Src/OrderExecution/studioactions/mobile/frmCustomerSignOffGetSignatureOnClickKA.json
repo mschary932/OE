@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_b64a94344f3c41578c7fb4e7ed651673": {
+        "id": "AS_FlexContainer_b64a94344f3c41578c7fb4e7ed651673",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCustomerSignOffGetSignatureOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerSignOffKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f59c9f1bbd174521a523b58a373ac79f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__68fa69a14e0b4db9bc874b2729101c6b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCustomerSignOffKA\");\ncontroller.performAction(\"getSignature\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

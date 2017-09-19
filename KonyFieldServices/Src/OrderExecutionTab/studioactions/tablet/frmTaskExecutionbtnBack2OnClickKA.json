@@ -1,0 +1,25 @@
+{
+    "AS_Button_db9cd0209cfc47d9971dd23895e81ea9": {
+        "id": "AS_Button_db9cd0209cfc47d9971dd23895e81ea9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionbtnBack2OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0011bd7895984ae584a238df929afcdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a14e11d21e704df2b0b1966a3f011eb1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"backOnlineCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

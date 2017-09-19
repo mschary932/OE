@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7.03%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s184ae45b5d74a69b442ebd33349cbcb",
+    "_src_": "edit.png",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmCompleteOrderSummaryKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgStartTimeKA",
+    "ide_onTouchEnd": "AS_Image_ff28a05121ae4ab798fad7dc02eac4ad",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "5e3cde859b9040b69cdbac6e403d8afe",
+    "name": "kony.ui.Image2",
+    "parent": "flxStartDateContainerKA",
+    "pf": "frmCompleteOrderSummaryKA",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

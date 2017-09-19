@@ -1,0 +1,25 @@
+{
+    "AS_Form_a988e45213d24c2a84e19ede1d9d30db": {
+        "id": "AS_Form_a988e45213d24c2a84e19ede1d9d30db",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCardPayment_preshowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCardPaymentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d0382a557e1f45bc801335d78571de90"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__501efaf38311469584c4c6525f5da369",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCardPaymentKA\");\nvar contextData = controller.getContextData();\nvar totalAmount = contextData.getCustomInfo(\"invInfo\").TotalAmount;\nvar htmlStrng = \"<!DOCTYPE html><meta content='text/html; charset=utf-8'http-equiv=Content-Type><link href=style.css rel=stylesheet><title>Insert title here</title><script>function onReady(){document.forms[0].submit()}</script><body onload=onReady()><h3>Please wait till we redirect you to Paypal Screen...</h3><form action=PAYPALURL id=paypalForm method=post name=paypalForm target=_top><input name=cmd type=hidden value=_s-xclick> <input name=return type=hidden value=https://www.google.co.in/ > <input name=hosted_button_id type=hidden value=NWW87L7VVH5V4></form>\";\nhtmlStrng = htmlStrng.replace(\"PAYPALURL\",\"https://www.sandbox.paypal.com/in/cgi-bin/webscr?amount=\"+totalAmount);\nfrmCardPaymentKA.browserPayPalKA.htmlString = htmlStrng;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

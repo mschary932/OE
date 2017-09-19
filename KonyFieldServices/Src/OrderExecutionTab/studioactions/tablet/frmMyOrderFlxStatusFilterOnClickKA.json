@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_df5f840b219f42568391d8ce63e1d474": {
+        "id": "AS_FlexContainer_df5f840b219f42568391d8ce63e1d474",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderFlxStatusFilterOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__3c4931775a4f4fb7b77133cca192456f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onFilterDrill\",['flxStatusFilterKA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

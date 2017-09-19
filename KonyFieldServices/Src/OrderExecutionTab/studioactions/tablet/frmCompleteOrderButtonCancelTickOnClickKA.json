@@ -1,0 +1,18 @@
+{
+    "AS_Button_cb09a844ecfc4d479b83d03a927b40d3": {
+        "id": "AS_Button_cb09a844ecfc4d479b83d03a927b40d3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderButtonCancelTickOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d8ab6befdbe94ee3aaf48705139f8f55",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showCompleteOrderMainPageOne\");",
+            "callbackType": null
+        }]
+    }
+}

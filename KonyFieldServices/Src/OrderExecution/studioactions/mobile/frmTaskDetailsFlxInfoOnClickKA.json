@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_f9eb4d523db944a6a395aa78d8d4436f": {
+        "id": "AS_FlexContainer_f9eb4d523db944a6a395aa78d8d4436f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskDetailsFlxInfoOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580529"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c81c25b1731048f49df0dacaa6dfbed5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n            var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n            var controllerExtension = controller.getControllerExtensionObject();\n            var descDetails = controllerExtension.getFormModelInfo(\"flexContainerInfoKA\");\n            controller = INSTANCE.getFormController(\"frmDescriptionDetailsKA\");\n            controllerExtension = controller.getControllerExtensionObject();\n            controllerExtension.setFormModelInfo(\"descDetails\", descDetails);\n            if(descDetails.isTruncated){\n            controller.loadDataAndShowForm(null);\n            }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

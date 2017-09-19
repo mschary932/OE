@@ -1,0 +1,201 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgCloudKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "cloud.png"
+            },
+            "imgDownloadKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downloadicon.png"
+            },
+            "imgPdfIconKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdf.png"
+            },
+            "lblAttachmentIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "XXXXXXXX"
+            },
+            "lblAttachmentNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.attachmentname",
+                "text": "Attachment Name"
+            },
+            "lblAvailableKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.available.ValueKA",
+                "text": "Available"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "imgCloudKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "cloud.png"
+            },
+            "imgDownloadKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downloadicon.png"
+            },
+            "imgPdfIconKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdf.png"
+            },
+            "lblAttachmentIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "XXXXXXXX"
+            },
+            "lblAttachmentNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.attachmentname",
+                "text": "Attachment Name"
+            },
+            "lblAvailableKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.available.ValueKA",
+                "text": "Available"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        },
+        {
+            "imgCloudKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "cloud.png"
+            },
+            "imgDownloadKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downloadicon.png"
+            },
+            "imgPdfIconKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pdf.png"
+            },
+            "lblAttachmentIdKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "XXXXXXXX"
+            },
+            "lblAttachmentNameKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.attachmentname",
+                "text": "Attachment Name"
+            },
+            "lblAvailableKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.common.available.ValueKA",
+                "text": "Available"
+            },
+            "lblSeparatorTemplateKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAttachmentKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "a2d82c6fac8144d49359e8999a584f6f",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexAttachmentsDetailsKA",
+    "pf": "frmCompleteOrderTabKA",
+    "retainselection": false,
+    "rowTemplateId": "4992f23746794e60a34a84abfe10393e",
+    "rowcounter": 2,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexAttachmentKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexAttachmentKA": "flexAttachmentKA",
+        "flexBottomKA": "flexBottomKA",
+        "imgCloudKA": "imgCloudKA",
+        "imgDownloadKA": "imgDownloadKA",
+        "imgPdfIconKA": "imgPdfIconKA",
+        "lblAttachmentIdKA": "lblAttachmentIdKA",
+        "lblAttachmentNameKA": "lblAttachmentNameKA",
+        "lblAvailableKA": "lblAvailableKA",
+        "lblSeparatorTemplateKA": "lblSeparatorTemplateKA"
+    },
+    "zindex": 1
+}

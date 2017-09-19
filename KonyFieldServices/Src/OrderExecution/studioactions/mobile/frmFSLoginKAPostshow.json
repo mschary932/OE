@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580185_frmFSLoginKA_postshow_seq0": {
+        "id": "p2kwiet1234563580185_frmFSLoginKA_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmFSLoginKAPostshow",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "actions": [{
+            "id": "expression_postshow_5487112345635809115",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "animateInitScreen();"
+        }]
+    }
+}

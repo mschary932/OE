@@ -1,0 +1,25 @@
+{
+    "AS_Button_fdde3e55ef6e455393042f2c48f3438a": {
+        "id": "AS_Button_fdde3e55ef6e455393042f2c48f3438a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmInvoicePDF_NavigateToSelectPaymentMethodKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInvoicePdfKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "52c6306a2c144019ba9f50c84e96d346"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__9876dd48f3de4e05b9f6b797a97ff84f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateToSelectPaymentMethod\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

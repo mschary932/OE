@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580384_btnAppMenuKA_onClick_seq0": {
+        "id": "p2kwiet1234563580384_btnAppMenuKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderListBtnAppMenuOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_1217812345635803942",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//var INSTANCE = kony.appfoundation.v2.KonyApplicationContext.getAppInstance();\n //var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n //controller.performAction(\"showHideHamburgerMenuKA\",[frmOrderListKA,frmHamburgerMenuWOKA]);\n new hamburgerMenu().execute();"
+        }]
+    }
+}

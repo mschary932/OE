@@ -1,0 +1,25 @@
+{
+    "AS_Button_ecb0689b233c4ed285a6e1c02d4ed93d": {
+        "id": "AS_Button_ecb0689b233c4ed285a6e1c02d4ed93d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmResourceExecutionBtnImagesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResourceExecutionKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580488"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e02f7b2ab0d741f8b856877dcee101f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTaskAttachmentFormKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

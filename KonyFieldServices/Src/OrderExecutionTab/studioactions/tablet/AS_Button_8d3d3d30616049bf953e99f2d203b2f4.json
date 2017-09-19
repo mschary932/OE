@@ -1,0 +1,17 @@
+{
+    "AS_Button_8d3d3d30616049bf953e99f2d203b2f4": {
+        "id": "AS_Button_8d3d3d30616049bf953e99f2d203b2f4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_eb241bb75f39428ba9c014210d27289e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onEditCall\");",
+            "callbackType": null
+        }]
+    }
+}

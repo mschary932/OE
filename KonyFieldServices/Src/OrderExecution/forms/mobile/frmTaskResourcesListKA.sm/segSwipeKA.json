@@ -1,0 +1,331 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "btnConssumedKA": {},
+                "btnDeleteKA": {},
+                "btnEditKA": {},
+                "flxAvailableKA": {},
+                "flxCheckKA": {},
+                "flxChildKA": {},
+                "flxDataKA": {},
+                "flxEditDelete": {},
+                "flxHeadertmpKA": {},
+                "flxMaterialKA": {},
+                "flxSegmentMainKA": {},
+                "flxTypeKA": {},
+                "flxUsedKA": {},
+                "imgClickKA": {},
+                "lblAvaialableQuantityValueKA": {},
+                "lblAvailabaleQuantityKA": {},
+                "lblCodeKA": {},
+                "lblFilterKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblLineBottomKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblLineKA": {},
+                "lblLineTopKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                },
+                "lblMaterialKA": {},
+                "lblResourceKA": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblTypeKA": {},
+                "lblUsedQuantityKA": {},
+                "lblUsedQuantityValueKA": {}
+            },
+            [
+                {
+                    "btnConssumedKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.delete.valueKA",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.deitValueKA",
+                        "text": ""
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "bf_forward_caret.png"
+                    },
+                    "lblAvaialableQuantityValueKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAvailabaleQuantityKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.available.ValueKA",
+                        "text": ""
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUsedQuantityKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.used.ValueKA",
+                        "text": ""
+                    },
+                    "lblUsedQuantityValueKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "btnConssumedKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.delete.valueKA",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.deitValueKA",
+                        "text": ""
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "bf_forward_caret.png"
+                    },
+                    "lblAvaialableQuantityValueKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAvailabaleQuantityKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.available.ValueKA",
+                        "text": ""
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUsedQuantityKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.used.ValueKA",
+                        "text": ""
+                    },
+                    "lblUsedQuantityValueKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "btnConssumedKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "btnDeleteKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.delete.valueKA",
+                        "text": ""
+                    },
+                    "btnEditKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.deitValueKA",
+                        "text": ""
+                    },
+                    "imgClickKA": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "bf_forward_caret.png"
+                    },
+                    "lblAvaialableQuantityValueKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAvailabaleQuantityKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.available.ValueKA",
+                        "text": ""
+                    },
+                    "lblCodeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblLineKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": " "
+                    },
+                    "lblMaterialKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblTypeKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblUsedQuantityKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "i18nkey": "i18n.common.used.ValueKA",
+                        "text": ""
+                    },
+                    "lblUsedQuantityValueKA": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segSwipeKA",
+    "ide_onRowClick": "AS_Segment_492e1ab244b44a9c97efdfc275cc921a",
+    "ide_onTouchStart": "AS_Segment_7a1c15b4c1354d7c98167072e647c302",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "8091c1b84d6f4a41ba68f25e064a1b64",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexDetailsKA",
+    "pf": "frmTaskResourcesListKA",
+    "retainselection": false,
+    "rowTemplateId": "p2kwiet1234563580769",
+    "rowcounter": 2,
+    "rowfocusskin": "s7af8d6bffa4496ab8f0a057a9332c75",
+    "rowskin": "s8c2fab249d64e72b880bb52212759d3",
+    "rowtemplate": "flxSegmentMainKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "p2kwiet1234563580747",
+    "sectionheaderskin": "s65bc182659c40398a5109c39120d73d",
+    "sectionheadertemplate": "flxHeadertmpKA",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646464",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnConssumedKA": "btnConssumedKA",
+        "btnDeleteKA": "btnDeleteKA",
+        "btnEditKA": "btnEditKA",
+        "flxAvailableKA": "flxAvailableKA",
+        "flxCheckKA": "flxCheckKA",
+        "flxChildKA": "flxChildKA",
+        "flxDataKA": "flxDataKA",
+        "flxEditDelete": "flxEditDelete",
+        "flxHeadertmpKA": "flxHeadertmpKA",
+        "flxMaterialKA": "flxMaterialKA",
+        "flxSegmentMainKA": "flxSegmentMainKA",
+        "flxTypeKA": "flxTypeKA",
+        "flxUsedKA": "flxUsedKA",
+        "imgClickKA": "imgClickKA",
+        "lblAvaialableQuantityValueKA": "lblAvaialableQuantityValueKA",
+        "lblAvailabaleQuantityKA": "lblAvailabaleQuantityKA",
+        "lblCodeKA": "lblCodeKA",
+        "lblFilterKA": "lblFilterKA",
+        "lblLineBottomKA": "lblLineBottomKA",
+        "lblLineKA": "lblLineKA",
+        "lblLineTopKA": "lblLineTopKA",
+        "lblMaterialKA": "lblMaterialKA",
+        "lblResourceKA": "lblResourceKA",
+        "lblTypeKA": "lblTypeKA",
+        "lblUsedQuantityKA": "lblUsedQuantityKA",
+        "lblUsedQuantityValueKA": "lblUsedQuantityValueKA"
+    },
+    "zindex": 20
+}

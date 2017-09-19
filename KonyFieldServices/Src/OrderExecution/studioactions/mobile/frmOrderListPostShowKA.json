@@ -1,0 +1,19 @@
+{
+    "p2kwiet1234563580384_frmOrderListKA_postshow_seq0": {
+        "id": "p2kwiet1234563580384_frmOrderListKA_postshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderListPostShowKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__13f92e7716a246fc958694ab9251d377",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"perflogs time:The time when list form is loaded.......\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

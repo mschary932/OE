@@ -1,0 +1,16 @@
+{
+    "p2kwiet1234563580269_frmOrderCompleteCheckListKA_preshow_seq0": {
+        "id": "p2kwiet1234563580269_frmOrderCompleteCheckListKA_preshow_seq0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_preshow_5874512345635801842",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var platFormName = kony.appfoundation.Utils.getPlatformName();\n if(platFormName == kony.appfoundation.Platforms[\"IPHONE\"] || platFormName == 'ipad' ){\n frmWorkConfirmationKA.switchProblemSolKA.nativeThumbLook=true;\n frmWorkConfirmationKA.switchRegResourceKA.nativeThumbLook=true;\n frmWorkConfirmationKA.switchClnLocKA.nativeThumbLook=true;\n }"
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_2eec30d6ea534cbe839652467c715e41": {
+        "id": "AS_FlexContainer_2eec30d6ea534cbe839652467c715e41",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyFlxSubmitCrossOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__33684150253a496599f81a8b4c95a1b7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction('navigateBack');",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

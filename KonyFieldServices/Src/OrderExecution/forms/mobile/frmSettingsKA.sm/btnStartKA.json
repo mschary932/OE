@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_skin_": "s1d54d1f2fd94300a600959a0dc5ed4b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "6dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "saec9ea0251d4c09a078ba4b61cce49e",
+    "id": "btnStartKA",
+    "ide_onClick": "AS_Button_471bc1c4712b41c9aed020bcd75e97a1",
+    "info": null,
+    "isvisible": true,
+    "kuid": "4af2e4ba209a4fdca3932cf5fc95d621",
+    "name": "kony.ui.Button",
+    "parent": "flxResetDataBaseKA",
+    "pf": "frmSettingsKA",
+    "texti18n": "i18n.common.frmSettingsKA.btnStartKA",
+    "wType": "Button",
+    "zindex": 1
+}

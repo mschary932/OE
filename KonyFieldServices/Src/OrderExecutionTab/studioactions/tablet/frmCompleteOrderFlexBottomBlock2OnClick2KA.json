@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_b640f12b619d4c81bb279f2136100d0c": {
+        "id": "AS_FlexContainer_b640f12b619d4c81bb279f2136100d0c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlexBottomBlock2OnClick2KA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d9df535308ed4fc1ad03e4e371755b0c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideDatePopUpFlex\");",
+            "callbackType": null
+        }]
+    }
+}

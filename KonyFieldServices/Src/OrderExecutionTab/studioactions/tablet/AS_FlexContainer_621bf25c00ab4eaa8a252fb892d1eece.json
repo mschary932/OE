@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_621bf25c00ab4eaa8a252fb892d1eece": {
+        "id": "AS_FlexContainer_621bf25c00ab4eaa8a252fb892d1eece",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a32aa0c8694647778d3c1fbd6626f819",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nkony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showViewFilter\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15.20%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "26.30%"
+    },
+    "_skin_": "sd130a5fb47e4369a7c0d2c06f49d2d1",
+    "_text_": "YES",
+    "_top_": {
+        "type": "string",
+        "value": "76.60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20.40%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s53e8613fee14b858e69cde2bed9e0ad",
+    "id": "btnInterruptTickKA",
+    "ide_onClick": "AS_Button_cd003ef005b84cc1a3f8d954df4fb57c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "4a98f699e30749e69318731984747ccd",
+    "name": "kony.ui.Button",
+    "parent": "flexPaymentInterruptMainKA",
+    "pf": "frmCompleteOrderTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

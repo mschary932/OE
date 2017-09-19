@@ -1,0 +1,31 @@
+{
+    "AS_Image_e345e35402934e8ebf55592d4af84f60": {
+        "id": "AS_Image_e345e35402934e8ebf55592d4af84f60",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSEndDateEditBtnOnclickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderSummaryKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055656"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__405df888a5034d2abae801fb7643e070",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderSummaryKA\");\ncontroller.performAction(\"showCalenderWidgetKA\", [\"lblEndDateKA\", \"lblEndTimeKA\"]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

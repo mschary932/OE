@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc39c479bcc44e6ea828f23ad1b658b0",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "10.50%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblCancelConfirmationKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "971aa51b76c74192bfe44ee816b5cbd2",
+    "name": "kony.ui.Label",
+    "parent": "flexCancelMainKA",
+    "pf": "frmCompleteOrderTabKA",
+    "texti18n": "i18n.common.cancelValueKA",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

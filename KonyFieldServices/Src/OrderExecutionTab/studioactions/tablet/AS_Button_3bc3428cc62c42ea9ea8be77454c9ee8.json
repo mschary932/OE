@@ -1,0 +1,31 @@
+{
+    "AS_Button_3bc3428cc62c42ea9ea8be77454c9ee8": {
+        "id": "AS_Button_3bc3428cc62c42ea9ea8be77454c9ee8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___93a906410ebe4f939989ddd67dab867b",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmMyOrderListTabKA",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "8975d3fba9cc42b69fb98933055e3aa7",
+            "widgetKUID": "6aa32a010a354c0f8370cab211da2e80",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

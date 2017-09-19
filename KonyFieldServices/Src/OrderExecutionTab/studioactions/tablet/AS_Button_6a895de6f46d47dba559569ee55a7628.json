@@ -1,0 +1,46 @@
+{
+    "AS_Button_6a895de6f46d47dba559569ee55a7628": {
+        "id": "AS_Button_6a895de6f46d47dba559569ee55a7628",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResourceExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0c904960ef094a1c94459aa31be27c31"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___64b2d4326437425f912bada3f39c4bbb",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmResourceExecutionTabKA",
+            "widgetId": "flexResourceInputKA",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "0c904960ef094a1c94459aa31be27c31",
+            "widgetKUID": "5380a072682b41f5a44f6e569924b8e9",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmResourceExecutionTabKA.flexResourceInputKA"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___b3ac74fc33194a8d971f15180fdf5425",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmResourceExecutionTabKA",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "0c904960ef094a1c94459aa31be27c31",
+            "widgetKUID": "ea6f98cffed24d26b48958d81275c749",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

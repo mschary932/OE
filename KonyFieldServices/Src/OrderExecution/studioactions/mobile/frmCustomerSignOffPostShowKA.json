@@ -1,0 +1,25 @@
+{
+    "AS_Form_e58e433ed8814475a3e8bbe0fef0a06c": {
+        "id": "AS_Form_e58e433ed8814475a3e8bbe0fef0a06c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCustomerSignOffPostShowKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCustomerSignOffKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f59c9f1bbd174521a523b58a373ac79f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cb3b731415f74011b21de42064221120",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var platFormName = kony.sdk.mvvm.Utils.getPlatformName(); \nif (platFormName == kony.sdk.mvvm.Platforms[\"IPHONE\"] || platFormName == 'ipad') {\n\n\t frmCustomerSignOffKA.switchProblemSolved1KA.nativeThumbLook = true;\n\t\n }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

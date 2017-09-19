@@ -1,0 +1,25 @@
+{
+    "AS_ListBox_d6c9f7c20fb142afb8f44d1cf595a584": {
+        "id": "AS_ListBox_d6c9f7c20fb142afb8f44d1cf595a584",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddEditExpenseItemKA_OnCurrencySelection",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEditExpenseItemKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e08826ea7d69401e81ca6dc966cf41e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__798d6af43bd24b6586af1ef5358e84eb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var selRecord=frmAddEditExpenseItemKA.listBoxCurrencyKA.selectedKeyValues[0];\nvar Currency=selRecord[1];\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n var controller = INSTANCE.getFormController(\"frmAddEditExpenseItemKA\");\n controller.performAction(\"saveCurrency\",[Currency]);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

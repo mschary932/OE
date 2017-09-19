@@ -1,0 +1,18 @@
+{
+    "AS_Button_baee43bd944f429e8b0441b401e31fd4": {
+        "id": "AS_Button_baee43bd944f429e8b0441b401e31fd4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTenantKABtnConnectKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_730d73f2c5b94bc1a44ee5327cb7992b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.servicesapp.verifyAppDetails();",
+            "callbackType": null
+        }]
+    }
+}

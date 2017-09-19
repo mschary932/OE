@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_fc6cccdc7c2b4b3fab0a934b24f69d5c": {
+        "id": "AS_FlexContainer_fc6cccdc7c2b4b3fab0a934b24f69d5c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListTabFlexScheduledGroupOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a255e26a24aa414b9d568d39f3f20305",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onImgDown2Call\");",
+            "callbackType": null
+        }]
+    }
+}

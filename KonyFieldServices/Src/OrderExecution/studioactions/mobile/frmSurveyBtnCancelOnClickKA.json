@@ -1,0 +1,25 @@
+{
+    "AS_Button_cd01b54e5c3a44cbb546721940dbb881": {
+        "id": "AS_Button_cd01b54e5c3a44cbb546721940dbb881",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyBtnCancelOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c03381edabf948cc8bff29cd757d25a4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxTimePickerBg\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

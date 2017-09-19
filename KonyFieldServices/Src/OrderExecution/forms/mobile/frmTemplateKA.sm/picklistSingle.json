@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1f1ce8fd2934bf9817d768e626b61d4",
+    "_top_": {
+        "type": "string",
+        "value": "3.90%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmTemplateKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+	"focusskin": "s77ab1b18ddc466d8c46d81fb328ad61",
+    "groupcells": false,
+    "id": "picklistSingle",
+    "ide_onSelection": "AS_ListBox_265285e9c56349f98e6acdfbf2d8823b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "77421ca7ed8d40a8965d8237df54bed7",
+    "masterdata": [
+        [
+            "Select",
+            "Select"
+        ],
+        [
+            "key1",
+            "one"
+        ],
+        [
+            "key2",
+            "two"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxMainKA",
+    "pf": "frmTemplateKA",
+    "selectedkey": "Select",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "Select",
+        "Select"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

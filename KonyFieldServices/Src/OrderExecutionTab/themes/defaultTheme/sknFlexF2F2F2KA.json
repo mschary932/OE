@@ -1,0 +1,53 @@
+{
+  "android": {
+    "applicableblockedUIWidget": "Button",
+    "background_color": "ffffffff",
+    "background_style": "vg",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_radius": 0,
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "isForked": true,
+    "wType": "FlexContainer"
+  },
+  "applicableblockedUIWidget": "Button",
+  "background_color": "f2f2f2ff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "iphone": {
+    "applicableblockedUIWidget": "Button",
+    "background_color": "ffffffff",
+    "background_style": "vg",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_radius": 0,
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "isForked": true,
+    "shadow": {
+      "br": 0,
+      "color": "000000",
+      "inner": false,
+      "x": 0,
+      "y": 0
+    },
+    "wType": "FlexContainer"
+  },
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kuid": "s8469a318ef34c2a9102c2e7fd9f473c",
+  "shadow": {
+    "br": 0,
+    "color": "000000",
+    "inner": false,
+    "x": 0,
+    "y": 0
+  },
+  "wType": "FlexContainer"
+}

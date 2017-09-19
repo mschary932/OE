@@ -1,0 +1,18 @@
+{
+    "AS_Button_72ad19e53b304bb285d5d3eb63109ced": {
+        "id": "AS_Button_72ad19e53b304bb285d5d3eb63109ced",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListTabBtnApplyOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_1a1307fe17b04dbf85f7540314eeaed1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onHidePopUpCall\");",
+            "callbackType": null
+        }]
+    }
+}

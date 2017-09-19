@@ -1,0 +1,17 @@
+{
+    "AS_Button_e290fb19900448c8bfa33ec483a5f616": {
+        "id": "AS_Button_e290fb19900448c8bfa33ec483a5f616",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_283b127b5cf8414cbc9ab26348641f8c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showCompleteOrderMainPageOne\");",
+            "callbackType": null
+        }]
+    }
+}

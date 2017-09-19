@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_5f5643ba448f4e34b7c03f7ed8e56c8f": {
+        "id": "AS_FlexContainer_5f5643ba448f4e34b7c03f7ed8e56c8f",
+        "type": "ACTION_SEQUENCE",
+        "name": "ffrmCompleteOrderFlxChecklistOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__09f95170cf3c4f6fa58f57feba5b0296",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showSurveyFlex\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AS_Segment_3eb7e2dc964e49329af7664d3fb32ed7": {
+        "id": "AS_Segment_3eb7e2dc964e49329af7664d3fb32ed7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderListKAsegOrderListKAOnTouchStartKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmOrderListKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580384"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__07bb9322ec6e452e9431f64edb8ccac6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(hamburgerMenu.IS_MENU_SHOWN){\n new hamburgerMenu().execute();\n }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

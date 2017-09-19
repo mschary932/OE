@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_04f4b46591db40a08a160cb20aebd919": {
+        "id": "AS_FlexContainer_04f4b46591db40a08a160cb20aebd919",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyflxCancelTickOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__da3ca9db478948b68e83b2a2fff73283",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller=kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"saveCompleteData\",[true]);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

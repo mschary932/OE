@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_321c5358253b4a909d008bdfb7d6e9d9": {
+        "id": "AS_FlexContainer_321c5358253b4a909d008bdfb7d6e9d9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAOLTflexViewGroupOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAvailableOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "19da301ac729497db3a77ce9f92f980c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f9b2968f9b1348168ef3d9761794128c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onImgDownCall\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

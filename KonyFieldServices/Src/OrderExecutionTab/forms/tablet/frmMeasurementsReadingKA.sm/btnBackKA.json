@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se719ef912b04bc7a686313c37ea9cac",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5cd5b4ed7134c65812f4b3f9c64e4bd",
+    "id": "btnBackKA",
+    "ide_onClick": "AS_Button_deff7a37a8ca436085d44153e8dc7f98",
+    "info": null,
+    "isvisible": true,
+    "kuid": "01b8e722ca0144bfb67082f9fb12a2ac",
+    "name": "kony.ui.Button",
+    "parent": "flexStatusBarOnRouteRejectKA",
+    "pf": "frmMeasurementsReadingKA",
+    "wType": "Button",
+    "zindex": 1
+}

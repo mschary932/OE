@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_857536aad21645b8841b26d7a10316f0": {
+        "id": "AS_FlexContainer_857536aad21645b8841b26d7a10316f0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCompleteOrderFlexCashPaymentOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4aee37dbb9e44ebba8f84cbb2533e73e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ec2b81a0554e4a6fafdc3c90d1e5e660",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showflexPaymentModesDrillKA\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

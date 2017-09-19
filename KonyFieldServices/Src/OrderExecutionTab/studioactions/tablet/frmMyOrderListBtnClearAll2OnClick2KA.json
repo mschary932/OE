@@ -1,0 +1,19 @@
+{
+    "AS_Button_e1ca44d21f114bfa803a22e3387278b9": {
+        "id": "AS_Button_e1ca44d21f114bfa803a22e3387278b9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListBtnClearAll2OnClick2KA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

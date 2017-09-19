@@ -1,0 +1,18 @@
+{
+    "AS_Button_0e615dd07318438a9cdb5d11163abf7b": {
+        "id": "AS_Button_0e615dd07318438a9cdb5d11163abf7b",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnCancelTryAgainAuthActionKA_Android",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e54806c720b342cea70a3c3e4e97e954",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.servicesapp.TOUCH_ID_ANDROID_FLAG = true;\nkony.localAuthentication.cancelAuthentication();\nfrmLoginKA.FlxTouchAuthTryAgainFailKA.setVisibility(false);",
+            "callbackType": null
+        }]
+    }
+}

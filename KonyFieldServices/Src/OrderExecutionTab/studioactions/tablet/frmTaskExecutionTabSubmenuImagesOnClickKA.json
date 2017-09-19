@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_dce4b1e9270d4854b65ea9d437a26241": {
+        "id": "AS_FlexContainer_dce4b1e9270d4854b65ea9d437a26241",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionTabSubmenuImagesOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_6321e41b3f4a41839b640898450c671c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showThreeImages\"); ",
+            "callbackType": null
+        }]
+    }
+}

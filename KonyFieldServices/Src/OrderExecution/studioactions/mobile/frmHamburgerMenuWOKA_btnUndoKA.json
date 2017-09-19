@@ -1,0 +1,24 @@
+{
+    "AS_Button_0357893852114f4e8eaf5c1e0cb871b7": {
+        "id": "AS_Button_0357893852114f4e8eaf5c1e0cb871b7",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmHamburgerMenuWOKA_btnUndoKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHamburgerMenuWOKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580197"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_8504ecf601644e0dac488e9fd688ad8e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(kony.application.getCurrentForm().id);\nvar controllerExtension = controller.getControllerExtensionObject();\nkony.timer.cancel(\"deleteMeasureReadingTimer\");\nshowHideHamburgerMenuKA(kony.application.getCurrentForm(), frmHamburgerMenuWOKA, false, \"flxRemoveReadingKA\");\ncontrollerExtension.fetchData();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "entry": {
+    "YAWS_USER": {
+      "appid" : "CFS_APP",
+  "userid" : "AUTOCRM",
+  "email" : "bharath.gutti@kony.com",
+  "password" : "kony@123",
+  "country" : "US",
+  "intuser" : "X",
+  "int_SERV" : "X",
+  "description" : "",
+  "mobile" : "17729988998",
+  "retention" : "2"
+    }
+  }
+}

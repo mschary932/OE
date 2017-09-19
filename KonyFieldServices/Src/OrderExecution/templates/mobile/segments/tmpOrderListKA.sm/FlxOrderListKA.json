@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.60%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "4.60%"
+    },
+    "_skin_": "s7e2d3f20829468495ae758164517d46",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90.80%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblTimeKA",
+        "lblOrderNumKA",
+        "lblPriorityKA",
+        "lblTypeKA",
+        "imgStatusMachineStartedKA",
+        "lblStatusKA",
+        "lblInfoKA",
+        "lblAddressKA"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlxOrderListKA",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e15938ca5db149d98fb1dfa5c398bff9",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "FlxTmpOrderListKA",
+    "pf": "tmpOrderListKA",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

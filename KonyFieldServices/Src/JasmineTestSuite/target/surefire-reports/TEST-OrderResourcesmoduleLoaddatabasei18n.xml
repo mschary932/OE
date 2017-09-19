@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="OrderResources module: Load database, i18n" errors="0" tests="2" failures="0" time="0.453" timestamp="2015-10-07T11:20:51">
+  <testcase classname="OrderResources module: Load database, i18n" name="Load DB file" time="0.357"></testcase>
+  <testcase classname="OrderResources module: Load database, i18n" name="Load i18n file" time="0.096"></testcase>
+</testsuite>
+</testsuites>

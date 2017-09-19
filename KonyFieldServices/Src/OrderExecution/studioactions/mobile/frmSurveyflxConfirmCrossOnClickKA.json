@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_e01a3c3919ce4d5f982709f1e81eb084": {
+        "id": "AS_FlexContainer_e01a3c3919ce4d5f982709f1e81eb084",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSurveyflxConfirmCrossOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSurveyKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3570567c5044d39ae20f65e39abce5f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e3944b47d7e14c71af282390187b8418",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxConfirmbg\", \"isVisible\", false);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

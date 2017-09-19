@@ -1,0 +1,28 @@
+{
+    "AS_Button_e85e49c0ec0b49349d18c49601d6b292": {
+        "id": "AS_Button_e85e49c0ec0b49349d18c49601d6b292",
+        "type": "ACTION_SEQUENCE",
+        "name": "tmpResourceSegBtnOnConsumptionOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tmpResourcesSegKA",
+            "type": "templates",
+            "platform": "",
+            "KUID": "p2kwiet1234563580769"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__60d14f5cc91146d08484a7fb35fd9ebf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n    var controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n    controller.performAction(\"changeConsumedStatus\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

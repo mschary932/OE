@@ -1,0 +1,18 @@
+{
+    "AS_Button_1e62ef31cc3642699f55219310f50b20": {
+        "id": "AS_Button_1e62ef31cc3642699f55219310f50b20",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrdrExecutionTabTimeExpenseCancelOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b92b0c19241f447ca09e6593b2472275",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"closeAddTimeExpense\"); ",
+            "callbackType": null
+        }]
+    }
+}

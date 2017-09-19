@@ -1,0 +1,25 @@
+{
+    "AS_Button_743f1892022147c7b2557479dba10d31": {
+        "id": "AS_Button_743f1892022147c7b2557479dba10d31",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmCOSaveOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCompleteOrderKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet19729679055598"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d8844584323042318f9ec1c672a0fa4f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmCompleteOrderKA\");\ncontroller.performAction(\"saveOrderComplete\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

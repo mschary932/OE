@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "82.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa7dd304298e42cb81392817a60b2fdc",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "82%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s65d284cf14a4d2f89f950d2f59a4e22"
+    },
+    "displaytext": true,
+    "id": "btnAddNotesKA",
+    "ide_onClick": "AS_Button_7622a750aef546bbbb13e72bea18223e",
+    "info": null,
+    "isvisible": true,
+    "kuid": "1c8c21d0931e4350bc03ef011dd569e9",
+    "name": "kony.ui.Button",
+    "parent": "flexMainOrderNotesKA",
+    "pf": "frmOrderExecutionTabKA",
+    "wType": "Button",
+    "zindex": 1
+}

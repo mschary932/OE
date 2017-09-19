@@ -1,0 +1,201 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnDelete2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblReadingNumberKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Readings #3"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Read at : 4:50 pm"
+            },
+            "lblValueKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "33 psi"
+            }
+        },
+        {
+            "btnDelete2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblReadingNumberKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Readings #2"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Read at : 4:50 pm"
+            },
+            "lblValueKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "33 psi"
+            }
+        },
+        {
+            "btnDelete2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE"
+            },
+            "btnEdit2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgChevronKA": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "forward.png"
+            },
+            "lblReadingNumberKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Readings #1"
+            },
+            "lblSeparatorTemplate2KA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "   "
+            },
+            "lblTimeKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Read at : 4:50 pm"
+            },
+            "lblValueKA": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "33 psi"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": false
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMeasurementReadingKA",
+    "ide_onRowClick": "AS_Segment_a6d44a5344634ec9a936766c0696e516",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "0bf25f1c7ddd4a97a43f302279de5870",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexOneMeasurementReadingKA",
+    "pf": "frmMeasurementsReadingKA",
+    "retainselection": false,
+    "rowTemplateId": "0607d457c7ba437396978545402156f8",
+    "rowcounter": 2,
+    "rowfocusskin": "sf33a90c37e44b4c8664af6173da2797",
+    "rowskin": "sb426f8777a247d1af764f9fa3f91e03",
+    "rowtemplate": "flexMeasurementReadingKA",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sefd405c35b74f7ea9b9d317b74070d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDelete2KA": "btnDelete2KA",
+        "btnEdit2KA": "btnEdit2KA",
+        "flexEditDelete2KA": "flexEditDelete2KA",
+        "flexLeftContainer2KA": "flexLeftContainer2KA",
+        "flexMeasurementReadingContainerKA": "flexMeasurementReadingContainerKA",
+        "flexMeasurementReadingKA": "flexMeasurementReadingKA",
+        "imgChevronKA": "imgChevronKA",
+        "lblReadingNumberKA": "lblReadingNumberKA",
+        "lblSeparatorTemplate2KA": "lblSeparatorTemplate2KA",
+        "lblTimeKA": "lblTimeKA",
+        "lblValueKA": "lblValueKA"
+    },
+    "zindex": 1
+}

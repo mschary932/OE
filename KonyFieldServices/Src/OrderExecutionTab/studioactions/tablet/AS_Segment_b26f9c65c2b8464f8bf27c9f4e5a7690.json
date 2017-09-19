@@ -1,0 +1,23 @@
+{
+    "AS_Segment_b26f9c65c2b8464f8bf27c9f4e5a7690": {
+        "id": "AS_Segment_b26f9c65c2b8464f8bf27c9f4e5a7690",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_3a625a8268ce4d63b1eb5ff72440af9a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showTimeDetails\"); ",
+            "callbackType": null
+        }]
+    }
+}

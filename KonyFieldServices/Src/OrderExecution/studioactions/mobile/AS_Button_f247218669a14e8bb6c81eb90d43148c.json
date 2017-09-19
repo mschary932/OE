@@ -1,0 +1,24 @@
+{
+    "AS_Button_f247218669a14e8bb6c81eb90d43148c": {
+        "id": "AS_Button_f247218669a14e8bb6c81eb90d43148c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddEditTimeItemKA",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a1943ad5bafd4db1bed058eecf1716e0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f95f3b1ef42249a8ad906ab24a190e5c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"navigateBack\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

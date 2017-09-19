@@ -1,0 +1,11 @@
+{
+  "background_image": "titlebackbutton.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "se01f5bfaae84987a541d32051310da0",
+  "wType": "FlexContainer"
+}

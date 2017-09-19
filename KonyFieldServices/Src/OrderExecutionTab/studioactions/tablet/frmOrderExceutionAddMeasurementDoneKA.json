@@ -1,0 +1,18 @@
+{
+    "AS_Button_008896cd38474fcca74a0502c238cc3d": {
+        "id": "AS_Button_008896cd38474fcca74a0502c238cc3d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExceutionAddMeasurementDoneKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_0f6ed1c1b96542229219b5d1ee9dc34e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"CreateMeasurementPopUpShow\");",
+            "callbackType": null
+        }]
+    }
+}

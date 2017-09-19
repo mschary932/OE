@@ -1,0 +1,25 @@
+{
+    "AS_Button_79a1993e1930415e806c22725a0e6930": {
+        "id": "AS_Button_79a1993e1930415e806c22725a0e6930",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmStockDetailsCallBtnClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStockLocationDetailsKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "80f03fe99e8d4ddb8595cb75ab1e4936"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__08a5a77ac22e4b51a5ee5f519f8894a7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"callContact\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

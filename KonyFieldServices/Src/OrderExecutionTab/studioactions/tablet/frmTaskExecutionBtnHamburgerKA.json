@@ -1,0 +1,18 @@
+{
+    "AS_Button_6ce8bd44ab204ac087d9b57add6acc84": {
+        "id": "AS_Button_6ce8bd44ab204ac087d9b57add6acc84",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskExecutionBtnHamburgerKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a4bedbae942344718da019bb23cdb564",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showHamburgerMenu\"); \ncontroller.performAction(\"showAndHideShadow\"); ",
+            "callbackType": null
+        }]
+    }
+}

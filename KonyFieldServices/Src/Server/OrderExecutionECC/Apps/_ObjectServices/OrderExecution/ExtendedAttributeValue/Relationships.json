@@ -1,0 +1,1 @@
+[{"sourceObject":"ExtendedAttributeValue","targetObject":"ExtendedAttributeType","relationshipKeys":[{"sourceField":"ATTRIBUTE_ID","targetField":"ATTRIBUTE_ID"},{"sourceField":"OBJECT_TYPE","targetField":"OBJECT_TYPE"}],"name":"ExtendedAttributeValue_ExtendedAttributeType","type":"OneToMany","custom":false,"cascadeDelete":false}]

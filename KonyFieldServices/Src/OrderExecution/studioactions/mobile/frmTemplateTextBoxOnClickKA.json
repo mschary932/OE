@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_35d58d11d79646378f1aa8d9a85cd03a": {
+        "id": "AS_FlexContainer_35d58d11d79646378f1aa8d9a85cd03a",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateTextBoxOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b01d6dc74ac045e3a33eec490a4fd90b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "selectedQuestion = parseInt(((this.id).substring(3))).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\ncontroller.performAction(\"setTextArea\",[selectedQuestion]);\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxTextArea\",\"isVisible\", true);",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____cb7626c1a4484c22b9e268f17bda40e9",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSurveyKA",
+            "widgetId": "flxTextArea",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "c3570567c5044d39ae20f65e39abce5f",
+            "widgetKUID": "98e173a3b8e0494cbbdca64a226eda00",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "frmSurveyKA.flxTextArea"
+        }]
+    }
+}

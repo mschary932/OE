@@ -1,0 +1,18 @@
+{
+    "AS_Button_fee6238679bd430598da38a47adac698": {
+        "id": "AS_Button_fee6238679bd430598da38a47adac698",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnResSaveConfirmOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_40d054f4a11e4447a54f916a91a4a083",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(kony.application.getCurrentForm().id==\"frmStockLocationListKA\" || kony.application.getCurrentForm().id==\"frmStockLocationDetailsKA\" || kony.application.getCurrentForm().id==\"frmResourceExecutionKA\"){\n\tvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\n\tvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\n\tvar formModel = controller.getFormModel();\n    var quantity=formModel.getViewAttributeByProperty(\"tbxQuantityKA\", \"text\");\n  \tvar baseUnit=formModel.getViewAttributeByProperty(\"lblUnitKA\", \"text\");\n\tif(quantity && quantity.length>0){\n\t    var requiredQuantity=parseInt(quantity);\n\t\tif(requiredQuantity>0){\n          \tquantity=quantity+\" \"+baseUnit;\n\t\t\tif(kony.application.getCurrentForm().id==\"frmStockLocationDetailsKA\"){\n\t\t\t  controller.performAction(\"requestStockTransfer\",[quantity]);\n\t\t\t}else{\n\t\t\t  controller.performAction(\"requestPurchase\",[quantity]);\n\t\t\t}\n\t\t}else{\n\t\t\tvar utilitiesObj = utilities.getUtilityObj();\n\t\t\talert(utilitiesObj.geti18nValueKA(\"i18n.common.materialQuantity.lowerLimitError.ValueKA\"));\n\t\t}\n\t}else{\n\t\tvar utilitiesObj = utilities.getUtilityObj();\n\t\talert(utilitiesObj.geti18nValueKA(\"i18n.common.materialQuantity.emptyError.ValueKA\"));\n\t}\n  \n}else{\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\nvar formModel = controller.getFormModel();\nvar utilitiesObj = utilities.getUtilityObj();\nvar secIndex=kony.servicesapp.currIndices[\"secIndex\"];\nvar rowIndex=kony.servicesapp.currIndices[\"rowIndex\"];\n//alert(\"inSave\"+JSON.stringify(kony.servicesapp.currIndices));\n//alert(\"inSave\"+JSON.stringify(kony.servicesapp.swipedIndices));\nvar selRecord =formModel.getViewAttributeByProperty(\"segSwipeKA\", \"data\")[secIndex][1][rowIndex];\nvar resourcesUtilityObj = ResourcesUtility.getUtilityObj();\nresourcesUtilityObj.updateQuantity(true, formModel.getViewAttributeByProperty(\"tbxQuantityKA\", \"text\"), selRecord.InventoryQuantity, selRecord.womID, selRecord.ReqId, selRecord.baseunitId, selRecord.Material_id);\n}",
+            "callbackType": null
+        }]
+    }
+}

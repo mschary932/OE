@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_9e819e2a656b4b64a5da471e4045fde4": {
+        "id": "AS_FlexContainer_9e819e2a656b4b64a5da471e4045fde4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmHamburgerMenuItem0OnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHamburgerMenuWOKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet1234563580197"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5941ce56dddc4fec85e1b4ea2ec91bbf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (hamburgerMenu.IS_MENU_SHOWN) {\n\tnew hamburgerMenu().execute();\n}\nkony.servicesapp.showFormOrderList();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

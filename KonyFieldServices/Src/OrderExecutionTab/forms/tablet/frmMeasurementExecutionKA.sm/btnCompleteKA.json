@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "88.37%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2ffa4b4fd3a41babf976b3a1afe5ffb",
+    "_text_": "Start",
+    "_top_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "9.61%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s107c7921b4a4a0a93dd270f93acf0ac",
+    "id": "btnCompleteKA",
+    "ide_onClick": "AS_Button_b53d95021ad04d878a9d24212300bffe",
+    "info": null,
+    "isvisible": true,
+    "kuid": "da15ded2b4714aaab46cec1bce5a3b1a",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexStatusBarOnRouteRejectKA",
+    "pf": "frmMeasurementExecutionKA",
+    "texti18n": "i18n.common.statusMechine.startKA",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "18.75%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5.51%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfdda3eb8ecf4284860ca1ed7b3fb1d8",
+    "_text_": "29545 Gainsborough Avenue, Victoria Park long address",
+    "_top_": {
+        "type": "string",
+        "value": "73%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblAddressLineKA",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "33ef8e830bbe499890f45beb7386c920",
+    "name": "kony.ui.Label",
+    "parent": "flexStatusBarOnRouteRejectKA",
+    "pf": "frmOrderExecutionTabKA",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

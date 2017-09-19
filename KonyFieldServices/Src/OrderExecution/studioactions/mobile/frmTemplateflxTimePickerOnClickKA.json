@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_c4c22c2eb06a4c6da23dbafd4f6ec30b": {
+        "id": "AS_FlexContainer_c4c22c2eb06a4c6da23dbafd4f6ec30b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTemplateflxTimePickerOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTemplateKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af7f99322f6143eeb42c110df773c204"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f2ea52aca1304a9c9a75056250a08065",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "selectedQuestion = parseInt(((this.id).substring(3))).toFixed();\nvar controller = kony.sdk.mvvm.KonyApplicationContext.getAppInstance().getFormController(\"frmSurveyKA\");\nvar formmodel=controller.getFormModel();\nformmodel.setViewAttributeByProperty(\"flxTimePickerBg\", \"isVisible\", true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

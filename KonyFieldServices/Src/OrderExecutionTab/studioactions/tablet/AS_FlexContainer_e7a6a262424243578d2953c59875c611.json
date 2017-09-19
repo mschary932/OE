@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_e7a6a262424243578d2953c59875c611": {
+        "id": "AS_FlexContainer_e7a6a262424243578d2953c59875c611",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_121095fd4dd44efd8008e6442d4d564b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideTimePopUpFlex\");",
+            "callbackType": null
+        }]
+    }
+}

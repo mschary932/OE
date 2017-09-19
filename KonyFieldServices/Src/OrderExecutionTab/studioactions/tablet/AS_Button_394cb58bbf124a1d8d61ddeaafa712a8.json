@@ -1,0 +1,17 @@
+{
+    "AS_Button_394cb58bbf124a1d8d61ddeaafa712a8": {
+        "id": "AS_Button_394cb58bbf124a1d8d61ddeaafa712a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_cf7e5652027d4b6ab59939e9fba216c7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"hideEditTimePopUp\"); ",
+            "callbackType": null
+        }]
+    }
+}

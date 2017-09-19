@@ -1,0 +1,25 @@
+{
+    "AS_Form_a50a3bf3865c4bf38bcc329e22d9462c": {
+        "id": "AS_Form_a50a3bf3865c4bf38bcc329e22d9462c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmTaskAttachmentOnDeviceBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTaskAttachmentKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "77e42e5f74644d53a6cff291085cac36"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__5d5c0ecdf77c4047872f6463f9fd6eb8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var utilitiesObj= new utilities();\nutilitiesObj.doNothingOnDeviceBackKA();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

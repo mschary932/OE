@@ -1,0 +1,24 @@
+{
+    "AS_Button_2532ac5615c746d1bd39e14e9cf7bdf1": {
+        "id": "AS_Button_2532ac5615c746d1bd39e14e9cf7bdf1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecDoneAddMeasurementPopUpKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_1cacb9e5efae410f9e5e823e811daa86",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"AddMeasurement\");",
+            "callbackType": null
+        }]
+    }
+}

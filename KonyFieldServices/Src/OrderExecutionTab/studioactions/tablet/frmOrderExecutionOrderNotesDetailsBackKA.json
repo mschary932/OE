@@ -1,0 +1,25 @@
+{
+    "AS_Button_e74a62d4ca68431eb480b7239a5dedb9": {
+        "id": "AS_Button_e74a62d4ca68431eb480b7239a5dedb9",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmOrderExecutionOrderNotesDetailsBackKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOrderExecutionTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2535fe38c7124247b7a7ffadf2b25bdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cd6144b610aa4f57829f1b3f281ac090",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showNotesList\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

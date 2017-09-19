@@ -1,0 +1,17 @@
+{
+    "p2kwiet1234563580219_btnTouchKA_onClick_seq0": {
+        "id": "p2kwiet1234563580219_btnTouchKA_onClick_seq0",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLoginBtnTouchKAOnClickKA",
+        "params": [{
+            "name": "eventobject",
+            "value": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "expression_onClick_7913412345635807076",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "LocalAuthController.authenicateTouchId();\n\n"
+        }]
+    }
+}

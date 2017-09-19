@@ -1,0 +1,25 @@
+{
+    "AS_Button_907e37de3ece4b6bbb1c9734776f3ba1": {
+        "id": "AS_Button_907e37de3ece4b6bbb1c9734776f3ba1",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderListHamburgerAnimationKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__55018e29e3dc40808bf18123e20ee89c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"showHamburgerMenu\"); \ncontroller.performAction(\"showAndHideShadow\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

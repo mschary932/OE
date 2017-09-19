@@ -1,0 +1,25 @@
+{
+    "AS_FlexContainer_b9ec56b8824841c586b7676ee841ed4b": {
+        "id": "AS_FlexContainer_b9ec56b8824841c586b7676ee841ed4b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmMyOrderFlxPriorityFilterOnClickKA",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMyOrderListTabKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "8975d3fba9cc42b69fb98933055e3aa7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__077dbefc0a8c477ba4716ab5287b0483",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.sdk.mvvm.KonyApplicationContext.init();\nvar INSTANCE = kony.sdk.mvvm.KonyApplicationContext.getAppInstance();\nvar controller = INSTANCE.getFormController(kony.application.getCurrentForm().id);\ncontroller.performAction(\"onFilterDrill\",['flxPriorityFilterKA']); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
