@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="none">
     <test name="MyWork-ECCApp_SmokeTest">
+	<groups>
+		<run>
+			<include name="login" />
+		</run>
+	</groups>
         <classes>
             <class name="test.java.orderexecution.tests.TestFormFSLoginKA">
                 <methods>
