@@ -50,7 +50,7 @@ public class TestFormFSLoginKA extends OrderExecutionBaseTest{
 		Assert.assertEquals(Alerts.validateAlertButton("OK"),"true");
 	}
 	
-	@Test(groups="login")
+	@Test(groups = {"login"})
 	public void test_app_login() throws Exception{		
 		AppElement.waitForEnable(OrderExecutionWidgetId.getWidgetId("frmFSLoginKA_btnManualSetupKA"));
 		frmFSLoginKA = new FormFSLogInKA(); 
