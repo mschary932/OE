@@ -493,7 +493,7 @@
         <dependency>
                 <groupId>com.kony.apps</groupId>
                 <artifactId>Stargate</artifactId>
-                <version>3.0.3</version>
+                <version>3.0.7</version>
                 <scope>system</scope>
                 <systemPath>${pom.basedir}/lib/Stargate/3.0.7/Stargate-3.0.7.jar</systemPath>
         </dependency>
