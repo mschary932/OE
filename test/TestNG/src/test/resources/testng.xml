@@ -8,25 +8,6 @@
 	</groups>
         <classes>
             <class name="test.java.orderexecution.tests.TestFormFSLoginKA">
-                <methods>
-                    <include name="test_app_login" />
-                </methods>
-            </class>
-           <class name="test.java.orderexecution.tests.TestMyOrdersForm">
-                <methods>
-                    <include name="testNavigation" />
-                </methods>
-            </class> 
-            <class name="test.java.orderexecution.tests.TestFormOrderResourcesList">
-                <methods>
-                    <include name="test_search_by_resource_code" />
-                    <include name="test_search_by_resource_name" />
-                </methods>
-            </class>
-            <class name="test.java.orderexecution.tests.TestFormCreateNotesKA">
-                <methods>
-                    <include name="test_create_notes" />
-                </methods>
             </class>
         </classes>
     </test>
