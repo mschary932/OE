@@ -497,7 +497,7 @@
                 <scope>system</scope>
                 <systemPath>${pom.basedir}/lib/Stargate/3.0.7/Stargate-3.0.7.jar</systemPath>
         </dependency>
-</dependenciess>
+</dependencies>
    <repositories>
     <repository>
         <id>osssonatype</id>
